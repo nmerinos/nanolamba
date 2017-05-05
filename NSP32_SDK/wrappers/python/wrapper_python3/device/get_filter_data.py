@@ -1,0 +1,40 @@
+import ctypes
+import string
+import sys
+
+def get_filter_data(pSpecDevice, averages = 20):
+    """get filter data
+
+    This function acquires one raw filter data from physical device(sensor).
+
+    * \brief Get raw filter data from physical device(sensor).
+    *
+    * This function acquires one raw filter data from physical device(sensor).
+    *
+    * \code
+    *   double filter_data[SENSOR_DATA_SIZE];
+    *   int frame_averages = 50;
+    *   int ret_value = duGetFilterData(filter_data, frame_averages);
+    * \endcode
+    *
+    * \param output - double pointer to raw filter data [OUT]
+    * \param number_of_averages - number of frame averages [IN]
+    *
+    * \return
+    * Returns one numeric value of:
+    * - NSP_RETURN_VALUE_SUCCESS (1)
+    * - NSP_RETURN_VALUE_FAILURE (-1)
+    """
+
+
+
+    filterDataBuffer = ctypes.c_double * 1024
+    filterData = filterDataBuffer()
+    ret = pSpecDevice.duGetFilterData(ctypes.byref(filterData), averages)
+
+    if ret <=0:
+        print ("[PythonPrismError] Getting Filter Data from the Device Failed")
+        return -1;
+    else:
+        print ("[PythonPrism] Successfully Got Filter Data from the Device")
+        return filterData
