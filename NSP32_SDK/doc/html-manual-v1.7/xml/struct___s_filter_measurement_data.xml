@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_filter_measurement_data" kind="struct" language="C++" prot="public">
+    <compoundname>_SFilterMeasurementData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1aa3bab39704c9299524eaddce4c9a8c3e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterMeasurementData::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="560" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a7227803ac042f17bcd02a23293c9624a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterMeasurementData::AVERAGES</definition>
+        <argsstring></argsstring>
+        <name>AVERAGES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="561" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a0d09f15cd5de183c9a0eefe1166f9e20" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterMeasurementData::measurand_filters</definition>
+        <argsstring></argsstring>
+        <name>measurand_filters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="562" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1aaf030486e292e2202effd5ceb75617ef" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterMeasurementData::dark_filterout_1st</definition>
+        <argsstring></argsstring>
+        <name>dark_filterout_1st</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="563" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a65f677ec37310730db699ac37f14c55b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterMeasurementData::exposure_time_dk1</definition>
+        <argsstring></argsstring>
+        <name>exposure_time_dk1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="564" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a2cc48714d939c9bebbe41e9ac591b530" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterMeasurementData::integration_DN_dk1</definition>
+        <argsstring></argsstring>
+        <name>integration_DN_dk1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="565" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a8a131750a6be133cb6c7ba85f12d6fbf" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterMeasurementData::dark_filterout_2nd</definition>
+        <argsstring></argsstring>
+        <name>dark_filterout_2nd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="566" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="566" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1afeff0f9f438a2d209a0a5d695b0cdbc7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterMeasurementData::exposure_time_dk2</definition>
+        <argsstring></argsstring>
+        <name>exposure_time_dk2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="567" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a0d0372e195f039f29f6cb37d2d3a9e0e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterMeasurementData::integration_DN_dk2</definition>
+        <argsstring></argsstring>
+        <name>integration_DN_dk2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="568" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a0220455adeed2e139229d2f8c6a391c9" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, std::vector&lt; double &gt; &gt;</type>
+        <definition>std::map&lt;int, std::vector&lt;double&gt; &gt; _SFilterMeasurementData::filterout</definition>
+        <argsstring></argsstring>
+        <name>filterout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="569" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1af1d5cf215000ba8fab34a7e50b742142" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, std::vector&lt; double &gt; &gt;</type>
+        <definition>std::map&lt;int, std::vector&lt;double&gt; &gt; _SFilterMeasurementData::temporal_filterout</definition>
+        <argsstring></argsstring>
+        <name>temporal_filterout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="570" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="570" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1aae842012d93893639a8ef3a688d55554" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, std::vector&lt; double &gt; &gt;</type>
+        <definition>std::map&lt;int, std::vector&lt;double&gt; &gt; _SFilterMeasurementData::dark_filterout</definition>
+        <argsstring></argsstring>
+        <name>dark_filterout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="571" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a4094cf7f2134800869067d65262e8056" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterMeasurementData::exposure_time</definition>
+        <argsstring></argsstring>
+        <name>exposure_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="572" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1aa366870ba700e34abfb69a5e985627c3" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterMeasurementData::integration_DN</definition>
+        <argsstring></argsstring>
+        <name>integration_DN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="573" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a07ee6be9907b1c3d463da51d7eb9bacd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterMeasurementData::ModeIndex</definition>
+        <argsstring></argsstring>
+        <name>ModeIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="574" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a8a080ce3208a3b95b47f45d28f4bb31e" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterMeasurementData::sensorType</definition>
+        <argsstring></argsstring>
+        <name>sensorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="576" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_measurement_data_1a74b85f52d0e60e9bf72e048ecdda8b43" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterMeasurementData::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="577" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="577" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_filter_measurement_data_1a4dd99da3f152ac282a5ec336b8535b0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SFilterMeasurementData::_SFilterMeasurementData</definition>
+        <argsstring>()</argsstring>
+        <name>_SFilterMeasurementData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="579" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="579" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_measurement_data_1af47dd2de85698222cb2dcd12d533c709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterMeasurementData::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="584" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="584" bodyend="604"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="559" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="558" bodyend="605"/>
+    <listofallmembers>
+      <member refid="struct___s_filter_measurement_data_1a4dd99da3f152ac282a5ec336b8535b0c" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>_SFilterMeasurementData</name></member>
+      <member refid="struct___s_filter_measurement_data_1a7227803ac042f17bcd02a23293c9624a" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>AVERAGES</name></member>
+      <member refid="struct___s_filter_measurement_data_1aae842012d93893639a8ef3a688d55554" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>dark_filterout</name></member>
+      <member refid="struct___s_filter_measurement_data_1aaf030486e292e2202effd5ceb75617ef" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>dark_filterout_1st</name></member>
+      <member refid="struct___s_filter_measurement_data_1a8a131750a6be133cb6c7ba85f12d6fbf" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>dark_filterout_2nd</name></member>
+      <member refid="struct___s_filter_measurement_data_1aa3bab39704c9299524eaddce4c9a8c3e" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>date</name></member>
+      <member refid="struct___s_filter_measurement_data_1a74b85f52d0e60e9bf72e048ecdda8b43" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>device</name></member>
+      <member refid="struct___s_filter_measurement_data_1a4094cf7f2134800869067d65262e8056" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>exposure_time</name></member>
+      <member refid="struct___s_filter_measurement_data_1a65f677ec37310730db699ac37f14c55b" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>exposure_time_dk1</name></member>
+      <member refid="struct___s_filter_measurement_data_1afeff0f9f438a2d209a0a5d695b0cdbc7" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>exposure_time_dk2</name></member>
+      <member refid="struct___s_filter_measurement_data_1a0220455adeed2e139229d2f8c6a391c9" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>filterout</name></member>
+      <member refid="struct___s_filter_measurement_data_1aa366870ba700e34abfb69a5e985627c3" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>integration_DN</name></member>
+      <member refid="struct___s_filter_measurement_data_1a2cc48714d939c9bebbe41e9ac591b530" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>integration_DN_dk1</name></member>
+      <member refid="struct___s_filter_measurement_data_1a0d0372e195f039f29f6cb37d2d3a9e0e" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>integration_DN_dk2</name></member>
+      <member refid="struct___s_filter_measurement_data_1a0d09f15cd5de183c9a0eefe1166f9e20" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>measurand_filters</name></member>
+      <member refid="struct___s_filter_measurement_data_1a07ee6be9907b1c3d463da51d7eb9bacd" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>ModeIndex</name></member>
+      <member refid="struct___s_filter_measurement_data_1af47dd2de85698222cb2dcd12d533c709" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>reset</name></member>
+      <member refid="struct___s_filter_measurement_data_1a8a080ce3208a3b95b47f45d28f4bb31e" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>sensorType</name></member>
+      <member refid="struct___s_filter_measurement_data_1af1d5cf215000ba8fab34a7e50b742142" prot="public" virt="non-virtual"><scope>_SFilterMeasurementData</scope><name>temporal_filterout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

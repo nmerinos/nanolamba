@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_chromaticity" kind="struct" language="C++" prot="public">
+    <compoundname>SChromaticity</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_chromaticity_1a214f204d7375e394137cd27df5b71238" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SChromaticity::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="163" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_chromaticity_1ae9e5bcad9350b4c221f71d8429992799" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SChromaticity::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="164" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_chromaticity_1a107433a36aa2090eac0c052cb714f982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SChromaticity::SChromaticity</definition>
+        <argsstring>()</argsstring>
+        <name>SChromaticity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="166" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_chromaticity_1a9b9a43b9b2e0118292b4cfed7c43a342" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SChromaticity::SChromaticity</definition>
+        <argsstring>(double x_, double y_)</argsstring>
+        <name>SChromaticity</name>
+        <param>
+          <type>double</type>
+          <declname>x_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="171" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="171" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><hruler/>
+ Struct definition for chromaticity(x, y) </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="162" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="161" bodyend="176"/>
+    <listofallmembers>
+      <member refid="struct_s_chromaticity_1a107433a36aa2090eac0c052cb714f982" prot="public" virt="non-virtual"><scope>SChromaticity</scope><name>SChromaticity</name></member>
+      <member refid="struct_s_chromaticity_1a9b9a43b9b2e0118292b4cfed7c43a342" prot="public" virt="non-virtual"><scope>SChromaticity</scope><name>SChromaticity</name></member>
+      <member refid="struct_s_chromaticity_1a214f204d7375e394137cd27df5b71238" prot="public" virt="non-virtual"><scope>SChromaticity</scope><name>x</name></member>
+      <member refid="struct_s_chromaticity_1ae9e5bcad9350b4c221f71d8429992799" prot="public" virt="non-virtual"><scope>SChromaticity</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

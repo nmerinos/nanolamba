@@ -1,0 +1,1175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__device__interface__stm__usb__protocols_8h" kind="file" language="C++">
+    <compoundname>nsp_device_interface_stm_usb_protocols.h</compoundname>
+    <includedby refid="nsp__device__interface__stm__usb_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h</includedby>
+    <invincdepgraph>
+      <node id="237">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_base.h</label>
+        <link refid="nsp__device__interface__base_8h"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h</label>
+        <link refid="nsp__device__interface__stm__usb__protocols_8h"/>
+        <childnode refid="236" relation="include">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h</label>
+        <link refid="nsp__device__interface__stm__usb_8h"/>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</label>
+        <link refid="nsp__device__interface_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a1426bf3d73a6f71dfd83c02a931c0c7d" prot="public" static="no">
+        <name>HPK_CIS_MODE_POWER_SAVE</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="5" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a0bf6a66855dc36b861dd2e5678f38f5d" prot="public" static="no">
+        <name>HPK_CIS_MODE_POWER_ON_AND_WAIT</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="6" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a8b70190aa807185d1d561e55bcb267ee" prot="public" static="no">
+        <name>HPK_CIS_MODE_SINGLE_CAPTURE</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="7" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a47c7288f915c6dd6739bade6b729fd28" prot="public" static="no">
+        <name>HPK_CIS_MODE_CONTINUOUS_CAPTURE</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="8" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a11f46a222a61a7a3f58b0afc8f08b85c" prot="public" static="no">
+        <name>HPK_CIS_MODE_ALL_RESET</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="9" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a940151fe7c8089d81d91f2001d16245a" prot="public" static="no">
+        <name>EFM32_SENSOR_ID_SIZE</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="112" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a99f0cfdaeee5250173efd8041948f4f3" prot="public" static="no">
+        <name>EFM32_SENSOR_DATA_SIZE</name>
+        <initializer>2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="113" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a222090739135bd9072968142f82d13ee" prot="public" static="no">
+        <name>EFM32_SPECTRUM_DATA_SIZE</name>
+        <initializer>2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="114" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a3e8342c2acf3e7750ce2d4af100094c3" prot="public" static="no">
+        <name>EFM32_ACQUIRE_MODE_SINGLE</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="117" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a9e2dc67c971f9a4282af6377ba4cd6a1" prot="public" static="no">
+        <name>EFM32_ACQUIRE_MODE_CONTINUOUS</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="118" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1af07c8f0e845e7509cf2ce214c02ad408" prot="public" static="no">
+        <name>EFM32_ACQUIRE_MODE_TIME_INTERVAL</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="119" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a54b7dd6b75de439c66fd156bb4463a89" prot="public" static="no">
+        <name>EFM32_ACQUIRE_MODE_HW_TRIGGER</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="120" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1aea7fbaae61f06425f988bf0b18f55157" prot="public" static="no">
+        <name>EFM32_ERROR_SENSOR_STOP</name>
+        <initializer>-0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="123" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a7d3f16a82bd4976a150b4d5b8f80c6e5" prot="public" static="no">
+        <name>EFM32_ERROR_CONTROLLER_STOP</name>
+        <initializer>-0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="124" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a2d5dea1583a6949165d2d2d941e4b514" prot="public" static="no">
+        <name>EFM32_ERROR_INVALID_EXPOSURE_TIME</name>
+        <initializer>-0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="125" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a231f3f10c45c3046ae3e669ee5b02e2b" prot="public" static="no">
+        <name>EFM32_ERROR_INVALID_COMMAND</name>
+        <initializer>-0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="126" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a0561a68f5331bfbd1ad3839b44e4fc26" prot="public" static="no">
+        <name>EFM32_ERROR_INVALID_LED_STATUS</name>
+        <initializer>-0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="127" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ae0271c8e5f6b300b916bc61db291e8aa" prot="public" static="no">
+        <name>EFM32_ERROR_INVALID_ACQUIRE_MODE</name>
+        <initializer>-0x06</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="128" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a78d595837946322ffbb3abd0ed982776" prot="public" static="no">
+        <name>EFM32_ERROR_NOT_SUPPORTED_ALGO</name>
+        <initializer>-0x07</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="129" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1aedef1d4995d8ff691ac0965307a61d5d" prot="public" static="no">
+        <name>EFM32_ERROR_UNKNOWN</name>
+        <initializer>-0xff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="130" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a657abca78b2728cbf86619cdbc7eeeec" prot="public" static="no">
+        <name>EFM32_COMM_NO_OP</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="133" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1af52501ca9b5db5a93d3737715585546d" prot="public" static="no">
+        <name>EFM32_COMM_GET_SENSOR_ID</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="134" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a935ed7e9ba488efb6287f6b48453f9a9" prot="public" static="no">
+        <name>EFM32_COMM_GET_SENSOR_DATA</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="135" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1adc7c9f9380102c026ab7986af1536a50" prot="public" static="no">
+        <name>EFM32_COMM_SET_ACQUIRE_MODE</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="136" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a9b9065bed899fe05393a8910f8e5a3a7" prot="public" static="no">
+        <name>EFM32_COMM_GET_LOW_EXPOSURE_TIME</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="137" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a2e71aff92c3ae2e6ba3e9c03180848e7" prot="public" static="no">
+        <name>EFM32_COMM_GET_UPPER_EXPOSURE_TIME</name>
+        <initializer>0x24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="138" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1acf5b3f6bcc5fa5055c7ae623d0ab9250" prot="public" static="no">
+        <name>EFM32_COMM_SET_LOW_EXPOSURE_TIME</name>
+        <initializer>0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="139" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a715fe47a7f76df8c961fbc01ddd35b4a" prot="public" static="no">
+        <name>EFM32_COMM_SET_UPPER_EXPOSURE_TIME</name>
+        <initializer>0x25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="140" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a0daee66e03742afe8a8e1f06324aaa99" prot="public" static="no">
+        <name>EFM32_COMM_SET_LOW_BLANK_TIME</name>
+        <initializer>0x21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="142" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ace531c17cd75971c9bb7c45708c9f558" prot="public" static="no">
+        <name>EFM32_COMM_SET_UPPER_BLANK_TIME</name>
+        <initializer>0x22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="143" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a442701f9c6f31fecef09e2cb9dd72487" prot="public" static="no">
+        <name>EFM32_COMM_GET_LOW_BLANK_TIME</name>
+        <initializer>0x26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="144" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a6e54767a31e529b90374fecb06e348ec" prot="public" static="no">
+        <name>EFM32_COMM_GET_UPPER_BLANK_TIME</name>
+        <initializer>0x27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="145" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1af1fd4d47704a22108650dddab91e142a" prot="public" static="no">
+        <name>EFM32_COMM_SET_ADC_RANGE</name>
+        <initializer>0x13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="147" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a134115c30ab756328231b0e824c1b652" prot="public" static="no">
+        <name>EFM32_COMM_GET_ADC_RANGE</name>
+        <initializer>0x23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="148" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1accf40b433f26395b209a4e51c81043cd" prot="public" static="no">
+        <name>EFM32_COMM_SET_ADC_RESOLUTION</name>
+        <initializer>0x14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="149" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a7eb014d5ccdc0935b31072aa39d500d1" prot="public" static="no">
+        <name>EFM32_COMM_GET_ADC_RESOLUTION</name>
+        <initializer>0x28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="150" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1af4ebc515b2f249c06649905b9fa556c1" prot="public" static="no">
+        <name>EFM32_COMM_GET_SENSOR_STATUS</name>
+        <initializer>0x06</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="152" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1aebe4b1d74bee1bbf2cd6e25eccf553d9" prot="public" static="no">
+        <name>EFM32_COMM_GET_CONTROLLER_STATUS</name>
+        <initializer>0x07</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="153" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a534e0e236362e7ad5704bbc422543a1a" prot="public" static="no">
+        <name>EFM32_COMM_GET_LED_STATUS</name>
+        <initializer>0x08</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="154" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ab13f49bfec93cd0ac4894393948dba89" prot="public" static="no">
+        <name>EFM32_COMM_SET_LED_STATUS</name>
+        <initializer>0x09</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="155" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ab08bcc4d7092d8df7b34ecc635d5e8e8" prot="public" static="no">
+        <name>EFM32_COMM_GET_ERROR</name>
+        <initializer>0x0a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="156" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1afb6eaee32ba32a513ec270312a840db9" prot="public" static="no">
+        <name>EFM32_COMM_GET_SPECTRUM</name>
+        <initializer>0x0b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="157" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a721957f3bcfec22917e5bf572f16e443" prot="public" static="no">
+        <name>EFM32_COMM_GET_XYZ</name>
+        <initializer>0x0c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="158" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1aef68eb1f07487f3f14c562be9746cacf" prot="public" static="no">
+        <name>EFM32_COMM_GET_AMBIENT</name>
+        <initializer>0x0d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="159" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a3e9cfa02faa1b27d6ba5cc9c1ae19374" prot="public" static="no">
+        <name>EFM32_COMM_SET_MCU_MODE</name>
+        <initializer>0x0e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="160" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a8792466a92aae387431fecf236ca4e53" prot="public" static="no">
+        <name>EFM32_COMM_SET_INTEG_TIME</name>
+        <initializer>0x0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="161" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ab8109c5ca378e495794230fa4dd6519a" prot="public" static="no">
+        <name>EFM32_COMM_SET_ROI_START_POS</name>
+        <initializer>0x11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="163" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a213fa7cbc1b4baaf5d0f8727bf7cae8d" prot="public" static="no">
+        <name>EFM32_COMM_SET_ROI_SIZE</name>
+        <initializer>0x12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="164" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1af1fd4d47704a22108650dddab91e142a" prot="public" static="no">
+        <name>EFM32_COMM_SET_ADC_RANGE</name>
+        <initializer>0x13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="165" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a2745dd77904d262864291229cc9ee954" prot="public" static="no">
+        <name>EFM32_COMM_SET_AMP_GAIN_RESOLUTION</name>
+        <initializer>0x14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="166" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a29170551014eeb4f4af5329e6d0f4bad" prot="public" static="no">
+        <name>EFM32_COMM_INIT_ACQ</name>
+        <initializer>0x16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="167" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a4a9ecdd6af3a70d003f0bd166d260bca" prot="public" static="no">
+        <name>EFM32_COMM_FIN_ACQ</name>
+        <initializer>0x17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="168" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a8a6a6c991734bc280aede8baef09c49b" prot="public" static="no">
+        <name>EFM32_COMM_READ_REGISTER_DATA</name>
+        <initializer>0x18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="169" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a4f0cbe44cb07dc9f882267c1d903de36" prot="public" static="no">
+        <name>EFM32_COMM_WRITE_REGISTER_ADDR</name>
+        <initializer>0x19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="170" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a5d513bc2d77d74f1c7f374d639859e78" prot="public" static="no">
+        <name>EFM32_COMM_WRITE_REGISTER_DATA</name>
+        <initializer>0x1a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="171" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a3dcf2d37f6d43de7e9f07c6569fa8973" prot="public" static="no">
+        <name>EFM32_COMM_GET_AVERAGED_SENSOR_DATA</name>
+        <initializer>0x1b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="172" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ac1afef45d5493406f7c872e90facd4f0" prot="public" static="no">
+        <name>EFM32_COMM_SET_LED_TOGGLE</name>
+        <initializer>0x20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="173" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a7ec589871e3b64bce25890f4a63295f9" prot="public" static="no">
+        <name>EFM32_COMM_SET_BURST_MODE</name>
+        <initializer>0x30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="175" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a5914d01883479f2e1a767727abd0bf47" prot="public" static="no">
+        <name>EFM32_COMM_GET_TEST_BYTE</name>
+        <initializer>0x29</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="177" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a677447353789b53f35aa3ce773a06bd2" prot="public" static="no">
+        <name>EFM32_COMM_GET_START_ROW</name>
+        <initializer>0x2a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="178" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1aa4092cf68be41f96bf65a3564ce2e059" prot="public" static="no">
+        <name>EFM32_COMM_SET_START_ROW</name>
+        <initializer>0x31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="179" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a17d1d9c0b2fa1196695b2c71d0eafcc0" prot="public" static="no">
+        <name>EFM32_COMM_GET_START_COL</name>
+        <initializer>0x2b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="180" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a7f26099b4fbb09330de46d02ae4172d7" prot="public" static="no">
+        <name>EFM32_COMM_SET_START_COL</name>
+        <initializer>0x32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="181" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a4017f360f9e7fd2d7ba429fd027048c7" prot="public" static="no">
+        <name>EFM32_COMM_GET_NUMB_ROW</name>
+        <initializer>0x2c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="182" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1af200b176f281cedb9256a748c093e06e" prot="public" static="no">
+        <name>EFM32_COMM_SET_NUMB_ROW</name>
+        <initializer>0x33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="183" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a88d688d99fa72e4a5b9af72f042eab13" prot="public" static="no">
+        <name>EFM32_COMM_GET_NUMB_COL</name>
+        <initializer>0x2d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="184" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a64c47b8462c269fc17f72c51bc064462" prot="public" static="no">
+        <name>EFM32_COMM_SET_NUMB_COL</name>
+        <initializer>0x34</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="185" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a5200034a7c6e4f704e1e5f3b5ff58984" prot="public" static="no">
+        <name>EFM32_COMM_GET_FRAME_AVERAGE</name>
+        <initializer>0x35</initializer>
+        <briefdescription>
+<para>definitions for on-board processing </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="188" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ad09845fa79de6716fcc7ecc0bc18e187" prot="public" static="no">
+        <name>EFM32_COMM_SET_FRAME_AVERAGE</name>
+        <initializer>0x36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="189" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a913951391d47691c09fd37741849100a" prot="public" static="no">
+        <name>EFM32_COMM_TEST_BURST_MODE</name>
+        <initializer>0x37</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="190" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a8e057544a11ce36a96e6970d32723871" prot="public" static="no">
+        <name>EFM32_COMM_GET_DARK_FRAME</name>
+        <initializer>0x38</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="191" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a8dda21dc964608919dcd5a7536a57a9a" prot="public" static="no">
+        <name>EFM32_COMM_SET_DARK_CORRECTION_MODE</name>
+        <initializer>0x39</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="192" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ab52eb8edf389d38913e2bc50b5828a47" prot="public" static="no">
+        <name>EFM32_COMM_GET_DARK_CORRECTION_MODE</name>
+        <initializer>0x3a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="193" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ab10c8688e93af308ef5bdc28e3e0d75a" prot="public" static="no">
+        <name>EFM32_COMM_SET_POI_COUNT</name>
+        <initializer>0x40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="195" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ac0da259a584b6caa13ba6bfbb3d63d2a" prot="public" static="no">
+        <name>EFM32_COMM_GET_POI_COUNT</name>
+        <initializer>0x41</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="196" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1aa561e1adf9dec4ba2617dcf452cbf628" prot="public" static="no">
+        <name>EFM32_COMM_CLEAR_POI_INDEX_LIST</name>
+        <initializer>0x42</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="197" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1aa70514eb0b4ff9aa89573678575f3b2b" prot="public" static="no">
+        <name>EFM32_COMM_SET_POI_INDEX_LIST</name>
+        <initializer>0x43</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="198" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a02d000419319acac1007b110ecfefa29" prot="public" static="no">
+        <name>EFM32_COMM_GET_POI_INDEX_LIST</name>
+        <initializer>0x44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="199" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a1b857cade4c472e18d9f30c920a92fbd" prot="public" static="no">
+        <name>EFM32_COMM_GET_POI_DATA</name>
+        <initializer>0x45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="200" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ad36bb910c6a205992497f10ba1659db0" prot="public" static="no">
+        <name>EFM32_COMM_START_BULK_TRANSFER</name>
+        <initializer>0x46</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="203" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a2020962273d37b964e8b676f4ed161a3" prot="public" static="no">
+        <name>EFM32_COMM_STOP_BULK_TRANSFER</name>
+        <initializer>0x47</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="204" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a9d04ea96fe2a4a18d08cf2fae4ab4d17" prot="public" static="no">
+        <name>EFM32_COMM_SET_EXPOSURE_TIME</name>
+        <initializer>0x50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="206" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1ab342bb9d14bd24b1b8d682181590e7f4" prot="public" static="no">
+        <name>EFM32_COMM_SET_BLANK_TIME</name>
+        <initializer>0x51</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="207" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__interface__stm__usb__protocols_8h_1a33400a444ed04b99dbad3bc790e792a2" prot="public" static="no">
+        <name>EFM32_COMM_REBOOT</name>
+        <initializer>0xff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" line="209" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__NSP_DEVICE_INTERFACE_STM_USB_PROTOCOLS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_DEVICE_INTERFACE_STM_USB_PROTOCOLS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Sensor<sp/>operation<sp/>modes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="nsp__device__interface__stm__usb__protocols_8h_1a1426bf3d73a6f71dfd83c02a931c0c7d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HPK_CIS_MODE_POWER_SAVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="nsp__device__interface__stm__usb__protocols_8h_1a0bf6a66855dc36b861dd2e5678f38f5d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HPK_CIS_MODE_POWER_ON_AND_WAIT<sp/><sp/>0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="nsp__device__interface__stm__usb__protocols_8h_1a8b70190aa807185d1d561e55bcb267ee" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HPK_CIS_MODE_SINGLE_CAPTURE<sp/><sp/><sp/><sp/><sp/>0x02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="nsp__device__interface__stm__usb__protocols_8h_1a47c7288f915c6dd6739bade6b729fd28" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HPK_CIS_MODE_CONTINUOUS_CAPTURE<sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="nsp__device__interface__stm__usb__protocols_8h_1a11f46a222a61a7a3f58b0afc8f08b85c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HPK_CIS_MODE_ALL_RESET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>CONTROLLER_BOARD_STM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_SENSOR_ID_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_SENSOR_DATA_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2048<sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_SPECTRUM_DATA_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2048<sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Definitions<sp/>for<sp/>data<sp/>acquisition<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ACQUIRE_MODE_SINGLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ACQUIRE_MODE_CONTINUOUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ACQUIRE_MODE_TIME_INTERVAL<sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ACQUIRE_MODE_HW_TRIGGER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Definitions<sp/>for<sp/>errors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_SENSOR_STOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_CONTROLLER_STOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_INVALID_EXPOSURE_TIME<sp/><sp/><sp/><sp/><sp/>-0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_INVALID_COMMAND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_INVALID_LED_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_INVALID_ACQUIRE_MODE<sp/><sp/><sp/><sp/><sp/><sp/>-0x06</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_NOT_SUPPORTED_ALGO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x07</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_ERROR_UNKNOWN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0xff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Commands<sp/>for<sp/>USB<sp/>communication</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_NO_OP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00<sp/><sp/><sp/><sp/>//<sp/>8<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_SENSOR_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01<sp/><sp/><sp/><sp/>//<sp/>8<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_SENSOR_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02<sp/><sp/><sp/><sp/>//<sp/>2048<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_ACQUIRE_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03<sp/><sp/><sp/><sp/>//<sp/>1(bulk<sp/>mode<sp/>on),<sp/>0(bulk<sp/>mode<sp/>off)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_LOW_EXPOSURE_TIME<sp/><sp/><sp/><sp/><sp/><sp/>0x04<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_UPPER_EXPOSURE_TIME<sp/><sp/><sp/><sp/>0x24<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_LOW_EXPOSURE_TIME<sp/><sp/><sp/><sp/><sp/><sp/>0x05<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_UPPER_EXPOSURE_TIME<sp/><sp/><sp/><sp/>0x25<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_LOW_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x21<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_UPPER_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x22<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_LOW_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x26<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_UPPER_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x27<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_ADC_RANGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x13<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_ADC_RANGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x23<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_ADC_RESOLUTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x14<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_ADC_RESOLUTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x28<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_SENSOR_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x06<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_CONTROLLER_STATUS<sp/><sp/><sp/><sp/><sp/><sp/>0x07<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_LED_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x08<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_LED_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x09<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_SPECTRUM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0b<sp/><sp/><sp/><sp/>//<sp/>2048<sp/>bytes<sp/>(actually<sp/>4<sp/>*<sp/>wavelength<sp/>rage<sp/>(711))<sp/>about<sp/>3000<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_XYZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0c<sp/><sp/><sp/><sp/>//<sp/>12<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_AMBIENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0d<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_MCU_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0e<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_INTEG_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0f<sp/><sp/><sp/><sp/>//<sp/>2<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_ROI_START_POS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x11<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_ROI_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x12<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_ADC_RANGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x13<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_AMP_GAIN_RESOLUTION<sp/><sp/><sp/><sp/>0x14<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_INIT_ACQ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x16<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_FIN_ACQ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x17<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_READ_REGISTER_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x18<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_WRITE_REGISTER_ADD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x19<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_WRITE_REGISTER_DAT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_AVERAGED_SENSOR_DATA<sp/><sp/><sp/>0x1b<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_LED_TOGGLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x20<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_BURST_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x30<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>added<sp/>by<sp/>KSLEE,<sp/>2014.07.08,<sp/>for<sp/>TitanSensorTester<sp/>(register<sp/>I/O<sp/>test)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_TEST_BYTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x29<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_START_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_START_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x31<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_START_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2b<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_START_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x32<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_NUMB_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2c<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_NUMB_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x33<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_NUMB_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2d<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_NUMB_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x34<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="preprocessor">#define<sp/>STM_COMM_GET_FRAME_AVERAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x35<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_FRAME_AVERAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x36<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_TEST_BURST_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x37<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_DARK_FRAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x38<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_DARK_CORRECTION_MODE<sp/><sp/><sp/>0x39<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_DARK_CORRECTION_MODE<sp/><sp/><sp/>0x3a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_POI_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x40<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_POI_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x41<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_CLEAR_POI_INDEX_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x42<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>2014.08.11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_POI_INDEX_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x43<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_POI_INDEX_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x44<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_GET_POI_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x45<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TEST<sp/>for<sp/>Bulk<sp/>Transfer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_START_BULK_TRANSFER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x46<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2015.08.07</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_STOP_BULK_TRANSFER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x47<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2015.08.07</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_EXPOSURE_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x50<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_SET_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x51<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_COMM_REBOOT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xff<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="nsp__device__interface__stm__usb__protocols_8h_1a940151fe7c8089d81d91f2001d16245a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_SENSOR_ID_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="nsp__device__interface__stm__usb__protocols_8h_1a99f0cfdaeee5250173efd8041948f4f3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_SENSOR_DATA_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2048<sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="nsp__device__interface__stm__usb__protocols_8h_1a222090739135bd9072968142f82d13ee" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_SPECTRUM_DATA_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2048<sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Definitions<sp/>for<sp/>data<sp/>acquisition<sp/>mode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="nsp__device__interface__stm__usb__protocols_8h_1a3e8342c2acf3e7750ce2d4af100094c3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ACQUIRE_MODE_SINGLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="nsp__device__interface__stm__usb__protocols_8h_1a9e2dc67c971f9a4282af6377ba4cd6a1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ACQUIRE_MODE_CONTINUOUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="nsp__device__interface__stm__usb__protocols_8h_1af07c8f0e845e7509cf2ce214c02ad408" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ACQUIRE_MODE_TIME_INTERVAL<sp/><sp/><sp/><sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="nsp__device__interface__stm__usb__protocols_8h_1a54b7dd6b75de439c66fd156bb4463a89" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ACQUIRE_MODE_HW_TRIGGER<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Definitions<sp/>for<sp/>errors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="nsp__device__interface__stm__usb__protocols_8h_1aea7fbaae61f06425f988bf0b18f55157" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_SENSOR_STOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="nsp__device__interface__stm__usb__protocols_8h_1a7d3f16a82bd4976a150b4d5b8f80c6e5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_CONTROLLER_STOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="nsp__device__interface__stm__usb__protocols_8h_1a2d5dea1583a6949165d2d2d941e4b514" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_INVALID_EXPOSURE_TIME<sp/><sp/><sp/>-0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="nsp__device__interface__stm__usb__protocols_8h_1a231f3f10c45c3046ae3e669ee5b02e2b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_INVALID_COMMAND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="nsp__device__interface__stm__usb__protocols_8h_1a0561a68f5331bfbd1ad3839b44e4fc26" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_INVALID_LED_STATUS<sp/><sp/><sp/><sp/><sp/><sp/>-0x05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="nsp__device__interface__stm__usb__protocols_8h_1ae0271c8e5f6b300b916bc61db291e8aa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_INVALID_ACQUIRE_MODE<sp/><sp/><sp/><sp/>-0x06</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="nsp__device__interface__stm__usb__protocols_8h_1a78d595837946322ffbb3abd0ed982776" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_NOT_SUPPORTED_ALGO<sp/><sp/><sp/><sp/><sp/><sp/>-0x07</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="nsp__device__interface__stm__usb__protocols_8h_1aedef1d4995d8ff691ac0965307a61d5d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_ERROR_UNKNOWN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0xff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Commands<sp/>for<sp/>USB<sp/>communication</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="nsp__device__interface__stm__usb__protocols_8h_1a657abca78b2728cbf86619cdbc7eeeec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_NO_OP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00<sp/><sp/><sp/><sp/>//<sp/>8<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="nsp__device__interface__stm__usb__protocols_8h_1af52501ca9b5db5a93d3737715585546d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_SENSOR_ID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01<sp/><sp/><sp/><sp/>//<sp/>8<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="nsp__device__interface__stm__usb__protocols_8h_1a935ed7e9ba488efb6287f6b48453f9a9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_SENSOR_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02<sp/><sp/><sp/><sp/>//<sp/>2048<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="nsp__device__interface__stm__usb__protocols_8h_1adc7c9f9380102c026ab7986af1536a50" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_ACQUIRE_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03<sp/><sp/><sp/><sp/>//<sp/>1(single=sw<sp/>trigger),<sp/>2(continous),3(time-interval),4(hw<sp/>trigger)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="nsp__device__interface__stm__usb__protocols_8h_1a9b9065bed899fe05393a8910f8e5a3a7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_LOW_EXPOSURE_TIME<sp/><sp/><sp/><sp/>0x04<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="nsp__device__interface__stm__usb__protocols_8h_1a2e71aff92c3ae2e6ba3e9c03180848e7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_UPPER_EXPOSURE_TIME<sp/><sp/>0x24<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="nsp__device__interface__stm__usb__protocols_8h_1acf5b3f6bcc5fa5055c7ae623d0ab9250" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_LOW_EXPOSURE_TIME<sp/><sp/><sp/><sp/>0x05<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="nsp__device__interface__stm__usb__protocols_8h_1a715fe47a7f76df8c961fbc01ddd35b4a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_UPPER_EXPOSURE_TIME<sp/><sp/>0x25<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="nsp__device__interface__stm__usb__protocols_8h_1a0daee66e03742afe8a8e1f06324aaa99" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_LOW_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x21<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="nsp__device__interface__stm__usb__protocols_8h_1ace531c17cd75971c9bb7c45708c9f558" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_UPPER_BLANK_TIME<sp/><sp/><sp/><sp/><sp/>0x22<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="nsp__device__interface__stm__usb__protocols_8h_1a442701f9c6f31fecef09e2cb9dd72487" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_LOW_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x26<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="nsp__device__interface__stm__usb__protocols_8h_1a6e54767a31e529b90374fecb06e348ec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_UPPER_BLANK_TIME<sp/><sp/><sp/><sp/><sp/>0x27<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_ADC_RANGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x13<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="nsp__device__interface__stm__usb__protocols_8h_1a134115c30ab756328231b0e824c1b652" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_ADC_RANGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x23<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="nsp__device__interface__stm__usb__protocols_8h_1accf40b433f26395b209a4e51c81043cd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_ADC_RESOLUTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x14<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="nsp__device__interface__stm__usb__protocols_8h_1a7eb014d5ccdc0935b31072aa39d500d1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_ADC_RESOLUTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x28<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="nsp__device__interface__stm__usb__protocols_8h_1af4ebc515b2f249c06649905b9fa556c1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_SENSOR_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x06<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="nsp__device__interface__stm__usb__protocols_8h_1aebe4b1d74bee1bbf2cd6e25eccf553d9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_CONTROLLER_STATUS<sp/><sp/><sp/><sp/>0x07<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="nsp__device__interface__stm__usb__protocols_8h_1a534e0e236362e7ad5704bbc422543a1a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_LED_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x08<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="nsp__device__interface__stm__usb__protocols_8h_1ab13f49bfec93cd0ac4894393948dba89" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_LED_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x09<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="nsp__device__interface__stm__usb__protocols_8h_1ab08bcc4d7092d8df7b34ecc635d5e8e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="nsp__device__interface__stm__usb__protocols_8h_1afb6eaee32ba32a513ec270312a840db9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_SPECTRUM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0b<sp/><sp/><sp/><sp/>//<sp/>2048<sp/>bytes<sp/>(actually<sp/>4<sp/>*<sp/>wavelength<sp/>rage<sp/>(711))<sp/>about<sp/>3000<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="nsp__device__interface__stm__usb__protocols_8h_1a721957f3bcfec22917e5bf572f16e443" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_XYZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0c<sp/><sp/><sp/><sp/>//<sp/>12<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="nsp__device__interface__stm__usb__protocols_8h_1aef68eb1f07487f3f14c562be9746cacf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_AMBIENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0d<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="nsp__device__interface__stm__usb__protocols_8h_1a3e9cfa02faa1b27d6ba5cc9c1ae19374" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_MCU_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0e<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="nsp__device__interface__stm__usb__protocols_8h_1a8792466a92aae387431fecf236ca4e53" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_INTEG_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0f<sp/><sp/><sp/><sp/>//<sp/>2<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/><sp/><sp/>EFM32_COMM_SET_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x10<sp/><sp/><sp/><sp/>//<sp/>2<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="nsp__device__interface__stm__usb__protocols_8h_1ab8109c5ca378e495794230fa4dd6519a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_ROI_START_POS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x11<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="nsp__device__interface__stm__usb__protocols_8h_1a213fa7cbc1b4baaf5d0f8727bf7cae8d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_ROI_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x12<sp/><sp/><sp/><sp/>//<sp/>4<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="nsp__device__interface__stm__usb__protocols_8h_1af1fd4d47704a22108650dddab91e142a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_ADC_RANGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x13<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="nsp__device__interface__stm__usb__protocols_8h_1a2745dd77904d262864291229cc9ee954" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_AMP_GAIN_RESOLUTION<sp/><sp/>0x14<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="nsp__device__interface__stm__usb__protocols_8h_1a29170551014eeb4f4af5329e6d0f4bad" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_INIT_ACQ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x16<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="nsp__device__interface__stm__usb__protocols_8h_1a4a9ecdd6af3a70d003f0bd166d260bca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_FIN_ACQ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x17<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="nsp__device__interface__stm__usb__protocols_8h_1a8a6a6c991734bc280aede8baef09c49b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_READ_REGISTER_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x18<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="nsp__device__interface__stm__usb__protocols_8h_1a4f0cbe44cb07dc9f882267c1d903de36" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_WRITE_REGISTER_ADDR<sp/><sp/><sp/><sp/><sp/><sp/>0x19<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="nsp__device__interface__stm__usb__protocols_8h_1a5d513bc2d77d74f1c7f374d639859e78" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_WRITE_REGISTER_DATA<sp/><sp/><sp/><sp/><sp/><sp/>0x1a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="nsp__device__interface__stm__usb__protocols_8h_1a3dcf2d37f6d43de7e9f07c6569fa8973" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_AVERAGED_SENSOR_DATA<sp/>0x1b<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="nsp__device__interface__stm__usb__protocols_8h_1ac1afef45d5493406f7c872e90facd4f0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_LED_TOGGLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x20<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="nsp__device__interface__stm__usb__protocols_8h_1a7ec589871e3b64bce25890f4a63295f9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_BURST_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x30<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment">//<sp/>added<sp/>by<sp/>KSLEE,<sp/>2014.07.08,<sp/>for<sp/>TitanSensorTester<sp/>(register<sp/>I/O<sp/>test)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="nsp__device__interface__stm__usb__protocols_8h_1a5914d01883479f2e1a767727abd0bf47" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_TEST_BYTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x29<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="nsp__device__interface__stm__usb__protocols_8h_1a677447353789b53f35aa3ce773a06bd2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_START_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="nsp__device__interface__stm__usb__protocols_8h_1aa4092cf68be41f96bf65a3564ce2e059" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_START_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x31<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="nsp__device__interface__stm__usb__protocols_8h_1a17d1d9c0b2fa1196695b2c71d0eafcc0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_START_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2b<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="nsp__device__interface__stm__usb__protocols_8h_1a7f26099b4fbb09330de46d02ae4172d7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_START_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x32<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="nsp__device__interface__stm__usb__protocols_8h_1a4017f360f9e7fd2d7ba429fd027048c7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_NUMB_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2c<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="nsp__device__interface__stm__usb__protocols_8h_1af200b176f281cedb9256a748c093e06e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_NUMB_ROW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x33<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="nsp__device__interface__stm__usb__protocols_8h_1a88d688d99fa72e4a5b9af72f042eab13" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_NUMB_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2d<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="nsp__device__interface__stm__usb__protocols_8h_1a64c47b8462c269fc17f72c51bc064462" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_NUMB_COL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x34<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="nsp__device__interface__stm__usb__protocols_8h_1a5200034a7c6e4f704e1e5f3b5ff58984" refkind="member"><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_FRAME_AVERAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x35<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="nsp__device__interface__stm__usb__protocols_8h_1ad09845fa79de6716fcc7ecc0bc18e187" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_FRAME_AVERAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x36<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="nsp__device__interface__stm__usb__protocols_8h_1a913951391d47691c09fd37741849100a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_TEST_BURST_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x37<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="nsp__device__interface__stm__usb__protocols_8h_1a8e057544a11ce36a96e6970d32723871" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_DARK_FRAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x38<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="nsp__device__interface__stm__usb__protocols_8h_1a8dda21dc964608919dcd5a7536a57a9a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_DARK_CORRECTION_MODE<sp/>0x39<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="nsp__device__interface__stm__usb__protocols_8h_1ab52eb8edf389d38913e2bc50b5828a47" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_DARK_CORRECTION_MODE<sp/>0x3a<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="nsp__device__interface__stm__usb__protocols_8h_1ab10c8688e93af308ef5bdc28e3e0d75a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_POI_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x40<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="nsp__device__interface__stm__usb__protocols_8h_1ac0da259a584b6caa13ba6bfbb3d63d2a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_POI_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x41<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="nsp__device__interface__stm__usb__protocols_8h_1aa561e1adf9dec4ba2617dcf452cbf628" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_CLEAR_POI_INDEX_LIST<sp/><sp/><sp/><sp/><sp/>0x42<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="nsp__device__interface__stm__usb__protocols_8h_1aa70514eb0b4ff9aa89573678575f3b2b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_POI_INDEX_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x43<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="nsp__device__interface__stm__usb__protocols_8h_1a02d000419319acac1007b110ecfefa29" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_POI_INDEX_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x44<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="nsp__device__interface__stm__usb__protocols_8h_1a1b857cade4c472e18d9f30c920a92fbd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_GET_POI_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x45<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2014.08.08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TEST<sp/>for<sp/>Bulk<sp/>Transfer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="nsp__device__interface__stm__usb__protocols_8h_1ad36bb910c6a205992497f10ba1659db0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_START_BULK_TRANSFER<sp/><sp/><sp/><sp/><sp/><sp/>0x46<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2015.08.07</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="nsp__device__interface__stm__usb__protocols_8h_1a2020962273d37b964e8b676f4ed161a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_STOP_BULK_TRANSFER<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x47<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//2015.08.07</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="nsp__device__interface__stm__usb__protocols_8h_1a9d04ea96fe2a4a18d08cf2fae4ab4d17" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_EXPOSURE_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x50<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="nsp__device__interface__stm__usb__protocols_8h_1ab342bb9d14bd24b1b8d682181590e7f4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_SET_BLANK_TIME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x51<sp/><sp/><sp/><sp/>//<sp/>1<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="nsp__device__interface__stm__usb__protocols_8h_1a33400a444ed04b99dbad3bc790e792a2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_COMM_REBOOT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xff<sp/><sp/><sp/><sp/>//<sp/>1<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>__NSP_DEVICE_INTERFACE_STM_USB_PROTOCOLS_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h"/>
+  </compounddef>
+</doxygen>

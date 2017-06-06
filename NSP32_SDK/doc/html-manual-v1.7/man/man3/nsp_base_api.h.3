@@ -1,0 +1,54 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'nsp_base_exceptions\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEXPORT_DLL\fP char * \fBbsGetErrorString\fP (int error_code)"
+.br
+.RI "Convert error code to string\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "\fBEXPORT_DLL\fP char* bsGetErrorString (int error_code)"
+
+.PP
+Convert error code to string\&. This function returns one string for a specific error code\&.
+.PP
+.PP
+.nf
+int error_code = cc_ec_no_device_in_system;
+char* error_string = bsGetErrorString(error_code);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIerror_code\fP - error code which defined in '\fBnsp_error_codes\&.h\fP' [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+error string
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

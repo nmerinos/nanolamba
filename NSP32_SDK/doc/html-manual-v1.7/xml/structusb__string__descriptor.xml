@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structusb__string__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>usb_string_descriptor</compoundname>
+    <includes refid="lusb_8h" local="no">lusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__string__descriptor_1a04c26a4b1d8cb3297db0fbecb88891aa" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_string_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="93" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__string__descriptor_1a8b150ec4cf85c3b64eaf60c5c750900e" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_string_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="94" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__string__descriptor_1a71171db99e9f46872ec70a5d1c5dcf1c" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usb_string_descriptor::wData[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>wData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="95" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="92" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="91" bodyend="96"/>
+    <listofallmembers>
+      <member refid="structusb__string__descriptor_1a8b150ec4cf85c3b64eaf60c5c750900e" prot="public" virt="non-virtual"><scope>usb_string_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__string__descriptor_1a04c26a4b1d8cb3297db0fbecb88891aa" prot="public" virt="non-virtual"><scope>usb_string_descriptor</scope><name>bLength</name></member>
+      <member refid="structusb__string__descriptor_1a71171db99e9f46872ec70a5d1c5dcf1c" prot="public" virt="non-virtual"><scope>usb_string_descriptor</scope><name>wData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

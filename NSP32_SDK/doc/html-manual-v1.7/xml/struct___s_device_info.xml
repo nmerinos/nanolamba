@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_device_info" kind="struct" language="C++" prot="public">
+    <compoundname>_SDeviceInfo</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_device_info_1ae8acf460155d58141a79b56efe10e067" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SDeviceInfo::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="812" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a56080a3f8b86761c992723a1b858d8ce" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SDeviceInfo::product_name</definition>
+        <argsstring></argsstring>
+        <name>product_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="813" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="813" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1adc4c6d13cefe1fc94f581db90e11e1b6" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SDeviceInfo::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="814" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="814" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1aa07b30f19455aa81d7af8fbb85181c95" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SDeviceInfo::wavelength_begin</definition>
+        <argsstring></argsstring>
+        <name>wavelength_begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="815" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a030627cc51703b1b24bb33f0e74b505b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SDeviceInfo::wavelength_end</definition>
+        <argsstring></argsstring>
+        <name>wavelength_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="816" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a276bb8dfd63978feb91baf56a1af3945" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SDeviceInfo::wavelength_left</definition>
+        <argsstring></argsstring>
+        <name>wavelength_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="817" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="817" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1af05c2993772d972293a71fd0ab2cfb66" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SDeviceInfo::wavelength_right</definition>
+        <argsstring></argsstring>
+        <name>wavelength_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="818" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="818" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a4c59d9f1b465ab10394a099896b8a685" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SDeviceInfo::resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="819" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a2cc4d0bb88c4464521541049ec7917d4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SDeviceInfo::average</definition>
+        <argsstring></argsstring>
+        <name>average</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="820" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a6d798134d808f86f0b9072f12f8c429e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SDeviceInfo::boxcar</definition>
+        <argsstring></argsstring>
+        <name>boxcar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="821" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a66d4a8e154a090dcece60892fe13f182" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SDeviceInfo::integ_time</definition>
+        <argsstring></argsstring>
+        <name>integ_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="822" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="822" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_device_info_1a329c64eb8cc3660fc3a5b61ab668bc06" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SDeviceInfo::shutter_speed</definition>
+        <argsstring></argsstring>
+        <name>shutter_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="823" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="823" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_device_info_1aea8856d71ab110c2b2f023b908bf4478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SDeviceInfo::_SDeviceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>_SDeviceInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="825" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="825" bodyend="828"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_device_info_1a655956ac904506bc037ba69ea1d06f6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SDeviceInfo::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="830" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="830" bodyend="843"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="811" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="810" bodyend="844"/>
+    <listofallmembers>
+      <member refid="struct___s_device_info_1aea8856d71ab110c2b2f023b908bf4478" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>_SDeviceInfo</name></member>
+      <member refid="struct___s_device_info_1a2cc4d0bb88c4464521541049ec7917d4" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>average</name></member>
+      <member refid="struct___s_device_info_1a6d798134d808f86f0b9072f12f8c429e" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>boxcar</name></member>
+      <member refid="struct___s_device_info_1ae8acf460155d58141a79b56efe10e067" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>id</name></member>
+      <member refid="struct___s_device_info_1a66d4a8e154a090dcece60892fe13f182" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>integ_time</name></member>
+      <member refid="struct___s_device_info_1a56080a3f8b86761c992723a1b858d8ce" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>product_name</name></member>
+      <member refid="struct___s_device_info_1a655956ac904506bc037ba69ea1d06f6e" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>reset</name></member>
+      <member refid="struct___s_device_info_1a4c59d9f1b465ab10394a099896b8a685" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>resolution</name></member>
+      <member refid="struct___s_device_info_1a329c64eb8cc3660fc3a5b61ab668bc06" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>shutter_speed</name></member>
+      <member refid="struct___s_device_info_1adc4c6d13cefe1fc94f581db90e11e1b6" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>type</name></member>
+      <member refid="struct___s_device_info_1aa07b30f19455aa81d7af8fbb85181c95" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>wavelength_begin</name></member>
+      <member refid="struct___s_device_info_1a030627cc51703b1b24bb33f0e74b505b" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>wavelength_end</name></member>
+      <member refid="struct___s_device_info_1a276bb8dfd63978feb91baf56a1af3945" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>wavelength_left</name></member>
+      <member refid="struct___s_device_info_1af05c2993772d972293a71fd0ab2cfb66" prot="public" virt="non-virtual"><scope>_SDeviceInfo</scope><name>wavelength_right</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

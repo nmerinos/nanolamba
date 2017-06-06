@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['_5fnsp_5fdef_5fauto_5fexposure_5fparameters',['_nsp_def_auto_exposure_parameters',['../struct__nsp__def__auto__exposure__parameters.html',1,'']]],
+  ['_5fooirraddata',['_OOIrradData',['../struct___o_o_irrad_data.html',1,'']]],
+  ['_5fooirraddatafileinfo',['_OOIrradDataFileInfo',['../struct___o_o_irrad_data_file_info.html',1,'']]],
+  ['_5fsapollodata',['_SApolloData',['../struct___s_apollo_data.html',1,'']]],
+  ['_5fsdeviceinfo',['_SDeviceInfo',['../struct___s_device_info.html',1,'']]],
+  ['_5fsfilterdatacalibperf',['_SFilterDataCalibPerf',['../struct___s_filter_data_calib_perf.html',1,'']]],
+  ['_5fsfiltermeasurementdata',['_SFilterMeasurementData',['../struct___s_filter_measurement_data.html',1,'']]],
+  ['_5fsfilterrefdata',['_SFilterRefData',['../struct___s_filter_ref_data.html',1,'']]],
+  ['_5fsledchannelinfo',['_SLEDChannelInfo',['../struct___s_l_e_d_channel_info.html',1,'']]],
+  ['_5fsledmatrixconfig',['_SLEDMatrixConfig',['../struct___s_l_e_d_matrix_config.html',1,'']]],
+  ['_5fsmodelconfigforann',['_SModelConfigForANN',['../struct___s_model_config_for_a_n_n.html',1,'']]],
+  ['_5fsmodelconfigforsvm',['_SModelConfigForSVM',['../struct___s_model_config_for_s_v_m.html',1,'']]],
+  ['_5fsol731data',['_SOL731Data',['../struct___s_o_l731_data.html',1,'']]],
+  ['_5fsrefdata',['_SRefData',['../struct___s_ref_data.html',1,'']]],
+  ['_5fssensoridlocmapdata',['_SSensorIDLocMapData',['../struct___s_sensor_i_d_loc_map_data.html',1,'']]],
+  ['_5fssensorlocintray',['_SSensorLocInTray',['../struct___s_sensor_loc_in_tray.html',1,'']]],
+  ['_5fssensortrayinfodata',['_SSensorTrayInfoData',['../struct___s_sensor_tray_info_data.html',1,'']]],
+  ['_5fsspecrefdata',['_SSpecRefData',['../struct___s_spec_ref_data.html',1,'']]],
+  ['_5fsspectraldata',['_SSpectralData',['../struct___s_spectral_data.html',1,'']]],
+  ['_5fsspectrumpeak',['_SSpectrumPeak',['../struct___s_spectrum_peak.html',1,'']]],
+  ['_5fstitanplan',['_STitanPlan',['../struct___s_titan_plan.html',1,'']]],
+  ['_5fstraysettings',['_STraySettings',['../struct___s_tray_settings.html',1,'']]]
+];

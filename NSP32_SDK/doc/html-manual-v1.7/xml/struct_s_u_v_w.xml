@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_u_v_w" kind="struct" language="C++" prot="public">
+    <compoundname>SUVW</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_u_v_w_1a05ef6a352967bf3adf240991374f2251" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SUVW::u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="242" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_u_v_w_1a7abb6f8987703dd831bede4153d7fa1d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SUVW::v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="243" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_u_v_w_1a372220cfc653473f226af3ad6a49a19e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SUVW::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="244" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_u_v_w_1a56dc7bc287daa085b57bce50b8cb6faf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SUVW::SUVW</definition>
+        <argsstring>()</argsstring>
+        <name>SUVW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="246" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="246" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_u_v_w_1aca9f1bc36290396553fb5ffbfc693d25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SUVW::SUVW</definition>
+        <argsstring>(double u_, double v_, double w_)</argsstring>
+        <name>SUVW</name>
+        <param>
+          <type>double</type>
+          <declname>u_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>w_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="250" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="250" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct definition for UVW color space. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="241" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="241" bodyend="256"/>
+    <listofallmembers>
+      <member refid="struct_s_u_v_w_1a56dc7bc287daa085b57bce50b8cb6faf" prot="public" virt="non-virtual"><scope>SUVW</scope><name>SUVW</name></member>
+      <member refid="struct_s_u_v_w_1aca9f1bc36290396553fb5ffbfc693d25" prot="public" virt="non-virtual"><scope>SUVW</scope><name>SUVW</name></member>
+      <member refid="struct_s_u_v_w_1a05ef6a352967bf3adf240991374f2251" prot="public" virt="non-virtual"><scope>SUVW</scope><name>u</name></member>
+      <member refid="struct_s_u_v_w_1a7abb6f8987703dd831bede4153d7fa1d" prot="public" virt="non-virtual"><scope>SUVW</scope><name>v</name></member>
+      <member refid="struct_s_u_v_w_1a372220cfc653473f226af3ad6a49a19e" prot="public" virt="non-virtual"><scope>SUVW</scope><name>w</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

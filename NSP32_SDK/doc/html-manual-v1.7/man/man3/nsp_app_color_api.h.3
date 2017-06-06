@@ -1,0 +1,152 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_app_color_api.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_app_color_api.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBacInitialize\fP (\fBvoid\fP)"
+.br
+.RI "Initialize color API to calculate color information\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBacFinalize\fP (\fBvoid\fP)"
+.br
+.RI "Finalize color API\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBacCalculateColor\fP (double *spectrum, double *wavelength, int spectrum_length, double *X, double *Y, double *Z, double *r, double *g, double *b, double *x, double *y, double *z, double *cct)"
+.br
+.RI "Get color information of current spectrum data\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "\fBEXPORT_DLL\fP int acCalculateColor (double * spectrum, double * wavelength, int spectrum_length, double * X, double * Y, double * Z, double * r, double * g, double * b, double * x, double * y, double * z, double * cct)"
+
+.PP
+Get color information of current spectrum data\&. Calculate color information and returns in \fCX\fP, \fCY\fP, \fCZ\fP, \fCr\fP, \fCg\fP, \fCb\fP, \fCx\fP, \fCy\fP, \fCz\fP, \fCcct\fP\&.
+.PP
+.PP
+.nf
+double    *spectrum_data;     // from csCalculateSpectrum() function
+double    *wavelength_data;   // from csCalculateSpectrum() function
+int       spectrum_length;    // from csCalculateSpectrum() function
+double    X, Y, Z;
+double    r, g, b;
+double    x, y, z;
+double    cct;
+int ret_value = acCalculateColor(spectrum_data, wavelength_data, spectrum_length,
+                              &X, &Y, &Z, &r, &g, &b, &x, &y, &z, &cct);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIspectrum\fP - Spectrum data [IN] 
+.br
+\fIwavelength\fP - Wavelength data [IN] 
+.br
+\fIspectrum_length\fP - Spectrum length [IN] 
+.br
+\fIX\fP - Pointer to a double which the numerical value for color (X) is returned [OUT] 
+.br
+\fIY\fP - Pointer to a double which the numerical value for color (Y) is returned [OUT] 
+.br
+\fIZ\fP - Pointer to a double which the numerical value for color (Z) is returned [OUT] 
+.br
+\fIr\fP - Pointer to a double which the numerical value for color (R) is returned [OUT] 
+.br
+\fIg\fP - Pointer to a double which the numerical value for color (G) is returned [OUT] 
+.br
+\fIb\fP - Pointer to a double which the numerical value for color (B) is returned [OUT] 
+.br
+\fIx\fP - Pointer to a double which the numerical value for color (x) is returned [OUT] 
+.br
+\fIy\fP - Pointer to a double which the numerical value for color (y) is returned [OUT] 
+.br
+\fIz\fP - Pointer to a double which the numerical value for color (z) is returned [OUT] 
+.br
+\fIcct\fP - Pointer to a double which the numerical value for CCT is returned [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS
+.IP "\(bu" 2
+cc_ec_color_object_is_null
+.IP "\(bu" 2
+cc_ec_memory_for_spectrum_data_buffer_is_null
+.IP "\(bu" 2
+cc_ec_memory_for_wavelength_data_buffer_is_null 
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetSpectrumLength\fP, \fBcsCalculateSpectrum\fP 
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int acFinalize (\fBvoid\fP)"
+
+.PP
+Finalize color API\&. Finalize C API for color application\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.PP
+.RE
+.PP
+.PP
+\fBSee also:\fP
+.RS 4
+\fBacInitialize\fP 
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int acInitialize (\fBvoid\fP)"
+
+.PP
+Initialize color API to calculate color information\&. Initialize C API to calculate color information\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value as below:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_fail_to_initialize_color_object
+.PP
+.RE
+.PP
+.PP
+\fBSee also:\fP
+.RS 4
+\fBacFinalize\fP 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

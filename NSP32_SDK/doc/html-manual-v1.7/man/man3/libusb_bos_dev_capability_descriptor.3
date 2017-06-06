@@ -1,0 +1,43 @@
+.TH "libusb_bos_dev_capability_descriptor" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_bos_dev_capability_descriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "uint8_t \fBbLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbDescriptorType\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbDevCapabilityType\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBdev_capability_data\fP [0]"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A generic representation of a BOS Device Capability descriptor\&. It is advised to check bDevCapabilityType and call the matching libusb_get_*_descriptor function to get a structure fully matching the type\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "uint8_t libusb_bos_dev_capability_descriptor::bDescriptorType"
+Descriptor type\&. Will have value \fBlibusb_descriptor_type::LIBUSB_DT_DEVICE_CAPABILITY\fP LIBUSB_DT_DEVICE_CAPABILITY in this context\&. 
+.SS "uint8_t libusb_bos_dev_capability_descriptor::bDevCapabilityType"
+Device Capability type 
+.SS "uint8_t libusb_bos_dev_capability_descriptor::bLength"
+Size of this descriptor (in bytes) 
+.SS "uint8_t libusb_bos_dev_capability_descriptor::dev_capability_data[0]"
+Device Capability data (bLength - 3 bytes) 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

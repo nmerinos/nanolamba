@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__device__def_8h" kind="file" language="C++">
+    <compoundname>nsp_device_def.h</compoundname>
+    <innerclass refid="struct__nsp__def__auto__exposure__parameters" prot="public">_nsp_def_auto_exposure_parameters</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nsp__device__def_8h_1aabdac6a0f51f10a8aa319ea5656dfcf8" prot="public" static="no">
+        <name>NSP_DEVICE_MAX_DEVICES</name>
+        <initializer>1</initializer>
+        <briefdescription>
+<para>maximum number of devices supported by API </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="5" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a3f4f1a5b1ec9ebf23beb77ae7f76ea5b" prot="public" static="no">
+        <name>DEVICE_SENSOR_WIDTH</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="24" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1aa90ecf09f18a41e8ecaacef57e0b08cc" prot="public" static="no">
+        <name>DEVICE_SENSOR_HEIGHT</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="25" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1afdd802c65c41fc947307a0377f872561" prot="public" static="no">
+        <name>DEVICE_MIN_SHUTTER_SPEED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="26" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1ae164e23b5a00e401a9318313ca1f9eb6" prot="public" static="no">
+        <name>DEVICE_MAX_SHUTTER_SPEED</name>
+        <initializer>16777215</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="27" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a20493f3cb48effc54d0f0dd3b6536e71" prot="public" static="no">
+        <name>DEVICE_NUM_FILTERS</name>
+        <initializer>1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="28" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a7d69a18bd20b80ccc4d8a5432f5c9259" prot="public" static="no">
+        <name>DEVICE_MIN_FILTER_OUT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="29" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a1c6d4907a3132e88f63c8a2c37dcad7b" prot="public" static="no">
+        <name>DEVICE_MAX_FILTER_OUT</name>
+        <initializer>4095</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="30" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a0ab250db074afc10c9a99d543ec3becd" prot="public" static="no">
+        <name>DEVICE_MAX_FILTER_VALUE</name>
+        <initializer><ref refid="nsp__device__def_8h_1a1c6d4907a3132e88f63c8a2c37dcad7b" kindref="member">DEVICE_MAX_FILTER_OUT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="31" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a5a85eabbce30f9b2d36f637d4af25c76" prot="public" static="no">
+        <name>DEFAULT_VID</name>
+        <initializer>0x16C1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="38" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a4e86841ee18f538bac646b914f5e77b8" prot="public" static="no">
+        <name>DEFAULT_PID</name>
+        <initializer>0x0482</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="39" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a1e2f3bf08d2c91771f3539aec3b883bd" prot="public" static="no">
+        <name>DEFAULT_VID_STR</name>
+        <initializer>L&quot;16C1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="40" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a635eeeaeb96a98d04ab60c37caa18b40" prot="public" static="no">
+        <name>DEFAULT_PID_STR</name>
+        <initializer>L&quot;0482&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="41" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1a04692b62a5f1c36026518d880ab34159" prot="public" static="no">
+        <name>EFM32_MCLK</name>
+        <initializer>5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="43" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1aaf0dfd84095bc9b6ee2b07b87943e90e" prot="public" static="no">
+        <name>NSP_DEVICE_MASTER_CLOCK</name>
+        <initializer><ref refid="nsp__device__interface__stm__usb_8h_1a04692b62a5f1c36026518d880ab34159" kindref="member">EFM32_MCLK</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="44" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1aea0705bb7c9a65e02269b3288ba12674" prot="public" static="no">
+        <name>NSP_DEVICE_MIN_SS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+<para>definitions for AE-based optimal SS finding </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="48" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1aadc2a18c643b8f765d3e60ac0ab4e6ab" prot="public" static="no">
+        <name>NSP_DEVICE_MAX_SS</name>
+        <initializer>1200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="49" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1ac9232e76d3ccc5531a6b285da7f3003d" prot="public" static="no">
+        <name>NSP_DEVICE_AE_SATURATION_RATIO</name>
+        <initializer>0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="50" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__def_8h_1af6c14e88a6a23d398f3424f60e9a14f4" prot="public" static="no">
+        <name>NSP_DEVICE_AE_SATURATION_INDICATOR</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="51" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="nsp__device__def_8h_1a46707de60fced2d03ab8ba1b1559e0af" prot="public" static="no">
+        <type>struct <ref refid="struct__nsp__def__auto__exposure__parameters" kindref="compound">_nsp_def_auto_exposure_parameters</ref></type>
+        <definition>typedef struct _nsp_def_auto_exposure_parameters nsp_def_auto_exposure_parameters</definition>
+        <argsstring></argsstring>
+        <name>nsp_def_auto_exposure_parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="81" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__NSP_DEVICE_DEF_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_DEVICE_DEF_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="nsp__device__def_8h_1aabdac6a0f51f10a8aa319ea5656dfcf8" refkind="member"><highlight class="preprocessor">#define<sp/>NSP_DEVICE_MAX_DEVICES<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>CONTROLLER_BOARD_STM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_SENSOR_WIDTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_SENSOR_HEIGHT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MIN_SHUTTER_SPEED<sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MAX_SHUTTER_SPEED<sp/><sp/><sp/><sp/>16777215</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_NUM_FILTERS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MIN_FILTER_OUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MAX_FILTER_OUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>4095</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MAX_FILTER_VALUE<sp/><sp/><sp/><sp/><sp/>DEVICE_MAX_FILTER_OUT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_VID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0483<sp/><sp/><sp/><sp/><sp/><sp/>//default<sp/>VID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_PID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x5740<sp/><sp/><sp/><sp/><sp/><sp/>//0x0481<sp/>//default<sp/>PID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_VID_STR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L&quot;0483&quot;<sp/>//<sp/>for<sp/>enumerating<sp/>device</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_PID_STR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L&quot;5740&quot;<sp/>//<sp/>for<sp/>enumerating<sp/>device</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>STM_MCLK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSP_DEVICE_MASTER_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>STM_MCLK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/><sp/><sp/>//<sp/>CONTROLLER_BOARD_EFM32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="nsp__device__def_8h_1a3f4f1a5b1ec9ebf23beb77ae7f76ea5b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_SENSOR_WIDTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="nsp__device__def_8h_1aa90ecf09f18a41e8ecaacef57e0b08cc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_SENSOR_HEIGHT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="nsp__device__def_8h_1afdd802c65c41fc947307a0377f872561" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MIN_SHUTTER_SPEED<sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="nsp__device__def_8h_1ae164e23b5a00e401a9318313ca1f9eb6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MAX_SHUTTER_SPEED<sp/><sp/><sp/><sp/>16777215</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="nsp__device__def_8h_1a20493f3cb48effc54d0f0dd3b6536e71" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_NUM_FILTERS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="nsp__device__def_8h_1a7d69a18bd20b80ccc4d8a5432f5c9259" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MIN_FILTER_OUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="nsp__device__def_8h_1a1c6d4907a3132e88f63c8a2c37dcad7b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MAX_FILTER_OUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>4095</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="nsp__device__def_8h_1a0ab250db074afc10c9a99d543ec3becd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEVICE_MAX_FILTER_VALUE<sp/><sp/><sp/><sp/><sp/>DEVICE_MAX_FILTER_OUT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_VID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x2544<sp/><sp/><sp/><sp/><sp/><sp/>//default<sp/>VID</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_PID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0002<sp/><sp/><sp/><sp/><sp/><sp/>//0x0478<sp/>//default<sp/>PID</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_VID_STR<sp/><sp/><sp/><sp/><sp/>L&quot;2544&quot;<sp/>//<sp/>for<sp/>enumerating<sp/>device</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_PID_STR<sp/><sp/><sp/><sp/><sp/>L&quot;0002&quot;<sp/>//<sp/>for<sp/>enumerating<sp/>device</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="nsp__device__def_8h_1a5a85eabbce30f9b2d36f637d4af25c76" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_VID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x16C1<sp/><sp/><sp/><sp/><sp/><sp/>//default<sp/>VID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="nsp__device__def_8h_1a4e86841ee18f538bac646b914f5e77b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_PID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0482<sp/><sp/><sp/><sp/><sp/><sp/>//0x0481<sp/>//default<sp/>PID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="nsp__device__def_8h_1a1e2f3bf08d2c91771f3539aec3b883bd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_VID_STR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L&quot;16C1&quot;<sp/>//<sp/>for<sp/>enumerating<sp/>device</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="nsp__device__def_8h_1a635eeeaeb96a98d04ab60c37caa18b40" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DEFAULT_PID_STR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L&quot;0482&quot;<sp/>//<sp/>for<sp/>enumerating<sp/>device</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="nsp__device__def_8h_1a04692b62a5f1c36026518d880ab34159" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>EFM32_MCLK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="nsp__device__def_8h_1aaf0dfd84095bc9b6ee2b07b87943e90e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>NSP_DEVICE_MASTER_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFM32_MCLK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="nsp__device__def_8h_1aea0705bb7c9a65e02269b3288ba12674" refkind="member"><highlight class="preprocessor">#define<sp/>NSP_DEVICE_MIN_SS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="nsp__device__def_8h_1aadc2a18c643b8f765d3e60ac0ab4e6ab" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_DEVICE_MAX_SS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1200</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="nsp__device__def_8h_1ac9232e76d3ccc5531a6b285da7f3003d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_DEVICE_AE_SATURATION_RATIO<sp/><sp/><sp/><sp/><sp/><sp/>0.5<sp/>//<sp/>50%<sp/>-<sp/>this<sp/>is<sp/>just<sp/>heuristic<sp/>number.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="nsp__device__def_8h_1af6c14e88a6a23d398f3424f60e9a14f4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_DEVICE_AE_SATURATION_INDICATOR<sp/><sp/>-1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="struct__nsp__def__auto__exposure__parameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nsp__def__auto__exposure__parameters" kindref="compound">_nsp_def_auto_exposure_parameters</ref></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55" refid="struct__nsp__def__auto__exposure__parameters_1a268e17dafc7c1caa715caa9e802b1985" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1a268e17dafc7c1caa715caa9e802b1985" kindref="member">initial_ss</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="struct__nsp__def__auto__exposure__parameters_1ae1dd9e8ed7411395c98258d4a5d65b11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1ae1dd9e8ed7411395c98258d4a5d65b11" kindref="member">min_ss</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="struct__nsp__def__auto__exposure__parameters_1a664f803bd02a550a73339e3adfe8cfe1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1a664f803bd02a550a73339e3adfe8cfe1" kindref="member">max_ss</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="struct__nsp__def__auto__exposure__parameters_1adba8ec5e76bf87cf0a403fe30ca1ec90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1adba8ec5e76bf87cf0a403fe30ca1ec90" kindref="member">target_dn_value</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3500</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="struct__nsp__def__auto__exposure__parameters_1ae109cc00bc1746418e3f3a97389075e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1ae109cc00bc1746418e3f3a97389075e7" kindref="member">upper_dn_value</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>4000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="struct__nsp__def__auto__exposure__parameters_1adc0db9ee8cf26554f7a650831047c981" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1adc0db9ee8cf26554f7a650831047c981" kindref="member">lower_dn_value</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="struct__nsp__def__auto__exposure__parameters_1a477e5324b9a267b62a5aa4d299f49554" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1a477e5324b9a267b62a5aa4d299f49554" kindref="member">mean_upper_dn_value</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>4000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="struct__nsp__def__auto__exposure__parameters_1af3669d92d106dec03e5ff6e0b9d47367" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1af3669d92d106dec03e5ff6e0b9d47367" kindref="member">mode</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="struct__nsp__def__auto__exposure__parameters_1a4e6bd8e2f9396a5aaa06786a691b9990" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1a4e6bd8e2f9396a5aaa06786a691b9990" kindref="member">_nsp_def_auto_exposure_parameters</ref>()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1aef61d694b46b023ef824598d51455fdd" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="struct__nsp__def__auto__exposure__parameters_1aef61d694b46b023ef824598d51455fdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1aef61d694b46b023ef824598d51455fdd" kindref="member">init</ref>()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>initial_ss<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min_ss<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="nsp__device__def_8h_1aea0705bb7c9a65e02269b3288ba12674" kindref="member">NSP_DEVICE_MIN_SS</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>20150623<sp/>-<sp/>Jesse<sp/>-<sp/>changed<sp/>for<sp/>using<sp/>AE<sp/>for<sp/>x1<sp/>sensor<sp/>gain</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>max_ss<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="nsp__device__def_8h_1aadc2a18c643b8f765d3e60ac0ab4e6ab" kindref="member">NSP_DEVICE_MAX_SS</ref>;<sp/></highlight><highlight class="comment">//<sp/>1000;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>target_dn_value<sp/><sp/><sp/><sp/><sp/>=<sp/>3300;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>upper_dn_value<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4000;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lower_dn_value<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3000;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mean_upper_dn_value<sp/>=<sp/><ref refid="struct__nsp__def__auto__exposure__parameters_1adba8ec5e76bf87cf0a403fe30ca1ec90" kindref="member">target_dn_value</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mode<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<ref refid="nsp__device__def_8h_1a46707de60fced2d03ab8ba1b1559e0af" kindref="member">nsp_def_auto_exposure_parameters</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/><sp/>//<sp/>__NSP_DEVICE_DEF_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h"/>
+  </compounddef>
+</doxygen>

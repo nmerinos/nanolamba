@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structusb__dev__handle" kind="struct" language="C++" prot="public">
+    <compoundname>usb_dev_handle</compoundname>
+    <includes refid="lusbi_8h" local="no">lusbi.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__dev__handle_1abfcaee9ee73bdd125b2d41a6af1340e0" prot="public" static="no" mutable="no">
+        <type><ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref> *</type>
+        <definition>libusb_device_handle* usb_dev_handle::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" line="49" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1a5557c3388ca9582e186b9ec20bdd480d" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structusb__device" kindref="compound">usb_device</ref> *</type>
+        <definition>struct usb_device* usb_dev_handle::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" line="50" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__dev__handle_1af1ab1353b3cb4640c221d229c491836b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_dev_handle::last_claimed_interface</definition>
+        <argsstring></argsstring>
+        <name>last_claimed_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" line="56" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="146">
+        <label>usb_interface</label>
+        <link refid="structusb__interface"/>
+        <childnode refid="147" relation="usage">
+          <edgelabel>altsetting</edgelabel>
+        </childnode>
+      </node>
+      <node id="144">
+        <label>usb_device</label>
+        <link refid="structusb__device"/>
+        <childnode refid="145" relation="usage">
+          <edgelabel>config</edgelabel>
+        </childnode>
+        <childnode refid="149" relation="usage">
+          <edgelabel>bus</edgelabel>
+        </childnode>
+        <childnode refid="150" relation="usage">
+          <edgelabel>descriptor</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+      </node>
+      <node id="150">
+        <label>usb_device_descriptor</label>
+        <link refid="structusb__device__descriptor"/>
+      </node>
+      <node id="147">
+        <label>usb_interface_descriptor</label>
+        <link refid="structusb__interface__descriptor"/>
+        <childnode refid="148" relation="usage">
+          <edgelabel>endpoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="145">
+        <label>usb_config_descriptor</label>
+        <link refid="structusb__config__descriptor"/>
+        <childnode refid="146" relation="usage">
+          <edgelabel>interface</edgelabel>
+        </childnode>
+      </node>
+      <node id="149">
+        <label>usb_bus</label>
+        <link refid="structusb__bus"/>
+        <childnode refid="149" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>root_dev</edgelabel>
+          <edgelabel>devices</edgelabel>
+        </childnode>
+      </node>
+      <node id="143">
+        <label>usb_dev_handle</label>
+        <link refid="structusb__dev__handle"/>
+        <childnode refid="144" relation="usage">
+          <edgelabel>device</edgelabel>
+        </childnode>
+      </node>
+      <node id="148">
+        <label>usb_endpoint_descriptor</label>
+        <link refid="structusb__endpoint__descriptor"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" line="48" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusbi.h" bodystart="48" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structusb__dev__handle_1a5557c3388ca9582e186b9ec20bdd480d" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>device</name></member>
+      <member refid="structusb__dev__handle_1abfcaee9ee73bdd125b2d41a6af1340e0" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>handle</name></member>
+      <member refid="structusb__dev__handle_1af1ab1353b3cb4640c221d229c491836b" prot="public" virt="non-virtual"><scope>usb_dev_handle</scope><name>last_claimed_interface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

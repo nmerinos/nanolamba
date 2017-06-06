@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['_5f',['_',['../nsp__sdk__def_8h.html#af20b8d139279b360b0fdeae71f8f43bc',1,'nsp_sdk_def.h']]],
+  ['_5fnsp_5fdef_5fauto_5fexposure_5fparameters',['_nsp_def_auto_exposure_parameters',['../struct__nsp__def__auto__exposure__parameters.html',1,'_nsp_def_auto_exposure_parameters'],['../struct__nsp__def__auto__exposure__parameters.html#a4e6bd8e2f9396a5aaa06786a691b9990',1,'_nsp_def_auto_exposure_parameters::_nsp_def_auto_exposure_parameters()']]],
+  ['_5fooirraddata',['_OOIrradData',['../struct___o_o_irrad_data.html',1,'']]],
+  ['_5fooirraddatafileinfo',['_OOIrradDataFileInfo',['../struct___o_o_irrad_data_file_info.html',1,'']]],
+  ['_5fsapollodata',['_SApolloData',['../struct___s_apollo_data.html',1,'_SApolloData'],['../struct___s_apollo_data.html#a01cab22e596bfb46cedd7d4b61ba61d0',1,'_SApolloData::_SApolloData()']]],
+  ['_5fsdeviceinfo',['_SDeviceInfo',['../struct___s_device_info.html',1,'_SDeviceInfo'],['../struct___s_device_info.html#aea8856d71ab110c2b2f023b908bf4478',1,'_SDeviceInfo::_SDeviceInfo()']]],
+  ['_5fsfilterdatacalibperf',['_SFilterDataCalibPerf',['../struct___s_filter_data_calib_perf.html',1,'_SFilterDataCalibPerf'],['../struct___s_filter_data_calib_perf.html#a758b7c48c2edfea0cacffe516956e5d2',1,'_SFilterDataCalibPerf::_SFilterDataCalibPerf()']]],
+  ['_5fsfiltermeasurementdata',['_SFilterMeasurementData',['../struct___s_filter_measurement_data.html',1,'_SFilterMeasurementData'],['../struct___s_filter_measurement_data.html#a4dd99da3f152ac282a5ec336b8535b0c',1,'_SFilterMeasurementData::_SFilterMeasurementData()']]],
+  ['_5fsfilterrefdata',['_SFilterRefData',['../struct___s_filter_ref_data.html',1,'_SFilterRefData'],['../struct___s_filter_ref_data.html#afc1c7e05735d07d826a4e82a0604c6c2',1,'_SFilterRefData::_SFilterRefData()']]],
+  ['_5fsledchannelinfo',['_SLEDChannelInfo',['../struct___s_l_e_d_channel_info.html',1,'_SLEDChannelInfo'],['../struct___s_l_e_d_channel_info.html#a408474ac77070f9cf6954c1c0773693f',1,'_SLEDChannelInfo::_SLEDChannelInfo()']]],
+  ['_5fsledmatrixconfig',['_SLEDMatrixConfig',['../struct___s_l_e_d_matrix_config.html',1,'_SLEDMatrixConfig'],['../struct___s_l_e_d_matrix_config.html#ac046a75a55e691bab74af2778a71e447',1,'_SLEDMatrixConfig::_SLEDMatrixConfig()']]],
+  ['_5fsmodelconfigforann',['_SModelConfigForANN',['../struct___s_model_config_for_a_n_n.html',1,'']]],
+  ['_5fsmodelconfigforsvm',['_SModelConfigForSVM',['../struct___s_model_config_for_s_v_m.html',1,'_SModelConfigForSVM'],['../struct___s_model_config_for_s_v_m.html#afed4f9ee0c36ca74443cf054b4b047de',1,'_SModelConfigForSVM::_SModelConfigForSVM()']]],
+  ['_5fsol731data',['_SOL731Data',['../struct___s_o_l731_data.html',1,'_SOL731Data'],['../struct___s_o_l731_data.html#abdf4a999596ad2899f6059eba73d5ec0',1,'_SOL731Data::_SOL731Data()']]],
+  ['_5fsrefdata',['_SRefData',['../struct___s_ref_data.html',1,'_SRefData'],['../struct___s_ref_data.html#a97246c610aec7655ce238106608e46a3',1,'_SRefData::_SRefData()']]],
+  ['_5fssensoridlocmapdata',['_SSensorIDLocMapData',['../struct___s_sensor_i_d_loc_map_data.html',1,'_SSensorIDLocMapData'],['../struct___s_sensor_i_d_loc_map_data.html#a72ae13e7ac05c347051daadff0fe57ba',1,'_SSensorIDLocMapData::_SSensorIDLocMapData()']]],
+  ['_5fssensorlocintray',['_SSensorLocInTray',['../struct___s_sensor_loc_in_tray.html',1,'_SSensorLocInTray'],['../struct___s_sensor_loc_in_tray.html#a75dc5276801e782e1fd2f43fb52bf8a9',1,'_SSensorLocInTray::_SSensorLocInTray()']]],
+  ['_5fssensortrayinfodata',['_SSensorTrayInfoData',['../struct___s_sensor_tray_info_data.html',1,'_SSensorTrayInfoData'],['../struct___s_sensor_tray_info_data.html#abe7388509a1526aa9b76088d2afc5553',1,'_SSensorTrayInfoData::_SSensorTrayInfoData()']]],
+  ['_5fsspecrefdata',['_SSpecRefData',['../struct___s_spec_ref_data.html',1,'_SSpecRefData'],['../struct___s_spec_ref_data.html#a87ee601e8ff20b8215c6d722ea35d79f',1,'_SSpecRefData::_SSpecRefData()']]],
+  ['_5fsspectraldata',['_SSpectralData',['../struct___s_spectral_data.html',1,'_SSpectralData'],['../struct___s_spectral_data.html#abfc1c735980705318a0fb5ed1d2e0823',1,'_SSpectralData::_SSpectralData()']]],
+  ['_5fsspectrumpeak',['_SSpectrumPeak',['../struct___s_spectrum_peak.html',1,'']]],
+  ['_5fstitanplan',['_STitanPlan',['../struct___s_titan_plan.html',1,'_STitanPlan'],['../struct___s_titan_plan.html#aed1afbeda02f324b24047222a23318ef',1,'_STitanPlan::_STitanPlan()']]],
+  ['_5fstraysettings',['_STraySettings',['../struct___s_tray_settings.html',1,'']]]
+];

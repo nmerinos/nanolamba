@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_usb_dev_id" kind="struct" language="C++" prot="public">
+    <compoundname>UsbDevId</compoundname>
+    <includes refid="nsp__device__interface__stm__usb_8h" local="no">nsp_device_interface_stm_usb.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_usb_dev_id_1ab3054a8f900e817c9247a4821a62fb7b" prot="public" static="yes" mutable="no">
+        <type>map&lt; int, int &gt;</type>
+        <definition>map&lt;int, int&gt; UsbDevId::currentDevId</definition>
+        <argsstring></argsstring>
+        <name>currentDevId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h" line="81" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_usb_dev_id_1a270589d016a8b1713f5b61db5b2360ad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>map&lt; int, int &gt;</type>
+        <definition>static map&lt;int, int&gt; UsbDevId::create_map</definition>
+        <argsstring>()</argsstring>
+        <name>create_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h" line="73" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h" bodystart="73" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h" line="72" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h" bodystart="72" bodyend="82"/>
+    <listofallmembers>
+      <member refid="struct_usb_dev_id_1a270589d016a8b1713f5b61db5b2360ad" prot="public" virt="non-virtual"><scope>UsbDevId</scope><name>create_map</name></member>
+      <member refid="struct_usb_dev_id_1ab3054a8f900e817c9247a4821a62fb7b" prot="public" virt="non-virtual"><scope>UsbDevId</scope><name>currentDevId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

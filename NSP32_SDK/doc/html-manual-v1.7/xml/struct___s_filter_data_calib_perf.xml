@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_filter_data_calib_perf" kind="struct" language="C++" prot="public">
+    <compoundname>_SFilterDataCalibPerf</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a5c4bbaafc832d021578f6370938c93f6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterDataCalibPerf::measTime</definition>
+        <argsstring></argsstring>
+        <name>measTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="905" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a3d1ec8cddc53110894a6c2638469068d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterDataCalibPerf::sensor_id</definition>
+        <argsstring></argsstring>
+        <name>sensor_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="906" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a11084175919f9c68bf1de3348e58d711" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterDataCalibPerf::sensor_type</definition>
+        <argsstring></argsstring>
+        <name>sensor_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="907" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a93a1659d79e5acede6f40448fae0ab73" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterDataCalibPerf::device</definition>
+        <argsstring></argsstring>
+        <name>device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="908" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="908" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a6a2e61415496517af9e3ae8c4286c459" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterDataCalibPerf::AVERAGES</definition>
+        <argsstring></argsstring>
+        <name>AVERAGES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="909" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a46cff6896501ba9aba0bf2b6e9e5df08" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterDataCalibPerf::ADC_RANGE_VAL</definition>
+        <argsstring></argsstring>
+        <name>ADC_RANGE_VAL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="910" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1ad31406193d5ea16dcf031ff8577ff298" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterDataCalibPerf::ADC_GAIN</definition>
+        <argsstring></argsstring>
+        <name>ADC_GAIN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="911" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a4c0f9e32c869ec768bb68ddf091ab993" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterDataCalibPerf::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="912" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a29d9233e878e963bf4c7cf63c7eac3db" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterDataCalibPerf::measurand_filters</definition>
+        <argsstring></argsstring>
+        <name>measurand_filters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="913" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1ae04f73a54f51ba77e568dd9ebf6838d4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterDataCalibPerf::filterout_raw_warmUp</definition>
+        <argsstring></argsstring>
+        <name>filterout_raw_warmUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="915" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a635fc685fd1890096d3858e144e349e6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterDataCalibPerf::integration_DN_warmUp</definition>
+        <argsstring></argsstring>
+        <name>integration_DN_warmUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="916" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="916" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a49a8ba12bb53acf694b93af2d21d9c73" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterDataCalibPerf::exposure_time_warmUp</definition>
+        <argsstring></argsstring>
+        <name>exposure_time_warmUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="917" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a3f6af01ec5665b0d5dd4439eae996045" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterDataCalibPerf::integration_DN</definition>
+        <argsstring></argsstring>
+        <name>integration_DN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="919" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a029cdc0c55e6dd7e48109fb995845b2e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterDataCalibPerf::exposure_time</definition>
+        <argsstring></argsstring>
+        <name>exposure_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="920" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a361dfd7e86847b7281e2d0c3cd235c3f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SFilterDataCalibPerf::integration_DN_SS1</definition>
+        <argsstring></argsstring>
+        <name>integration_DN_SS1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="922" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1ab79fdf4fc03cdca8edc82bab0f794472" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterDataCalibPerf::exposure_time_SS1</definition>
+        <argsstring></argsstring>
+        <name>exposure_time_SS1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="923" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="923" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a454e25e184b2d168afbe007e4bdc93e2" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterDataCalibPerf::all_filter_out_raw</definition>
+        <argsstring></argsstring>
+        <name>all_filter_out_raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="925" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a157417589a2a690d4fa7e51a2edb0feb" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterDataCalibPerf::filterout</definition>
+        <argsstring></argsstring>
+        <name>filterout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="926" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_data_calib_perf_1a9f3e491454a2bb07f4ea92b7edc6455b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SFilterDataCalibPerf::filterout_SS1</definition>
+        <argsstring></argsstring>
+        <name>filterout_SS1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="927" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="927" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_filter_data_calib_perf_1a758b7c48c2edfea0cacffe516956e5d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SFilterDataCalibPerf::_SFilterDataCalibPerf</definition>
+        <argsstring>()</argsstring>
+        <name>_SFilterDataCalibPerf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="929" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="929" bodyend="932"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_data_calib_perf_1a4a70ff5a85849302543f186e38dddb69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterDataCalibPerf::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="934" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="934" bodyend="959"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="904" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="903" bodyend="960"/>
+    <listofallmembers>
+      <member refid="struct___s_filter_data_calib_perf_1a758b7c48c2edfea0cacffe516956e5d2" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>_SFilterDataCalibPerf</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1ad31406193d5ea16dcf031ff8577ff298" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>ADC_GAIN</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a46cff6896501ba9aba0bf2b6e9e5df08" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>ADC_RANGE_VAL</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a454e25e184b2d168afbe007e4bdc93e2" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>all_filter_out_raw</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a6a2e61415496517af9e3ae8c4286c459" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>AVERAGES</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a4c0f9e32c869ec768bb68ddf091ab993" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>date</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a93a1659d79e5acede6f40448fae0ab73" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>device</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a029cdc0c55e6dd7e48109fb995845b2e" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>exposure_time</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1ab79fdf4fc03cdca8edc82bab0f794472" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>exposure_time_SS1</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a49a8ba12bb53acf694b93af2d21d9c73" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>exposure_time_warmUp</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a157417589a2a690d4fa7e51a2edb0feb" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>filterout</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1ae04f73a54f51ba77e568dd9ebf6838d4" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>filterout_raw_warmUp</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a9f3e491454a2bb07f4ea92b7edc6455b" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>filterout_SS1</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a3f6af01ec5665b0d5dd4439eae996045" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>integration_DN</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a361dfd7e86847b7281e2d0c3cd235c3f" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>integration_DN_SS1</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a635fc685fd1890096d3858e144e349e6" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>integration_DN_warmUp</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a5c4bbaafc832d021578f6370938c93f6" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>measTime</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a29d9233e878e963bf4c7cf63c7eac3db" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>measurand_filters</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a4a70ff5a85849302543f186e38dddb69" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>Reset</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a3d1ec8cddc53110894a6c2638469068d" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>sensor_id</name></member>
+      <member refid="struct___s_filter_data_calib_perf_1a11084175919f9c68bf1de3348e58d711" prot="public" virt="non-virtual"><scope>_SFilterDataCalibPerf</scope><name>sensor_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

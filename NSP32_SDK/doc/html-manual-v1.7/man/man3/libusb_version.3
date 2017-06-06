@@ -1,0 +1,53 @@
+.TH "libusb_version" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_version
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "const uint16_t \fBmajor\fP"
+.br
+.ti -1c
+.RI "const uint16_t \fBminor\fP"
+.br
+.ti -1c
+.RI "const uint16_t \fBmicro\fP"
+.br
+.ti -1c
+.RI "const uint16_t \fBnano\fP"
+.br
+.ti -1c
+.RI "const char * \fBrc\fP"
+.br
+.ti -1c
+.RI "const char * \fBdescribe\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Structure providing the version of the libusbx runtime 
+.SH "Member Data Documentation"
+.PP 
+.SS "const char* libusb_version::describe"
+For ABI compatibility only\&. 
+.SS "const uint16_t libusb_version::major"
+Library major version\&. 
+.SS "const uint16_t libusb_version::micro"
+Library micro version\&. 
+.SS "const uint16_t libusb_version::minor"
+Library minor version\&. 
+.SS "const uint16_t libusb_version::nano"
+Library nano version\&. 
+.SS "const char* libusb_version::rc"
+Library release candidate suffix string, e\&.g\&. '-rc4'\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structusb__hid__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>usb_hid_descriptor</compoundname>
+    <includes refid="lusb_8h" local="no">lusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__hid__descriptor_1af760ff96ad1eab58a7c041259804411c" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_hid_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="101" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_1a4f4049e3092cf78227f7f40488e9bf62" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_hid_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="102" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_1ae3d392d2f74c5fd60429e707d6b86335" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usb_hid_descriptor::bcdHID</definition>
+        <argsstring></argsstring>
+        <name>bcdHID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="103" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_1aa593ead8390be2d3486dfe3404e38def" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_hid_descriptor::bCountryCode</definition>
+        <argsstring></argsstring>
+        <name>bCountryCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="104" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__hid__descriptor_1a090bc8e6c80ecdd0edc80abf28f26547" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_hid_descriptor::bNumDescriptors</definition>
+        <argsstring></argsstring>
+        <name>bNumDescriptors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="105" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="100" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="99" bodyend="106"/>
+    <listofallmembers>
+      <member refid="structusb__hid__descriptor_1ae3d392d2f74c5fd60429e707d6b86335" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bcdHID</name></member>
+      <member refid="structusb__hid__descriptor_1aa593ead8390be2d3486dfe3404e38def" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bCountryCode</name></member>
+      <member refid="structusb__hid__descriptor_1a4f4049e3092cf78227f7f40488e9bf62" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__hid__descriptor_1af760ff96ad1eab58a7c041259804411c" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bLength</name></member>
+      <member refid="structusb__hid__descriptor_1a090bc8e6c80ecdd0edc80abf28f26547" prot="public" virt="non-virtual"><scope>usb_hid_descriptor</scope><name>bNumDescriptors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

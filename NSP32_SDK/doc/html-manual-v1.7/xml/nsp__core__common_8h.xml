@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__core__common_8h" kind="file" language="C++">
+    <compoundname>nsp_core_common.h</compoundname>
+    <includes refid="nsp__base__exceptions_8h" local="yes">nsp_base_exceptions.h</includes>
+    <incdepgraph>
+      <node id="96">
+        <label>list</label>
+      </node>
+      <node id="90">
+        <label>iomanip</label>
+      </node>
+      <node id="95">
+        <label>limits</label>
+      </node>
+      <node id="101">
+        <label>stdint.h</label>
+      </node>
+      <node id="88">
+        <label>stdlib.h</label>
+      </node>
+      <node id="99">
+        <label>nsp_error_codes.h</label>
+        <link refid="nsp__error__codes_8h"/>
+      </node>
+      <node id="83">
+        <label>nsp_base_exceptions.h</label>
+        <link refid="nsp__base__exceptions_8h"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>map</label>
+      </node>
+      <node id="87">
+        <label>fstream</label>
+      </node>
+      <node id="94">
+        <label>bitset</label>
+      </node>
+      <node id="93">
+        <label>vector</label>
+      </node>
+      <node id="89">
+        <label>sstream</label>
+      </node>
+      <node id="92">
+        <label>time.h</label>
+      </node>
+      <node id="82">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h</label>
+        <link refid="nsp__core__common_8h"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>iostream</label>
+      </node>
+      <node id="98">
+        <label>alglib3/interpolation.h</label>
+      </node>
+      <node id="84">
+        <label>nsp_base_def.h</label>
+        <link refid="nsp__base__def_8h"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>algorithm</label>
+      </node>
+      <node id="85">
+        <label>nsp_base_types.h</label>
+        <link refid="nsp__base__types_8h"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nsp__core__common_8h_1a5cf0e9289db02ad9d2072c46dfd5b914" prot="public" static="no">
+        <name>SENSOR_ID_STRING_LENGTH</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="7" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1a148c44e2e5bb295e12c94b137e9717a7" prot="public" static="no">
+        <name>SENSOR_DATA_SIZE</name>
+        <initializer>1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="11" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1af5b4684a5222a0f10cd56acb36282e6e" prot="public" static="no">
+        <name>NUM_OF_DARK_PIXELS</name>
+        <initializer>28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="16" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1ae023b73bbc061be840520f60b1bec314" prot="public" static="no">
+        <name>DARK_PIXE_START_INDEX</name>
+        <initializer>34</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="17" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1a82bd29e77030d0b76589244a4c0e01d3" prot="public" static="no">
+        <name>INIT_VAL_ADC_RANGE</name>
+        <initializer>132</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="19" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1a69d6b7178050cb2136f2d6c2d7d7b047" prot="public" static="no">
+        <name>STM_SENSOR_ID_SIZE</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="22" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1a940151fe7c8089d81d91f2001d16245a" prot="public" static="no">
+        <name>EFM32_SENSOR_ID_SIZE</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="23" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1af425f81bad961cbddc3fb5302c027bc1" prot="public" static="no">
+        <name>SENSOR_ID_SIZE</name>
+        <initializer><ref refid="nsp__device__interface__stm__usb__protocols_8h_1a940151fe7c8089d81d91f2001d16245a" kindref="member">EFM32_SENSOR_ID_SIZE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="27" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1a66160632bac5c7514e2d1983832b99c5" prot="public" static="no">
+        <name>SENSOR_DARK_BASE_MAP_SIZE</name>
+        <initializer>1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="29" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1ad48956f7e1698f60a4cc6b3e686ccdd9" prot="public" static="no">
+        <name>SENSOR_DARK_WEIGHTS_MAP_SIZE</name>
+        <initializer>1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="30" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1a04692b62a5f1c36026518d880ab34159" prot="public" static="no">
+        <name>EFM32_MCLK</name>
+        <initializer>5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="42" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1a9033c4502bf7d728a1998eae2bcc6465" prot="public" static="no">
+        <name>CONVERT_SS_TO_INTEG_TIME</name>
+        <param><defname>ss</defname></param>
+        <initializer>((((384+16*(32+1))*ss)+160)/(<ref refid="nsp__device__interface__stm__usb_8h_1a04692b62a5f1c36026518d880ab34159" kindref="member">EFM32_MCLK</ref>*1000))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="43" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1ac6b2af89fbe3493bb3712f1619754b13" prot="public" static="no">
+        <name>CONVERT_INTEG_TIME_TO_SS</name>
+        <param><defname>msec</defname></param>
+        <initializer>(((msec*(<ref refid="nsp__device__interface__stm__usb_8h_1a04692b62a5f1c36026518d880ab34159" kindref="member">EFM32_MCLK</ref>*1000)-160)-384)/(16*(32+1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="44" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__core__common_8h_1aaf0dfd84095bc9b6ee2b07b87943e90e" prot="public" static="no">
+        <name>NSP_DEVICE_MASTER_CLOCK</name>
+        <initializer><ref refid="nsp__device__interface__stm__usb_8h_1a04692b62a5f1c36026518d880ab34159" kindref="member">EFM32_MCLK</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="45" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="nsp__core__common_8h_1aa8bbba3db469f6be966a449cfcc172c6" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool g_bVerbose</definition>
+        <argsstring></argsstring>
+        <name>g_bVerbose</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" line="14" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__NSP_SDK_COMMON_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_SDK_COMMON_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nsp__base__exceptions_8h" kindref="compound">nsp_base_exceptions.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SENSOR_ID_STRING_LENGTH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="nsp__core__common_8h_1a5cf0e9289db02ad9d2072c46dfd5b914" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_ID_STRING_LENGTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SENSOR_DATA_SIZE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="nsp__core__common_8h_1a148c44e2e5bb295e12c94b137e9717a7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_DATA_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>g_bVerbose<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="nsp__core__common_8h_1af5b4684a5222a0f10cd56acb36282e6e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NUM_OF_DARK_PIXELS<sp/><sp/><sp/><sp/><sp/><sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="nsp__core__common_8h_1ae023b73bbc061be840520f60b1bec314" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DARK_PIXE_START_INDEX<sp/><sp/><sp/>34<sp/><sp/>//<sp/>2&apos;nd<sp/>pixel<sp/>of<sp/>2&apos;nd<sp/>row</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="nsp__core__common_8h_1a82bd29e77030d0b76589244a4c0e01d3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INIT_VAL_ADC_RANGE<sp/><sp/><sp/><sp/><sp/><sp/>132</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>!!!<sp/>NOTE:<sp/>temporary<sp/>definitions<sp/>which<sp/>get<sp/>from<sp/>CrystalPort</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="nsp__core__common_8h_1a69d6b7178050cb2136f2d6c2d7d7b047" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_SENSOR_ID_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="nsp__core__common_8h_1a940151fe7c8089d81d91f2001d16245a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_SENSOR_ID_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>CONTROLLER_BOARD_STM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_ID_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>STM_SENSOR_ID_SIZE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="nsp__core__common_8h_1af425f81bad961cbddc3fb5302c027bc1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_ID_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFM32_SENSOR_ID_SIZE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="nsp__core__common_8h_1a66160632bac5c7514e2d1983832b99c5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_DARK_BASE_MAP_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>1024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="nsp__core__common_8h_1ad48956f7e1698f60a4cc6b3e686ccdd9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_DARK_WEIGHTS_MAP_SIZE<sp/><sp/><sp/><sp/>1024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>!!!<sp/>NOTE:<sp/>temporary<sp/>definitions<sp/>which<sp/>get<sp/>from<sp/>CrystalPort</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>scale<sp/>factor<sp/>for<sp/>converting<sp/>integer<sp/>shutter<sp/>speed<sp/>to<sp/>actual<sp/>integration<sp/>time(ms)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>CONTROLLER_BOARD_STM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM_MCLK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONVERT_SS_TO_INTEG_TIME(ss)<sp/><sp/><sp/><sp/>((((384+(16*(32+1)))*ss)+160)/(STM_MCLK*1000))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONVERT_INTEG_TIME_TO_SS(msec)<sp/><sp/>(((msec*(STM_MCLK*1000)-160)-384)/(16*(32+1)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_DEVICE_MASTER_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>STM_MCLK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>5MHz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="nsp__core__common_8h_1a04692b62a5f1c36026518d880ab34159" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EFM32_MCLK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="nsp__core__common_8h_1a9033c4502bf7d728a1998eae2bcc6465" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONVERT_SS_TO_INTEG_TIME(ss)<sp/><sp/><sp/><sp/>((((384+16*(32+1))*ss)+160)/(EFM32_MCLK*1000))<sp/>//((((384+(16*32))*ss)+160)/(EFM32_MCLK*1000))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="nsp__core__common_8h_1ac6b2af89fbe3493bb3712f1619754b13" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONVERT_INTEG_TIME_TO_SS(msec)<sp/><sp/>(((msec*(EFM32_MCLK*1000)-160)-384)/(16*(32+1)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="nsp__core__common_8h_1aaf0dfd84095bc9b6ee2b07b87943e90e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_DEVICE_MASTER_CLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EFM32_MCLK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>__NSP_SDK_COMMON_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h"/>
+  </compounddef>
+</doxygen>

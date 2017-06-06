@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_tray_settings" kind="struct" language="C++" prot="public">
+    <compoundname>_STraySettings</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_tray_settings_1ae0210d65ce2a45963c144c754c66089a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STraySettings::iLEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>iLEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="756" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1a2908d2a2f348c43a0bbcdb91422caa67" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STraySettings::iMatrixCol</definition>
+        <argsstring></argsstring>
+        <name>iMatrixCol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="757" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1acf869b051c72970314101aaf2be4db7b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STraySettings::iMatrixRow</definition>
+        <argsstring></argsstring>
+        <name>iMatrixRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="758" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="758" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1a0775ac6167102b6bf0614ee64e50f748" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _STraySettings::iOrigX</definition>
+        <argsstring></argsstring>
+        <name>iOrigX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="759" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="759" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1a443b79e8af9cfee179759b40f808452e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _STraySettings::iOrigY</definition>
+        <argsstring></argsstring>
+        <name>iOrigY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="760" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="760" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1ac71c3d4771eddd78c1554e1100c1c371" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _STraySettings::iStepX</definition>
+        <argsstring></argsstring>
+        <name>iStepX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="761" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1a4e438db852133b09e5f449411ab0cc8c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _STraySettings::iStepY</definition>
+        <argsstring></argsstring>
+        <name>iStepY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="762" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1ab52fd57d8c8d8ebe099ed3779df39b1a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STraySettings::iTestSS</definition>
+        <argsstring></argsstring>
+        <name>iTestSS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="763" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1a4eab80f3d96432c5893595d542b32f7a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STraySettings::iThresholdDN</definition>
+        <argsstring></argsstring>
+        <name>iThresholdDN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="764" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="764" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1a1da39dea14e082bff0d985e72d4445f1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _STraySettings::iDistSensorToSensorX</definition>
+        <argsstring></argsstring>
+        <name>iDistSensorToSensorX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="766" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="766" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_tray_settings_1acb689782f9723823ee77be635ef6a4da" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _STraySettings::iDistBoardToBoardX</definition>
+        <argsstring></argsstring>
+        <name>iDistBoardToBoardX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="767" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="767" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="755" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="754" bodyend="768"/>
+    <listofallmembers>
+      <member refid="struct___s_tray_settings_1acb689782f9723823ee77be635ef6a4da" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iDistBoardToBoardX</name></member>
+      <member refid="struct___s_tray_settings_1a1da39dea14e082bff0d985e72d4445f1" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iDistSensorToSensorX</name></member>
+      <member refid="struct___s_tray_settings_1ae0210d65ce2a45963c144c754c66089a" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iLEDIntensity</name></member>
+      <member refid="struct___s_tray_settings_1a2908d2a2f348c43a0bbcdb91422caa67" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iMatrixCol</name></member>
+      <member refid="struct___s_tray_settings_1acf869b051c72970314101aaf2be4db7b" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iMatrixRow</name></member>
+      <member refid="struct___s_tray_settings_1a0775ac6167102b6bf0614ee64e50f748" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iOrigX</name></member>
+      <member refid="struct___s_tray_settings_1a443b79e8af9cfee179759b40f808452e" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iOrigY</name></member>
+      <member refid="struct___s_tray_settings_1ac71c3d4771eddd78c1554e1100c1c371" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iStepX</name></member>
+      <member refid="struct___s_tray_settings_1a4e438db852133b09e5f449411ab0cc8c" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iStepY</name></member>
+      <member refid="struct___s_tray_settings_1ab52fd57d8c8d8ebe099ed3779df39b1a" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iTestSS</name></member>
+      <member refid="struct___s_tray_settings_1a4eab80f3d96432c5893595d542b32f7a" prot="public" virt="non-virtual"><scope>_STraySettings</scope><name>iThresholdDN</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__app__color__api_8h" kind="file" language="C++">
+    <compoundname>nsp_app_color_api.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="nsp__app__color__api_8h_1a668c957f4c5934c0ba557a84974a11e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int acInitialize</definition>
+        <argsstring>(void)</argsstring>
+        <name>acInitialize</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+<para>Initialize color API to calculate color information. </para>        </briefdescription>
+        <detaileddescription>
+<para>Initialize C API to calculate color information.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value as below:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_fail_to_initialize_color_object</para></listitem></itemizedlist>
+</para></simplesect>
+</para><para><simplesect kind="see"><para><ref refid="nsp__app__color__api_8h_1aa89131f0fb87c272668f93a468890eb5" kindref="member">acFinalize</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_app_color_api.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__app__color__api_8h_1aa89131f0fb87c272668f93a468890eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int acFinalize</definition>
+        <argsstring>(void)</argsstring>
+        <name>acFinalize</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+<para>Finalize color API. </para>        </briefdescription>
+        <detaileddescription>
+<para>Finalize C API for color application.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem></itemizedlist>
+</para></simplesect>
+</para><para><simplesect kind="see"><para><ref refid="nsp__app__color__api_8h_1a668c957f4c5934c0ba557a84974a11e2" kindref="member">acInitialize</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_app_color_api.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__app__color__api_8h_1a415545c201d3b7b821aa777472bf356c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int acCalculateColor</definition>
+        <argsstring>(double *spectrum, double *wavelength, int spectrum_length, double *X, double *Y, double *Z, double *r, double *g, double *b, double *x, double *y, double *z, double *cct)</argsstring>
+        <name>acCalculateColor</name>
+        <param>
+          <type>double *</type>
+          <declname>spectrum</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>wavelength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>spectrum_length</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>Y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>Z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>cct</declname>
+        </param>
+        <briefdescription>
+<para>Get color information of current spectrum data. </para>        </briefdescription>
+        <detaileddescription>
+<para>Calculate color information and returns in <computeroutput>X</computeroutput>, <computeroutput>Y</computeroutput>, <computeroutput>Z</computeroutput>, <computeroutput>r</computeroutput>, <computeroutput>g</computeroutput>, <computeroutput>b</computeroutput>, <computeroutput>x</computeroutput>, <computeroutput>y</computeroutput>, <computeroutput>z</computeroutput>, <computeroutput>cct</computeroutput>.</para><para><programlisting><codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>*spectrum_data;<sp/><sp/><sp/><sp/><sp/>//<sp/>from<sp/>csCalculateSpectrum()<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>*wavelength_data;<sp/><sp/><sp/>//<sp/>from<sp/>csCalculateSpectrum()<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/><sp/><sp/><sp/><sp/>spectrum_length;<sp/><sp/><sp/><sp/>//<sp/>from<sp/>csCalculateSpectrum()<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>X,<sp/>Y,<sp/>Z;</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>r,<sp/>g,<sp/>b;</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>x,<sp/>y,<sp/>z;</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>cct;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>acCalculateColor(spectrum_data,<sp/>wavelength_data,<sp/>spectrum_length,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;X,<sp/>&amp;Y,<sp/>&amp;Z,<sp/>&amp;r,<sp/>&amp;g,<sp/>&amp;b,<sp/>&amp;x,<sp/>&amp;y,<sp/>&amp;z,<sp/>&amp;cct);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>spectrum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Spectrum data [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wavelength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Wavelength data [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spectrum_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Spectrum length [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>X</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (X) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (Y) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (Z) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (R) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (G) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (B) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (x) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (y) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (z) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for CCT is returned [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_FAILURE</para></listitem><listitem><para>NSP_RETURN_VALUE_SUCCESS</para></listitem><listitem><para>cc_ec_color_object_is_null</para></listitem><listitem><para>cc_ec_memory_for_spectrum_data_buffer_is_null</para></listitem><listitem><para>cc_ec_memory_for_wavelength_data_buffer_is_null </para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__api_8h_1a2330c866f1744de7595d293198a8798e" kindref="member">csGetSpectrumLength</ref>, <ref refid="nsp__core__api_8h_1a2a54dfee902c8868978066ae9d962e64" kindref="member">csCalculateSpectrum</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_app_color_api.h" line="103" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">NSP_APP_COLOR_API.H</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Provides<sp/>API<sp/>functions</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NSP_APP_COLOR_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_APP_COLOR_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__declspec(dllexport)<sp/>//For<sp/>exporting<sp/>to<sp/>DLL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__linux__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__attribute__((visibility(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>function<sp/>prefix:<sp/>ac<sp/>-<sp/>Application<sp/>Color</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__app__color__api_8h_1a668c957f4c5934c0ba557a84974a11e2" kindref="member">acInitialize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__app__color__api_8h_1aa89131f0fb87c272668f93a468890eb5" kindref="member">acFinalize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__app__color__api_8h_1a415545c201d3b7b821aa777472bf356c" kindref="member">acCalculateColor</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>spectrum,<sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>wavelength,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>spectrum_length,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>r,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>g,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>cct);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__NSP_APP_COLOR_API_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_app_color_api.h"/>
+  </compounddef>
+</doxygen>

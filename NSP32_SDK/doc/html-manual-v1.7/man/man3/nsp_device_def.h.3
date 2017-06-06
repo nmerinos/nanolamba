@@ -1,0 +1,136 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fB_nsp_def_auto_exposure_parameters\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBNSP_DEVICE_MAX_DEVICES\fP   1"
+.br
+.RI "maximum number of devices supported by API "
+.ti -1c
+.RI "#define \fBDEVICE_SENSOR_WIDTH\fP   32"
+.br
+.ti -1c
+.RI "#define \fBDEVICE_SENSOR_HEIGHT\fP   32"
+.br
+.ti -1c
+.RI "#define \fBDEVICE_MIN_SHUTTER_SPEED\fP   1"
+.br
+.ti -1c
+.RI "#define \fBDEVICE_MAX_SHUTTER_SPEED\fP   16777215"
+.br
+.ti -1c
+.RI "#define \fBDEVICE_NUM_FILTERS\fP   1024"
+.br
+.ti -1c
+.RI "#define \fBDEVICE_MIN_FILTER_OUT\fP   0"
+.br
+.ti -1c
+.RI "#define \fBDEVICE_MAX_FILTER_OUT\fP   4095"
+.br
+.ti -1c
+.RI "#define \fBDEVICE_MAX_FILTER_VALUE\fP   \fBDEVICE_MAX_FILTER_OUT\fP"
+.br
+.ti -1c
+.RI "#define \fBDEFAULT_VID\fP   0x16C1"
+.br
+.ti -1c
+.RI "#define \fBDEFAULT_PID\fP   0x0482"
+.br
+.ti -1c
+.RI "#define \fBDEFAULT_VID_STR\fP   L'16C1'"
+.br
+.ti -1c
+.RI "#define \fBDEFAULT_PID_STR\fP   L'0482'"
+.br
+.ti -1c
+.RI "#define \fBEFM32_MCLK\fP   5\&.0"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_MASTER_CLOCK\fP   \fBEFM32_MCLK\fP"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_MIN_SS\fP   1"
+.br
+.RI "definitions for AE-based optimal SS finding "
+.ti -1c
+.RI "#define \fBNSP_DEVICE_MAX_SS\fP   1200"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_AE_SATURATION_RATIO\fP   0\&.5"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_AE_SATURATION_INDICATOR\fP   \-1"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fB_nsp_def_auto_exposure_parameters\fP \fBnsp_def_auto_exposure_parameters\fP"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define DEFAULT_PID   0x0482"
+
+.SS "#define DEFAULT_PID_STR   L'0482'"
+
+.SS "#define DEFAULT_VID   0x16C1"
+
+.SS "#define DEFAULT_VID_STR   L'16C1'"
+
+.SS "#define DEVICE_MAX_FILTER_OUT   4095"
+
+.SS "#define DEVICE_MAX_FILTER_VALUE   \fBDEVICE_MAX_FILTER_OUT\fP"
+
+.SS "#define DEVICE_MAX_SHUTTER_SPEED   16777215"
+
+.SS "#define DEVICE_MIN_FILTER_OUT   0"
+
+.SS "#define DEVICE_MIN_SHUTTER_SPEED   1"
+
+.SS "#define DEVICE_NUM_FILTERS   1024"
+
+.SS "#define DEVICE_SENSOR_HEIGHT   32"
+
+.SS "#define DEVICE_SENSOR_WIDTH   32"
+
+.SS "#define EFM32_MCLK   5\&.0"
+
+.SS "#define NSP_DEVICE_AE_SATURATION_INDICATOR   \-1"
+
+.SS "#define NSP_DEVICE_AE_SATURATION_RATIO   0\&.5"
+
+.SS "#define NSP_DEVICE_MASTER_CLOCK   \fBEFM32_MCLK\fP"
+
+.SS "#define NSP_DEVICE_MAX_DEVICES   1"
+
+.PP
+maximum number of devices supported by API 
+.SS "#define NSP_DEVICE_MAX_SS   1200"
+
+.SS "#define NSP_DEVICE_MIN_SS   1"
+
+.PP
+definitions for AE-based optimal SS finding 
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fB_nsp_def_auto_exposure_parameters\fP \fBnsp_def_auto_exposure_parameters\fP"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

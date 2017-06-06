@@ -1,0 +1,50 @@
+.TH "usb_bus" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+usb_bus
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <lusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBusb_bus\fP * \fBnext\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_bus\fP * \fBprev\fP"
+.br
+.ti -1c
+.RI "char \fBdirname\fP [\fBLIBUSB_PATH_MAX\fP]"
+.br
+.ti -1c
+.RI "struct \fBusb_device\fP * \fBdevices\fP"
+.br
+.ti -1c
+.RI "unsigned long \fBlocation\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_device\fP * \fBroot_dev\fP"
+.br
+.in -1c
+.SH "Member Data Documentation"
+.PP 
+.SS "struct \fBusb_device\fP* usb_bus::devices"
+
+.SS "char usb_bus::dirname[\fBLIBUSB_PATH_MAX\fP]"
+
+.SS "unsigned long usb_bus::location"
+
+.SS "struct \fBusb_bus\fP* usb_bus::next"
+
+.SS "struct \fBusb_bus\fP * usb_bus::prev"
+
+.SS "struct \fBusb_device\fP* usb_bus::root_dev"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_c_o_l_o_r" kind="struct" language="C++" prot="public">
+    <compoundname>COLOR</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_c_o_l_o_r_1a5069a49ff26e8d33cdbeaf0e9dbc9b1a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float COLOR::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="310" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_o_l_o_r_1ad651579ab2648a5215394e7ceb4854de" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float COLOR::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="311" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_o_l_o_r_1aa0f25a45856513ab9906bc8f56170f9b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float COLOR::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="312" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="304" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="304" bodyend="313"/>
+    <listofallmembers>
+      <member refid="struct_c_o_l_o_r_1a5069a49ff26e8d33cdbeaf0e9dbc9b1a" prot="public" virt="non-virtual"><scope>COLOR</scope><name>x</name></member>
+      <member refid="struct_c_o_l_o_r_1ad651579ab2648a5215394e7ceb4854de" prot="public" virt="non-virtual"><scope>COLOR</scope><name>y</name></member>
+      <member refid="struct_c_o_l_o_r_1aa0f25a45856513ab9906bc8f56170f9b" prot="public" virt="non-virtual"><scope>COLOR</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

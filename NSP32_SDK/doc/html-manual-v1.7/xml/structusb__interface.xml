@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structusb__interface" kind="struct" language="C++" prot="public">
+    <compoundname>usb_interface</compoundname>
+    <includes refid="lusb_8h" local="no">lusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__interface_1addcde0f74dd4139778f10742e4ae1867" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structusb__interface__descriptor" kindref="compound">usb_interface_descriptor</ref> *</type>
+        <definition>struct usb_interface_descriptor* usb_interface::altsetting</definition>
+        <argsstring></argsstring>
+        <name>altsetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="158" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__interface_1aa4f464af60066d059eb5c75b91870a6c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_interface::num_altsetting</definition>
+        <argsstring></argsstring>
+        <name>num_altsetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="160" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="166">
+        <label>usb_interface</label>
+        <link refid="structusb__interface"/>
+        <childnode refid="167" relation="usage">
+          <edgelabel>altsetting</edgelabel>
+        </childnode>
+      </node>
+      <node id="167">
+        <label>usb_interface_descriptor</label>
+        <link refid="structusb__interface__descriptor"/>
+        <childnode refid="168" relation="usage">
+          <edgelabel>endpoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="168">
+        <label>usb_endpoint_descriptor</label>
+        <link refid="structusb__endpoint__descriptor"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="157" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="156" bodyend="161"/>
+    <listofallmembers>
+      <member refid="structusb__interface_1addcde0f74dd4139778f10742e4ae1867" prot="public" virt="non-virtual"><scope>usb_interface</scope><name>altsetting</name></member>
+      <member refid="structusb__interface_1aa4f464af60066d059eb5c75b91870a6c" prot="public" virt="non-virtual"><scope>usb_interface</scope><name>num_altsetting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

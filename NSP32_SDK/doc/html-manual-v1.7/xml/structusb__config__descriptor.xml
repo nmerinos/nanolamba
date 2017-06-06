@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structusb__config__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>usb_config_descriptor</compoundname>
+    <includes refid="lusb_8h" local="no">lusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__config__descriptor_1a16ee164f9ab5d25b586b7277ee5775fd" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_config_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="167" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1af64dfdc7a92a95a8c83a4d3b025c8bd5" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_config_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="168" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1a7e9de4f30be997c86a7703eb7267f24f" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usb_config_descriptor::wTotalLength</definition>
+        <argsstring></argsstring>
+        <name>wTotalLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="169" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1a85448487290828016f7dcc2ac6bca5dd" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_config_descriptor::bNumInterfaces</definition>
+        <argsstring></argsstring>
+        <name>bNumInterfaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="170" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1a53d67bec10edc2f2be0a3864d9b68e9a" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_config_descriptor::bConfigurationValue</definition>
+        <argsstring></argsstring>
+        <name>bConfigurationValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="171" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1a62bd7716d7fba9bc78c0bdb5425d5d52" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_config_descriptor::iConfiguration</definition>
+        <argsstring></argsstring>
+        <name>iConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="172" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1a936031980fea8573b8d43b7d6d7aead3" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_config_descriptor::bmAttributes</definition>
+        <argsstring></argsstring>
+        <name>bmAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="173" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1affa943ea51bdeb8e06db25e86845b54b" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_config_descriptor::MaxPower</definition>
+        <argsstring></argsstring>
+        <name>MaxPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="174" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1a4c4a1cfa9bbec8a4c8b38f88cae5d739" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structusb__interface" kindref="compound">usb_interface</ref> *</type>
+        <definition>struct usb_interface* usb_config_descriptor::interface</definition>
+        <argsstring></argsstring>
+        <name>interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="176" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1ac542fd9c91a1813f56c0a38f0a592cde" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* usb_config_descriptor::extra</definition>
+        <argsstring></argsstring>
+        <name>extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="178" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__config__descriptor_1aae00d0a5a1cb85783feb0fb1c76f1efc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int usb_config_descriptor::extralen</definition>
+        <argsstring></argsstring>
+        <name>extralen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="179" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="135">
+        <label>usb_interface</label>
+        <link refid="structusb__interface"/>
+        <childnode refid="136" relation="usage">
+          <edgelabel>altsetting</edgelabel>
+        </childnode>
+      </node>
+      <node id="136">
+        <label>usb_interface_descriptor</label>
+        <link refid="structusb__interface__descriptor"/>
+        <childnode refid="137" relation="usage">
+          <edgelabel>endpoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="134">
+        <label>usb_config_descriptor</label>
+        <link refid="structusb__config__descriptor"/>
+        <childnode refid="135" relation="usage">
+          <edgelabel>interface</edgelabel>
+        </childnode>
+      </node>
+      <node id="137">
+        <label>usb_endpoint_descriptor</label>
+        <link refid="structusb__endpoint__descriptor"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="166" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="165" bodyend="180"/>
+    <listofallmembers>
+      <member refid="structusb__config__descriptor_1a53d67bec10edc2f2be0a3864d9b68e9a" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bConfigurationValue</name></member>
+      <member refid="structusb__config__descriptor_1af64dfdc7a92a95a8c83a4d3b025c8bd5" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structusb__config__descriptor_1a16ee164f9ab5d25b586b7277ee5775fd" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bLength</name></member>
+      <member refid="structusb__config__descriptor_1a936031980fea8573b8d43b7d6d7aead3" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bmAttributes</name></member>
+      <member refid="structusb__config__descriptor_1a85448487290828016f7dcc2ac6bca5dd" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>bNumInterfaces</name></member>
+      <member refid="structusb__config__descriptor_1ac542fd9c91a1813f56c0a38f0a592cde" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>extra</name></member>
+      <member refid="structusb__config__descriptor_1aae00d0a5a1cb85783feb0fb1c76f1efc" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>extralen</name></member>
+      <member refid="structusb__config__descriptor_1a62bd7716d7fba9bc78c0bdb5425d5d52" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>iConfiguration</name></member>
+      <member refid="structusb__config__descriptor_1a4c4a1cfa9bbec8a4c8b38f88cae5d739" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>interface</name></member>
+      <member refid="structusb__config__descriptor_1affa943ea51bdeb8e06db25e86845b54b" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>MaxPower</name></member>
+      <member refid="structusb__config__descriptor_1a7e9de4f30be997c86a7703eb7267f24f" prot="public" virt="non-virtual"><scope>usb_config_descriptor</scope><name>wTotalLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

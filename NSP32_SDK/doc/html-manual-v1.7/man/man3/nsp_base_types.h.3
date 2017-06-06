@@ -1,0 +1,373 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdio\&.h>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include <sstream>\fP
+.br
+\fC#include <iomanip>\fP
+.br
+\fC#include <algorithm>\fP
+.br
+\fC#include <time\&.h>\fP
+.br
+\fC#include <vector>\fP
+.br
+\fC#include <bitset>\fP
+.br
+\fC#include <limits>\fP
+.br
+\fC#include <list>\fP
+.br
+\fC#include <map>\fP
+.br
+\fC#include 'alglib3/interpolation\&.h'\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBFilterInformation\fP"
+.br
+.RI "FilterInfomration struct\&. "
+.ti -1c
+.RI "class \fBIntDataPair\fP"
+.br
+.RI "Class definition for INT data pair of 'key' and 'val'\&. "
+.ti -1c
+.RI "class \fBDoubleDataPair\fP"
+.br
+.RI "Class definition for DOUBLE data pair of 'key' and 'val'\&. "
+.ti -1c
+.RI "struct \fBSChromaticity\fP"
+.br
+.ti -1c
+.RI "struct \fBSRGB\fP"
+.br
+.RI "Struct definition for INT-type RGB(r,g,b) "
+.ti -1c
+.RI "struct \fBSRGBf\fP"
+.br
+.RI "Struct definition for DOUBLE-type rgb color space\&. "
+.ti -1c
+.RI "struct \fBYUV\fP"
+.br
+.RI "Struct definition for \fBYUV\fP color space\&. "
+.ti -1c
+.RI "struct \fBSXYZ\fP"
+.br
+.RI "Struct definition for XYZ color space\&. "
+.ti -1c
+.RI "struct \fBSUVW\fP"
+.br
+.RI "Struct definition for UVW color space\&. "
+.ti -1c
+.RI "struct \fBSxyY\fP"
+.br
+.RI "Struct definition for xyY color space\&. "
+.ti -1c
+.RI "struct \fBSLAB\fP"
+.br
+.RI "Struct definition for Lab color space\&. "
+.ti -1c
+.RI "struct \fBSLCH\fP"
+.br
+.RI "Struct definition for LCH color space\&. "
+.ti -1c
+.RI "struct \fBCOLOR\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBBIN_STRING_TO_NUM\fP(str)   bitset<numeric_limits<unsigned long>::digits>(str)\&.to_ulong()"
+.br
+.RI "Convert binary string to a numeric number (unsigned long) "
+.ti -1c
+.RI "#define \fBFILTER_DATA_CORRECTION_MODE_NONE\fP   0"
+.br
+.RI "Modes for filter data correction (linearity, dark, \&.\&.\&.) "
+.ti -1c
+.RI "#define \fBFILTER_DATA_CORRECTION_MODE_ADVANCED\fP   1"
+.br
+.ti -1c
+.RI "#define \fBFILTER_DATA_CORRECTION_MODE_ONBOARD\fP   2"
+.br
+.ti -1c
+.RI "#define \fBCRYSTAL_LIB_NAN\fP   std::numeric_limits<\fBFLOAT64_TYPE\fP>::quiet_NaN()"
+.br
+.RI "Definitions for NaN and Inf\&. "
+.ti -1c
+.RI "#define \fBCRYSTAL_COLOR_NAN\fP   \-9999999"
+.br
+.ti -1c
+.RI "#define \fBCRYSTAL_LIB_POS_INF\fP   std::numeric_limits<\fBFLOAT64_TYPE\fP>::infinity()"
+.br
+.ti -1c
+.RI "#define \fBCRYSTAL_LIB_NEG_INF\fP   \-std::numeric_limits<\fBFLOAT64_TYPE\fP>::infinity()"
+.br
+.ti -1c
+.RI "#define \fBNaN\fP   std::numeric_limits<\fBFLOAT64_TYPE\fP>::quiet_NaN()"
+.br
+.ti -1c
+.RI "#define \fBINF\fP   std::numeric_limits<\fBFLOAT64_TYPE\fP>::infinity()"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef std::vector< double > \fBSFilterData1D\fP"
+.br
+.RI "double-type 1D array for nano-filter data "
+.ti -1c
+.RI "typedef std::vector< \fBSFilterData1D\fP > \fBSFilterData2D\fP"
+.br
+.RI "double-type 2D array for nano-filter data set "
+.ti -1c
+.RI "typedef \fBSFilterData1D\fP \fBSShutterData1D\fP"
+.br
+.RI "double-type 1D array for shutter speed data "
+.ti -1c
+.RI "typedef std::vector< \fBSFilterData1D\fP > \fBSShutterData2D\fP"
+.br
+.RI "double-type 2D array for shutter speed data set "
+.ti -1c
+.RI "typedef std::vector< double > \fBSDataArray1D\fP"
+.br
+.RI "double-type 1D array as data container "
+.ti -1c
+.RI "typedef double \fBFLOAT64_TYPE\fP"
+.br
+.RI "definition to check current time based on system clock "
+.ti -1c
+.RI "typedef float \fBFLOAT32_TYPE\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBSChromaticity\fP \fBSChromaticity\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBSRGB\fP \fBSRGB\fP"
+.br
+.RI "Struct definition for INT-type RGB(r,g,b) "
+.ti -1c
+.RI "typedef struct \fBSRGBf\fP \fBSRGBf\fP"
+.br
+.RI "Struct definition for DOUBLE-type rgb color space\&. "
+.ti -1c
+.RI "typedef struct \fBSXYZ\fP \fBSXYZ\fP"
+.br
+.RI "Struct definition for XYZ color space\&. "
+.ti -1c
+.RI "typedef struct \fBSUVW\fP \fBSUVW\fP"
+.br
+.RI "Struct definition for UVW color space\&. "
+.ti -1c
+.RI "typedef struct \fBSxyY\fP \fBSxyY\fP"
+.br
+.RI "Struct definition for xyY color space\&. "
+.ti -1c
+.RI "typedef struct \fBSLAB\fP \fBSLAB\fP"
+.br
+.RI "Struct definition for Lab color space\&. "
+.ti -1c
+.RI "typedef struct \fBSLCH\fP \fBSLCH\fP"
+.br
+.RI "Struct definition for LCH color space\&. "
+.ti -1c
+.RI "typedef int \fBNspStatus\fP"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBOutputLevel\fP { \fBgood\fP, \fBsaturated\fP, \fBlow\fP }"
+.br
+.ti -1c
+.RI "enum \fBeInterp_Methods\fP { \fBeInterpMethod_Linear\fP = 1, \fBeInterpMethod_Cubic\fP, \fBeInterpMethod_Hermite\fP, \fBeInterpMethod_Akima\fP, \fBeInterpMethod_MAXINDEX\fP }
+.RI "enum definition for interpolation methods ""
+.br
+.ti -1c
+.RI "enum \fBeVectorShape\fP { \fBeVectorShape_Gaussian\fP = 1, \fBeVectorShape_Triangle\fP, \fBeVectorShape_MultiGaussian\fP, \fBeVectorShape_Rectangle\fP, \fBeVectorShape_Sin2\fP, \fBeVectorShape_Random\fP, \fBeVectorShape_MexicanHat\fP, \fBeVectorShape_xyz\fP, \fBeVectorShape_illuminance\fP, \fBeVectorShape_i1\fP, \fBeVectorShape_MAXINDEX\fP }"
+.br
+.ti -1c
+.RI "enum \fBSmoothingAlgoType\fP { \fBeSmoothingAlgoType_None\fP = 0, \fBeSmoothingAlgoType_SG\fP, \fBeSmoothingAlgoType_Median\fP, \fBeSmoothingAlgoType_Mean\fP, \fBeSmoothingAlgoType_Gaussian\fP }"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define BIN_STRING_TO_NUM(str)   bitset<numeric_limits<unsigned long>::digits>(str)\&.to_ulong()"
+
+.PP
+Convert binary string to a numeric number (unsigned long) 
+.SS "#define CRYSTAL_COLOR_NAN   \-9999999"
+
+.SS "#define CRYSTAL_LIB_NAN   std::numeric_limits<\fBFLOAT64_TYPE\fP>::quiet_NaN()"
+
+.PP
+Definitions for NaN and Inf\&. 
+.SS "#define CRYSTAL_LIB_NEG_INF   \-std::numeric_limits<\fBFLOAT64_TYPE\fP>::infinity()"
+
+.SS "#define CRYSTAL_LIB_POS_INF   std::numeric_limits<\fBFLOAT64_TYPE\fP>::infinity()"
+
+.SS "#define FILTER_DATA_CORRECTION_MODE_ADVANCED   1"
+
+.SS "#define FILTER_DATA_CORRECTION_MODE_NONE   0"
+
+.PP
+Modes for filter data correction (linearity, dark, \&.\&.\&.) 
+.SS "#define FILTER_DATA_CORRECTION_MODE_ONBOARD   2"
+
+.SS "#define INF   std::numeric_limits<\fBFLOAT64_TYPE\fP>::infinity()"
+
+.SS "#define NaN   std::numeric_limits<\fBFLOAT64_TYPE\fP>::quiet_NaN()"
+
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef float \fBFLOAT32_TYPE\fP"
+
+.SS "typedef double \fBFLOAT64_TYPE\fP"
+
+.PP
+definition to check current time based on system clock FLOAT64_TYPE defines the data type that will be used to represent decimal point numbers (for spectrum data) currently, only double (64 bit FLOAT64_TYPE) is supported 
+.SS "typedef int \fBNspStatus\fP"
+
+.SS "typedef struct \fBSChromaticity\fP \fBSChromaticity\fP"
+
+.PP
+ Struct definition for chromaticity(x, y) 
+.SS "typedef std::vector<double> \fBSDataArray1D\fP"
+
+.PP
+double-type 1D array as data container 
+.SS "typedef std::vector<double> \fBSFilterData1D\fP"
+
+.PP
+double-type 1D array for nano-filter data 
+.SS "typedef std::vector<\fBSFilterData1D\fP > \fBSFilterData2D\fP"
+
+.PP
+double-type 2D array for nano-filter data set 
+.SS "typedef struct \fBSLAB\fP \fBSLAB\fP"
+
+.PP
+Struct definition for Lab color space\&. 
+.SS "typedef struct \fBSLCH\fP  \fBSLCH\fP"
+
+.PP
+Struct definition for LCH color space\&. 
+.SS "typedef struct \fBSRGB\fP \fBSRGB\fP"
+
+.PP
+Struct definition for INT-type RGB(r,g,b) 
+.SS "typedef struct \fBSRGBf\fP \fBSRGBf\fP"
+
+.PP
+Struct definition for DOUBLE-type rgb color space\&. 
+.SS "typedef \fBSFilterData1D\fP \fBSShutterData1D\fP"
+
+.PP
+double-type 1D array for shutter speed data 
+.SS "typedef std::vector<\fBSFilterData1D\fP > \fBSShutterData2D\fP"
+
+.PP
+double-type 2D array for shutter speed data set 
+.SS "typedef struct \fBSUVW\fP \fBSUVW\fP"
+
+.PP
+Struct definition for UVW color space\&. 
+.SS "typedef struct \fBSxyY\fP \fBSxyY\fP"
+
+.PP
+Struct definition for xyY color space\&. 
+.SS "typedef struct \fBSXYZ\fP \fBSXYZ\fP"
+
+.PP
+Struct definition for XYZ color space\&. 
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBeInterp_Methods\fP"
+
+.PP
+enum definition for interpolation methods 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIeInterpMethod_Linear \fP\fP
+.TP
+\fB\fIeInterpMethod_Cubic \fP\fP
+.TP
+\fB\fIeInterpMethod_Hermite \fP\fP
+.TP
+\fB\fIeInterpMethod_Akima \fP\fP
+.TP
+\fB\fIeInterpMethod_MAXINDEX \fP\fP
+.SS "enum \fBeVectorShape\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIeVectorShape_Gaussian \fP\fP
+.TP
+\fB\fIeVectorShape_Triangle \fP\fP
+.TP
+\fB\fIeVectorShape_MultiGaussian \fP\fP
+.TP
+\fB\fIeVectorShape_Rectangle \fP\fP
+.TP
+\fB\fIeVectorShape_Sin2 \fP\fP
+.TP
+\fB\fIeVectorShape_Random \fP\fP
+.TP
+\fB\fIeVectorShape_MexicanHat \fP\fP
+.TP
+\fB\fIeVectorShape_xyz \fP\fP
+.TP
+\fB\fIeVectorShape_illuminance \fP\fP
+.TP
+\fB\fIeVectorShape_i1 \fP\fP
+.TP
+\fB\fIeVectorShape_MAXINDEX \fP\fP
+.SS "enum \fBOutputLevel\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIgood \fP\fP
+.TP
+\fB\fIsaturated \fP\fP
+.TP
+\fB\fIlow \fP\fP
+.SS "enum \fBSmoothingAlgoType\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIeSmoothingAlgoType_None \fP\fP
+.TP
+\fB\fIeSmoothingAlgoType_SG \fP\fP
+.TP
+\fB\fIeSmoothingAlgoType_Median \fP\fP
+.TP
+\fB\fIeSmoothingAlgoType_Mean \fP\fP
+.TP
+\fB\fIeSmoothingAlgoType_Gaussian \fP\fP
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

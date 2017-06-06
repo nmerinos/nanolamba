@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__bos__dev__capability__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_bos_dev_capability_descriptor</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__bos__dev__capability__descriptor_1a02cfb0bb72c092b12d76ca4676506b10" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_bos_dev_capability_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of this descriptor (in bytes) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="722" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__bos__dev__capability__descriptor_1a3d86cfc459f933fd825366279671e263" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_bos_dev_capability_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Descriptor type. Will have value <ref refid="libusb_8h_1a0a2e8a25dfdebf29fdd4764dcdbc1a9ca56875fd1a3df25bdea7680fa9047743c" kindref="member">libusb_descriptor_type::LIBUSB_DT_DEVICE_CAPABILITY</ref> LIBUSB_DT_DEVICE_CAPABILITY in this context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="726" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__bos__dev__capability__descriptor_1a8e0b85cb554e5227a3ef860c1c97cdb0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_bos_dev_capability_descriptor::bDevCapabilityType</definition>
+        <argsstring></argsstring>
+        <name>bDevCapabilityType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Device Capability type </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="728" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__bos__dev__capability__descriptor_1af29ebe54a2123fee4c1cb48bea3d2199" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_bos_dev_capability_descriptor::dev_capability_data[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>dev_capability_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Device Capability data (bLength - 3 bytes) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="730" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A generic representation of a BOS Device Capability descriptor. It is advised to check bDevCapabilityType and call the matching libusb_get_*_descriptor function to get a structure fully matching the type. </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="720" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="720" bodyend="737"/>
+    <listofallmembers>
+      <member refid="structlibusb__bos__dev__capability__descriptor_1a3d86cfc459f933fd825366279671e263" prot="public" virt="non-virtual"><scope>libusb_bos_dev_capability_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structlibusb__bos__dev__capability__descriptor_1a8e0b85cb554e5227a3ef860c1c97cdb0" prot="public" virt="non-virtual"><scope>libusb_bos_dev_capability_descriptor</scope><name>bDevCapabilityType</name></member>
+      <member refid="structlibusb__bos__dev__capability__descriptor_1a02cfb0bb72c092b12d76ca4676506b10" prot="public" virt="non-virtual"><scope>libusb_bos_dev_capability_descriptor</scope><name>bLength</name></member>
+      <member refid="structlibusb__bos__dev__capability__descriptor_1af29ebe54a2123fee4c1cb48bea3d2199" prot="public" virt="non-virtual"><scope>libusb_bos_dev_capability_descriptor</scope><name>dev_capability_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

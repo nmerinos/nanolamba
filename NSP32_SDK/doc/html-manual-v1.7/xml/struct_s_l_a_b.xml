@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_l_a_b" kind="struct" language="C++" prot="public">
+    <compoundname>SLAB</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_l_a_b_1a14dc6c172895b31e4e5c5d7a60b4676b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SLAB::L</definition>
+        <argsstring></argsstring>
+        <name>L</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="279" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_l_a_b_1a16c119d9f69d38435324244ec8f8a168" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SLAB::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="280" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_l_a_b_1ac9c53670cdd7b190db2495d611ef39cc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SLAB::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="281" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_l_a_b_1a71a6d32b11f88ebab428a71e529a457b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SLAB::SLAB</definition>
+        <argsstring>()</argsstring>
+        <name>SLAB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="283" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_l_a_b_1a806cd712e80e336bc2268b5a4e59448d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SLAB::SLAB</definition>
+        <argsstring>(double L_, double a_, double b_)</argsstring>
+        <name>SLAB</name>
+        <param>
+          <type>double</type>
+          <declname>L_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="287" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="287" bodyend="292"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct definition for Lab color space. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="278" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="278" bodyend="294"/>
+    <listofallmembers>
+      <member refid="struct_s_l_a_b_1a16c119d9f69d38435324244ec8f8a168" prot="public" virt="non-virtual"><scope>SLAB</scope><name>a</name></member>
+      <member refid="struct_s_l_a_b_1ac9c53670cdd7b190db2495d611ef39cc" prot="public" virt="non-virtual"><scope>SLAB</scope><name>b</name></member>
+      <member refid="struct_s_l_a_b_1a14dc6c172895b31e4e5c5d7a60b4676b" prot="public" virt="non-virtual"><scope>SLAB</scope><name>L</name></member>
+      <member refid="struct_s_l_a_b_1a71a6d32b11f88ebab428a71e529a457b" prot="public" virt="non-virtual"><scope>SLAB</scope><name>SLAB</name></member>
+      <member refid="struct_s_l_a_b_1a806cd712e80e336bc2268b5a4e59448d" prot="public" virt="non-virtual"><scope>SLAB</scope><name>SLAB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_model_config_for_s_v_m" kind="struct" language="C++" prot="public">
+    <compoundname>_SModelConfigForSVM</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1a78baf374050064cd3b6952afc76b2693" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SModelConfigForSVM::svm_type</definition>
+        <argsstring></argsstring>
+        <name>svm_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="126" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1a316d8756e51da606f78a35256940da2c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SModelConfigForSVM::kernel_type</definition>
+        <argsstring></argsstring>
+        <name>kernel_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="127" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1a6c446101563cf52587a3f10afdcbad99" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SModelConfigForSVM::degree</definition>
+        <argsstring></argsstring>
+        <name>degree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="128" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1a6beb9050f2e2b47b029a8ce2454f4d50" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SModelConfigForSVM::NU</definition>
+        <argsstring></argsstring>
+        <name>NU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="129" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1ac3290688fa5d622597287dd79c47a92c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SModelConfigForSVM::border_length</definition>
+        <argsstring></argsstring>
+        <name>border_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="130" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1a7bc7df1183984e387064ba3e1941a4e2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SModelConfigForSVM::C</definition>
+        <argsstring></argsstring>
+        <name>C</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="131" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1ab861ecc5f28342bae24bd4067d21e5b8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SModelConfigForSVM::sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="132" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1abbb338fa21020e8f7b222d4a685e7213" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SModelConfigForSVM::P</definition>
+        <argsstring></argsstring>
+        <name>P</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="133" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1a96c0316340668bddbfcbd11c7d04444d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SModelConfigForSVM::gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="134" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_model_config_for_s_v_m_1ae5f5d94cfb5f77fdf1280cf4057af14a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SModelConfigForSVM::probability</definition>
+        <argsstring></argsstring>
+        <name>probability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="135" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_model_config_for_s_v_m_1afed4f9ee0c36ca74443cf054b4b047de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SModelConfigForSVM::_SModelConfigForSVM</definition>
+        <argsstring>()</argsstring>
+        <name>_SModelConfigForSVM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="137" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="137" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="125" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="124" bodyend="151"/>
+    <listofallmembers>
+      <member refid="struct___s_model_config_for_s_v_m_1afed4f9ee0c36ca74443cf054b4b047de" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>_SModelConfigForSVM</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1ac3290688fa5d622597287dd79c47a92c" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>border_length</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1a7bc7df1183984e387064ba3e1941a4e2" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>C</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1a6c446101563cf52587a3f10afdcbad99" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>degree</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1a96c0316340668bddbfcbd11c7d04444d" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>gamma</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1a316d8756e51da606f78a35256940da2c" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>kernel_type</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1a6beb9050f2e2b47b029a8ce2454f4d50" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>NU</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1abbb338fa21020e8f7b222d4a685e7213" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>P</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1ae5f5d94cfb5f77fdf1280cf4057af14a" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>probability</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1ab861ecc5f28342bae24bd4067d21e5b8" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>sigma</name></member>
+      <member refid="struct___s_model_config_for_s_v_m_1a78baf374050064cd3b6952afc76b2693" prot="public" virt="non-virtual"><scope>_SModelConfigForSVM</scope><name>svm_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

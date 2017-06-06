@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structusb__ctrl__setup" kind="struct" language="C++" prot="public">
+    <compoundname>usb_ctrl_setup</compoundname>
+    <includes refid="lusb_8h" local="no">lusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusb__ctrl__setup_1af90b3dbb8baa9887cb0ea30c66b8f912" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_ctrl_setup::bRequestType</definition>
+        <argsstring></argsstring>
+        <name>bRequestType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="203" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_1a6a4e6fa1b9fafe435677b2c15569a67c" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char usb_ctrl_setup::bRequest</definition>
+        <argsstring></argsstring>
+        <name>bRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="204" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_1a84a6450559702138b41fe26f83dd273f" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usb_ctrl_setup::wValue</definition>
+        <argsstring></argsstring>
+        <name>wValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="205" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_1a37ab88de254d27be8e9f1d5ccc719893" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usb_ctrl_setup::wIndex</definition>
+        <argsstring></argsstring>
+        <name>wIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="206" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusb__ctrl__setup_1aaa4408b66b0bc62e2cb3c1f3a51f0506" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short usb_ctrl_setup::wLength</definition>
+        <argsstring></argsstring>
+        <name>wLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="207" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="202" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="201" bodyend="208"/>
+    <listofallmembers>
+      <member refid="structusb__ctrl__setup_1a6a4e6fa1b9fafe435677b2c15569a67c" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>bRequest</name></member>
+      <member refid="structusb__ctrl__setup_1af90b3dbb8baa9887cb0ea30c66b8f912" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>bRequestType</name></member>
+      <member refid="structusb__ctrl__setup_1a37ab88de254d27be8e9f1d5ccc719893" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>wIndex</name></member>
+      <member refid="structusb__ctrl__setup_1aaa4408b66b0bc62e2cb3c1f3a51f0506" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>wLength</name></member>
+      <member refid="structusb__ctrl__setup_1a84a6450559702138b41fe26f83dd273f" prot="public" virt="non-virtual"><scope>usb_ctrl_setup</scope><name>wValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

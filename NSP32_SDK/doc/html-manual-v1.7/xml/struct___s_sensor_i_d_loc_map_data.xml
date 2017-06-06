@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_sensor_i_d_loc_map_data" kind="struct" language="C++" prot="public">
+    <compoundname>_SSensorIDLocMapData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_sensor_i_d_loc_map_data_1ac4d53bda8466a677bf6b475e57ddd606" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SSensorIDLocMapData::system</definition>
+        <argsstring></argsstring>
+        <name>system</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="694" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_i_d_loc_map_data_1ac7d5a92245f389dd4ee9887ecea78520" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SSensorIDLocMapData::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="695" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_i_d_loc_map_data_1a83881a7e369cc416ea4be9ab4a5c80cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SSensorIDLocMapData::num_axis</definition>
+        <argsstring></argsstring>
+        <name>num_axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="696" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_i_d_loc_map_data_1a4a78ca65e9e693d7c5dbf86676a0f786" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="nsp__sdk__def_8h_1a44fb6a9e8626fccf41a15abf35036325" kindref="member">SSensorLocInTray</ref> &gt;</type>
+        <definition>std::vector&lt;SSensorLocInTray&gt; _SSensorIDLocMapData::sensor_loc</definition>
+        <argsstring></argsstring>
+        <name>sensor_loc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="697" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_sensor_i_d_loc_map_data_1a72ae13e7ac05c347051daadff0fe57ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SSensorIDLocMapData::_SSensorIDLocMapData</definition>
+        <argsstring>()</argsstring>
+        <name>_SSensorIDLocMapData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="699" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="699" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_sensor_i_d_loc_map_data_1a5eba8658133231708fe54e0055185410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SSensorIDLocMapData::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="704" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="704" bodyend="710"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="693" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="692" bodyend="711"/>
+    <listofallmembers>
+      <member refid="struct___s_sensor_i_d_loc_map_data_1a72ae13e7ac05c347051daadff0fe57ba" prot="public" virt="non-virtual"><scope>_SSensorIDLocMapData</scope><name>_SSensorIDLocMapData</name></member>
+      <member refid="struct___s_sensor_i_d_loc_map_data_1ac7d5a92245f389dd4ee9887ecea78520" prot="public" virt="non-virtual"><scope>_SSensorIDLocMapData</scope><name>date</name></member>
+      <member refid="struct___s_sensor_i_d_loc_map_data_1a83881a7e369cc416ea4be9ab4a5c80cf" prot="public" virt="non-virtual"><scope>_SSensorIDLocMapData</scope><name>num_axis</name></member>
+      <member refid="struct___s_sensor_i_d_loc_map_data_1a5eba8658133231708fe54e0055185410" prot="public" virt="non-virtual"><scope>_SSensorIDLocMapData</scope><name>Reset</name></member>
+      <member refid="struct___s_sensor_i_d_loc_map_data_1a4a78ca65e9e693d7c5dbf86676a0f786" prot="public" virt="non-virtual"><scope>_SSensorIDLocMapData</scope><name>sensor_loc</name></member>
+      <member refid="struct___s_sensor_i_d_loc_map_data_1ac4d53bda8466a677bf6b475e57ddd606" prot="public" virt="non-virtual"><scope>_SSensorIDLocMapData</scope><name>system</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+.TH "libusb_bos_descriptor" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_bos_descriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "uint8_t \fBbLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbDescriptorType\fP"
+.br
+.ti -1c
+.RI "uint16_t \fBwTotalLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbNumDeviceCaps\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_bos_dev_capability_descriptor\fP * \fBdev_capability\fP [0]"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A structure representing the Binary Device Object Store (BOS) descriptor\&. This descriptor is documented in section 9\&.6\&.2 of the USB 3\&.0 specification\&. All multiple-byte fields are represented in host-endian format\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "uint8_t libusb_bos_descriptor::bDescriptorType"
+Descriptor type\&. Will have value \fBlibusb_descriptor_type::LIBUSB_DT_BOS\fP LIBUSB_DT_BOS in this context\&. 
+.SS "uint8_t libusb_bos_descriptor::bLength"
+Size of this descriptor (in bytes) 
+.SS "uint8_t libusb_bos_descriptor::bNumDeviceCaps"
+The number of separate device capability descriptors in the BOS 
+.SS "struct \fBlibusb_bos_dev_capability_descriptor\fP* libusb_bos_descriptor::dev_capability[0]"
+bNumDeviceCap Device Capability Descriptors 
+.SS "uint16_t libusb_bos_descriptor::wTotalLength"
+Length of this descriptor and all of its sub descriptors 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

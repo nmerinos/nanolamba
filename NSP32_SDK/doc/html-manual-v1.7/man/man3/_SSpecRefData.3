@@ -1,0 +1,113 @@
+.TH "_SSpecRefData" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+_SSpecRefData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <nsp_sdk_def\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB_SSpecRefData\fP ()"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetWRGBData\fP (\fBSDoubleArray2D\fP &dataIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetGrayData\fP (\fBSDoubleArray2D\fP &dataIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetColorData\fP (\fBSDoubleArray2D\fP &dataIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetDeviceType\fP (std::string &strIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetDate\fP (std::string &strIn)"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP & \fBGetWRGBData\fP ()"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP & \fBGetGrayData\fP ()"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP & \fBGetColorData\fP ()"
+.br
+.ti -1c
+.RI "std::string & \fBGetDeviceType\fP ()"
+.br
+.ti -1c
+.RI "std::string & \fBGetDate\fP ()"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBReset\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSDoubleArray2D\fP \fBspec_WRGB\fP"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP \fBspec_gray\fP"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP \fBspec_allSamples\fP"
+.br
+.ti -1c
+.RI "std::string \fBmonitor\fP"
+.br
+.ti -1c
+.RI "std::string \fBdate\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "_SSpecRefData::_SSpecRefData ()\fC [inline]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBSDoubleArray2D\fP& _SSpecRefData::GetColorData ()\fC [inline]\fP"
+
+.SS "std::string& _SSpecRefData::GetDate ()\fC [inline]\fP"
+
+.SS "std::string& _SSpecRefData::GetDeviceType ()\fC [inline]\fP"
+
+.SS "\fBSDoubleArray2D\fP& _SSpecRefData::GetGrayData ()\fC [inline]\fP"
+
+.SS "\fBSDoubleArray2D\fP& _SSpecRefData::GetWRGBData ()\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SSpecRefData::Reset ()\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SSpecRefData::SetColorData (\fBSDoubleArray2D\fP & dataIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SSpecRefData::SetDate (std::string & strIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SSpecRefData::SetDeviceType (std::string & strIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SSpecRefData::SetGrayData (\fBSDoubleArray2D\fP & dataIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SSpecRefData::SetWRGBData (\fBSDoubleArray2D\fP & dataIn)\fC [inline]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "std::string _SSpecRefData::date"
+
+.SS "std::string _SSpecRefData::monitor"
+
+.SS "\fBSDoubleArray2D\fP _SSpecRefData::spec_allSamples"
+
+.SS "\fBSDoubleArray2D\fP _SSpecRefData::spec_gray"
+
+.SS "\fBSDoubleArray2D\fP _SSpecRefData::spec_WRGB"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

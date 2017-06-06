@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_sensor_loc_in_tray" kind="struct" language="C++" prot="public">
+    <compoundname>_SSensorLocInTray</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1afa4ba9c7e34e77c628788aa9902cda4a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SSensorLocInTray::orig_x</definition>
+        <argsstring></argsstring>
+        <name>orig_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="666" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1a90675133e09e2af8ac6393732dc299d1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SSensorLocInTray::orig_y</definition>
+        <argsstring></argsstring>
+        <name>orig_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="667" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1af2aaa1429e048bc698d70d7642524ddb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SSensorLocInTray::slot_index</definition>
+        <argsstring></argsstring>
+        <name>slot_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="668" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1a799183698f533794169a060b9eb31c49" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SSensorLocInTray::sensor_index</definition>
+        <argsstring></argsstring>
+        <name>sensor_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="669" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1aa8a748f1c41840a6e6d569b731530558" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SSensorLocInTray::sensor_id_str</definition>
+        <argsstring></argsstring>
+        <name>sensor_id_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="670" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1a054d511511fb9c499fb7ee639030b917" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SSensorLocInTray::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="671" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="671" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1a1800b6987700223123b6dc49acb1bf65" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SSensorLocInTray::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="672" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1a0e742c2eb3f9e78d3ac62fa1a3e4be26" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SSensorLocInTray::row</definition>
+        <argsstring></argsstring>
+        <name>row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="673" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_sensor_loc_in_tray_1ab8de78b1cea9211075c981611b2b3a11" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SSensorLocInTray::col</definition>
+        <argsstring></argsstring>
+        <name>col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="674" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_sensor_loc_in_tray_1a75dc5276801e782e1fd2f43fb52bf8a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SSensorLocInTray::_SSensorLocInTray</definition>
+        <argsstring>()</argsstring>
+        <name>_SSensorLocInTray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="676" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="676" bodyend="686"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="665" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="664" bodyend="687"/>
+    <listofallmembers>
+      <member refid="struct___s_sensor_loc_in_tray_1a75dc5276801e782e1fd2f43fb52bf8a9" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>_SSensorLocInTray</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1ab8de78b1cea9211075c981611b2b3a11" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>col</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1afa4ba9c7e34e77c628788aa9902cda4a" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>orig_x</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1a90675133e09e2af8ac6393732dc299d1" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>orig_y</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1a0e742c2eb3f9e78d3ac62fa1a3e4be26" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>row</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1aa8a748f1c41840a6e6d569b731530558" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>sensor_id_str</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1a799183698f533794169a060b9eb31c49" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>sensor_index</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1af2aaa1429e048bc698d70d7642524ddb" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>slot_index</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1a054d511511fb9c499fb7ee639030b917" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>x</name></member>
+      <member refid="struct___s_sensor_loc_in_tray_1a1800b6987700223123b6dc49acb1bf65" prot="public" virt="non-virtual"><scope>_SSensorLocInTray</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

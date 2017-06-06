@@ -1,0 +1,33 @@
+.TH "libusb_pollfd" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_pollfd
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBfd\fP"
+.br
+.ti -1c
+.RI "short \fBevents\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+File descriptor for polling 
+.SH "Member Data Documentation"
+.PP 
+.SS "short libusb_pollfd::events"
+Event flags to poll for from <poll\&.h>\&. POLLIN indicates that you should monitor this file descriptor for becoming ready to read from, and POLLOUT indicates that you should monitor this file descriptor for nonblocking write readiness\&. 
+.SS "int libusb_pollfd::fd"
+Numeric file descriptor 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

@@ -1,0 +1,73 @@
+.TH "libusb_endpoint_descriptor" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_endpoint_descriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "uint8_t \fBbLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbDescriptorType\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbEndpointAddress\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbmAttributes\fP"
+.br
+.ti -1c
+.RI "uint16_t \fBwMaxPacketSize\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbInterval\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbRefresh\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbSynchAddress\fP"
+.br
+.ti -1c
+.RI "const unsigned char * \fBextra\fP"
+.br
+.ti -1c
+.RI "int \fBextra_length\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A structure representing the standard USB endpoint descriptor\&. This descriptor is documented in section 9\&.6\&.6 of the USB 3\&.0 specification\&. All multiple-byte fields are represented in host-endian format\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "uint8_t libusb_endpoint_descriptor::bDescriptorType"
+Descriptor type\&. Will have value \fBlibusb_descriptor_type::LIBUSB_DT_ENDPOINT\fP LIBUSB_DT_ENDPOINT in this context\&. 
+.SS "uint8_t libusb_endpoint_descriptor::bEndpointAddress"
+The address of the endpoint described by this descriptor\&. Bits 0:3 are the endpoint number\&. Bits 4:6 are reserved\&. Bit 7 indicates direction, see \fBlibusb_endpoint_direction\fP\&. 
+.SS "uint8_t libusb_endpoint_descriptor::bInterval"
+Interval for polling endpoint for data transfers\&. 
+.SS "uint8_t libusb_endpoint_descriptor::bLength"
+Size of this descriptor (in bytes) 
+.SS "uint8_t libusb_endpoint_descriptor::bmAttributes"
+Attributes which apply to the endpoint when it is configured using the bConfigurationValue\&. Bits 0:1 determine the transfer type and correspond to \fBlibusb_transfer_type\fP\&. Bits 2:3 are only used for isochronous endpoints and correspond to \fBlibusb_iso_sync_type\fP\&. Bits 4:5 are also only used for isochronous endpoints and correspond to \fBlibusb_iso_usage_type\fP\&. Bits 6:7 are reserved\&. 
+.SS "uint8_t libusb_endpoint_descriptor::bRefresh"
+For audio devices only: the rate at which synchronization feedback is provided\&. 
+.SS "uint8_t libusb_endpoint_descriptor::bSynchAddress"
+For audio devices only: the address if the synch endpoint 
+.SS "const unsigned char* libusb_endpoint_descriptor::extra"
+Extra descriptors\&. If libusbx encounters unknown endpoint descriptors, it will store them here, should you wish to parse them\&. 
+.SS "int libusb_endpoint_descriptor::extra_length"
+Length of the extra descriptors, in bytes\&. 
+.SS "uint16_t libusb_endpoint_descriptor::wMaxPacketSize"
+Maximum packet size this endpoint is capable of sending/receiving\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

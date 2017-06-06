@@ -1,0 +1,374 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosLoadSensorData\fP (char *sensor_data_file_path)"
+.br
+.RI "Load Sensor Calibration Data From File\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosAllocMemory\fP ()"
+.br
+.RI "Allocate Memory for COS API\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosFreeMemory\fP ()"
+.br
+.RI "Free Memory for COS API\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosCalculateSpectrum\fP (double *raw_sensor_data, double *background_data, int data_size, int ss, double *spec_data, int out_data_size)"
+.br
+.RI "Calculate Spectrum by COS API\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosGetWavelength\fP (double *wave_data, int out_data_size)"
+.br
+.RI "Get Wavelength Data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosGetSpectrumLength\fP (\fBvoid\fP)"
+.br
+.RI "Get Size of a Spectra\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosGetSensorParameters\fP (int *adc_gain, int *adc_range)"
+.br
+.RI "Get Sensor Parameters\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosShutterSpeedToExposureTime\fP (int master_clock, int shutter_speed, double *exposure_time_val)"
+.br
+.RI "Convert Shutter Speed to Exposure Time\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosSpectrumToCsvFile\fP (char *str_file_name, double *spec_data, double *wavelength_data, int data_size)"
+.br
+.RI "Save Spectrum To CSV-format File\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcosFilterDataToCsvFile\fP (char *str_file_name, double *filter_data, int ss, int data_size)"
+.br
+.RI "Save Raw Sensor Data to CSV-format File\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "\fBEXPORT_DLL\fP int cosAllocMemory ()"
+
+.PP
+Allocate Memory for COS API\&. This function allocates the internal memory buffers for sensor calibration data\&.
+.PP
+.PP
+.nf
+int ret_val = cosAllocMemory();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcosFreeMemory\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosCalculateSpectrum (double * raw_sensor_data, double * background_data, int data_size, int ss, double * spec_data, int out_data_size)"
+
+.PP
+Calculate Spectrum by COS API\&. This function calculates a spectra and return it\&.
+.PP
+.PP
+.nf
+double* background_data;  // acquired by your own code at SS=1
+double* raw_sensor_data;  // acquired by your own code at SS=N
+int   data_size = 1024;       // usual size of one raw sensor data
+int   ss = 30;                // ss=N, shutter speed what used for raw sensor data acquisition
+int   spec_data_length = cosGetSpectrumLength();
+double*   spec_data = (double *)malloc(sizeof(double)*spec_data_length);
+int ret_val = cosCalculateSpectrum(raw_sensor_data, background_data, data_size, ss, spec_data, spec_data_length);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIraw_sensor_data\fP - double pointer to the raw sensor data buffer [IN] 
+.br
+\fIbackground_data\fP - double pointer to the background data buffer [IN] 
+.br
+\fIdata_size\fP - int value for data size [IN] 
+.br
+\fIss\fP - int value for shutter speed [IN] 
+.br
+\fIspec_data\fP - double pointer to the spectrum data [OUT] 
+.br
+\fIdata_size\fP - int value for spectrum size [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcosGetWavelength()\fP, \fBcosSpectrumToCsvFile()\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosFilterDataToCsvFile (char * str_file_name, double * filter_data, int ss, int data_size)"
+
+.PP
+Save Raw Sensor Data to CSV-format File\&. This function saves a raw sensor data to CSV-format file which can be used for debugging purpose\&.
+.PP
+.PP
+.nf
+char str_file_name = "filter_data_dumped\&.csv";
+double*       filter_data;    // acquired by your own code
+int   data_size = 1024;
+int ret_val = cosFilterDataToCsvFile(str_file_name, filter_data, data_size);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstr_file_name\fP - char pointer to file name [IN] 
+.br
+\fIfilter_data\fP - double pointer to raw sensor data[IN] 
+.br
+\fIdata_size\fP - int value for raw sensor data size [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcosSpectrumToCsvFile\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosFreeMemory ()"
+
+.PP
+Free Memory for COS API\&. This function frees the allocated memory buffers\&.
+.PP
+.PP
+.nf
+int ret_val = cosFreeMemory();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcosAllocMemory\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosGetSensorParameters (int * adc_gain, int * adc_range)"
+
+.PP
+Get Sensor Parameters\&. This function returns sensor parameters(ADC settings) from calibration data\&.
+.PP
+.PP
+.nf
+int adc_gain, adc_range;
+int ret_value = cosGetSensorParameters(&adc_gain, &adc_range);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIadc_gain\fP - pointer to ADC gain info: 0 or 1(default) [OUT] 
+.br
+\fIadc_range\fP - pointer to ADC range info (0~255) [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosGetSpectrumLength (\fBvoid\fP)"
+
+.PP
+Get Size of a Spectra\&. This function returns the size(length) of spectrum data\&.
+.PP
+.PP
+.nf
+int spectrum_length;
+spectrum_length = cosGetSpectrumLength();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of spectrum length (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcosCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosGetWavelength (double * wave_data, int out_data_size)"
+
+.PP
+Get Wavelength Data\&. This function returns wavelength list data of which the size is matched with spectrum\&.
+.PP
+.PP
+.nf
+int   spec_data_size = cosGetSpectrumLength();
+double* wavelength_data = (double *)malloc(sizeof(double)*spec_data_size);;
+int ret_val = cosGetWavelength(wavelength_data, spec_data_size);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIwave_data\fP - double pointer to the wavlength data [OUT] 
+.br
+\fIout_data_size\fP - int value for wavelength data size [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcosCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosLoadSensorData (char * sensor_data_file_path)"
+
+.PP
+Load Sensor Calibration Data From File\&. This function loads spectral sensor's calibration data from a binary file\&.
+.PP
+.PP
+.nf
+char* sensor_data_file_path = "\&./config/sensor_Y8585-1-85-85-0\&.dat";
+int ret_val = cosLoadSensorData(sensor_data_file_path);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_data_file_path\fP - char pointer to the calibration file path [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsCreate\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosShutterSpeedToExposureTime (int master_clock, int shutter_speed, double * exposure_time_val)"
+
+.PP
+Convert Shutter Speed to Exposure Time\&. This function converts shutter speed to exposure time based on MASTER CLOCK of sensor (unit: ms)\&.
+.PP
+.PP
+.nf
+int master_clock = 5; // MCLK = 5-MHz
+int shutter_speed = 1000
+double exposure_time_val = 0;
+cosShutterSpeedToExposureTime(master_clock, shutter_speed, &exposure_time_val);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaster_clock\fP - master clock of MCU to sensor [IN] 
+.br
+\fIshutter_speed\fP - shutter speed value [IN] 
+.br
+\fIexposure_time_val\fP - double pointer to exposure time value [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int cosSpectrumToCsvFile (char * str_file_name, double * spec_data, double * wavelength_data, int data_size)"
+
+.PP
+Save Spectrum To CSV-format File\&. This function saves a spectra to CSV-format file and can be used for debugging purpose\&.
+.PP
+.PP
+.nf
+char str_file_name = "spec_data_dumped\&.csv";
+double*       spec_data = cosCalculateSpectrum(\&.\&.\&.);
+double*       wavelength_data = cosGetWavelength(\&.\&.\&.\&.);
+int   spec_data_size = cosGetSpectrumLength();
+int ret_val = cosSpectrumToCsvFile(str_file_name, spec_data, wavelength_data, spec_data_size);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstr_file_name\fP - char pointer to file name [IN] 
+.br
+\fIspec_data\fP - double pointer to spectrum data[IN] 
+.br
+\fIwavelength_data\fP - double pointer to wavelength data[IN] 
+.br
+\fIdata_size\fP - int value for spectrum data size [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of 1 (success) or -1(failure)\&.
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcosFilterDataToCsvFile\fP  
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

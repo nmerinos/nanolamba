@@ -1,0 +1,83 @@
+.TH "libusb_interface_descriptor" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_interface_descriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "uint8_t \fBbLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbDescriptorType\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbInterfaceNumber\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbAlternateSetting\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbNumEndpoints\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbInterfaceClass\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbInterfaceSubClass\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbInterfaceProtocol\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBiInterface\fP"
+.br
+.ti -1c
+.RI "const struct \fBlibusb_endpoint_descriptor\fP * \fBendpoint\fP"
+.br
+.ti -1c
+.RI "const unsigned char * \fBextra\fP"
+.br
+.ti -1c
+.RI "int \fBextra_length\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A structure representing the standard USB interface descriptor\&. This descriptor is documented in section 9\&.6\&.5 of the USB 3\&.0 specification\&. All multiple-byte fields are represented in host-endian format\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "uint8_t libusb_interface_descriptor::bAlternateSetting"
+Value used to select this alternate setting for this interface 
+.SS "uint8_t libusb_interface_descriptor::bDescriptorType"
+Descriptor type\&. Will have value \fBlibusb_descriptor_type::LIBUSB_DT_INTERFACE\fP LIBUSB_DT_INTERFACE in this context\&. 
+.SS "uint8_t libusb_interface_descriptor::bInterfaceClass"
+USB-IF class code for this interface\&. See \fBlibusb_class_code\fP\&. 
+.SS "uint8_t libusb_interface_descriptor::bInterfaceNumber"
+Number of this interface 
+.SS "uint8_t libusb_interface_descriptor::bInterfaceProtocol"
+USB-IF protocol code for this interface, qualified by the bInterfaceClass and bInterfaceSubClass values 
+.SS "uint8_t libusb_interface_descriptor::bInterfaceSubClass"
+USB-IF subclass code for this interface, qualified by the bInterfaceClass value 
+.SS "uint8_t libusb_interface_descriptor::bLength"
+Size of this descriptor (in bytes) 
+.SS "uint8_t libusb_interface_descriptor::bNumEndpoints"
+Number of endpoints used by this interface (excluding the control endpoint)\&. 
+.SS "const struct \fBlibusb_endpoint_descriptor\fP* libusb_interface_descriptor::endpoint"
+Array of endpoint descriptors\&. This length of this array is determined by the bNumEndpoints field\&. 
+.SS "const unsigned char* libusb_interface_descriptor::extra"
+Extra descriptors\&. If libusbx encounters unknown interface descriptors, it will store them here, should you wish to parse them\&. 
+.SS "int libusb_interface_descriptor::extra_length"
+Length of the extra descriptors, in bytes\&. 
+.SS "uint8_t libusb_interface_descriptor::iInterface"
+Index of string descriptor describing this interface 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

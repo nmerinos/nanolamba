@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__version" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_version</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__version_1a7f80ed3e95566b639fa09380e94f8d59" prot="public" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t libusb_version::major</definition>
+        <argsstring></argsstring>
+        <name>major</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Library major version. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="906" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__version_1ac886b798704bb9ca2b6cd3ae0234591f" prot="public" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t libusb_version::minor</definition>
+        <argsstring></argsstring>
+        <name>minor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Library minor version. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="909" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__version_1a6a73a21564237c1fa0e6e5b038e98605" prot="public" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t libusb_version::micro</definition>
+        <argsstring></argsstring>
+        <name>micro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Library micro version. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="912" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__version_1afbe4cf431bea706294667e333878508c" prot="public" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t libusb_version::nano</definition>
+        <argsstring></argsstring>
+        <name>nano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Library nano version. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="915" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__version_1a99937642131c0559025bad92e7f51f27" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* libusb_version::rc</definition>
+        <argsstring></argsstring>
+        <name>rc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Library release candidate suffix string, e.g. &quot;-rc4&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="918" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="918" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__version_1af42453a3421515fa2db3fdf30f2367c3" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* libusb_version::describe</definition>
+        <argsstring></argsstring>
+        <name>describe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For ABI compatibility only. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="921" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="921" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure providing the version of the libusbx runtime </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="904" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="904" bodyend="922"/>
+    <listofallmembers>
+      <member refid="structlibusb__version_1af42453a3421515fa2db3fdf30f2367c3" prot="public" virt="non-virtual"><scope>libusb_version</scope><name>describe</name></member>
+      <member refid="structlibusb__version_1a7f80ed3e95566b639fa09380e94f8d59" prot="public" virt="non-virtual"><scope>libusb_version</scope><name>major</name></member>
+      <member refid="structlibusb__version_1a6a73a21564237c1fa0e6e5b038e98605" prot="public" virt="non-virtual"><scope>libusb_version</scope><name>micro</name></member>
+      <member refid="structlibusb__version_1ac886b798704bb9ca2b6cd3ae0234591f" prot="public" virt="non-virtual"><scope>libusb_version</scope><name>minor</name></member>
+      <member refid="structlibusb__version_1afbe4cf431bea706294667e333878508c" prot="public" virt="non-virtual"><scope>libusb_version</scope><name>nano</name></member>
+      <member refid="structlibusb__version_1a99937642131c0559025bad92e7f51f27" prot="public" virt="non-virtual"><scope>libusb_version</scope><name>rc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

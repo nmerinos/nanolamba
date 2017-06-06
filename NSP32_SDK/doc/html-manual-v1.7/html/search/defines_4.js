@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['dark_5fpixe_5fstart_5findex',['DARK_PIXE_START_INDEX',['../nsp__core__common_8h.html#ae023b73bbc061be840520f60b1bec314',1,'nsp_core_common.h']]],
+  ['datafile_5fdatainfo_5fsize',['DATAFILE_DATAINFO_SIZE',['../nsp__sdk__def_8h.html#ac1d0d0f3ba45fcaf0b8706758aadf680',1,'nsp_sdk_def.h']]],
+  ['default_5ffilter_5fresolution',['DEFAULT_FILTER_RESOLUTION',['../nsp__sdk__def_8h.html#a0b30365f6e08de85534cf9acd1b7bb90',1,'nsp_sdk_def.h']]],
+  ['default_5finitial_5fshutter_5fspeed',['DEFAULT_INITIAL_SHUTTER_SPEED',['../nsp__device__interface__stm__usb_8h.html#a5f0917a21c67f9f25672e3785f9cb44f',1,'nsp_device_interface_stm_usb.h']]],
+  ['default_5fnum_5fof_5ffilters',['DEFAULT_NUM_OF_FILTERS',['../nsp__sdk__def_8h.html#a7c6a467f425efba63f5a2ff773196a8d',1,'nsp_sdk_def.h']]],
+  ['default_5fpid',['DEFAULT_PID',['../nsp__device__def_8h.html#a4e86841ee18f538bac646b914f5e77b8',1,'nsp_device_def.h']]],
+  ['default_5fpid_5fstr',['DEFAULT_PID_STR',['../nsp__device__def_8h.html#a635eeeaeb96a98d04ab60c37caa18b40',1,'nsp_device_def.h']]],
+  ['default_5fvid',['DEFAULT_VID',['../nsp__device__def_8h.html#a5a85eabbce30f9b2d36f637d4af25c76',1,'nsp_device_def.h']]],
+  ['default_5fvid_5fstr',['DEFAULT_VID_STR',['../nsp__device__def_8h.html#a1e2f3bf08d2c91771f3539aec3b883bd',1,'nsp_device_def.h']]],
+  ['degree_5fto_5fradian',['DEGREE_TO_RADIAN',['../nsp__sdk__def_8h.html#ad5663c214d4deef865cd62795db0ea41',1,'nsp_sdk_def.h']]],
+  ['delta_5ffor_5fdiv_5fby_5fzero',['DELTA_FOR_DIV_BY_ZERO',['../nsp__sdk__def_8h.html#a2234ec36e743632ef52ac3271ace9b0d',1,'nsp_sdk_def.h']]],
+  ['device_5fmax_5ffilter_5fout',['DEVICE_MAX_FILTER_OUT',['../nsp__device__def_8h.html#a1c6d4907a3132e88f63c8a2c37dcad7b',1,'nsp_device_def.h']]],
+  ['device_5fmax_5ffilter_5fvalue',['DEVICE_MAX_FILTER_VALUE',['../nsp__device__def_8h.html#a0ab250db074afc10c9a99d543ec3becd',1,'nsp_device_def.h']]],
+  ['device_5fmax_5fshutter_5fspeed',['DEVICE_MAX_SHUTTER_SPEED',['../nsp__device__def_8h.html#ae164e23b5a00e401a9318313ca1f9eb6',1,'nsp_device_def.h']]],
+  ['device_5fmin_5ffilter_5fout',['DEVICE_MIN_FILTER_OUT',['../nsp__device__def_8h.html#a7d69a18bd20b80ccc4d8a5432f5c9259',1,'nsp_device_def.h']]],
+  ['device_5fmin_5fshutter_5fspeed',['DEVICE_MIN_SHUTTER_SPEED',['../nsp__device__def_8h.html#afdd802c65c41fc947307a0377f872561',1,'nsp_device_def.h']]],
+  ['device_5fnum_5ffilters',['DEVICE_NUM_FILTERS',['../nsp__device__def_8h.html#a20493f3cb48effc54d0f0dd3b6536e71',1,'nsp_device_def.h']]],
+  ['device_5fsensor_5fheight',['DEVICE_SENSOR_HEIGHT',['../nsp__device__def_8h.html#aa90ecf09f18a41e8ecaacef57e0b08cc',1,'nsp_device_def.h']]],
+  ['device_5fsensor_5fwidth',['DEVICE_SENSOR_WIDTH',['../nsp__device__def_8h.html#a3f4f1a5b1ec9ebf23beb77ae7f76ea5b',1,'nsp_device_def.h']]],
+  ['double_5fss_5fratio',['DOUBLE_SS_RATIO',['../nsp__device__interface__stm__usb_8h.html#a6b9eb759662573a76c9dd951c6dd0b91',1,'nsp_device_interface_stm_usb.h']]],
+  ['dword',['DWORD',['../nsp__base__def_8h.html#aa39b39d94407451a6ec0226479db68cf',1,'DWORD():&#160;nsp_base_def.h'],['../nsp__sdk__def_8h.html#aa39b39d94407451a6ec0226479db68cf',1,'DWORD():&#160;nsp_sdk_def.h'],['../nsp__device__api_8h.html#aa39b39d94407451a6ec0226479db68cf',1,'DWORD():&#160;nsp_device_api.h']]]
+];

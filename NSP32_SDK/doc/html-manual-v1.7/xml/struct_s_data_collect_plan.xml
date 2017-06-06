@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_data_collect_plan" kind="struct" language="C++" prot="public">
+    <compoundname>SDataCollectPlan</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_data_collect_plan_1aa6a1c5899898f7c00e89f96d51b534a7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataCollectPlan::ss_start</definition>
+        <argsstring></argsstring>
+        <name>ss_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="237" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_collect_plan_1a1bd38778ef3f127eff867fff5214f25b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataCollectPlan::ss_end</definition>
+        <argsstring></argsstring>
+        <name>ss_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="238" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_collect_plan_1a8609c51588bf6592356980e38da6c22d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataCollectPlan::ss_step</definition>
+        <argsstring></argsstring>
+        <name>ss_step</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="239" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_collect_plan_1a48f80c67d70509e830c7f6ecfea58cb8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataCollectPlan::average</definition>
+        <argsstring></argsstring>
+        <name>average</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="240" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_data_collect_plan_1ad83597b7a09b0bb91803be825e72b85d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SDataCollectPlan::SDataCollectPlan</definition>
+        <argsstring>()</argsstring>
+        <name>SDataCollectPlan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="242" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="242" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="236" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="235" bodyend="249"/>
+    <listofallmembers>
+      <member refid="struct_s_data_collect_plan_1a48f80c67d70509e830c7f6ecfea58cb8" prot="public" virt="non-virtual"><scope>SDataCollectPlan</scope><name>average</name></member>
+      <member refid="struct_s_data_collect_plan_1ad83597b7a09b0bb91803be825e72b85d" prot="public" virt="non-virtual"><scope>SDataCollectPlan</scope><name>SDataCollectPlan</name></member>
+      <member refid="struct_s_data_collect_plan_1a1bd38778ef3f127eff867fff5214f25b" prot="public" virt="non-virtual"><scope>SDataCollectPlan</scope><name>ss_end</name></member>
+      <member refid="struct_s_data_collect_plan_1aa6a1c5899898f7c00e89f96d51b534a7" prot="public" virt="non-virtual"><scope>SDataCollectPlan</scope><name>ss_start</name></member>
+      <member refid="struct_s_data_collect_plan_1a8609c51588bf6592356980e38da6c22d" prot="public" virt="non-virtual"><scope>SDataCollectPlan</scope><name>ss_step</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

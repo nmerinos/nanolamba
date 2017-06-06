@@ -1,0 +1,48 @@
+.TH "libusb_ss_endpoint_companion_descriptor" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_ss_endpoint_companion_descriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "uint8_t \fBbLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbDescriptorType\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbMaxBurst\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbmAttributes\fP"
+.br
+.ti -1c
+.RI "uint16_t \fBwBytesPerInterval\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A structure representing the superspeed endpoint companion descriptor\&. This descriptor is documented in section 9\&.6\&.7 of the USB 3\&.0 specification\&. All multiple-byte fields are represented in host-endian format\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "uint8_t libusb_ss_endpoint_companion_descriptor::bDescriptorType"
+Descriptor type\&. Will have value \fBlibusb_descriptor_type::LIBUSB_DT_SS_ENDPOINT_COMPANION\fP in this context\&. 
+.SS "uint8_t libusb_ss_endpoint_companion_descriptor::bLength"
+Size of this descriptor (in bytes) 
+.SS "uint8_t libusb_ss_endpoint_companion_descriptor::bmAttributes"
+In bulk EP: bits 4:0 represents the maximum number of streams the EP supports\&. In isochronous EP: bits 1:0 represents the Mult - a zero based value that determines the maximum number of packets within a service interval 
+.SS "uint8_t libusb_ss_endpoint_companion_descriptor::bMaxBurst"
+The maximum number of packets the endpoint can send or recieve as part of a burst\&. 
+.SS "uint16_t libusb_ss_endpoint_companion_descriptor::wBytesPerInterval"
+The total number of bytes this EP will transfer every service interval\&. valid only for periodic EPs\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

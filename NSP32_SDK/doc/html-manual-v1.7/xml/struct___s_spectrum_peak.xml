@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_spectrum_peak" kind="struct" language="C++" prot="public">
+    <compoundname>_SSpectrumPeak</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_spectrum_peak_1aae3a244bd29fa123a9676aa1174cd6d0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SSpectrumPeak::wavelength</definition>
+        <argsstring></argsstring>
+        <name>wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="803" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="803" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_spectrum_peak_1a219debd69a507177e89268a1d66f0940" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SSpectrumPeak::power</definition>
+        <argsstring></argsstring>
+        <name>power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="804" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="804" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_spectrum_peak_1af2ca73119a8956bb81f5a7f10b128945" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SSpectrumPeak::fwhm</definition>
+        <argsstring></argsstring>
+        <name>fwhm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="805" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="805" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="802" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="801" bodyend="806"/>
+    <listofallmembers>
+      <member refid="struct___s_spectrum_peak_1af2ca73119a8956bb81f5a7f10b128945" prot="public" virt="non-virtual"><scope>_SSpectrumPeak</scope><name>fwhm</name></member>
+      <member refid="struct___s_spectrum_peak_1a219debd69a507177e89268a1d66f0940" prot="public" virt="non-virtual"><scope>_SSpectrumPeak</scope><name>power</name></member>
+      <member refid="struct___s_spectrum_peak_1aae3a244bd29fa123a9676aa1174cd6d0" prot="public" virt="non-virtual"><scope>_SSpectrumPeak</scope><name>wavelength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

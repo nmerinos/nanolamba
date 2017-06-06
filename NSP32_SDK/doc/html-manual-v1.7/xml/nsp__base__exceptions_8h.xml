@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__base__exceptions_8h" kind="file" language="C++">
+    <compoundname>nsp_base_exceptions.h</compoundname>
+    <includes refid="nsp__base__def_8h" local="yes">nsp_base_def.h</includes>
+    <includedby refid="nsp__core__common_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h</includedby>
+    <includedby refid="nsp__device__interface_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</includedby>
+    <includedby refid="nsp__base__api_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h</includedby>
+    <incdepgraph>
+      <node id="38">
+        <label>list</label>
+      </node>
+      <node id="32">
+        <label>iomanip</label>
+      </node>
+      <node id="37">
+        <label>limits</label>
+      </node>
+      <node id="43">
+        <label>stdint.h</label>
+      </node>
+      <node id="30">
+        <label>stdlib.h</label>
+      </node>
+      <node id="41">
+        <label>nsp_error_codes.h</label>
+        <link refid="nsp__error__codes_8h"/>
+      </node>
+      <node id="25">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h</label>
+        <link refid="nsp__base__exceptions_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>map</label>
+      </node>
+      <node id="29">
+        <label>fstream</label>
+      </node>
+      <node id="36">
+        <label>bitset</label>
+      </node>
+      <node id="35">
+        <label>vector</label>
+      </node>
+      <node id="31">
+        <label>sstream</label>
+      </node>
+      <node id="34">
+        <label>time.h</label>
+      </node>
+      <node id="42">
+        <label>iostream</label>
+      </node>
+      <node id="40">
+        <label>alglib3/interpolation.h</label>
+      </node>
+      <node id="26">
+        <label>nsp_base_def.h</label>
+        <link refid="nsp__base__def_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>algorithm</label>
+      </node>
+      <node id="27">
+        <label>nsp_base_types.h</label>
+        <link refid="nsp__base__types_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="44">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h</label>
+        <link refid="nsp__base__exceptions_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h</label>
+        <link refid="nsp__base__api_8h"/>
+      </node>
+      <node id="45">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h</label>
+        <link refid="nsp__core__common_8h"/>
+      </node>
+      <node id="46">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</label>
+        <link refid="nsp__device__interface_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classnsp__base__exception" prot="public">nsp_base_exception</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="nsp__base__exceptions_8h_1ab7497b058c52ae986ffcaf9ae01b6967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* nsp_base_exception_message</definition>
+        <argsstring>(NSP_ERROR_CODE error_code)</argsstring>
+        <name>nsp_base_exception_message</name>
+        <param>
+          <type><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" kindref="member">NSP_ERROR_CODE</ref></type>
+          <declname>error_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">NSP_BASE_EXCEPTION.H</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Contains<sp/>base<sp/>exception<sp/>class</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NSP_BASE_EXCPETIONS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_BASE_EXCPETIONS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nsp__base__def_8h" kindref="compound">nsp_base_def.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classnsp__base__exception" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><ref refid="classnsp__base__exception" kindref="compound">nsp_base_exception</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::exception<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnsp__base__exception" kindref="compound">nsp_base_exception</ref>(<ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" kindref="member">NSP_ERROR_CODE</ref><sp/>error_code_input);<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>what()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">();<sp/></highlight><highlight class="comment">//const<sp/>throw()<sp/>gurantees<sp/>no<sp/>exceptions<sp/>are<sp/>thrown</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classnsp__base__exception_1a357156ddf8479c0de81a3204cc6b6c53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" kindref="member">NSP_ERROR_CODE</ref><sp/><ref refid="classnsp__base__exception_1a357156ddf8479c0de81a3204cc6b6c53" kindref="member">error_code</ref>;<sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="nsp__base__exceptions_8h_1ab7497b058c52ae986ffcaf9ae01b6967" kindref="member">nsp_base_exception_message</ref>(<ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" kindref="member">NSP_ERROR_CODE</ref><sp/>error_code);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__NSP_BASE_EXCPETIONS_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h"/>
+  </compounddef>
+</doxygen>

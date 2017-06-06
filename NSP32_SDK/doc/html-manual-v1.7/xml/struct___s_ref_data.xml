@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_ref_data" kind="struct" language="C++" prot="public">
+    <compoundname>_SRefData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_ref_data_1a326a356c9956afddb58dbaed70691094" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SRefData::strCreatedDate</definition>
+        <argsstring></argsstring>
+        <name>strCreatedDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="627" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="627" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1aeb5f65c7de42292cf1aa4cb1b52fb2d3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SRefData::strInstrument</definition>
+        <argsstring></argsstring>
+        <name>strInstrument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="628" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="628" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1af8ed92a335a244c57e50e9f26fba804d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SRefData::iStartWL</definition>
+        <argsstring></argsstring>
+        <name>iStartWL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="629" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="629" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1acae2acf88f299dabb6d98c7c84d8c89b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SRefData::iEndWL</definition>
+        <argsstring></argsstring>
+        <name>iEndWL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="630" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="630" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1af4eed6e84a532c4f1c476201bdc6b9d2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SRefData::iWLStep</definition>
+        <argsstring></argsstring>
+        <name>iWLStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="631" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1a853c1df1384feefab0f9a68dc6e7fc2e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SRefData::SpectrumData</definition>
+        <argsstring></argsstring>
+        <name>SpectrumData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="633" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="633" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1ae10fecbc36d8cfcbf49d8f8097077999" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; _SRefData::Wavelengths</definition>
+        <argsstring></argsstring>
+        <name>Wavelengths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="634" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1a9d3fa308d6a50151040b383ceb21679e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; _SRefData::WavelengthList</definition>
+        <argsstring></argsstring>
+        <name>WavelengthList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="636" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1ac33d1763b7fa566fe5baa639b864c9fb" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; _SRefData::BandwidthList</definition>
+        <argsstring></argsstring>
+        <name>BandwidthList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="637" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_ref_data_1a43be69c42cc5947a93761796d8627243" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; _SRefData::IntensityList</definition>
+        <argsstring></argsstring>
+        <name>IntensityList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="638" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="638" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_ref_data_1a97246c610aec7655ce238106608e46a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SRefData::_SRefData</definition>
+        <argsstring>()</argsstring>
+        <name>_SRefData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="640" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="640" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_ref_data_1adcf2200fc0814b5663eb3b202f229fd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SRefData::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="645" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="645" bodyend="659"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="626" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="625" bodyend="661"/>
+    <listofallmembers>
+      <member refid="struct___s_ref_data_1a97246c610aec7655ce238106608e46a3" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>_SRefData</name></member>
+      <member refid="struct___s_ref_data_1ac33d1763b7fa566fe5baa639b864c9fb" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>BandwidthList</name></member>
+      <member refid="struct___s_ref_data_1acae2acf88f299dabb6d98c7c84d8c89b" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>iEndWL</name></member>
+      <member refid="struct___s_ref_data_1a43be69c42cc5947a93761796d8627243" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>IntensityList</name></member>
+      <member refid="struct___s_ref_data_1af8ed92a335a244c57e50e9f26fba804d" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>iStartWL</name></member>
+      <member refid="struct___s_ref_data_1af4eed6e84a532c4f1c476201bdc6b9d2" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>iWLStep</name></member>
+      <member refid="struct___s_ref_data_1adcf2200fc0814b5663eb3b202f229fd4" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>reset</name></member>
+      <member refid="struct___s_ref_data_1a853c1df1384feefab0f9a68dc6e7fc2e" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>SpectrumData</name></member>
+      <member refid="struct___s_ref_data_1a326a356c9956afddb58dbaed70691094" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>strCreatedDate</name></member>
+      <member refid="struct___s_ref_data_1aeb5f65c7de42292cf1aa4cb1b52fb2d3" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>strInstrument</name></member>
+      <member refid="struct___s_ref_data_1a9d3fa308d6a50151040b383ceb21679e" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>WavelengthList</name></member>
+      <member refid="struct___s_ref_data_1ae10fecbc36d8cfcbf49d8f8097077999" prot="public" virt="non-virtual"><scope>_SRefData</scope><name>Wavelengths</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1004 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__base__types_8h" kind="file" language="C++">
+    <compoundname>nsp_base_types.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">bitset</includes>
+    <includes local="no">limits</includes>
+    <includes local="no">list</includes>
+    <includes local="no">map</includes>
+    <includes local="yes">alglib3/interpolation.h</includes>
+    <includedby refid="nsp__base__def_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_def.h</includedby>
+    <includedby refid="nsp__sdk__def_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h</includedby>
+    <incdepgraph>
+      <node id="59">
+        <label>list</label>
+      </node>
+      <node id="53">
+        <label>iomanip</label>
+      </node>
+      <node id="58">
+        <label>limits</label>
+      </node>
+      <node id="51">
+        <label>stdlib.h</label>
+      </node>
+      <node id="60">
+        <label>map</label>
+      </node>
+      <node id="50">
+        <label>fstream</label>
+      </node>
+      <node id="57">
+        <label>bitset</label>
+      </node>
+      <node id="56">
+        <label>vector</label>
+      </node>
+      <node id="52">
+        <label>sstream</label>
+      </node>
+      <node id="55">
+        <label>time.h</label>
+      </node>
+      <node id="61">
+        <label>alglib3/interpolation.h</label>
+      </node>
+      <node id="54">
+        <label>algorithm</label>
+      </node>
+      <node id="48">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h</label>
+        <link refid="nsp__base__types_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="70">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h</label>
+        <link refid="nsp__sdk__def_8h"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h</label>
+        <link refid="nsp__base__exceptions_8h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h</label>
+        <link refid="nsp__base__api_8h"/>
+      </node>
+      <node id="68">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_base.h</label>
+        <link refid="nsp__device__interface__base_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h</label>
+        <link refid="nsp__core__common_8h"/>
+      </node>
+      <node id="69">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h</label>
+        <link refid="nsp__device__interface__stm__usb_8h"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_def.h</label>
+        <link refid="nsp__base__def_8h"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h</label>
+        <link refid="nsp__base__types_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</label>
+        <link refid="nsp__device__interface_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_filter_information" prot="public">FilterInformation</innerclass>
+    <innerclass refid="class_int_data_pair" prot="public">IntDataPair</innerclass>
+    <innerclass refid="class_double_data_pair" prot="public">DoubleDataPair</innerclass>
+    <innerclass refid="struct_s_chromaticity" prot="public">SChromaticity</innerclass>
+    <innerclass refid="struct_s_r_g_b" prot="public">SRGB</innerclass>
+    <innerclass refid="struct_s_r_g_bf" prot="public">SRGBf</innerclass>
+    <innerclass refid="struct_y_u_v" prot="public">YUV</innerclass>
+    <innerclass refid="struct_s_x_y_z" prot="public">SXYZ</innerclass>
+    <innerclass refid="struct_s_u_v_w" prot="public">SUVW</innerclass>
+    <innerclass refid="struct_sxy_y" prot="public">SxyY</innerclass>
+    <innerclass refid="struct_s_l_a_b" prot="public">SLAB</innerclass>
+    <innerclass refid="struct_s_l_c_h" prot="public">SLCH</innerclass>
+    <innerclass refid="struct_c_o_l_o_r" prot="public">COLOR</innerclass>
+    <innernamespace refid="namespacealglib">alglib</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nsp__base__types_8h_1a764e6e62128f5b88a0fb9c360ca77298" prot="public" static="no">
+        <name>BIN_STRING_TO_NUM</name>
+        <param><defname>str</defname></param>
+        <initializer>bitset&lt;numeric_limits&lt;unsigned long&gt;::digits&gt;(str).to_ulong()</initializer>
+        <briefdescription>
+<para>Convert binary string to a numeric number (unsigned long) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="48" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1a5f0fc5cc731ccc5e7ce4d49fbf650d89" prot="public" static="no">
+        <name>FILTER_DATA_CORRECTION_MODE_NONE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+<para>Modes for filter data correction (linearity, dark, ...) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="95" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1a8d76df8daf74bc27ad96c95e897eb909" prot="public" static="no">
+        <name>FILTER_DATA_CORRECTION_MODE_ADVANCED</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="96" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1af375df31453940290ecd021abd2f2cd1" prot="public" static="no">
+        <name>FILTER_DATA_CORRECTION_MODE_ONBOARD</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="97" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1a448f0c077abf07077cae1a33fe07669e" prot="public" static="no">
+        <name>CRYSTAL_LIB_NAN</name>
+        <initializer>std::numeric_limits&lt;<ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref>&gt;::quiet_NaN()</initializer>
+        <briefdescription>
+<para>Definitions for NaN and Inf. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="100" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1a54ddbdd4939d06999873fcf6f15f0635" prot="public" static="no">
+        <name>CRYSTAL_COLOR_NAN</name>
+        <initializer>-9999999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="101" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1a67505297642dd9b417f2b4529bb0cc9c" prot="public" static="no">
+        <name>CRYSTAL_LIB_POS_INF</name>
+        <initializer>std::numeric_limits&lt;<ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref>&gt;::infinity()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="102" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1aaa2b72c7c86260e6fa6dbe0127089cfc" prot="public" static="no">
+        <name>CRYSTAL_LIB_NEG_INF</name>
+        <initializer>-std::numeric_limits&lt;<ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref>&gt;::infinity()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="103" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1a953f667fb27fb68dd74a487d002b19b5" prot="public" static="no">
+        <name>NaN</name>
+        <initializer>std::numeric_limits&lt;<ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref>&gt;::quiet_NaN()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="104" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__base__types_8h_1a12c2040f25d8e3a7b9e1c2024c618cb6" prot="public" static="no">
+        <name>INF</name>
+        <initializer>std::numeric_limits&lt;<ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref>&gt;::infinity()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="105" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37" prot="public" static="no">
+        <name>OutputLevel</name>
+        <enumvalue id="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37aa2fcfe974304655be08f6faf0a192278" prot="public">
+          <name>good</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37a90fac5a37fee3d37c9364139b2f3da75" prot="public">
+          <name>saturated</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37a255eedc46d9e0ae208805501fe0b0ea3" prot="public">
+          <name>low</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="88" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="enum" id="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4" prot="public" static="no">
+        <name>eInterp_Methods</name>
+        <enumvalue id="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a175c0ce9c4c759f0901ca7684d13dc95" prot="public">
+          <name>eInterpMethod_Linear</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4ab82e849b01e73d02783f5e033bec39b7" prot="public">
+          <name>eInterpMethod_Cubic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a0f761b25479b0abf7c8725f08f0bd77c" prot="public">
+          <name>eInterpMethod_Hermite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a08feaaea6025aa06b44974ce931d487d" prot="public">
+          <name>eInterpMethod_Akima</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4ae78d25287fa624f7469ba857ddb677bb" prot="public">
+          <name>eInterpMethod_MAXINDEX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>enum definition for interpolation methods </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="126" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="125" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="enum" id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50" prot="public" static="no">
+        <name>eVectorShape</name>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50aadcfbe3708911a93f9dc7be7938b3f1d" prot="public">
+          <name>eVectorShape_Gaussian</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50adee0270da2391c771315ab2de20b9c7e" prot="public">
+          <name>eVectorShape_Triangle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a0f174ab762ad961c3a8750c2af67b0ca" prot="public">
+          <name>eVectorShape_MultiGaussian</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a21cafe836f90050eef69b12fbe49b96e" prot="public">
+          <name>eVectorShape_Rectangle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a63baf989dde901365909a6907a284a27" prot="public">
+          <name>eVectorShape_Sin2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a818e1647ba9f55dcc4844f77aba0b3f5" prot="public">
+          <name>eVectorShape_Random</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a94983c368f2cb92dfee390ec12c5af65" prot="public">
+          <name>eVectorShape_MexicanHat</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a95796fb3c4c6b8b0321ff598943bfa75" prot="public">
+          <name>eVectorShape_xyz</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a349a6456ad21f1130308371f08927164" prot="public">
+          <name>eVectorShape_illuminance</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a0c70816107d50e65a25042ffb4490bc1" prot="public">
+          <name>eVectorShape_i1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50aad583813a0ce1a487f0f6bba2c200cb9" prot="public">
+          <name>eVectorShape_MAXINDEX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="136" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="135" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="enum" id="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4" prot="public" static="no">
+        <name>SmoothingAlgoType</name>
+        <enumvalue id="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4aa2b3c3908586bce16c274756ca18bcdc" prot="public">
+          <name>eSmoothingAlgoType_None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a67b8c7ab09ad8d883e97a310048d554d" prot="public">
+          <name>eSmoothingAlgoType_SG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a882ce714f890032c0580d3d8e30a9782" prot="public">
+          <name>eSmoothingAlgoType_Median</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a272125e8d98e43ccfbf4bb91498b966d" prot="public">
+          <name>eSmoothingAlgoType_Mean</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4aa408a3ab9748e7cd1d885507040c2c9e" prot="public">
+          <name>eSmoothingAlgoType_Gaussian</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="152" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="151" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a67439e46a3486f0f4df8daaeb0c2e4d5" prot="public" static="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>typedef std::vector&lt;double&gt; SFilterData1D</definition>
+        <argsstring></argsstring>
+        <name>SFilterData1D</name>
+        <briefdescription>
+<para>double-type 1D array for nano-filter data </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="37" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a407d1a142a77e8dabfb4cb05aca6c386" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="nsp__base__types_8h_1a67439e46a3486f0f4df8daaeb0c2e4d5" kindref="member">SFilterData1D</ref> &gt;</type>
+        <definition>typedef std::vector&lt;SFilterData1D &gt; SFilterData2D</definition>
+        <argsstring></argsstring>
+        <name>SFilterData2D</name>
+        <briefdescription>
+<para>double-type 2D array for nano-filter data set </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="39" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a839eeb09808590109de0d1c52831c0c6" prot="public" static="no">
+        <type><ref refid="nsp__base__types_8h_1a67439e46a3486f0f4df8daaeb0c2e4d5" kindref="member">SFilterData1D</ref></type>
+        <definition>typedef SFilterData1D SShutterData1D</definition>
+        <argsstring></argsstring>
+        <name>SShutterData1D</name>
+        <briefdescription>
+<para>double-type 1D array for shutter speed data </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="41" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1ab99c43d181840e7fbfba3da1eb7d14e8" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="nsp__base__types_8h_1a67439e46a3486f0f4df8daaeb0c2e4d5" kindref="member">SFilterData1D</ref> &gt;</type>
+        <definition>typedef std::vector&lt;SFilterData1D &gt; SShutterData2D</definition>
+        <argsstring></argsstring>
+        <name>SShutterData2D</name>
+        <briefdescription>
+<para>double-type 2D array for shutter speed data set </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="43" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1ad40a68af7d10296595db0e92ac868ae4" prot="public" static="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>typedef std::vector&lt;double&gt; SDataArray1D</definition>
+        <argsstring></argsstring>
+        <name>SDataArray1D</name>
+        <briefdescription>
+<para>double-type 1D array as data container </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="45" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" prot="public" static="no">
+        <type>double</type>
+        <definition>typedef double FLOAT64_TYPE</definition>
+        <argsstring></argsstring>
+        <name>FLOAT64_TYPE</name>
+        <briefdescription>
+<para>definition to check current time based on system clock </para>        </briefdescription>
+        <detaileddescription>
+<para>FLOAT64_TYPE defines the data type that will be used to represent decimal point numbers (for spectrum data) currently, only double (64 bit FLOAT64_TYPE) is supported </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="62" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a4d1c4c24963946d02476a38bcecca754" prot="public" static="no">
+        <type>float</type>
+        <definition>typedef float FLOAT32_TYPE</definition>
+        <argsstring></argsstring>
+        <name>FLOAT32_TYPE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="63" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a8776ba8931f3329fe7528ec84fefbdfd" prot="public" static="no">
+        <type>struct <ref refid="struct_s_chromaticity" kindref="compound">SChromaticity</ref></type>
+        <definition>typedef struct SChromaticity SChromaticity</definition>
+        <argsstring></argsstring>
+        <name>SChromaticity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><hruler/>
+ Struct definition for chromaticity(x, y) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="176" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1adba73f4c3e0cf1a70056b51ff742d7fd" prot="public" static="no">
+        <type>struct <ref refid="struct_s_r_g_b" kindref="compound">SRGB</ref></type>
+        <definition>typedef struct SRGB SRGB</definition>
+        <argsstring></argsstring>
+        <name>SRGB</name>
+        <briefdescription>
+<para>Struct definition for INT-type RGB(r,g,b) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="195" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a66c258c0786532931b2c3225e7731f7d" prot="public" static="no">
+        <type>struct <ref refid="struct_s_r_g_bf" kindref="compound">SRGBf</ref></type>
+        <definition>typedef struct SRGBf SRGBf</definition>
+        <argsstring></argsstring>
+        <name>SRGBf</name>
+        <briefdescription>
+<para>Struct definition for DOUBLE-type rgb color space. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="212" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a18cdc9520822f5b8394a0ed44b83f51d" prot="public" static="no">
+        <type>struct <ref refid="struct_s_x_y_z" kindref="compound">SXYZ</ref></type>
+        <definition>typedef struct SXYZ SXYZ</definition>
+        <argsstring></argsstring>
+        <name>SXYZ</name>
+        <briefdescription>
+<para>Struct definition for XYZ color space. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="238" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1ae910d9f5c312f7861f5089b22f987d5a" prot="public" static="no">
+        <type>struct <ref refid="struct_s_u_v_w" kindref="compound">SUVW</ref></type>
+        <definition>typedef struct SUVW SUVW</definition>
+        <argsstring></argsstring>
+        <name>SUVW</name>
+        <briefdescription>
+<para>Struct definition for UVW color space. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="256" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1ad43c09d585515dd44a10efdb8dfe89a7" prot="public" static="no">
+        <type>struct <ref refid="struct_sxy_y" kindref="compound">SxyY</ref></type>
+        <definition>typedef struct SxyY SxyY</definition>
+        <argsstring></argsstring>
+        <name>SxyY</name>
+        <briefdescription>
+<para>Struct definition for xyY color space. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="275" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a1217dfa310351e70835562311ab984f6" prot="public" static="no">
+        <type>struct <ref refid="struct_s_l_a_b" kindref="compound">SLAB</ref></type>
+        <definition>typedef struct SLAB SLAB</definition>
+        <argsstring></argsstring>
+        <name>SLAB</name>
+        <briefdescription>
+<para>Struct definition for Lab color space. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="294" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a9e47d3cede67d1625b03736007080b98" prot="public" static="no">
+        <type>struct <ref refid="struct_s_l_c_h" kindref="compound">SLCH</ref></type>
+        <definition>typedef struct SLCH  SLCH</definition>
+        <argsstring></argsstring>
+        <name>SLCH</name>
+        <briefdescription>
+<para>Struct definition for LCH color space. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="302" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="nsp__base__types_8h_1a809ad48f501226b91f41801c5a7b7286" prot="public" static="no">
+        <type>int</type>
+        <definition>typedef int NspStatus</definition>
+        <argsstring></argsstring>
+        <name>NspStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="315" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__NSP_BASE_TYPES_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_BASE_TYPES_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>BOOST_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;boost/smart_ptr.hpp&quot;</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//For<sp/>scoped<sp/>pointer<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__linux__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;sys/io.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;io.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;bitset&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;list&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//for<sp/>list<sp/>template<sp/>in<sp/>Spectrum_List</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;alglib3/interpolation.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacealglib" kindref="compound">alglib</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="nsp__base__types_8h_1a67439e46a3486f0f4df8daaeb0c2e4d5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a67439e46a3486f0f4df8daaeb0c2e4d5" kindref="member">SFilterData1D</ref>;</highlight></codeline>
+<codeline lineno="39" refid="nsp__base__types_8h_1a407d1a142a77e8dabfb4cb05aca6c386" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;SFilterData1D<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a407d1a142a77e8dabfb4cb05aca6c386" kindref="member">SFilterData2D</ref>;</highlight></codeline>
+<codeline lineno="41" refid="nsp__base__types_8h_1a839eeb09808590109de0d1c52831c0c6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a67439e46a3486f0f4df8daaeb0c2e4d5" kindref="member">SFilterData1D</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a839eeb09808590109de0d1c52831c0c6" kindref="member">SShutterData1D</ref>;</highlight></codeline>
+<codeline lineno="43" refid="nsp__base__types_8h_1ab99c43d181840e7fbfba3da1eb7d14e8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;SFilterData1D<sp/>&gt;<sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1ab99c43d181840e7fbfba3da1eb7d14e8" kindref="member">SShutterData2D</ref>;</highlight></codeline>
+<codeline lineno="45" refid="nsp__base__types_8h_1ad40a68af7d10296595db0e92ac868ae4" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1ad40a68af7d10296595db0e92ac868ae4" kindref="member">SDataArray1D</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="nsp__base__types_8h_1a764e6e62128f5b88a0fb9c360ca77298" refkind="member"><highlight class="preprocessor">#define<sp/>BIN_STRING_TO_NUM(str)<sp/><sp/>bitset&lt;numeric_limits&lt;unsigned<sp/>long&gt;::digits&gt;(str).to_ulong()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor">#ifdef<sp/><sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TIME(<sp/>arg<sp/>)<sp/>(((double)<sp/>clock())<sp/>/<sp/>CLOCKS_PER_SEC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/><sp/><sp/>__linux__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TIME(<sp/>arg<sp/>)<sp/>0.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref>;<sp/></highlight></codeline>
+<codeline lineno="63" refid="nsp__base__types_8h_1a4d1c4c24963946d02476a38bcecca754" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><ref refid="nsp__base__types_8h_1a4d1c4c24963946d02476a38bcecca754" kindref="member">FLOAT32_TYPE</ref>;<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="struct_filter_information" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68" refid="struct_filter_information_1af844b6c282e84861f66535cbfabffaf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_filter_information_1af844b6c282e84861f66535cbfabffaf1" kindref="member">num_filters</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>filters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="struct_filter_information_1a11761de27c94ae6adf70787bbcb765c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_filter_information_1a11761de27c94ae6adf70787bbcb765c8" kindref="member">num_valid_filters</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>valid<sp/>filters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="struct_filter_information_1a54d3b96559456ce514698e56fdf2d9af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_filter_information_1a54d3b96559456ce514698e56fdf2d9af" kindref="member">num_resolution</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>resolution</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="struct_filter_information_1a8eecc503bf74ab3e1a89b7db4b22d941" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_filter_information_1a8eecc503bf74ab3e1a89b7db4b22d941" kindref="member">interp_resolution</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>interpolation<sp/>resolution</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="struct_filter_information_1a24963ba80bed3dc51dbea2a87b248c3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="struct_filter_information_1a24963ba80bed3dc51dbea2a87b248c3d" kindref="member">start_wavelength</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>starting<sp/>wavelength<sp/>of<sp/>filter<sp/>measurement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="struct_filter_information_1a7da25441acb8febe27680984426bb679" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="struct_filter_information_1a7da25441acb8febe27680984426bb679" kindref="member">end_wavelength</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ending<sp/>wavelength<sp/>of<sp/>filter<sp/>measurement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="struct_filter_information_1a3014e7924f0fb67e95dd40c2eec9290f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="struct_filter_information_1a3014e7924f0fb67e95dd40c2eec9290f" kindref="member">interval</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>interval<sp/>between<sp/>filter<sp/>measurement<sp/>in<sp/>wavelength</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="struct_filter_information_1a1cece7635e146b44502bb82d8540030a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="struct_filter_information_1a1cece7635e146b44502bb82d8540030a" kindref="member">start_wavelength_interp</ref>;<sp/></highlight><highlight class="comment">//<sp/>starting<sp/>wavlength<sp/>of<sp/>interpolation<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="struct_filter_information_1af7d3dcae69886eb9e48e14c437eb3805" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="struct_filter_information_1af7d3dcae69886eb9e48e14c437eb3805" kindref="member">end_wavelength_interp</ref>;<sp/></highlight><highlight class="comment">//<sp/>ending<sp/>wavelength<sp/>of<sp/>interpolation<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="struct_filter_information_1aeb89d888bc1ddebd2fb6803895d25ae2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="struct_filter_information_1aeb89d888bc1ddebd2fb6803895d25ae2" kindref="member">interval_interp</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>interval<sp/>between<sp/>interpolation<sp/>in<sp/>wavelength</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="struct_filter_information_1a3020accdb2b68cf471fb01a430bc20ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/>*<ref refid="struct_filter_information_1a3020accdb2b68cf471fb01a430bc20ac" kindref="member">filter_data_ptr</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>filter<sp/>response<sp/>(M<sp/>matrix)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="struct_filter_information_1a390d94a36de9375c0f4e018bb806125c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/>*<ref refid="struct_filter_information_1a390d94a36de9375c0f4e018bb806125c" kindref="member">interp_data_ptr</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>interpolation<sp/>response<sp/>(S<sp/>matrix)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="struct_filter_information_1a356d2414d239fba2adba58ea9c6ad4ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="struct_filter_information_1a356d2414d239fba2adba58ea9c6ad4ff" kindref="member">valid_filters</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>indices<sp/>of<sp/>valid<sp/>filters<sp/>(length<sp/>num_filters)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="struct_filter_information_1a602e717b082aeb053c632d1f76b0528d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_filter_information_1a602e717b082aeb053c632d1f76b0528d" kindref="member">algorithm</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>indicates<sp/>which<sp/>algorithm<sp/>to<sp/>use<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="struct_filter_information_1ac8722605a16eacc19c6e9e0389f20759" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_filter_information_1ac8722605a16eacc19c6e9e0389f20759" kindref="member">sensorid_size</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sensor<sp/>id<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="struct_filter_information_1aff87fe1555b66240330f483a74e9751f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>sensorid[15];<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}<sp/><ref refid="struct_filter_information" kindref="compound">FilterInformation</ref>;<sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//Used<sp/>to<sp/>indicate<sp/>filter<sp/>output<sp/>level<sp/><sp/>during<sp/>spectrum<sp/>reconstruction<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37" kindref="member">OutputLevel</ref><sp/>{</highlight></codeline>
+<codeline lineno="89" refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37aa2fcfe974304655be08f6faf0a192278" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37aa2fcfe974304655be08f6faf0a192278" kindref="member">good</ref>,<sp/></highlight><highlight class="comment">//Filter<sp/>output<sp/>is<sp/>just<sp/>right</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37a90fac5a37fee3d37c9364139b2f3da75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37a90fac5a37fee3d37c9364139b2f3da75" kindref="member">saturated</ref>,<sp/></highlight><highlight class="comment">//Filter<sp/>output<sp/>is<sp/>saturated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37a255eedc46d9e0ae208805501fe0b0ea3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a6bcb6b3fe3d480eff62b980e53515a37a255eedc46d9e0ae208805501fe0b0ea3" kindref="member">low</ref><sp/></highlight><highlight class="comment">//Filter<sp/>output<sp/>is<sp/>low<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="nsp__base__types_8h_1a5f0fc5cc731ccc5e7ce4d49fbf650d89" refkind="member"><highlight class="preprocessor">#define<sp/>FILTER_DATA_CORRECTION_MODE_NONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/>//<sp/>no<sp/>correction.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="nsp__base__types_8h_1a8d76df8daf74bc27ad96c95e897eb909" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FILTER_DATA_CORRECTION_MODE_ADVANCED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/>//<sp/>filter<sp/>data<sp/>correction<sp/>(default)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="nsp__base__types_8h_1af375df31453940290ecd021abd2f2cd1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FILTER_DATA_CORRECTION_MODE_ONBOARD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2<sp/><sp/><sp/>//<sp/>filter<sp/>data<sp/>correction<sp/>on<sp/>embedded<sp/>MCU<sp/>or<sp/>dedicated<sp/>FPGA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="nsp__base__types_8h_1a448f0c077abf07077cae1a33fe07669e" refkind="member"><highlight class="preprocessor">#define<sp/>CRYSTAL_LIB_NAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::numeric_limits&lt;FLOAT64_TYPE&gt;::quiet_NaN()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="nsp__base__types_8h_1a54ddbdd4939d06999873fcf6f15f0635" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CRYSTAL_COLOR_NAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-9999999<sp/>//std::numeric_limits&lt;FLOAT64_TYPE&gt;::quiet_NaN()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="nsp__base__types_8h_1a67505297642dd9b417f2b4529bb0cc9c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CRYSTAL_LIB_POS_INF<sp/><sp/><sp/><sp/><sp/>std::numeric_limits&lt;FLOAT64_TYPE&gt;::infinity()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="nsp__base__types_8h_1aaa2b72c7c86260e6fa6dbe0127089cfc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CRYSTAL_LIB_NEG_INF<sp/><sp/><sp/><sp/><sp/>-std::numeric_limits&lt;FLOAT64_TYPE&gt;::infinity()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="nsp__base__types_8h_1a953f667fb27fb68dd74a487d002b19b5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NaN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::numeric_limits&lt;FLOAT64_TYPE&gt;::quiet_NaN()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="nsp__base__types_8h_1a12c2040f25d8e3a7b9e1c2024c618cb6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::numeric_limits&lt;FLOAT64_TYPE&gt;::infinity()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="class_int_data_pair" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_int_data_pair" kindref="compound">IntDataPair</ref></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111" refid="class_int_data_pair_1a96a925e7cfa91539d0150d36e69dbdb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_int_data_pair_1a96a925e7cfa91539d0150d36e69dbdb8" kindref="member">key</ref>;</highlight></codeline>
+<codeline lineno="112" refid="class_int_data_pair_1abc66e17896e36d740ac1b7243471b692" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_int_data_pair_1abc66e17896e36d740ac1b7243471b692" kindref="member">val</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="class_double_data_pair" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_double_data_pair" kindref="compound">DoubleDataPair</ref></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="119" refid="class_double_data_pair_1ae9a49d322327600848ff3ffb41b99b01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="class_double_data_pair_1ae9a49d322327600848ff3ffb41b99b01" kindref="member">key</ref>;</highlight></codeline>
+<codeline lineno="120" refid="class_double_data_pair_1a99dd353c44a651b93d6a0ed41ee2ff99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="class_double_data_pair_1a99dd353c44a651b93d6a0ed41ee2ff99" kindref="member">val</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4" kindref="member">eInterp_Methods</ref></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127" refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a175c0ce9c4c759f0901ca7684d13dc95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a175c0ce9c4c759f0901ca7684d13dc95" kindref="member">eInterpMethod_Linear</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="128" refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4ab82e849b01e73d02783f5e033bec39b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4ab82e849b01e73d02783f5e033bec39b7" kindref="member">eInterpMethod_Cubic</ref>,</highlight></codeline>
+<codeline lineno="129" refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a0f761b25479b0abf7c8725f08f0bd77c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a0f761b25479b0abf7c8725f08f0bd77c" kindref="member">eInterpMethod_Hermite</ref>,</highlight></codeline>
+<codeline lineno="130" refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a08feaaea6025aa06b44974ce931d487d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4a08feaaea6025aa06b44974ce931d487d" kindref="member">eInterpMethod_Akima</ref>,</highlight></codeline>
+<codeline lineno="131" refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4ae78d25287fa624f7469ba857ddb677bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a65abe925b0bdfdb15d7eb933ea9dcca4ae78d25287fa624f7469ba857ddb677bb" kindref="member">eInterpMethod_MAXINDEX</ref>,<sp/></highlight><highlight class="comment">//<sp/>total<sp/>count<sp/>of<sp/>items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50" kindref="member">eVectorShape</ref></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50aadcfbe3708911a93f9dc7be7938b3f1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50aadcfbe3708911a93f9dc7be7938b3f1d" kindref="member">eVectorShape_Gaussian</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="138" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50adee0270da2391c771315ab2de20b9c7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50adee0270da2391c771315ab2de20b9c7e" kindref="member">eVectorShape_Triangle</ref>,</highlight></codeline>
+<codeline lineno="139" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a0f174ab762ad961c3a8750c2af67b0ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a0f174ab762ad961c3a8750c2af67b0ca" kindref="member">eVectorShape_MultiGaussian</ref>,</highlight></codeline>
+<codeline lineno="140" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a21cafe836f90050eef69b12fbe49b96e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a21cafe836f90050eef69b12fbe49b96e" kindref="member">eVectorShape_Rectangle</ref>,</highlight></codeline>
+<codeline lineno="141" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a63baf989dde901365909a6907a284a27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a63baf989dde901365909a6907a284a27" kindref="member">eVectorShape_Sin2</ref>,</highlight></codeline>
+<codeline lineno="142" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a818e1647ba9f55dcc4844f77aba0b3f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a818e1647ba9f55dcc4844f77aba0b3f5" kindref="member">eVectorShape_Random</ref>,</highlight></codeline>
+<codeline lineno="143" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a94983c368f2cb92dfee390ec12c5af65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a94983c368f2cb92dfee390ec12c5af65" kindref="member">eVectorShape_MexicanHat</ref>,</highlight></codeline>
+<codeline lineno="144" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a95796fb3c4c6b8b0321ff598943bfa75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a95796fb3c4c6b8b0321ff598943bfa75" kindref="member">eVectorShape_xyz</ref>,</highlight></codeline>
+<codeline lineno="145" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a349a6456ad21f1130308371f08927164" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a349a6456ad21f1130308371f08927164" kindref="member">eVectorShape_illuminance</ref>,</highlight></codeline>
+<codeline lineno="146" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a0c70816107d50e65a25042ffb4490bc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50a0c70816107d50e65a25042ffb4490bc1" kindref="member">eVectorShape_i1</ref>,</highlight></codeline>
+<codeline lineno="147" refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50aad583813a0ce1a487f0f6bba2c200cb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a4118071b8fe84a34d08a66a2aa9d0e50aad583813a0ce1a487f0f6bba2c200cb9" kindref="member">eVectorShape_MAXINDEX</ref>,<sp/><sp/></highlight><highlight class="comment">//<sp/>total<sp/>count<sp/>of<sp/>items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Smoothing<sp/>filter<sp/>types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4" kindref="member">SmoothingAlgoType</ref></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153" refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4aa2b3c3908586bce16c274756ca18bcdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4aa2b3c3908586bce16c274756ca18bcdc" kindref="member">eSmoothingAlgoType_None</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="154" refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a67b8c7ab09ad8d883e97a310048d554d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a67b8c7ab09ad8d883e97a310048d554d" kindref="member">eSmoothingAlgoType_SG</ref>,<sp/><sp/></highlight><highlight class="comment">//<sp/>Savitzky-Golay</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a882ce714f890032c0580d3d8e30a9782" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a882ce714f890032c0580d3d8e30a9782" kindref="member">eSmoothingAlgoType_Median</ref>,</highlight></codeline>
+<codeline lineno="156" refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a272125e8d98e43ccfbf4bb91498b966d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4a272125e8d98e43ccfbf4bb91498b966d" kindref="member">eSmoothingAlgoType_Mean</ref>,</highlight></codeline>
+<codeline lineno="157" refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4aa408a3ab9748e7cd1d885507040c2c9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a02771fce39339bcbcf80c7e294ecddc4aa408a3ab9748e7cd1d885507040c2c9e" kindref="member">eSmoothingAlgoType_Gaussian</ref>,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="161" refid="struct_s_chromaticity" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_s_chromaticity" kindref="compound">SChromaticity</ref></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163" refid="struct_s_chromaticity_1a214f204d7375e394137cd27df5b71238" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_chromaticity_1a214f204d7375e394137cd27df5b71238" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="164" refid="struct_s_chromaticity_1ae9e5bcad9350b4c221f71d8429992799" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_chromaticity_1ae9e5bcad9350b4c221f71d8429992799" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="struct_s_chromaticity_1a107433a36aa2090eac0c052cb714f982" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_chromaticity_1a107433a36aa2090eac0c052cb714f982" kindref="member">SChromaticity</ref>()</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>y<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="struct_s_chromaticity_1a9b9a43b9b2e0118292b4cfed7c43a342" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_chromaticity_1a9b9a43b9b2e0118292b4cfed7c43a342" kindref="member">SChromaticity</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y_)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>x_;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>y_;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}<ref refid="nsp__base__types_8h_1a8776ba8931f3329fe7528ec84fefbdfd" kindref="member">SChromaticity</ref>;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="struct_s_r_g_b" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_s_r_g_b" kindref="compound">SRGB</ref><sp/>{</highlight></codeline>
+<codeline lineno="180" refid="struct_s_r_g_b_1a65e042af7c0210c8b58755112b3b63b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct_s_r_g_b_1a65e042af7c0210c8b58755112b3b63b9" kindref="member">r</ref>;</highlight></codeline>
+<codeline lineno="181" refid="struct_s_r_g_b_1a1fe095bf29f2ef395e47732fc69f4a0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct_s_r_g_b_1a1fe095bf29f2ef395e47732fc69f4a0b" kindref="member">g</ref>;</highlight></codeline>
+<codeline lineno="182" refid="struct_s_r_g_b_1a51de197343114b3a12efd1c0280da33d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="struct_s_r_g_b_1a51de197343114b3a12efd1c0280da33d" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="struct_s_r_g_b_1a9c1042e35eefc85d8949e4fd32edd5a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_r_g_b_1a9c1042e35eefc85d8949e4fd32edd5a9" kindref="member">SRGB</ref>()</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>g<sp/>=<sp/>b<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188" refid="struct_s_r_g_b_1ad9c1f818e54b2dc1fd353a74fdb882dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_r_g_b_1ad9c1f818e54b2dc1fd353a74fdb882dc" kindref="member">SRGB</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r_,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g_,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b_)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>r_;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>g_;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>b_;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}<ref refid="nsp__base__types_8h_1adba73f4c3e0cf1a70056b51ff742d7fd" kindref="member">SRGB</ref>;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="struct_s_r_g_bf" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_s_r_g_bf" kindref="compound">SRGBf</ref><sp/>{</highlight></codeline>
+<codeline lineno="199" refid="struct_s_r_g_bf_1a4ec43023f6654436a57b9b90cff097d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_r_g_bf_1a4ec43023f6654436a57b9b90cff097d8" kindref="member">r</ref>;</highlight></codeline>
+<codeline lineno="200" refid="struct_s_r_g_bf_1aef8dc79bb6d139d5fbfbb055757045e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_r_g_bf_1aef8dc79bb6d139d5fbfbb055757045e7" kindref="member">g</ref>;</highlight></codeline>
+<codeline lineno="201" refid="struct_s_r_g_bf_1aac025bb4d822900d6ef2d2a4e45d4cb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_r_g_bf_1aac025bb4d822900d6ef2d2a4e45d4cb4" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="202" refid="struct_s_r_g_bf_1ac66af3a81e77c9aeb71826be90619238" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_r_g_bf_1ac66af3a81e77c9aeb71826be90619238" kindref="member">SRGBf</ref>()</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>g<sp/>=<sp/>b<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="206" refid="struct_s_r_g_bf_1a6a216fcd85b798ce2af609fa1bbce743" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_r_g_bf_1a6a216fcd85b798ce2af609fa1bbce743" kindref="member">SRGBf</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>g_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b_)</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>r_;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>g_;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>b_;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}<ref refid="nsp__base__types_8h_1a66c258c0786532931b2c3225e7731f7d" kindref="member">SRGBf</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="struct_y_u_v" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_y_u_v" kindref="compound">YUV</ref><sp/>{</highlight></codeline>
+<codeline lineno="216" refid="struct_y_u_v_1aa3de77337c1cbf81c20e687268894171" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="struct_y_u_v_1aa3de77337c1cbf81c20e687268894171" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="217" refid="struct_y_u_v_1a419bce0579928af945a7e0a49ec997ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="struct_y_u_v_1a419bce0579928af945a7e0a49ec997ee" kindref="member">u</ref>;</highlight></codeline>
+<codeline lineno="218" refid="struct_y_u_v_1a980f389823b49527cf43868b7fc78016" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="struct_y_u_v_1a980f389823b49527cf43868b7fc78016" kindref="member">v</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="struct_s_x_y_z" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_s_x_y_z" kindref="compound">SXYZ</ref><sp/>{</highlight></codeline>
+<codeline lineno="223" refid="struct_s_x_y_z_1aa428e32e7d14433db0ac1b35d20dcf12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_x_y_z_1aa428e32e7d14433db0ac1b35d20dcf12" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="224" refid="struct_s_x_y_z_1ae2025a7f7bbd13bf477877235f15cbd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_x_y_z_1ae2025a7f7bbd13bf477877235f15cbd2" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="225" refid="struct_s_x_y_z_1a196f227b96a489d206fd1e3fdb5ef53b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_x_y_z_1a196f227b96a489d206fd1e3fdb5ef53b" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="struct_s_x_y_z_1a7858204a8013d8b62f5af1f32380dce6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_x_y_z_1a7858204a8013d8b62f5af1f32380dce6" kindref="member">SXYZ</ref>()</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>y<sp/>=<sp/>z<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="struct_s_x_y_z_1ab6cba15cf4f87d83078ccb7c5853aecf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_x_y_z_1ab6cba15cf4f87d83078ccb7c5853aecf" kindref="member">SXYZ</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z_)</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>x_;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>y_;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>z<sp/>=<sp/>z_;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}<ref refid="nsp__base__types_8h_1a18cdc9520822f5b8394a0ed44b83f51d" kindref="member">SXYZ</ref>;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="struct_s_u_v_w" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_s_u_v_w" kindref="compound">SUVW</ref><sp/>{</highlight></codeline>
+<codeline lineno="242" refid="struct_s_u_v_w_1a05ef6a352967bf3adf240991374f2251" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_u_v_w_1a05ef6a352967bf3adf240991374f2251" kindref="member">u</ref>;</highlight></codeline>
+<codeline lineno="243" refid="struct_s_u_v_w_1a7abb6f8987703dd831bede4153d7fa1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_u_v_w_1a7abb6f8987703dd831bede4153d7fa1d" kindref="member">v</ref>;</highlight></codeline>
+<codeline lineno="244" refid="struct_s_u_v_w_1a372220cfc653473f226af3ad6a49a19e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_u_v_w_1a372220cfc653473f226af3ad6a49a19e" kindref="member">w</ref>;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="struct_s_u_v_w_1a56dc7bc287daa085b57bce50b8cb6faf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_u_v_w_1a56dc7bc287daa085b57bce50b8cb6faf" kindref="member">SUVW</ref>()</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u<sp/>=<sp/>v<sp/>=<sp/>w<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250" refid="struct_s_u_v_w_1aca9f1bc36290396553fb5ffbfc693d25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_u_v_w_1aca9f1bc36290396553fb5ffbfc693d25" kindref="member">SUVW</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>u_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>w_)</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>u<sp/>=<sp/>u_;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>v<sp/>=<sp/>v_;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w<sp/>=<sp/>w_;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">}<ref refid="nsp__base__types_8h_1ae910d9f5c312f7861f5089b22f987d5a" kindref="member">SUVW</ref>;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="struct_sxy_y" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_sxy_y" kindref="compound">SxyY</ref><sp/>{</highlight></codeline>
+<codeline lineno="261" refid="struct_sxy_y_1ac4b829cf53f4cf8fa0ceefbfce9e2aff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_sxy_y_1ac4b829cf53f4cf8fa0ceefbfce9e2aff" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="262" refid="struct_sxy_y_1a7713f485fda31d66fe2189855efcb946" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_sxy_y_1a7713f485fda31d66fe2189855efcb946" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="263" refid="struct_sxy_y_1a6312c9f7f55681cc27cdddcdb4ad161d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_sxy_y_1a6312c9f7f55681cc27cdddcdb4ad161d" kindref="member">Y</ref>;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="struct_sxy_y_1a2c1411d67533401968c4593ab14a4301" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_sxy_y_1a2c1411d67533401968c4593ab14a4301" kindref="member">SxyY</ref>()</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>y<sp/>=<sp/>Y<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="269" refid="struct_sxy_y_1a5db82653cd210a102fbd7d9596f6cf90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_sxy_y_1a5db82653cd210a102fbd7d9596f6cf90" kindref="member">SxyY</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Y_)</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x<sp/>=<sp/>x_;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y<sp/>=<sp/>y_;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Y<sp/>=<sp/>Y_;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">}<ref refid="nsp__base__types_8h_1ad43c09d585515dd44a10efdb8dfe89a7" kindref="member">SxyY</ref>;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="struct_s_l_a_b" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_s_l_a_b" kindref="compound">SLAB</ref><sp/>{</highlight></codeline>
+<codeline lineno="279" refid="struct_s_l_a_b_1a14dc6c172895b31e4e5c5d7a60b4676b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_l_a_b_1a14dc6c172895b31e4e5c5d7a60b4676b" kindref="member">L</ref>;</highlight></codeline>
+<codeline lineno="280" refid="struct_s_l_a_b_1a16c119d9f69d38435324244ec8f8a168" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_l_a_b_1a16c119d9f69d38435324244ec8f8a168" kindref="member">a</ref>;</highlight></codeline>
+<codeline lineno="281" refid="struct_s_l_a_b_1ac9c53670cdd7b190db2495d611ef39cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_l_a_b_1ac9c53670cdd7b190db2495d611ef39cc" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="struct_s_l_a_b_1a71a6d32b11f88ebab428a71e529a457b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_l_a_b_1a71a6d32b11f88ebab428a71e529a457b" kindref="member">SLAB</ref>()</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L<sp/>=<sp/>a<sp/>=<sp/>b<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="287" refid="struct_s_l_a_b_1a806cd712e80e336bc2268b5a4e59448d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_s_l_a_b_1a806cd712e80e336bc2268b5a4e59448d" kindref="member">SLAB</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>L_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a_,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b_)</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>L<sp/>=<sp/>L_;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>=<sp/>a_;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>b_;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}<ref refid="nsp__base__types_8h_1a1217dfa310351e70835562311ab984f6" kindref="member">SLAB</ref>;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="struct_s_l_c_h" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_s_l_c_h" kindref="compound">SLCH</ref></highlight></codeline>
+<codeline lineno="298"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="299" refid="struct_s_l_c_h_1acc47a9795c86432dc8c20d545f07f50f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_l_c_h_1acc47a9795c86432dc8c20d545f07f50f" kindref="member">L</ref>;</highlight></codeline>
+<codeline lineno="300" refid="struct_s_l_c_h_1a5a2a813c8cd7d8316b427adf34d0add1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_l_c_h_1a5a2a813c8cd7d8316b427adf34d0add1" kindref="member">C</ref>;</highlight></codeline>
+<codeline lineno="301" refid="struct_s_l_c_h_1ae701c152a0033f625eb6274996812f5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_s_l_c_h_1ae701c152a0033f625eb6274996812f5c" kindref="member">h</ref>;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal">}<sp/><ref refid="nsp__base__types_8h_1a9e47d3cede67d1625b03736007080b98" kindref="member">SLCH</ref>;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="struct_c_o_l_o_r" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_c_o_l_o_r" kindref="compound">COLOR</ref><sp/>{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/><sp/><sp/><sp/>uchar<sp/><sp/><sp/>r;</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/><sp/><sp/><sp/>uchar<sp/><sp/><sp/>g;</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/><sp/><sp/><sp/>uchar<sp/><sp/><sp/>b;</highlight></codeline>
+<codeline lineno="309"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="struct_c_o_l_o_r_1a5069a49ff26e8d33cdbeaf0e9dbc9b1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="struct_c_o_l_o_r_1a5069a49ff26e8d33cdbeaf0e9dbc9b1a" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="311" refid="struct_c_o_l_o_r_1ad651579ab2648a5215394e7ceb4854de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="struct_c_o_l_o_r_1ad651579ab2648a5215394e7ceb4854de" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="312" refid="struct_c_o_l_o_r_1aa0f25a45856513ab9906bc8f56170f9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="struct_c_o_l_o_r_1aa0f25a45856513ab9906bc8f56170f9b" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315" refid="nsp__base__types_8h_1a809ad48f501226b91f41801c5a7b7286" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a809ad48f501226b91f41801c5a7b7286" kindref="member">NspStatus</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>__NSP_BASE_TYPES_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h"/>
+  </compounddef>
+</doxygen>

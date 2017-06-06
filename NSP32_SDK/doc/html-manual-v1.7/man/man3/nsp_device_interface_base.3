@@ -1,0 +1,474 @@
+.TH "nsp_device_interface_base" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+nsp_device_interface_base
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <nsp_device_interface_base\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBnsp_device_interface_base\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fB~nsp_device_interface_base\fP ()"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBinitialize\fP ()"
+.br
+.ti -1c
+.RI "virtual int \fBinitialize\fP (unsigned int iDeviceId)"
+.br
+.ti -1c
+.RI "virtual bool \fBis_initialized\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBfinalize\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBreconnect_device\fP (unsigned int &iDeviceId, std::string dark_data_file, struct \fBlibusb_device\fP *pDev, \fBlibusb_context\fP *lctx, bool detach)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBenable_spatial_filtering\fP (bool bEnable=true, int iSize=3, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBfind_optimal_shutter_speed\fP (std::vector< int > &valid_filter_list, std::vector< double > &background_data, int saturation_value, int sleep_time=1000, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBset_auto_exposure_parameters\fP (int target_DN, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBset_auto_exposure_parameters\fP (int target_DN, int upper_DN, int lower_DN, int mean_DN, int max_integ_DN, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBenable_frame_moving_average\fP (bool bEnable, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBget_background_filter_data\fP (\fBFLOAT64_TYPE\fP *filter_buffer, int frame_average=1, int deviceId=0)"
+.br
+.ti -1c
+.RI "virtual double \fBget_filter_data\fP (\fBFLOAT64_TYPE\fP *filter_buffer, int for_num_averages, int dark_correction_mode, int useContAcq=0, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual double \fBget_filter_data\fP (std::vector< double > &filter_data, int average, int darkcorrectionMode=0, bool useAE=false, int deviceId=0, int useContAcq=0)"
+.br
+.ti -1c
+.RI "virtual int \fBget_filter_data_2048\fP (std::vector< char > &filter_data, int deviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_acq_mode\fP (int acq_mode)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBget_acq_mode\fP (int *acq_mode)"
+.br
+.ti -1c
+.RI "std::string \fBget_sensor_id\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBget_shutter_speed\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "int \fBshutter_to_exposure_time_ms\fP (int MCLK, int shutter, double *exposure_time_val)"
+.br
+.ti -1c
+.RI "int \fBexposure_tim_ms_to_shutter\fP (int MCLK, double exposure_time_val, int *shutter)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBset_shutter_speed\fP (int set_shutter, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBset_blank_time\fP (int blank_time, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBget_blank_time\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_adc_settings\fP (unsigned char adc_range_index, unsigned char gain)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_adc_settings\fP (unsigned char adc_range_index, unsigned char gain, unsigned char res, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBget_adcsettings\fP (unsigned char *adc_range_index, unsigned char *gain, unsigned char *res, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "int \fBget_adc_range\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBget_min_shutter_speed\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBget_max_shutter_speed\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBFLOAT64_TYPE\fP \fBget_min_filter_out\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBFLOAT64_TYPE\fP \fBget_max_filter_out\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBget_num_filters\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBtest_device\fP (bool &bSensorBoardOk, bool &bControllerBoardOk, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual \fBvoid\fP \fBset_led_module_op_mode\fP (int op_mode, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "bool \fBset_led_state\fP (bool *on_array, int num_LED, int intensity, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "bool \fBset_led_opmode\fP (int iOpMode, int iToggleIntervalTime, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_frame_acquisition_conditions\fP (\fBSDataAcqCondition\fP &AcqCond, int deviceId=0)"
+.br
+.ti -1c
+.RI "unsigned int \fBget_total_devices\fP ()"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBactivate_device\fP (unsigned int deviceid)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBget_sensor_id\fP (char *sensor_id, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBget_sensor_id\fP (char *lot_char, short *lot_id, short *wafer_id, short *x_coord, short *y_coord, short *sensor_type, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "std::string \fBdecode_sensor_id\fP (char *sensor_id, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBset_onboard_frame_average\fP (unsigned char average_count, unsigned int device_id)"
+.br
+.ti -1c
+.RI "virtual int \fBget_onboard_frame_average\fP (unsigned int device_id)"
+.br
+.ti -1c
+.RI "virtual int \fBset_onboard_dark_correction\fP (bool bEnable, unsigned int device_id)"
+.br
+.ti -1c
+.RI "virtual int \fBget_onboard_dark_correction\fP (unsigned int device_id)"
+.br
+.ti -1c
+.RI "virtual int \fBget_onboard_dark_frame\fP (unsigned int device_id)"
+.br
+.ti -1c
+.RI "virtual int \fBget_poi_info\fP (std::vector< int > &poi, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBset_poi_info\fP (std::vector< int > &poi, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBget_poi_filter_data\fP (std::vector< int > &poi_filter_buffer, int poi_size, std::vector< double > &poi_background, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "virtual int \fBleddriver_isopen\fP ()"
+.br
+.ti -1c
+.RI "virtual int \fBleddriver_close\fP ()"
+.br
+.ti -1c
+.RI "virtual int \fBleddriver_set_led_state\fP (bool *on_array, int num_LED, int intensity)"
+.br
+.ti -1c
+.RI "virtual int \fBleddriver_turn_off_all\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBm_interface_is_initialized\fP"
+.br
+.ti -1c
+.RI "double \fBm_dark_average_val\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBm_current_filter_data\fP [1024]"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBm_current_dark_map\fP [1024]"
+.br
+.ti -1c
+.RI "int \fBm_ShutterSpeed2\fP"
+.br
+.ti -1c
+.RI "int \fBm_adc_range\fP"
+.br
+.ti -1c
+.RI "int \fBm_adc_gain\fP"
+.br
+.ti -1c
+.RI "int \fBm_adc_res\fP"
+.br
+.ti -1c
+.RI "std::string \fBm_sensor_id\fP"
+.br
+.ti -1c
+.RI "bool \fBm_bEnableOBDC\fP"
+.br
+.ti -1c
+.RI "bool \fBm_bFilterDataAtSS1IsReady\fP"
+.br
+.ti -1c
+.RI "std::map< int, \fBSDataAcqCondition\fP > \fBm_AcqCond\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "nsp_device_interface_base::nsp_device_interface_base (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "nsp_device_interface_base::~nsp_device_interface_base ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBvoid\fP nsp_device_interface_base::activate_device (unsigned int deviceid)"
+
+.SS "std::string nsp_device_interface_base::decode_sensor_id (char * sensor_id, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::enable_frame_moving_average (bool bEnable, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Do frame moving average by buffering a specified number of frames to improve frame rate\&. 
+.SS "virtual \fBvoid\fP nsp_device_interface_base::enable_spatial_filtering (bool bEnable = \fCtrue\fP, int iSize = \fC3\fP, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "int nsp_device_interface_base::exposure_tim_ms_to_shutter (int MCLK, double exposure_time_val, int * shutter)"
+Convert exposure time (ms) to shutter speed\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIMCLK\fP - master clock from MCU to sensor (IN) 
+.br
+\fIexposure_time_val\fP - exposure time value (IN) 
+.br
+\fIshutter\fP - integer pointer to shutter speed value (OUT) 
+.RE
+.PP
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::finalize (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::find_optimal_shutter_speed (std::vector< int > & valid_filter_list, std::vector< double > & background_data, int saturation_value, int sleep_time = \fC1000\fP, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Find optimal shutter speed 
+.PP
+\fBSee also:\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "\fBvoid\fP nsp_device_interface_base::get_acq_mode (int * acq_mode)"
+
+.SS "int nsp_device_interface_base::get_adc_range (unsigned int iDeviceId = \fC0\fP)\fC [inline]\fP"
+
+.SS "\fBvoid\fP nsp_device_interface_base::get_adcsettings (unsigned char * adc_range_index, unsigned char * gain, unsigned char * res, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::get_background_filter_data (\fBFLOAT64_TYPE\fP * filter_buffer, int frame_average = \fC1\fP, int deviceId = \fC0\fP)\fC [virtual]\fP"
+Get background raw filter data from device\&. 
+.SS "virtual int nsp_device_interface_base::get_blank_time (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Get blank time 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBset_blank_time\fP(int blank_time, unsigned int iDeviceId=0) 
+.RE
+.PP
+
+.SS "virtual double nsp_device_interface_base::get_filter_data (\fBFLOAT64_TYPE\fP * filter_buffer, int for_num_averages, int dark_correction_mode, int useContAcq = \fC0\fP, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Get raw filter data from device with averaging value for_num_averages\&. Results are stored in filter_buffer which has the size the same as the number of filters, given by \fBget_num_filters()\fP function\&. 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_num_filters()\fP 
+.RE
+.PP
+
+.SS "virtual double nsp_device_interface_base::get_filter_data (std::vector< double > & filter_data, int average, int darkcorrectionMode = \fC0\fP, bool useAE = \fCfalse\fP, int deviceId = \fC0\fP, int useContAcq = \fC0\fP)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::get_filter_data_2048 (std::vector< char > & filter_data, int deviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "virtual \fBFLOAT64_TYPE\fP nsp_device_interface_base::get_max_filter_out (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Retun maximu filter ouptut (saturation value) 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_min_filter_out()\fP 
+.RE
+.PP
+
+.SS "virtual int nsp_device_interface_base::get_max_shutter_speed (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Return maximum shutter speed 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_min_shutter_speed()\fP 
+.RE
+.PP
+
+.SS "virtual \fBFLOAT64_TYPE\fP nsp_device_interface_base::get_min_filter_out (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Retun minimum filter ouptut (zero value) 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_max_filter_out()\fP 
+.RE
+.PP
+
+.SS "virtual int nsp_device_interface_base::get_min_shutter_speed (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Return minimum shutter speed 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_max_shutter_speed()\fP 
+.RE
+.PP
+
+.SS "virtual int nsp_device_interface_base::get_num_filters (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Return the number of filters 
+.SS "virtual int nsp_device_interface_base::get_onboard_dark_correction (unsigned int device_id)\fC [inline]\fP, \fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::get_onboard_dark_frame (unsigned int device_id)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::get_onboard_frame_average (unsigned int device_id)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::get_poi_filter_data (std::vector< int > & poi_filter_buffer, int poi_size, std::vector< double > & poi_background, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::get_poi_info (std::vector< int > & poi, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "std::string nsp_device_interface_base::get_sensor_id (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP nsp_device_interface_base::get_sensor_id (char * sensor_id, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP nsp_device_interface_base::get_sensor_id (char * lot_char, short * lot_id, short * wafer_id, short * x_coord, short * y_coord, short * sensor_type, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "virtual int nsp_device_interface_base::get_shutter_speed (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Get current shutter speed\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIshutter\fP integer value for shutter speed value will be set here 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_shutter_speed()\fP 
+.RE
+.PP
+
+.SS "unsigned int nsp_device_interface_base::get_total_devices ()"
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::initialize ()\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::initialize (unsigned int iDeviceId)\fC [virtual]\fP"
+
+.SS "virtual bool nsp_device_interface_base::is_initialized (unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::leddriver_close ()\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::leddriver_isopen ()\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::leddriver_set_led_state (bool * on_array, int num_LED, int intensity)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::leddriver_turn_off_all ()\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::reconnect_device (unsigned int & iDeviceId, std::string dark_data_file, struct \fBlibusb_device\fP * pDev, \fBlibusb_context\fP * lctx, bool detach)\fC [virtual]\fP"
+
+.SS "\fBvoid\fP nsp_device_interface_base::set_acq_mode (int acq_mode)"
+Change acquisition mode(continuous, ping-pong, time-interval, s/w and h/w triggers) 
+.SS "\fBvoid\fP nsp_device_interface_base::set_adc_settings (unsigned char adc_range_index, unsigned char gain)"
+Implementation of \fBset_adc_settings()\fP virtual function in \fBnsp_device_interface_base\fP class 
+.SS "\fBvoid\fP nsp_device_interface_base::set_adc_settings (unsigned char adc_range_index, unsigned char gain, unsigned char res, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::set_auto_exposure_parameters (int target_DN, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Set AE parameters (target DN) 
+.SS "virtual \fBvoid\fP nsp_device_interface_base::set_auto_exposure_parameters (int target_DN, int upper_DN, int lower_DN, int mean_DN, int max_integ_DN, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::set_blank_time (int blank_time, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Change blank time 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_blank_time\fP(unsigned int iDeviceId=0) 
+.RE
+.PP
+
+.SS "\fBvoid\fP nsp_device_interface_base::set_frame_acquisition_conditions (\fBSDataAcqCondition\fP & AcqCond, int deviceId = \fC0\fP)"
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::set_led_module_op_mode (int op_mode, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Control LED 
+.SS "bool nsp_device_interface_base::set_led_opmode (int iOpMode, int iToggleIntervalTime, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "bool nsp_device_interface_base::set_led_state (bool * on_array, int num_LED, int intensity, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "virtual int nsp_device_interface_base::set_onboard_dark_correction (bool bEnable, unsigned int device_id)\fC [virtual]\fP"
+
+.SS "virtual int nsp_device_interface_base::set_onboard_frame_average (unsigned char average_count, unsigned int device_id)\fC [virtual]\fP"
+On-board processing 
+.SS "virtual int nsp_device_interface_base::set_poi_info (std::vector< int > & poi, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+
+.SS "virtual \fBvoid\fP nsp_device_interface_base::set_shutter_speed (int set_shutter, unsigned int iDeviceId = \fC0\fP)\fC [virtual]\fP"
+Change shutter speed to set_shutter\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIset_shutter\fP integer number for shutter speed\&. Maximum and minimum possible value is indicated by \fBget_min_shutter_speed()\fP and \fBget_max_shutter_speed()\fP 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBget_shutter_speed()\fP 
+.PP
+\fBget_min_shutter_speed()\fP 
+.PP
+\fBget_max_shutter_speed()\fP 
+.RE
+.PP
+
+.SS "int nsp_device_interface_base::shutter_to_exposure_time_ms (int MCLK, int shutter, double * exposure_time_val)"
+Convert shutter speed to exposure time (ms)\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fIMCLK\fP - master clock from MCU to sensor (IN) 
+.br
+\fIshutter\fP - shutter speed value (IN) 
+.br
+\fIexposure_time_val\fP - double pointer to exposure time value (OUT) 
+.RE
+.PP
+
+.SS "\fBvoid\fP nsp_device_interface_base::test_device (bool & bSensorBoardOk, bool & bControllerBoardOk, unsigned int iDeviceId = \fC0\fP)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "std::map<int, \fBSDataAcqCondition\fP > nsp_device_interface_base::m_AcqCond\fC [protected]\fP"
+
+.SS "int nsp_device_interface_base::m_adc_gain\fC [protected]\fP"
+
+.SS "int nsp_device_interface_base::m_adc_range\fC [protected]\fP"
+
+.SS "int nsp_device_interface_base::m_adc_res\fC [protected]\fP"
+
+.SS "bool nsp_device_interface_base::m_bEnableOBDC\fC [protected]\fP"
+
+.SS "bool nsp_device_interface_base::m_bFilterDataAtSS1IsReady\fC [protected]\fP"
+
+.SS "\fBFLOAT64_TYPE\fP nsp_device_interface_base::m_current_dark_map[1024]\fC [protected]\fP"
+
+.SS "\fBFLOAT64_TYPE\fP nsp_device_interface_base::m_current_filter_data[1024]\fC [protected]\fP"
+
+.SS "double nsp_device_interface_base::m_dark_average_val\fC [protected]\fP"
+
+.SS "bool nsp_device_interface_base::m_interface_is_initialized\fC [protected]\fP"
+
+.SS "std::string nsp_device_interface_base::m_sensor_id\fC [protected]\fP"
+
+.SS "int nsp_device_interface_base::m_ShutterSpeed2\fC [protected]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

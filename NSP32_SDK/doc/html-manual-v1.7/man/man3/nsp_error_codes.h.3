@@ -1,0 +1,129 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBNSP_RETURN_VALUE_UNKNOWN\fP   0"
+.br
+.ti -1c
+.RI "#define \fBNSP_RETURN_VALUE_SUCCESS\fP   1"
+.br
+.ti -1c
+.RI "#define \fBNSP_RETURN_VALUE_FAILURE\fP   \-1"
+.br
+.ti -1c
+.RI "#define \fBNSP_RETURN_VALUE_NO_MATCHED_SENSOR\fP   \-2"
+.br
+.ti -1c
+.RI "#define \fBNSP_RETURN_VALUE_NO_MATCHED_CAL_DATA\fP   \-3"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBNSP_ERROR_CODE\fP { \fBcc_ec_start_code\fP = 0, \fBcc_ec_fail\fP = -1, \fBcc_ec_undefined_fail\fP = 0, \fBcc_ec_success\fP = 1, \fBcc_ec_memory_is_null\fP, \fBcc_ec_no_device_in_system\fP, \fBcc_ec_fail_to_connect_device\fP, \fBcc_ec_fail_to_create_device_obj\fP, \fBcc_ec_fail_to_initialize_device\fP, \fBcc_ec_device_object_is_null\fP, \fBcc_ec_sensor_id_is_empty\fP, \fBcc_ec_fw_recv_timeout\fP, \fBcc_ec_fail_to_create_core_spectrum_obj\fP, \fBcc_ec_fail_to_initialize_core_spectrum_obj\fP, \fBcc_ec_fail_to_load_sensor_cal_data\fP, \fBcc_ec_fail_to_add_sensor_to_active_sensor_list\fP, \fBcc_ec_sensor_cal_data_is_null\fP, \fBcc_ec_sensor_cal_for_input_sensor_id_is_not_valid\fP, \fBcc_ec_spectrum_core_object_is_null\fP, \fBcc_ec_memory_for_spectrum_data_buffer_is_null\fP, \fBcc_ec_memory_for_wavelength_data_buffer_is_null\fP, \fBcc_ec_filter_buffer_is_null\fP, \fBcc_ec_filter_data_is_nan\fP, \fBcc_ec_background_buffer_is_null\fP, \fBcc_ec_fail_to_calculate_spectrum\fP, \fBcc_ec_wrong_reply\fP, \fBcc_ec_ill_defined_input\fP, \fBcc_ec_ill_defined_output\fP, \fBcc_ec_initialization_required\fP, \fBcc_ec_file_open_failed\fP, \fBcc_ec_weights_matrix_allocation_fail\fP, \fBcc_ec_fail_to_create_color_object\fP, \fBcc_ec_fail_to_initialize_color_object\fP, \fBcc_ec_color_object_is_null\fP, \fBcc_ec_end_code\fP }
+.RI "define error code for NSP API/SDK ""
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define NSP_RETURN_VALUE_FAILURE   \-1"
+
+.SS "#define NSP_RETURN_VALUE_NO_MATCHED_CAL_DATA   \-3"
+
+.SS "#define NSP_RETURN_VALUE_NO_MATCHED_SENSOR   \-2"
+
+.SS "#define NSP_RETURN_VALUE_SUCCESS   1"
+
+.SS "#define NSP_RETURN_VALUE_UNKNOWN   0"
+
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBNSP_ERROR_CODE\fP"
+
+.PP
+define error code for NSP API/SDK 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIcc_ec_start_code \fP\fP
+.TP
+\fB\fIcc_ec_fail \fP\fP
+.TP
+\fB\fIcc_ec_undefined_fail \fP\fP
+.TP
+\fB\fIcc_ec_success \fP\fP
+.TP
+\fB\fIcc_ec_memory_is_null \fP\fP
+.TP
+\fB\fIcc_ec_no_device_in_system \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_connect_device \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_create_device_obj \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_initialize_device \fP\fP
+.TP
+\fB\fIcc_ec_device_object_is_null \fP\fP
+.TP
+\fB\fIcc_ec_sensor_id_is_empty \fP\fP
+.TP
+\fB\fIcc_ec_fw_recv_timeout \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_create_core_spectrum_obj \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_initialize_core_spectrum_obj \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_load_sensor_cal_data \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_add_sensor_to_active_sensor_list \fP\fP
+.TP
+\fB\fIcc_ec_sensor_cal_data_is_null \fP\fP
+.TP
+\fB\fIcc_ec_sensor_cal_for_input_sensor_id_is_not_valid \fP\fP
+.TP
+\fB\fIcc_ec_spectrum_core_object_is_null \fP\fP
+.TP
+\fB\fIcc_ec_memory_for_spectrum_data_buffer_is_null \fP\fP
+.TP
+\fB\fIcc_ec_memory_for_wavelength_data_buffer_is_null \fP\fP
+.TP
+\fB\fIcc_ec_filter_buffer_is_null \fP\fP
+.TP
+\fB\fIcc_ec_filter_data_is_nan \fP\fP
+.TP
+\fB\fIcc_ec_background_buffer_is_null \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_calculate_spectrum \fP\fP
+.TP
+\fB\fIcc_ec_wrong_reply \fP\fP
+.TP
+\fB\fIcc_ec_ill_defined_input \fP\fP
+.TP
+\fB\fIcc_ec_ill_defined_output \fP\fP
+.TP
+\fB\fIcc_ec_initialization_required \fP\fP
+.TP
+\fB\fIcc_ec_file_open_failed \fP\fP
+.TP
+\fB\fIcc_ec_weights_matrix_allocation_fail \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_create_color_object \fP\fP
+.TP
+\fB\fIcc_ec_fail_to_initialize_color_object \fP\fP
+.TP
+\fB\fIcc_ec_color_object_is_null \fP\fP
+.TP
+\fB\fIcc_ec_end_code \fP\fP
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

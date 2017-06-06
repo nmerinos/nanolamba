@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include</compoundname>
+    <innerdir refid="dir_ab1c81409f0df724f17c9ef30afee877">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base</innerdir>
+    <innerdir refid="dir_3d69f64eaf81436fe2b22361382717e5">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core</innerdir>
+    <innerdir refid="dir_00639e50a5e06ba932c41b2ae621276d">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device</innerdir>
+    <innerfile refid="nsp__app__color__api_8h">nsp_app_color_api.h</innerfile>
+    <innerfile refid="nsp__base__api_8h">nsp_base_api.h</innerfile>
+    <innerfile refid="nsp__core__api_8h">nsp_core_api.h</innerfile>
+    <innerfile refid="nsp__core__open__source__api_8h">nsp_core_open_source_api.h</innerfile>
+    <innerfile refid="nsp__device__api_8h">nsp_device_api.h</innerfile>
+    <innerfile refid="nsp__sdk__api_8h">nsp_sdk_api.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/"/>
+  </compounddef>
+</doxygen>

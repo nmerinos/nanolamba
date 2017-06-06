@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['scale',['SCALE',['../nsp__sdk__def_8h.html#a0cbea62f1ce2043dd08108e65ed8de1d',1,'nsp_sdk_def.h']]],
+  ['scale_5fwidth',['SCALE_WIDTH',['../nsp__sdk__def_8h.html#ae825357556ba38e29e7ef867108018be',1,'nsp_sdk_def.h']]],
+  ['selected_5fwavelength_5frange_5fval',['SELECTED_WAVELENGTH_RANGE_VAL',['../nsp__sdk__def_8h.html#a050f26904cca1fb8f5b65bdc7b08daf5',1,'nsp_sdk_def.h']]],
+  ['sensor_5fdark_5fbase_5fmap_5fsize',['SENSOR_DARK_BASE_MAP_SIZE',['../nsp__core__common_8h.html#a66160632bac5c7514e2d1983832b99c5',1,'nsp_core_common.h']]],
+  ['sensor_5fdark_5fweights_5fmap_5fsize',['SENSOR_DARK_WEIGHTS_MAP_SIZE',['../nsp__core__common_8h.html#ad48956f7e1698f60a4cc6b3e686ccdd9',1,'nsp_core_common.h']]],
+  ['sensor_5fdata_5fsize',['SENSOR_DATA_SIZE',['../nsp__core__common_8h.html#a148c44e2e5bb295e12c94b137e9717a7',1,'SENSOR_DATA_SIZE():&#160;nsp_core_common.h'],['../nsp__device__api_8h.html#a148c44e2e5bb295e12c94b137e9717a7',1,'SENSOR_DATA_SIZE():&#160;nsp_device_api.h']]],
+  ['sensor_5fid_5fsize',['SENSOR_ID_SIZE',['../nsp__core__common_8h.html#af425f81bad961cbddc3fb5302c027bc1',1,'SENSOR_ID_SIZE():&#160;nsp_core_common.h'],['../nsp__device__interface__stm__usb_8h.html#af425f81bad961cbddc3fb5302c027bc1',1,'SENSOR_ID_SIZE():&#160;nsp_device_interface_stm_usb.h']]],
+  ['sensor_5fid_5fstring_5flength',['SENSOR_ID_STRING_LENGTH',['../nsp__base__def_8h.html#a5cf0e9289db02ad9d2072c46dfd5b914',1,'SENSOR_ID_STRING_LENGTH():&#160;nsp_base_def.h'],['../nsp__core__common_8h.html#a5cf0e9289db02ad9d2072c46dfd5b914',1,'SENSOR_ID_STRING_LENGTH():&#160;nsp_core_common.h'],['../nsp__device__api_8h.html#a5cf0e9289db02ad9d2072c46dfd5b914',1,'SENSOR_ID_STRING_LENGTH():&#160;nsp_device_api.h']]],
+  ['sensortype_5funknown',['SENSORTYPE_UNKNOWN',['../nsp__sdk__def_8h.html#ae5803a5fac8622ab15f9575b78ad8f6d',1,'nsp_sdk_def.h']]],
+  ['shutter_5fspeed_5fbase',['SHUTTER_SPEED_BASE',['../nsp__device__interface__stm__usb_8h.html#a2bb838527ff536ace32d6b338a198acc',1,'nsp_device_interface_stm_usb.h']]],
+  ['sleep_5ftime_5fto_5facquisition',['SLEEP_TIME_TO_ACQUISITION',['../nsp__device__interface__stm__usb_8h.html#a17bb7452dc949e439e9c6b01bf71e9e5',1,'nsp_device_interface_stm_usb.h']]],
+  ['spec_5frecon_5falgotype_5fnnls_5fgcv',['SPEC_RECON_ALGOTYPE_NNLS_GCV',['../nsp__sdk__def_8h.html#a8c7ee3546b063b5bdbed177baccb8c57',1,'nsp_sdk_def.h']]],
+  ['spec_5frecon_5falgotype_5fnnls_5fsc',['SPEC_RECON_ALGOTYPE_NNLS_SC',['../nsp__sdk__def_8h.html#a9767fe695cd1f1734c1b469d77ab59db',1,'nsp_sdk_def.h']]],
+  ['spec_5frecon_5falgotype_5fnnls_5ftikhonov',['SPEC_RECON_ALGOTYPE_NNLS_TIKHONOV',['../nsp__sdk__def_8h.html#ae67b17bfb8fb7a2b88cb36de80fef92d',1,'nsp_sdk_def.h']]],
+  ['spec_5frecon_5falgotype_5fnone',['SPEC_RECON_ALGOTYPE_NONE',['../nsp__sdk__def_8h.html#afeb783b1aa8a06bda8d5ab34c72342b6',1,'nsp_sdk_def.h']]],
+  ['spec_5frecon_5falgotype_5fsynthesis',['SPEC_RECON_ALGOTYPE_SYNTHESIS',['../nsp__sdk__def_8h.html#a0e7bdd76867f7f8051275ced9b471460',1,'nsp_sdk_def.h']]],
+  ['start_5fwavelength_5ffor_5fchart',['START_WAVELENGTH_FOR_CHART',['../nsp__sdk__def_8h.html#a58696bb5ca9246c2a0a130129f75900f',1,'nsp_sdk_def.h']]],
+  ['start_5fwavelength_5ffor_5fcolor',['START_WAVELENGTH_FOR_COLOR',['../nsp__sdk__def_8h.html#aaefb5116538325abdeff3b91f19b1cd7',1,'nsp_sdk_def.h']]],
+  ['stm_5fsensor_5fid_5fsize',['STM_SENSOR_ID_SIZE',['../nsp__core__common_8h.html#a69d6b7178050cb2136f2d6c2d7d7b047',1,'nsp_core_common.h']]]
+];

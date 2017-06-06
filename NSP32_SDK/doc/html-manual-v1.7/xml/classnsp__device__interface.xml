@@ -1,0 +1,1476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classnsp__device__interface" kind="class" language="C++" prot="public">
+    <compoundname>nsp_device_interface</compoundname>
+    <includes refid="nsp__device__interface_8h" local="no">nsp_device_interface.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classnsp__device__interface_1a281ba437e0c567f943e31f76df29b20c" prot="private" static="no" mutable="no">
+        <type><ref refid="classnsp__device__interface__base" kindref="compound">nsp_device_interface_base</ref> *</type>
+        <definition>nsp_device_interface_base* nsp_device_interface::m_device_interface_base</definition>
+        <argsstring></argsstring>
+        <name>m_device_interface_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="243" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnsp__device__interface_1a8dc59f73e06cbbe0bee2ee3a2a03e1bf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool nsp_device_interface::m_interface_is_initialized</definition>
+        <argsstring></argsstring>
+        <name>m_interface_is_initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="244" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnsp__device__interface_1a0b1d30d46bc1123f9dd3922513addee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nsp_device_interface::nsp_device_interface</definition>
+        <argsstring>()</argsstring>
+        <name>nsp_device_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a7b085d8c92c07be286c7db8cc743cf27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nsp_device_interface::~nsp_device_interface</definition>
+        <argsstring>()</argsstring>
+        <name>~nsp_device_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aae8c28985e098a8ea47bc1b37d800398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>initialize <ref refid="classnsp__device__interface" kindref="compound">nsp_device_interface</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1ad554f332f7d683223a1c1cc9247dad30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::initialize</definition>
+        <argsstring>(unsigned int iDeviceId)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a37ad591012ec2035c60baafd7cc2e669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::finalize</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>finalize</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finalize <ref refid="classnsp__device__interface" kindref="compound">nsp_device_interface</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a6ec499e4100c43f3db9639f072db87c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::reconnect_device</definition>
+        <argsstring>(unsigned int &amp;iDeviceId, std::string dark_data_file, struct libusb_device *pDev, libusb_context *lctx, bool detach)</argsstring>
+        <name>reconnect_device</name>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>iDeviceId</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>dark_data_file</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="libusb_8h_1a77eedd00d01eb7569b880e861a971c2b" kindref="member">libusb_device</ref> *</type>
+          <declname>pDev</declname>
+        </param>
+        <param>
+          <type><ref refid="libusb_8h_1a4ec088aa7b79c4a9599e39bf36a72833" kindref="member">libusb_context</ref> *</type>
+          <declname>lctx</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>detach</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reconnect device </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aff59e8f101eebdcdfd870529a487ab3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nsp_device_interface::is_initialized</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>is_initialized</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1ad067e8b60a5b8496fd526b82187b9cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::enable_spatial_filtering</definition>
+        <argsstring>(bool bEnable, int iSize, unsigned int iDeviceId=0)</argsstring>
+        <name>enable_spatial_filtering</name>
+        <param>
+          <type>bool</type>
+          <declname>bEnable</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iSize</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a7b218d4ad228a857cd051ef35b248486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::enable_frame_moving_average</definition>
+        <argsstring>(bool bEnable, unsigned int iDeviceId=0)</argsstring>
+        <name>enable_frame_moving_average</name>
+        <param>
+          <type>bool</type>
+          <declname>bEnable</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Do frame moving average by buffering a specified number of frames to improve frame rate. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a4ccf7130aac342587178159e53a113d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_auto_exposure_parameters</definition>
+        <argsstring>(int target_DN, unsigned int iDeviceId=0)</argsstring>
+        <name>set_auto_exposure_parameters</name>
+        <param>
+          <type>int</type>
+          <declname>target_DN</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set AE parameters (target DN) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a93356a5d9223f95084c4cfc265aa14e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_auto_exposure_parameters</definition>
+        <argsstring>(int target_DN, int upper_DN, int lower_DN, int mean_DN, int max_integ_DN, unsigned int iDeviceId=0)</argsstring>
+        <name>set_auto_exposure_parameters</name>
+        <param>
+          <type>int</type>
+          <declname>target_DN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>upper_DN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lower_DN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mean_DN</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_integ_DN</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a32a1894c3a35082b33e1cbf527d1077f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nsp_device_interface::get_filter_data</definition>
+        <argsstring>(FLOAT64_TYPE *filter_buffer, int for_num_averages, int dark_correction_mode, int useContAcq=0, unsigned int iDeviceId=0)</argsstring>
+        <name>get_filter_data</name>
+        <param>
+          <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref> *</type>
+          <declname>filter_buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>for_num_averages</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dark_correction_mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>useContAcq</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get raw signal and background filter data from device. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1ac4bc1860944e9a920455380b88ad5847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::get_background_filter_data</definition>
+        <argsstring>(FLOAT64_TYPE *filter_buffer, int frame_average=1, int iDeviceId=0)</argsstring>
+        <name>get_background_filter_data</name>
+        <param>
+          <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref> *</type>
+          <declname>filter_buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_average</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aa881e8016736c85a804f3456b2a3c734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nsp_device_interface::get_filter_data</definition>
+        <argsstring>(std::vector&lt; double &gt; &amp;filter_data, int average, int darkcorrectionMode=0, bool useAE=false, int deviceId=0, int useContAcq=0)</argsstring>
+        <name>get_filter_data</name>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>filter_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>average</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>darkcorrectionMode</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useAE</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>deviceId</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>useContAcq</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get raw filter data from device with averaging value for_num_averages. Results are stored in filter_buffer which has the size the same as the number of filters, given by <ref refid="classnsp__device__interface_1a08b240f289ce644521d015697f68d996" kindref="member">get_num_filters()</ref> function. <simplesect kind="see"><para><ref refid="classnsp__device__interface_1a08b240f289ce644521d015697f68d996" kindref="member">get_num_filters()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a23fae7dac14dee5ad7dc3d25c3441933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_filter_data_2048</definition>
+        <argsstring>(std::vector&lt; char &gt; &amp;filter_data, int deviceId=0)</argsstring>
+        <name>get_filter_data_2048</name>
+        <param>
+          <type>std::vector&lt; char &gt; &amp;</type>
+          <declname>filter_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>deviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aa0d25607045d2ef21550a7501ee007e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_adc_range</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_adc_range</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a192f4f767e0c2c8e0e955e43be557a36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string nsp_device_interface::get_sensor_id</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_sensor_id</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a4de2f1c84b30c2188b4748e9865369e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_acq_mode</definition>
+        <argsstring>(int acq_mode)</argsstring>
+        <name>set_acq_mode</name>
+        <param>
+          <type>int</type>
+          <declname>acq_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change acquisition mode(continuous, ping-pong, time-interval, s/w and h/w triggers) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a0dba04bf72643bd87c6061c0cecf9685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::get_acq_mode</definition>
+        <argsstring>(int *acq_mode)</argsstring>
+        <name>get_acq_mode</name>
+        <param>
+          <type>int *</type>
+          <declname>acq_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a9e324c86fa1daa20c00f64781fa9c5ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE nsp_device_interface::get_min_filter_out</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_min_filter_out</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retun minimum filter ouptut (zero value) <simplesect kind="see"><para><ref refid="classnsp__device__interface_1a0cbb15a86a6a51a43c72cf37c4d42597" kindref="member">get_max_filter_out()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a0cbb15a86a6a51a43c72cf37c4d42597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE nsp_device_interface::get_max_filter_out</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_max_filter_out</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retun maximu filter ouptut (saturation value) <simplesect kind="see"><para><ref refid="classnsp__device__interface_1a9e324c86fa1daa20c00f64781fa9c5ab" kindref="member">get_min_filter_out()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a08b240f289ce644521d015697f68d996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_num_filters</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_num_filters</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the number of filters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a373abf2b72bd878cb468de72c6e0ecee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_shutter_speed</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_shutter_speed</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get current shutter speed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shutter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>integer value for shutter speed value will be set here </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classnsp__device__interface_1a373abf2b72bd878cb468de72c6e0ecee" kindref="member">get_shutter_speed()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a622beb6b6289d18b056a358dd8a07b79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::shutter_to_exposure_time_ms</definition>
+        <argsstring>(int MCLK, int shutter, double *exposure_time_val)</argsstring>
+        <name>shutter_to_exposure_time_ms</name>
+        <param>
+          <type>int</type>
+          <declname>MCLK</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shutter</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>exposure_time_val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert shutter speed to exposure time (ms).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>MCLK</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- master clock from MCU to sensor (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shutter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- shutter speed value (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exposure_time_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to exposure time value (OUT) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1abc6ee6e7a766c7ac74c0df57e493f299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::exposure_tim_ms_to_shutter</definition>
+        <argsstring>(int MCLK, double exposure_time_val, int *shutter)</argsstring>
+        <name>exposure_tim_ms_to_shutter</name>
+        <param>
+          <type>int</type>
+          <declname>MCLK</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>exposure_time_val</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>shutter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert exposure time (ms) to shutter speed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>MCLK</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- master clock from MCU to sensor (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exposure_time_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- exposure time value (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shutter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- integer pointer to shutter speed value (OUT) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1adda48d2e16478347bc9c44baa9df1503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_shutter_speed</definition>
+        <argsstring>(int set_shutter, unsigned int iDeviceId=0)</argsstring>
+        <name>set_shutter_speed</name>
+        <param>
+          <type>int</type>
+          <declname>set_shutter</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change shutter speed to set_shutter.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>set_shutter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>integer number for shutter speed. Maximum and minimum possible value is indicated by <ref refid="classnsp__device__interface_1a25dbe748fd591b73d1fa611454f48854" kindref="member">get_min_shutter_speed()</ref> and <ref refid="classnsp__device__interface_1a182dc061cdf8d7d4aed641237f15df7a" kindref="member">get_max_shutter_speed()</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classnsp__device__interface_1a373abf2b72bd878cb468de72c6e0ecee" kindref="member">get_shutter_speed()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a33470d1d1156a433f65a6954a2593851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::find_optimal_shutter_speed</definition>
+        <argsstring>(std::vector&lt; int &gt; &amp;valid_filter_list, std::vector&lt; double &gt; &amp;background_data, int saturation_value, int sleep_time=1000, unsigned int iDeviceId=0)</argsstring>
+        <name>find_optimal_shutter_speed</name>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>valid_filter_list</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>background_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>saturation_value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sleep_time</declname>
+          <defval>1000</defval>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return optimal shutter speed <simplesect kind="see"><para><ref refid="classnsp__device__interface_1a33470d1d1156a433f65a6954a2593851" kindref="member">find_optimal_shutter_speed()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="140" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a25dbe748fd591b73d1fa611454f48854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_min_shutter_speed</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_min_shutter_speed</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return minimum shutter speed <simplesect kind="see"><para><ref refid="classnsp__device__interface_1a182dc061cdf8d7d4aed641237f15df7a" kindref="member">get_max_shutter_speed()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a182dc061cdf8d7d4aed641237f15df7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_max_shutter_speed</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_max_shutter_speed</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return maximum shutter speed <simplesect kind="see"><para><ref refid="classnsp__device__interface_1a25dbe748fd591b73d1fa611454f48854" kindref="member">get_min_shutter_speed()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="153" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1acf9e4e07b9984cd4ec0fa749ae86c3e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_blank_time</definition>
+        <argsstring>(int blank_time, unsigned int iDeviceId=0)</argsstring>
+        <name>set_blank_time</name>
+        <param>
+          <type>int</type>
+          <declname>blank_time</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change blank time <simplesect kind="see"><para><ref refid="classnsp__device__interface_1a8db1c448ae047a4d5f13c9bdab61ce1a" kindref="member">get_blank_time()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="160" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a8db1c448ae047a4d5f13c9bdab61ce1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_blank_time</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>get_blank_time</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get blank time <simplesect kind="see"><para>set_blank_time(int blank_time) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="166" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aa3704487ff9f84cf532b3b18f5848c4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE nsp_device_interface::get_start_lambda</definition>
+        <argsstring>()</argsstring>
+        <name>get_start_lambda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get starting wavlength in nanometers of spectrum output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="172" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1acb27e369ffd79b2735b7dbe9434d6f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE nsp_device_interface::get_end_lambda</definition>
+        <argsstring>()</argsstring>
+        <name>get_end_lambda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get ending wavlength in nanometers of spectrum output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="177" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a52d432f379be652cc0f6050f862a6acd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE nsp_device_interface::get_interval</definition>
+        <argsstring>()</argsstring>
+        <name>get_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get interval wavlength in nanometers of spectrum output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="182" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a459cae5c9476fcae5c57e91060a6d877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_resolution</definition>
+        <argsstring>()</argsstring>
+        <name>get_resolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the resolution, or number of points, in spectrum output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="187" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a3ce5de59243da290a2341d7219d0ae90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::get_sensor_id</definition>
+        <argsstring>(char *sensor_id, unsigned int iDeviceId=0)</argsstring>
+        <name>get_sensor_id</name>
+        <param>
+          <type>char *</type>
+          <declname>sensor_id</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get six letter sensor ID , char must be array of length six </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="192" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1ad230d06bde52aaa19d64b16d03007629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::get_sensor_id</definition>
+        <argsstring>(char *lot_char, short *lot_id, short *wafer_id, short *x_coord, short *y_coord, short *sensor_type, unsigned int iDeviceId=0)</argsstring>
+        <name>get_sensor_id</name>
+        <param>
+          <type>char *</type>
+          <declname>lot_char</declname>
+        </param>
+        <param>
+          <type>short *</type>
+          <declname>lot_id</declname>
+        </param>
+        <param>
+          <type>short *</type>
+          <declname>wafer_id</declname>
+        </param>
+        <param>
+          <type>short *</type>
+          <declname>x_coord</declname>
+        </param>
+        <param>
+          <type>short *</type>
+          <declname>y_coord</declname>
+        </param>
+        <param>
+          <type>short *</type>
+          <declname>sensor_type</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="193" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a48cd28fd978bb56f6dc012f6f4f06dea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string nsp_device_interface::decode_sensor_id</definition>
+        <argsstring>(char *sensor_id, unsigned int iDeviceId=0)</argsstring>
+        <name>decode_sensor_id</name>
+        <param>
+          <type>char *</type>
+          <declname>sensor_id</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="194" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a6349a6561d122af4b2eea6fbafcaadd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nsp_device_interface::test_device</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>test_device</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Test device for operation </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a680094ff7a1ff1b2837d12e55250670c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nsp_device_interface::set_led_state</definition>
+        <argsstring>(bool *on_array, int num_LED, int intensity, unsigned int iDeviceId=0)</argsstring>
+        <name>set_led_state</name>
+        <param>
+          <type>bool *</type>
+          <declname>on_array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_LED</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intensity</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Control LED, each element in on_array of size num_LED represents the LED&apos;s status on (true) or off(false) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aac87ee10fee27cc243d95f255f2216ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool nsp_device_interface::set_led_opmode</definition>
+        <argsstring>(int iOpMode, int iToggleIntervalTime, unsigned int iDeviceId=0)</argsstring>
+        <name>set_led_opmode</name>
+        <param>
+          <type>int</type>
+          <declname>iOpMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iToggleIntervalTime</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="205" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aa661422a4cf00183d5463af3af99783e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_led_module_op_mode</definition>
+        <argsstring>(int op_mode, unsigned int iDeviceId=0)</argsstring>
+        <name>set_led_module_op_mode</name>
+        <param>
+          <type>int</type>
+          <declname>op_mode</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a8275b30b64bc2dd41314ba4d7d17ca98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_adc_settings</definition>
+        <argsstring>(unsigned char adc_range_index, unsigned char gain)</argsstring>
+        <name>set_adc_settings</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>adc_range_index</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implementation of <ref refid="classnsp__device__interface_1a8275b30b64bc2dd41314ba4d7d17ca98" kindref="member">set_adc_settings()</ref> virtual function in <ref refid="classnsp__device__interface" kindref="compound">nsp_device_interface</ref> class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a45e100562bd8427aa7147e6a4eac56d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_adc_settings</definition>
+        <argsstring>(unsigned char adc_range_index, unsigned char gain, unsigned char res, unsigned int iDeviceId=0)</argsstring>
+        <name>set_adc_settings</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>adc_range_index</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>gain</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="212" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1af3aa405b5eccf355efec2f02e7032cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::get_adcsettings</definition>
+        <argsstring>(unsigned char *adc_range_index, unsigned char *gain, unsigned char *res, unsigned int iDeviceId=0)</argsstring>
+        <name>get_adcsettings</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>adc_range_index</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>gain</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aa6b0e411f3a97a8b096feb7f98a60d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int nsp_device_interface::get_total_devices</definition>
+        <argsstring>()</argsstring>
+        <name>get_total_devices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="215" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1ad90334ca81bb13d4493c352a04a0db51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::activate_device</definition>
+        <argsstring>(unsigned int deviceid)</argsstring>
+        <name>activate_device</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>deviceid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="216" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a8a81679d9e1f42dd685a167b3c4b6f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void nsp_device_interface::set_frame_acquisition_conditions</definition>
+        <argsstring>(SDataAcqCondition &amp;AcqCond, int deviceId=0)</argsstring>
+        <name>set_frame_acquisition_conditions</name>
+        <param>
+          <type><ref refid="struct_s_data_acq_condition" kindref="compound">SDataAcqCondition</ref> &amp;</type>
+          <declname>AcqCond</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>deviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a61aeab96a2d1da56c9e7f93695df7aee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::num_valid_filters</definition>
+        <argsstring>(unsigned int iDeviceId=0)</argsstring>
+        <name>num_valid_filters</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="220" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" bodystart="220" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aedd3a22fdcf59980439100dc3b4565c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::set_onboard_frame_average</definition>
+        <argsstring>(unsigned char average_count, unsigned int device_id)</argsstring>
+        <name>set_onboard_frame_average</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>average_count</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>device_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>On-board processing </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a0d56791bf856202e4e16c733dd155dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_onboard_frame_average</definition>
+        <argsstring>(unsigned int device_id)</argsstring>
+        <name>get_onboard_frame_average</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>device_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="226" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aeb787a578270f34744521393fc7b2c7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::set_onboard_dark_correction</definition>
+        <argsstring>(bool bEnable, unsigned int device_id)</argsstring>
+        <name>set_onboard_dark_correction</name>
+        <param>
+          <type>bool</type>
+          <declname>bEnable</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>device_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1abe43569a71d60c4db3c24059cd20038f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_onboard_dark_correction</definition>
+        <argsstring>(unsigned int device_id)</argsstring>
+        <name>get_onboard_dark_correction</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>device_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="228" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a28c5948ebe697998d96c8b277dab6e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_onboard_dark_frame</definition>
+        <argsstring>(unsigned int device_id)</argsstring>
+        <name>get_onboard_dark_frame</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>device_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="229" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a3a93759888c2c3ca033767b51075e3ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_poi_info</definition>
+        <argsstring>(std::vector&lt; int &gt; &amp;poi, unsigned int iDeviceId=0)</argsstring>
+        <name>get_poi_info</name>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>poi</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="230" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a9c12a26d812c38eefdf9576064473240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::set_poi_info</definition>
+        <argsstring>(std::vector&lt; int &gt; &amp;poi, unsigned int iDeviceId=0)</argsstring>
+        <name>set_poi_info</name>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>poi</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="231" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1af3e647fc15379f34dd3b0cdaeb64d935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::get_poi_filter_data</definition>
+        <argsstring>(std::vector&lt; int &gt; &amp;poi_filter_buffer, int poi_size, std::vector&lt; double &gt; &amp;poi_background, unsigned int iDeviceId=0)</argsstring>
+        <name>get_poi_filter_data</name>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>poi_filter_buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>poi_size</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>poi_background</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>iDeviceId</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1ae8be135b36e7455ba9acf64d14e4a093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::leddriver_isopen</definition>
+        <argsstring>()</argsstring>
+        <name>leddriver_isopen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="237" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1aedd000b1ec949924df7edd6f31cc1b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::leddriver_close</definition>
+        <argsstring>()</argsstring>
+        <name>leddriver_close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="238" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1a021abcd9a23454296f506149cc5515cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::leddriver_set_led_state</definition>
+        <argsstring>(bool *on_array, int num_LED, int intensity)</argsstring>
+        <name>leddriver_set_led_state</name>
+        <param>
+          <type>bool *</type>
+          <declname>on_array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_LED</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="239" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__device__interface_1ad1ca54f5be1188109fb63d04cda4889b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nsp_device_interface::leddriver_turn_off_all</definition>
+        <argsstring>()</argsstring>
+        <name>leddriver_turn_off_all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="240" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" line="17" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h" bodystart="16" bodyend="247"/>
+    <listofallmembers>
+      <member refid="classnsp__device__interface_1ad90334ca81bb13d4493c352a04a0db51" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>activate_device</name></member>
+      <member refid="classnsp__device__interface_1a48cd28fd978bb56f6dc012f6f4f06dea" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>decode_sensor_id</name></member>
+      <member refid="classnsp__device__interface_1a7b218d4ad228a857cd051ef35b248486" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>enable_frame_moving_average</name></member>
+      <member refid="classnsp__device__interface_1ad067e8b60a5b8496fd526b82187b9cec" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>enable_spatial_filtering</name></member>
+      <member refid="classnsp__device__interface_1abc6ee6e7a766c7ac74c0df57e493f299" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>exposure_tim_ms_to_shutter</name></member>
+      <member refid="classnsp__device__interface_1a37ad591012ec2035c60baafd7cc2e669" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>finalize</name></member>
+      <member refid="classnsp__device__interface_1a33470d1d1156a433f65a6954a2593851" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>find_optimal_shutter_speed</name></member>
+      <member refid="classnsp__device__interface_1a0dba04bf72643bd87c6061c0cecf9685" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_acq_mode</name></member>
+      <member refid="classnsp__device__interface_1aa0d25607045d2ef21550a7501ee007e8" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_adc_range</name></member>
+      <member refid="classnsp__device__interface_1af3aa405b5eccf355efec2f02e7032cf4" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_adcsettings</name></member>
+      <member refid="classnsp__device__interface_1ac4bc1860944e9a920455380b88ad5847" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_background_filter_data</name></member>
+      <member refid="classnsp__device__interface_1a8db1c448ae047a4d5f13c9bdab61ce1a" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_blank_time</name></member>
+      <member refid="classnsp__device__interface_1acb27e369ffd79b2735b7dbe9434d6f08" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_end_lambda</name></member>
+      <member refid="classnsp__device__interface_1a32a1894c3a35082b33e1cbf527d1077f" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_filter_data</name></member>
+      <member refid="classnsp__device__interface_1aa881e8016736c85a804f3456b2a3c734" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_filter_data</name></member>
+      <member refid="classnsp__device__interface_1a23fae7dac14dee5ad7dc3d25c3441933" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_filter_data_2048</name></member>
+      <member refid="classnsp__device__interface_1a52d432f379be652cc0f6050f862a6acd" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_interval</name></member>
+      <member refid="classnsp__device__interface_1a0cbb15a86a6a51a43c72cf37c4d42597" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_max_filter_out</name></member>
+      <member refid="classnsp__device__interface_1a182dc061cdf8d7d4aed641237f15df7a" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_max_shutter_speed</name></member>
+      <member refid="classnsp__device__interface_1a9e324c86fa1daa20c00f64781fa9c5ab" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_min_filter_out</name></member>
+      <member refid="classnsp__device__interface_1a25dbe748fd591b73d1fa611454f48854" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_min_shutter_speed</name></member>
+      <member refid="classnsp__device__interface_1a08b240f289ce644521d015697f68d996" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_num_filters</name></member>
+      <member refid="classnsp__device__interface_1abe43569a71d60c4db3c24059cd20038f" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_onboard_dark_correction</name></member>
+      <member refid="classnsp__device__interface_1a28c5948ebe697998d96c8b277dab6e08" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_onboard_dark_frame</name></member>
+      <member refid="classnsp__device__interface_1a0d56791bf856202e4e16c733dd155dfd" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_onboard_frame_average</name></member>
+      <member refid="classnsp__device__interface_1af3e647fc15379f34dd3b0cdaeb64d935" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_poi_filter_data</name></member>
+      <member refid="classnsp__device__interface_1a3a93759888c2c3ca033767b51075e3ed" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_poi_info</name></member>
+      <member refid="classnsp__device__interface_1a459cae5c9476fcae5c57e91060a6d877" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_resolution</name></member>
+      <member refid="classnsp__device__interface_1a192f4f767e0c2c8e0e955e43be557a36" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_sensor_id</name></member>
+      <member refid="classnsp__device__interface_1a3ce5de59243da290a2341d7219d0ae90" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_sensor_id</name></member>
+      <member refid="classnsp__device__interface_1ad230d06bde52aaa19d64b16d03007629" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_sensor_id</name></member>
+      <member refid="classnsp__device__interface_1a373abf2b72bd878cb468de72c6e0ecee" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_shutter_speed</name></member>
+      <member refid="classnsp__device__interface_1aa3704487ff9f84cf532b3b18f5848c4c" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_start_lambda</name></member>
+      <member refid="classnsp__device__interface_1aa6b0e411f3a97a8b096feb7f98a60d55" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>get_total_devices</name></member>
+      <member refid="classnsp__device__interface_1aae8c28985e098a8ea47bc1b37d800398" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>initialize</name></member>
+      <member refid="classnsp__device__interface_1ad554f332f7d683223a1c1cc9247dad30" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>initialize</name></member>
+      <member refid="classnsp__device__interface_1aff59e8f101eebdcdfd870529a487ab3c" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>is_initialized</name></member>
+      <member refid="classnsp__device__interface_1aedd000b1ec949924df7edd6f31cc1b4c" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>leddriver_close</name></member>
+      <member refid="classnsp__device__interface_1ae8be135b36e7455ba9acf64d14e4a093" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>leddriver_isopen</name></member>
+      <member refid="classnsp__device__interface_1a021abcd9a23454296f506149cc5515cc" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>leddriver_set_led_state</name></member>
+      <member refid="classnsp__device__interface_1ad1ca54f5be1188109fb63d04cda4889b" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>leddriver_turn_off_all</name></member>
+      <member refid="classnsp__device__interface_1a281ba437e0c567f943e31f76df29b20c" prot="private" virt="non-virtual"><scope>nsp_device_interface</scope><name>m_device_interface_base</name></member>
+      <member refid="classnsp__device__interface_1a8dc59f73e06cbbe0bee2ee3a2a03e1bf" prot="private" virt="non-virtual"><scope>nsp_device_interface</scope><name>m_interface_is_initialized</name></member>
+      <member refid="classnsp__device__interface_1a0b1d30d46bc1123f9dd3922513addee3" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>nsp_device_interface</name></member>
+      <member refid="classnsp__device__interface_1a61aeab96a2d1da56c9e7f93695df7aee" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>num_valid_filters</name></member>
+      <member refid="classnsp__device__interface_1a6ec499e4100c43f3db9639f072db87c7" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>reconnect_device</name></member>
+      <member refid="classnsp__device__interface_1a4de2f1c84b30c2188b4748e9865369e1" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_acq_mode</name></member>
+      <member refid="classnsp__device__interface_1a8275b30b64bc2dd41314ba4d7d17ca98" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_adc_settings</name></member>
+      <member refid="classnsp__device__interface_1a45e100562bd8427aa7147e6a4eac56d8" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_adc_settings</name></member>
+      <member refid="classnsp__device__interface_1a4ccf7130aac342587178159e53a113d9" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_auto_exposure_parameters</name></member>
+      <member refid="classnsp__device__interface_1a93356a5d9223f95084c4cfc265aa14e9" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_auto_exposure_parameters</name></member>
+      <member refid="classnsp__device__interface_1acf9e4e07b9984cd4ec0fa749ae86c3e0" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_blank_time</name></member>
+      <member refid="classnsp__device__interface_1a8a81679d9e1f42dd685a167b3c4b6f16" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_frame_acquisition_conditions</name></member>
+      <member refid="classnsp__device__interface_1aa661422a4cf00183d5463af3af99783e" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_led_module_op_mode</name></member>
+      <member refid="classnsp__device__interface_1aac87ee10fee27cc243d95f255f2216ac" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_led_opmode</name></member>
+      <member refid="classnsp__device__interface_1a680094ff7a1ff1b2837d12e55250670c" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_led_state</name></member>
+      <member refid="classnsp__device__interface_1aeb787a578270f34744521393fc7b2c7e" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_onboard_dark_correction</name></member>
+      <member refid="classnsp__device__interface_1aedd3a22fdcf59980439100dc3b4565c9" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_onboard_frame_average</name></member>
+      <member refid="classnsp__device__interface_1a9c12a26d812c38eefdf9576064473240" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_poi_info</name></member>
+      <member refid="classnsp__device__interface_1adda48d2e16478347bc9c44baa9df1503" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>set_shutter_speed</name></member>
+      <member refid="classnsp__device__interface_1a622beb6b6289d18b056a358dd8a07b79" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>shutter_to_exposure_time_ms</name></member>
+      <member refid="classnsp__device__interface_1a6349a6561d122af4b2eea6fbafcaadd4" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>test_device</name></member>
+      <member refid="classnsp__device__interface_1a7b085d8c92c07be286c7db8cc743cf27" prot="public" virt="non-virtual"><scope>nsp_device_interface</scope><name>~nsp_device_interface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+.TH "libusb_control_setup" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_control_setup
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "uint8_t \fBbmRequestType\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbRequest\fP"
+.br
+.ti -1c
+.RI "uint16_t \fBwValue\fP"
+.br
+.ti -1c
+.RI "uint16_t \fBwIndex\fP"
+.br
+.ti -1c
+.RI "uint16_t \fBwLength\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Setup packet for control transfers\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "uint8_t libusb_control_setup::bmRequestType"
+Request type\&. Bits 0:4 determine recipient, see \fBlibusb_request_recipient\fP\&. Bits 5:6 determine type, see \fBlibusb_request_type\fP\&. Bit 7 determines data transfer direction, see \fBlibusb_endpoint_direction\fP\&. 
+.SS "uint8_t libusb_control_setup::bRequest"
+Request\&. If the type bits of bmRequestType are equal to \fBLIBUSB_REQUEST_TYPE_STANDARD\fP then this field refers to \fBlibusb_standard_request\fP\&. For other cases, use of this field is application-specific\&. 
+.SS "uint16_t libusb_control_setup::wIndex"
+Index\&. Varies according to request, typically used to pass an index or offset 
+.SS "uint16_t libusb_control_setup::wLength"
+Number of bytes to transfer 
+.SS "uint16_t libusb_control_setup::wValue"
+Value\&. Varies according to request 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

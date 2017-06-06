@@ -1,0 +1,90 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'nsp_base_exceptions\&.h'\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBSENSOR_ID_STRING_LENGTH\fP   26"
+.br
+.ti -1c
+.RI "#define \fBSENSOR_DATA_SIZE\fP   1024"
+.br
+.ti -1c
+.RI "#define \fBNUM_OF_DARK_PIXELS\fP   28"
+.br
+.ti -1c
+.RI "#define \fBDARK_PIXE_START_INDEX\fP   34"
+.br
+.ti -1c
+.RI "#define \fBINIT_VAL_ADC_RANGE\fP   132"
+.br
+.ti -1c
+.RI "#define \fBSTM_SENSOR_ID_SIZE\fP   5"
+.br
+.ti -1c
+.RI "#define \fBEFM32_SENSOR_ID_SIZE\fP   5"
+.br
+.ti -1c
+.RI "#define \fBSENSOR_ID_SIZE\fP   \fBEFM32_SENSOR_ID_SIZE\fP"
+.br
+.ti -1c
+.RI "#define \fBSENSOR_DARK_BASE_MAP_SIZE\fP   1024"
+.br
+.ti -1c
+.RI "#define \fBSENSOR_DARK_WEIGHTS_MAP_SIZE\fP   1024"
+.br
+.ti -1c
+.RI "#define \fBEFM32_MCLK\fP   5\&.0"
+.br
+.ti -1c
+.RI "#define \fBCONVERT_SS_TO_INTEG_TIME\fP(ss)   ((((384+16*(32+1))*ss)+160)/(\fBEFM32_MCLK\fP*1000))"
+.br
+.ti -1c
+.RI "#define \fBCONVERT_INTEG_TIME_TO_SS\fP(msec)   (((msec*(\fBEFM32_MCLK\fP*1000)\-160)\-384)/(16*(32+1)))"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_MASTER_CLOCK\fP   \fBEFM32_MCLK\fP"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define CONVERT_INTEG_TIME_TO_SS(msec)   (((msec*(\fBEFM32_MCLK\fP*1000)\-160)\-384)/(16*(32+1)))"
+
+.SS "#define CONVERT_SS_TO_INTEG_TIME(ss)   ((((384+16*(32+1))*ss)+160)/(\fBEFM32_MCLK\fP*1000))"
+
+.SS "#define DARK_PIXE_START_INDEX   34"
+
+.SS "#define EFM32_MCLK   5\&.0"
+
+.SS "#define EFM32_SENSOR_ID_SIZE   5"
+
+.SS "#define INIT_VAL_ADC_RANGE   132"
+
+.SS "#define NSP_DEVICE_MASTER_CLOCK   \fBEFM32_MCLK\fP"
+
+.SS "#define NUM_OF_DARK_PIXELS   28"
+
+.SS "#define SENSOR_DARK_BASE_MAP_SIZE   1024"
+
+.SS "#define SENSOR_DARK_WEIGHTS_MAP_SIZE   1024"
+
+.SS "#define SENSOR_DATA_SIZE   1024"
+
+.SS "#define SENSOR_ID_SIZE   \fBEFM32_SENSOR_ID_SIZE\fP"
+
+.SS "#define SENSOR_ID_STRING_LENGTH   26"
+
+.SS "#define STM_SENSOR_ID_SIZE   5"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

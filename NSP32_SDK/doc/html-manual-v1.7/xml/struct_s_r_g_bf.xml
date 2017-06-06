@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_r_g_bf" kind="struct" language="C++" prot="public">
+    <compoundname>SRGBf</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_r_g_bf_1a4ec43023f6654436a57b9b90cff097d8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SRGBf::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="199" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_r_g_bf_1aef8dc79bb6d139d5fbfbb055757045e7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SRGBf::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="200" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_r_g_bf_1aac025bb4d822900d6ef2d2a4e45d4cb4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SRGBf::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="201" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_r_g_bf_1ac66af3a81e77c9aeb71826be90619238" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SRGBf::SRGBf</definition>
+        <argsstring>()</argsstring>
+        <name>SRGBf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="202" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_r_g_bf_1a6a216fcd85b798ce2af609fa1bbce743" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SRGBf::SRGBf</definition>
+        <argsstring>(double r_, double g_, double b_)</argsstring>
+        <name>SRGBf</name>
+        <param>
+          <type>double</type>
+          <declname>r_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>g_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="206" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="206" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct definition for DOUBLE-type rgb color space. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="198" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="198" bodyend="212"/>
+    <listofallmembers>
+      <member refid="struct_s_r_g_bf_1aac025bb4d822900d6ef2d2a4e45d4cb4" prot="public" virt="non-virtual"><scope>SRGBf</scope><name>b</name></member>
+      <member refid="struct_s_r_g_bf_1aef8dc79bb6d139d5fbfbb055757045e7" prot="public" virt="non-virtual"><scope>SRGBf</scope><name>g</name></member>
+      <member refid="struct_s_r_g_bf_1a4ec43023f6654436a57b9b90cff097d8" prot="public" virt="non-virtual"><scope>SRGBf</scope><name>r</name></member>
+      <member refid="struct_s_r_g_bf_1ac66af3a81e77c9aeb71826be90619238" prot="public" virt="non-virtual"><scope>SRGBf</scope><name>SRGBf</name></member>
+      <member refid="struct_s_r_g_bf_1a6a216fcd85b798ce2af609fa1bbce743" prot="public" virt="non-virtual"><scope>SRGBf</scope><name>SRGBf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

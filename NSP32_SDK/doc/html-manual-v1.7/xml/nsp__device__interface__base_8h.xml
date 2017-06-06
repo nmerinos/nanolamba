@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__device__interface__base_8h" kind="file" language="C++">
+    <compoundname>nsp_device_interface_base.h</compoundname>
+    <includes refid="nsp__base__def_8h" local="yes">nsp_base_def.h</includes>
+    <includes refid="nsp__sdk__def_8h" local="yes">nsp_sdk_def.h</includes>
+    <includes refid="nsp__device__interface__stm__usb_8h" local="yes">nsp_device_interface_stm_usb.h</includes>
+    <includedby refid="nsp__device__interface_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</includedby>
+    <incdepgraph>
+      <node id="193">
+        <label>list</label>
+      </node>
+      <node id="187">
+        <label>iomanip</label>
+      </node>
+      <node id="192">
+        <label>limits</label>
+      </node>
+      <node id="199">
+        <label>nsp_sdk_def.h</label>
+        <link refid="nsp__sdk__def_8h"/>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>stdint.h</label>
+      </node>
+      <node id="185">
+        <label>stdlib.h</label>
+      </node>
+      <node id="196">
+        <label>nsp_error_codes.h</label>
+        <link refid="nsp__error__codes_8h"/>
+      </node>
+      <node id="200">
+        <label>cmath</label>
+      </node>
+      <node id="202">
+        <label>string</label>
+      </node>
+      <node id="194">
+        <label>map</label>
+      </node>
+      <node id="184">
+        <label>fstream</label>
+      </node>
+      <node id="180">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_base.h</label>
+        <link refid="nsp__device__interface__base_8h"/>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>bitset</label>
+      </node>
+      <node id="204">
+        <label>protocol/nsp_device_interface_stm_usb_protocols.h</label>
+        <link refid="nsp__device__interface__stm__usb__protocols_8h"/>
+      </node>
+      <node id="190">
+        <label>vector</label>
+      </node>
+      <node id="186">
+        <label>sstream</label>
+      </node>
+      <node id="189">
+        <label>time.h</label>
+      </node>
+      <node id="197">
+        <label>iostream</label>
+      </node>
+      <node id="201">
+        <label>deque</label>
+      </node>
+      <node id="203">
+        <label>nsp_device_interface_stm_usb.h</label>
+        <link refid="nsp__device__interface__stm__usb_8h"/>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+      </node>
+      <node id="195">
+        <label>alglib3/interpolation.h</label>
+      </node>
+      <node id="181">
+        <label>nsp_base_def.h</label>
+        <link refid="nsp__base__def_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>algorithm</label>
+      </node>
+      <node id="182">
+        <label>nsp_base_types.h</label>
+        <link refid="nsp__base__types_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="205">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_base.h</label>
+        <link refid="nsp__device__interface__base_8h"/>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</label>
+        <link refid="nsp__device__interface_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classnsp__device__interface__base" prot="public">nsp_device_interface_base</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">nsp_device_interface_base.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Implementation<sp/>of<sp/>nsp_device_interface_base<sp/>for<sp/>the<sp/>apollo<sp/>(SF<sp/>MD<sp/>Sensor)<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NSP_DEVICE_INTERFACE_BASE_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_DEVICE_INTERFACE_BASE_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nsp__base__def_8h" kindref="compound">nsp_base_def.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nsp__sdk__def_8h" kindref="compound">nsp_sdk_def.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nsp__device__interface__stm__usb_8h" kindref="compound">nsp_device_interface_stm_usb.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classnsp__device__interface__base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnsp__device__interface__base" kindref="compound">nsp_device_interface_base</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">public<sp/>:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1a07bfc9ed597597f290fcb3c4e0991460" kindref="member">nsp_device_interface_base</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1a1cb6c5e8f705d6b39eabfbb6b26725be" kindref="member">~nsp_device_interface_base</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1ac9085057dd4d7234c5f2d94ca388d63c" kindref="member">initialize</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1ac9085057dd4d7234c5f2d94ca388d63c" kindref="member">initialize</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a471d8d43778ef7c647766da4b24cd519" kindref="member">is_initialized</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a412c64206e9e61c18e773ce447350a06" kindref="member">finalize</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a82f0deb37e054905220382bf4f519e94" kindref="member">reconnect_device</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>iDeviceId,<sp/>std::string<sp/>dark_data_file,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="libusb_8h_1a77eedd00d01eb7569b880e861a971c2b" kindref="member">libusb_device</ref><sp/>*pDev,<sp/><ref refid="libusb_8h_1a4ec088aa7b79c4a9599e39bf36a72833" kindref="member">libusb_context</ref><sp/>*lctx,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>detach);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a294867834653cc5a11d7e12ff80c5c0a" kindref="member">enable_spatial_filtering</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bEnable=</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iSize=3,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1afb53eab998046e308adb8f20e4099310" kindref="member">find_optimal_shutter_speed</ref>(std::vector&lt;int&gt;&amp;<sp/>valid_filter_list,<sp/>std::vector&lt;double&gt;&amp;<sp/>background_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>saturation_value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sleep_time=1000,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1af8249ccd707390aa3cd8cb0fce09267f" kindref="member">set_auto_exposure_parameters</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>target_DN,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1af8249ccd707390aa3cd8cb0fce09267f" kindref="member">set_auto_exposure_parameters</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>target_DN,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>upper_DN,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lower_DN,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mean_DN,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>max_integ_DN,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a362342a3707894af858e5f89899fd562" kindref="member">enable_frame_moving_average</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bEnable,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aef7995fa4b8f82fbfd37ad24f9091de0" kindref="member">get_background_filter_data</ref>(<sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/>*filter_buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>frame_average=1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceId=0<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aa0cf9f1ff1efb97a4022293abf142b8a" kindref="member">get_filter_data</ref>(<ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/>*filter_buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>for_num_averages,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dark_correction_mode,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>useContAcq=0,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aa0cf9f1ff1efb97a4022293abf142b8a" kindref="member">get_filter_data</ref>(std::vector&lt;double&gt;&amp;<sp/>filter_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>average,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>darkcorrectionMode=0,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useAE=</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceId=0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>useContAcq=0);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aaef5654894bad790e74bccbf3f964455" kindref="member">get_filter_data_2048</ref>(std::vector&lt;char&gt;&amp;<sp/>filter_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceId<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a366ede087c567a38a721628631a87541" kindref="member">set_acq_mode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>acq_mode<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a0ed03f1fa813995ff02f0385e8639689" kindref="member">get_acq_mode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>acq_mode<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*=====================================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sensor<sp/>register<sp/>access<sp/>functions<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*=====================================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classnsp__device__interface__base_1aa108ad360b0becd94702595ccaf95ebb" kindref="member">get_sensor_id</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1ae29c0e367b3d8221b54b7fdab34802ae" kindref="member">get_shutter_speed</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1ad09990d619e63c2b5be9d31b20ff61c1" kindref="member">shutter_to_exposure_time_ms</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MCLK,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shutter,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>exposure_time_val);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aab32b2b0903d059a3d811ce0c7c8b63d" kindref="member">exposure_tim_ms_to_shutter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MCLK,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>exposure_time_val,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*shutter);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a25539d112005b0b45535caab353a3ce4" kindref="member">set_shutter_speed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>set_shutter,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1af051d068dbed594cc8ee3c4f7d3fdc4e" kindref="member">set_blank_time</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blank_time,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a73bd02ae3b28b923d3b8650cdc6d8d17" kindref="member">get_blank_time</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a65c16c32029941c0e08f95e7a69a1f17" kindref="member">set_adc_settings</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>adc_range_index,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>gain);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a65c16c32029941c0e08f95e7a69a1f17" kindref="member">set_adc_settings</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>adc_range_index,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>gain,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>res,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a9426615517a0787deeaf5c2be4afd780" kindref="member">get_adcsettings</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>adc_range_index,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>gain,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>res,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="131" refid="classnsp__device__interface__base_1af61188f78c54d2c49306c1c90f24d49b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="classnsp__device__interface__base_1af61188f78c54d2c49306c1c90f24d49b" kindref="member">get_adc_range</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1af3611d12b88a0bfcfdad714b80f1da8e" kindref="member">m_adc_range</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*=====================================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Utility<sp/>functions<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*=====================================================================================*/</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a006bad6ce26bc1a61732cd1b74e49116" kindref="member">get_min_shutter_speed</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1abcc4b2fd9dbf9abcf7f4c0e8b93a4a54" kindref="member">get_max_shutter_speed</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="classnsp__device__interface__base_1a490178fc8096fab7196384370c883e30" kindref="member">get_min_filter_out</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);<sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><ref refid="classnsp__device__interface__base_1afc14d39ed1944d0b584cf75f1fc60e7e" kindref="member">get_max_filter_out</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);<sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a5a31ee11f28dc1a9b5ae2705437bb92e" kindref="member">get_num_filters</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Test<sp/>device</highlight></codeline>
+<codeline lineno="167"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1afb1ce5bcf151cad524343878d4adee2d" kindref="member">test_device</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/>bSensorBoardOk,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/>bControllerBoardOk,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aebfb815b9b8f3759e65cc1d53daae029" kindref="member">set_led_module_op_mode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>op_mode,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aebd0b76ea351522dc4aa1ac4ec0a17c8" kindref="member">set_led_state</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>on_array,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_LED,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>intensity,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0<sp/>);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1ac5520885631cdaa9a201db92904225d3" kindref="member">set_led_opmode</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iOpMode,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iToggleIntervalTime,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0<sp/>);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a6af470d8e149dbf2588bd4b10b0b04cb" kindref="member">set_frame_acquisition_conditions</ref>(<sp/><ref refid="struct_s_data_acq_condition" kindref="compound">SDataAcqCondition</ref>&amp;<sp/>AcqCond,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceId=0<sp/>);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a56875c0aa31fae9c7effbccb1874c6e3" kindref="member">get_total_devices</ref>();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a9292ea22b95ef2c47cdb04a0b447f10c" kindref="member">activate_device</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>deviceid);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aa108ad360b0becd94702595ccaf95ebb" kindref="member">get_sensor_id</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_id,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aa108ad360b0becd94702595ccaf95ebb" kindref="member">get_sensor_id</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>lot_char,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">*<sp/>lot_id,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">*<sp/>wafer_id,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">*<sp/>x_coord,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">*<sp/>y_coord,<sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">*<sp/>sensor_type,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0<sp/>);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classnsp__device__interface__base_1acb536bef10fba4de2fa8c61fe5240f22" kindref="member">decode_sensor_id</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_id,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aeb94be20e706dfabcf6d4bf7eb635c3a" kindref="member">set_onboard_frame_average</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>average_count,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>device_id);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a6ac78c856f6f05582e4ab707cc375eed" kindref="member">get_onboard_frame_average</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>device_id);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a25bb8faec79e3f926a2179f4f8ce1352" kindref="member">set_onboard_dark_correction</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bEnable,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>device_id)<sp/>;</highlight></codeline>
+<codeline lineno="194" refid="classnsp__device__interface__base_1a6a44c8789edc5342b9885764f133703f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a6a44c8789edc5342b9885764f133703f" kindref="member">get_onboard_dark_correction</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>device_id)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1acf82f307f44a8b82ac2707b61ec9cfc9" kindref="member">m_bEnableOBDC</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a2923a4606fb40bcf29905ca4a512f638" kindref="member">get_onboard_dark_frame</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>device_id);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a86c0d45f75baf8066c9c741b6c816955" kindref="member">get_poi_info</ref>(std::vector&lt;int&gt;&amp;<sp/>poi,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1af1b953c85ce479c2ff935dd24566dfe3" kindref="member">set_poi_info</ref>(std::vector&lt;int&gt;&amp;<sp/>poi,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a07367409f9d4cf101ce4707321d3226f" kindref="member">get_poi_filter_data</ref>(std::vector&lt;int&gt;&amp;<sp/>poi_filter_buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>poi_size,<sp/>std::vector&lt;double&gt;&amp;<sp/>poi_background,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iDeviceId=0);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/>LED<sp/>driver</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aa7793caa0931dc3fcde6281abda2e4d9" kindref="member">leddriver_isopen</ref>();</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1aefd3668194eca307216290ab29bbe84a" kindref="member">leddriver_close</ref>(<sp/>);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1a7fffb14e91355e244ce8e6ebe7f248ac" kindref="member">leddriver_set_led_state</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">*<sp/>on_array,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_LED,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>intensity<sp/>);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classnsp__device__interface__base_1ae72439a580afa0e42f1181851ba60d34" kindref="member">leddriver_turn_off_all</ref>();</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="classnsp__device__interface__base_1afa01925d6640a868b0a312447cbd179c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1afa01925d6640a868b0a312447cbd179c" kindref="member">m_interface_is_initialized</ref>;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="classnsp__device__interface__base_1ab64926bf7dcf33ff54ae3bf39cf8270f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1ab64926bf7dcf33ff54ae3bf39cf8270f" kindref="member">m_dark_average_val</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="classnsp__device__interface__base_1aa3659955dffd61519f220465e448c58b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1aa3659955dffd61519f220465e448c58b" kindref="member">m_current_filter_data</ref>[1024];</highlight></codeline>
+<codeline lineno="215" refid="classnsp__device__interface__base_1aaba75f327d67b763d8b8879c6dc2013c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1aaba75f327d67b763d8b8879c6dc2013c" kindref="member">m_current_dark_map</ref>[1024];</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="classnsp__device__interface__base_1a0fc19af870bfa30e0dae7544fb2464cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1a0fc19af870bfa30e0dae7544fb2464cf" kindref="member">m_ShutterSpeed2</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>2&apos;nd<sp/>shutter<sp/>speed<sp/>for<sp/>double-frame<sp/>acquisition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="classnsp__device__interface__base_1af3611d12b88a0bfcfdad714b80f1da8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1af3611d12b88a0bfcfdad714b80f1da8e" kindref="member">m_adc_range</ref>;</highlight></codeline>
+<codeline lineno="219" refid="classnsp__device__interface__base_1a8469431731a7952318db56a5b250037b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1a8469431731a7952318db56a5b250037b" kindref="member">m_adc_gain</ref>;</highlight></codeline>
+<codeline lineno="220" refid="classnsp__device__interface__base_1ab298aeaa4bd25303d972cae7e7eb0718" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1ab298aeaa4bd25303d972cae7e7eb0718" kindref="member">m_adc_res</ref>;</highlight></codeline>
+<codeline lineno="221" refid="classnsp__device__interface__base_1a26c2cb2d3e85468081da1cd2391c042a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1a26c2cb2d3e85468081da1cd2391c042a" kindref="member">m_sensor_id</ref>;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="classnsp__device__interface__base_1acf82f307f44a8b82ac2707b61ec9cfc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1acf82f307f44a8b82ac2707b61ec9cfc9" kindref="member">m_bEnableOBDC</ref>;</highlight></codeline>
+<codeline lineno="224" refid="classnsp__device__interface__base_1af7cc07ecf11324475e33b5f7c890615e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classnsp__device__interface__base_1af7cc07ecf11324475e33b5f7c890615e" kindref="member">m_bFilterDataAtSS1IsReady</ref>;<sp/><sp/></highlight><highlight class="comment">//<sp/>flag<sp/>for<sp/>SS1<sp/>filter<sp/>data<sp/>validity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="classnsp__device__interface__base_1a5e5aadf6d6655ec9c02efa53bdd953be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;int,<sp/>SDataAcqCondition<sp/>&gt;<sp/><ref refid="classnsp__device__interface__base_1a5e5aadf6d6655ec9c02efa53bdd953be" kindref="member">m_AcqCond</ref>;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__NSP_DEVICE_INTERFACE_BASE_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_base.h"/>
+  </compounddef>
+</doxygen>

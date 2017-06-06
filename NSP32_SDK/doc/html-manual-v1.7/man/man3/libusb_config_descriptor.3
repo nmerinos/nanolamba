@@ -1,0 +1,78 @@
+.TH "libusb_config_descriptor" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_config_descriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "uint8_t \fBbLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbDescriptorType\fP"
+.br
+.ti -1c
+.RI "uint16_t \fBwTotalLength\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbNumInterfaces\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbConfigurationValue\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBiConfiguration\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBbmAttributes\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBMaxPower\fP"
+.br
+.ti -1c
+.RI "const struct \fBlibusb_interface\fP * \fBinterface\fP"
+.br
+.ti -1c
+.RI "const unsigned char * \fBextra\fP"
+.br
+.ti -1c
+.RI "int \fBextra_length\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A structure representing the standard USB configuration descriptor\&. This descriptor is documented in section 9\&.6\&.3 of the USB 3\&.0 specification\&. All multiple-byte fields are represented in host-endian format\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "uint8_t libusb_config_descriptor::bConfigurationValue"
+Identifier value for this configuration 
+.SS "uint8_t libusb_config_descriptor::bDescriptorType"
+Descriptor type\&. Will have value \fBlibusb_descriptor_type::LIBUSB_DT_CONFIG\fP LIBUSB_DT_CONFIG in this context\&. 
+.SS "uint8_t libusb_config_descriptor::bLength"
+Size of this descriptor (in bytes) 
+.SS "uint8_t libusb_config_descriptor::bmAttributes"
+Configuration characteristics 
+.SS "uint8_t libusb_config_descriptor::bNumInterfaces"
+Number of interfaces supported by this configuration 
+.SS "const unsigned char* libusb_config_descriptor::extra"
+Extra descriptors\&. If libusbx encounters unknown configuration descriptors, it will store them here, should you wish to parse them\&. 
+.SS "int libusb_config_descriptor::extra_length"
+Length of the extra descriptors, in bytes\&. 
+.SS "uint8_t libusb_config_descriptor::iConfiguration"
+Index of string descriptor describing this configuration 
+.SS "const struct \fBlibusb_interface\fP* libusb_config_descriptor::interface"
+Array of interfaces supported by this configuration\&. The length of this array is determined by the bNumInterfaces field\&. 
+.SS "uint8_t libusb_config_descriptor::MaxPower"
+Maximum power consumption of the USB device from this bus in this configuration when the device is fully opreation\&. Expressed in units of 2 mA\&. 
+.SS "uint16_t libusb_config_descriptor::wTotalLength"
+Total length of data returned for this configuration 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_filter_ref_data" kind="struct" language="C++" prot="public">
+    <compoundname>_SFilterRefData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1a5912f177c544c50495b6858700f9eb90" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref></type>
+        <definition>SDoubleArray2D _SFilterRefData::gray_filterout</definition>
+        <argsstring></argsstring>
+        <name>gray_filterout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="379" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1a4bbad239b28ea75a3d2b4dc5c1a5dc93" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref></type>
+        <definition>SDoubleArray2D _SFilterRefData::setWRGB_filterout</definition>
+        <argsstring></argsstring>
+        <name>setWRGB_filterout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="380" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1a3285ce7eef12825b359d8b635efe5318" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref></type>
+        <definition>SDoubleArray2D _SFilterRefData::allSamples_filterout</definition>
+        <argsstring></argsstring>
+        <name>allSamples_filterout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="381" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1ab38cb8e0d3d7de0f885f551591cb181d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterRefData::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="382" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1a2469f54541ffb18434de1b7203de0136" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterRefData::sensorType</definition>
+        <argsstring></argsstring>
+        <name>sensorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="383" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1a3215a87ed99be4fe6b711a3dd86adafb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterRefData::SHUTTER_SPEED</definition>
+        <argsstring></argsstring>
+        <name>SHUTTER_SPEED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="384" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1a170660bca5743c99f639f5f24a9a5d12" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterRefData::AVERAGES</definition>
+        <argsstring></argsstring>
+        <name>AVERAGES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="385" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1a7d82825e99e445f5e83723468f93215d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SFilterRefData::satValue</definition>
+        <argsstring></argsstring>
+        <name>satValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="386" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_filter_ref_data_1ad25f989783293534b156f601edd49439" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SFilterRefData::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="387" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="387" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_filter_ref_data_1afc1c7e05735d07d826a4e82a0604c6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SFilterRefData::_SFilterRefData</definition>
+        <argsstring>()</argsstring>
+        <name>_SFilterRefData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="389" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="389" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a0915d2bf075a34a5eb2466183ace604e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetGrayData</definition>
+        <argsstring>(SDoubleArray2D &amp;dataIn)</argsstring>
+        <name>SetGrayData</name>
+        <param>
+          <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+          <declname>dataIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="394" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="394" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a8d0ce0d62b75df24a5b3fbbd1a045510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetWRGBData</definition>
+        <argsstring>(SDoubleArray2D &amp;dataIn)</argsstring>
+        <name>SetWRGBData</name>
+        <param>
+          <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+          <declname>dataIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="395" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="395" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a114a997cf4892a28063250e761633c32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetColorData</definition>
+        <argsstring>(SDoubleArray2D &amp;dataIn)</argsstring>
+        <name>SetColorData</name>
+        <param>
+          <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+          <declname>dataIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="396" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="396" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1aa41fb63f22a4df464c911e84114d68f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetAverages</definition>
+        <argsstring>(unsigned int iIn)</argsstring>
+        <name>SetAverages</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="397" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="397" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a559f916e78dc77c272fb5371d0dd7961" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetShutterSpeed</definition>
+        <argsstring>(unsigned int iIn)</argsstring>
+        <name>SetShutterSpeed</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>iIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="398" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="398" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a149ebd9f1df9796125bb59a6fc739169" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetSensorType</definition>
+        <argsstring>(std::string &amp;strIn)</argsstring>
+        <name>SetSensorType</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>strIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="399" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="399" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a483a2bc3d3d93ae44e7a134432499004" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetDate</definition>
+        <argsstring>(std::string &amp;strIn)</argsstring>
+        <name>SetDate</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>strIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="400" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="400" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a06b7f186ad93e6b412671415942f8b00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::SetDataType</definition>
+        <argsstring>(std::string &amp;strIn)</argsstring>
+        <name>SetDataType</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>strIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="401" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="401" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1af3987ed7b5a53362d367d8c6c42ec86c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+        <definition>SDoubleArray2D&amp; _SFilterRefData::GetGrayData</definition>
+        <argsstring>()</argsstring>
+        <name>GetGrayData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="403" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="403" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1adaa1790aac005d2e023282f3a0869160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+        <definition>SDoubleArray2D&amp; _SFilterRefData::GetWRGBData</definition>
+        <argsstring>()</argsstring>
+        <name>GetWRGBData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="404" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="404" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a590fcca0ddc2cbab019422b67e20f2b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+        <definition>SDoubleArray2D&amp; _SFilterRefData::GetColorData</definition>
+        <argsstring>()</argsstring>
+        <name>GetColorData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="405" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="405" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1ac02243648097daa769e7c3eae9b393b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int _SFilterRefData::GetAverages</definition>
+        <argsstring>()</argsstring>
+        <name>GetAverages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="406" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="406" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a1325769f062f0dbacf75dcb090481a93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int _SFilterRefData::GetShutterSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>GetShutterSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="407" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="407" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a4f9c55b95df984f5b6bbfb75ff0c3bd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string &amp;</type>
+        <definition>std::string&amp; _SFilterRefData::GetSensorType</definition>
+        <argsstring>()</argsstring>
+        <name>GetSensorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="408" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="408" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a1a53fbb3d3b463cf1384499f10761ae5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string &amp;</type>
+        <definition>std::string&amp; _SFilterRefData::GetDate</definition>
+        <argsstring>()</argsstring>
+        <name>GetDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="409" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="409" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a22a9a8068f775db803dc46302cdaec51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string &amp;</type>
+        <definition>std::string&amp; _SFilterRefData::GetDataType</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="410" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="410" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_filter_ref_data_1a37282d7af2771eab59adcc33eaa23d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SFilterRefData::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="412" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="412" bodyend="423"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="378" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="377" bodyend="424"/>
+    <listofallmembers>
+      <member refid="struct___s_filter_ref_data_1afc1c7e05735d07d826a4e82a0604c6c2" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>_SFilterRefData</name></member>
+      <member refid="struct___s_filter_ref_data_1a3285ce7eef12825b359d8b635efe5318" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>allSamples_filterout</name></member>
+      <member refid="struct___s_filter_ref_data_1a170660bca5743c99f639f5f24a9a5d12" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>AVERAGES</name></member>
+      <member refid="struct___s_filter_ref_data_1ab38cb8e0d3d7de0f885f551591cb181d" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>data</name></member>
+      <member refid="struct___s_filter_ref_data_1ad25f989783293534b156f601edd49439" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>date</name></member>
+      <member refid="struct___s_filter_ref_data_1ac02243648097daa769e7c3eae9b393b1" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetAverages</name></member>
+      <member refid="struct___s_filter_ref_data_1a590fcca0ddc2cbab019422b67e20f2b3" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetColorData</name></member>
+      <member refid="struct___s_filter_ref_data_1a22a9a8068f775db803dc46302cdaec51" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetDataType</name></member>
+      <member refid="struct___s_filter_ref_data_1a1a53fbb3d3b463cf1384499f10761ae5" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetDate</name></member>
+      <member refid="struct___s_filter_ref_data_1af3987ed7b5a53362d367d8c6c42ec86c" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetGrayData</name></member>
+      <member refid="struct___s_filter_ref_data_1a4f9c55b95df984f5b6bbfb75ff0c3bd5" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetSensorType</name></member>
+      <member refid="struct___s_filter_ref_data_1a1325769f062f0dbacf75dcb090481a93" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetShutterSpeed</name></member>
+      <member refid="struct___s_filter_ref_data_1adaa1790aac005d2e023282f3a0869160" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>GetWRGBData</name></member>
+      <member refid="struct___s_filter_ref_data_1a5912f177c544c50495b6858700f9eb90" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>gray_filterout</name></member>
+      <member refid="struct___s_filter_ref_data_1a37282d7af2771eab59adcc33eaa23d75" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>Reset</name></member>
+      <member refid="struct___s_filter_ref_data_1a7d82825e99e445f5e83723468f93215d" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>satValue</name></member>
+      <member refid="struct___s_filter_ref_data_1a2469f54541ffb18434de1b7203de0136" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>sensorType</name></member>
+      <member refid="struct___s_filter_ref_data_1aa41fb63f22a4df464c911e84114d68f5" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetAverages</name></member>
+      <member refid="struct___s_filter_ref_data_1a114a997cf4892a28063250e761633c32" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetColorData</name></member>
+      <member refid="struct___s_filter_ref_data_1a06b7f186ad93e6b412671415942f8b00" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetDataType</name></member>
+      <member refid="struct___s_filter_ref_data_1a483a2bc3d3d93ae44e7a134432499004" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetDate</name></member>
+      <member refid="struct___s_filter_ref_data_1a0915d2bf075a34a5eb2466183ace604e" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetGrayData</name></member>
+      <member refid="struct___s_filter_ref_data_1a149ebd9f1df9796125bb59a6fc739169" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetSensorType</name></member>
+      <member refid="struct___s_filter_ref_data_1a559f916e78dc77c272fb5371d0dd7961" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetShutterSpeed</name></member>
+      <member refid="struct___s_filter_ref_data_1a4bbad239b28ea75a3d2b4dc5c1a5dc93" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>setWRGB_filterout</name></member>
+      <member refid="struct___s_filter_ref_data_1a8d0ce0d62b75df24a5b3fbbd1a045510" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SetWRGBData</name></member>
+      <member refid="struct___s_filter_ref_data_1a3215a87ed99be4fe6b711a3dd86adafb" prot="public" virt="non-virtual"><scope>_SFilterRefData</scope><name>SHUTTER_SPEED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

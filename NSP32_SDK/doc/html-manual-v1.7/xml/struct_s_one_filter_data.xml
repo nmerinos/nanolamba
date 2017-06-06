@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_one_filter_data" kind="struct" language="C++" prot="public">
+    <compoundname>SOneFilterData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_one_filter_data_1ad72198e68378dd2c9f9298f4ed322ca8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string SOneFilterData::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="354" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_one_filter_data_1a500432aee9e961d6876488c32d9890d9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; SOneFilterData::raw</definition>
+        <argsstring></argsstring>
+        <name>raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="355" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_one_filter_data_1a16ea2c8a0b06a8acbe62dffa60e90328" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; SOneFilterData::spec</definition>
+        <argsstring></argsstring>
+        <name>spec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="356" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_one_filter_data_1afb2267897a7deb4902c953cc8d168b4d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_s_data_acq_condition" kindref="compound">SDataAcqCondition</ref></type>
+        <definition>SDataAcqCondition SOneFilterData::condition</definition>
+        <argsstring></argsstring>
+        <name>condition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="357" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_one_filter_data_1aa6a070f53f8ec1ddb3e5fac935c8b3c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SOneFilterData::SOneFilterData</definition>
+        <argsstring>()</argsstring>
+        <name>SOneFilterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="359" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_one_filter_data_1a1df7df24d62324e695556f4f774ec895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void SOneFilterData::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="364" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="364" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="113">
+        <label>SOneFilterData</label>
+        <link refid="struct_s_one_filter_data"/>
+        <childnode refid="114" relation="usage">
+          <edgelabel>condition</edgelabel>
+        </childnode>
+      </node>
+      <node id="114">
+        <label>SDataAcqCondition</label>
+        <link refid="struct_s_data_acq_condition"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="353" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="352" bodyend="371"/>
+    <listofallmembers>
+      <member refid="struct_s_one_filter_data_1afb2267897a7deb4902c953cc8d168b4d" prot="public" virt="non-virtual"><scope>SOneFilterData</scope><name>condition</name></member>
+      <member refid="struct_s_one_filter_data_1ad72198e68378dd2c9f9298f4ed322ca8" prot="public" virt="non-virtual"><scope>SOneFilterData</scope><name>date</name></member>
+      <member refid="struct_s_one_filter_data_1a500432aee9e961d6876488c32d9890d9" prot="public" virt="non-virtual"><scope>SOneFilterData</scope><name>raw</name></member>
+      <member refid="struct_s_one_filter_data_1a1df7df24d62324e695556f4f774ec895" prot="public" virt="non-virtual"><scope>SOneFilterData</scope><name>reset</name></member>
+      <member refid="struct_s_one_filter_data_1aa6a070f53f8ec1ddb3e5fac935c8b3c8" prot="public" virt="non-virtual"><scope>SOneFilterData</scope><name>SOneFilterData</name></member>
+      <member refid="struct_s_one_filter_data_1a16ea2c8a0b06a8acbe62dffa60e90328" prot="public" virt="non-virtual"><scope>SOneFilterData</scope><name>spec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

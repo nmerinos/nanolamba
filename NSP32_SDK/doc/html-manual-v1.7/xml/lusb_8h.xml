@@ -1,0 +1,1757 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="lusb_8h" kind="file" language="C++">
+    <compoundname>lusb.h</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes refid="libusb_8h" local="yes">libusb.h</includes>
+    <includedby refid="nsp__device__interface_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</includedby>
+    <incdepgraph>
+      <node id="137">
+        <label>libusb.h</label>
+        <link refid="libusb_8h"/>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>stdint.h</label>
+      </node>
+      <node id="136">
+        <label>stdlib.h</label>
+      </node>
+      <node id="135">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h</label>
+        <link refid="lusb_8h"/>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>limits.h</label>
+      </node>
+      <node id="139">
+        <label>sys/types.h</label>
+      </node>
+      <node id="140">
+        <label>time.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="142">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h</label>
+        <link refid="lusb_8h"/>
+        <childnode refid="143" relation="include">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</label>
+        <link refid="nsp__device__interface_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structusb__descriptor__header" prot="public">usb_descriptor_header</innerclass>
+    <innerclass refid="structusb__string__descriptor" prot="public">usb_string_descriptor</innerclass>
+    <innerclass refid="structusb__hid__descriptor" prot="public">usb_hid_descriptor</innerclass>
+    <innerclass refid="structusb__endpoint__descriptor" prot="public">usb_endpoint_descriptor</innerclass>
+    <innerclass refid="structusb__interface__descriptor" prot="public">usb_interface_descriptor</innerclass>
+    <innerclass refid="structusb__interface" prot="public">usb_interface</innerclass>
+    <innerclass refid="structusb__config__descriptor" prot="public">usb_config_descriptor</innerclass>
+    <innerclass refid="structusb__device__descriptor" prot="public">usb_device_descriptor</innerclass>
+    <innerclass refid="structusb__ctrl__setup" prot="public">usb_ctrl_setup</innerclass>
+    <innerclass refid="structusb__device" prot="public">usb_device</innerclass>
+    <innerclass refid="structusb__bus" prot="public">usb_bus</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lusb_8h_1a05594ec20ed58eb155514abfa84929d9" prot="public" static="no">
+        <name>USE_LIBUSB_10</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="10" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a8b85309bdb473716f6d45bff7bc357f8" prot="public" static="no">
+        <name>CONTROLLER_BOARD_STM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="13" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a927364bf724921dbce110225b861b900" prot="public" static="no">
+        <name>LIBUSB_PATH_MAX</name>
+        <initializer>512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="30" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a1e00c14ff205d2d88be93faa2a81927a" prot="public" static="no">
+        <name>USB_CLASS_PER_INTERFACE</name>
+        <initializer>0	/* for DeviceClass */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="43" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a8785f84db1be6b0b5da34cd91a1b6138" prot="public" static="no">
+        <name>USB_CLASS_AUDIO</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="44" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a5c76a53e5f10ec3e6b78ddddf31bbc46" prot="public" static="no">
+        <name>USB_CLASS_COMM</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="45" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1af062e949014bed74a8b5fedcf1705602" prot="public" static="no">
+        <name>USB_CLASS_HID</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="46" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ab3e03403111b64480ba298d2641cf92f" prot="public" static="no">
+        <name>USB_CLASS_PRINTER</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="47" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aa99b73e335df09e6545fc44798a3c1f2" prot="public" static="no">
+        <name>USB_CLASS_MASS_STORAGE</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="48" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aac5a936a2d1a6e3403798b031294992a" prot="public" static="no">
+        <name>USB_CLASS_HUB</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="49" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1adf8c8c8eaec8c46ca9e7203b776e0c78" prot="public" static="no">
+        <name>USB_CLASS_DATA</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="50" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ac2fd9544865272a8990d68a478fca95f" prot="public" static="no">
+        <name>USB_CLASS_VENDOR_SPEC</name>
+        <initializer>0xff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="51" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a906ba0fa4d6863d2035b57c95e47d85a" prot="public" static="no">
+        <name>USB_DT_DEVICE</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="56" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1acb09b89c4c238b966761f3d6b22a115d" prot="public" static="no">
+        <name>USB_DT_CONFIG</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="57" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a842c171f51ce2cab2651aa1953c0e9e8" prot="public" static="no">
+        <name>USB_DT_STRING</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="58" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a379537a80205e4ea065b7e05db921a5d" prot="public" static="no">
+        <name>USB_DT_INTERFACE</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="59" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a0ff819fc4805498bea95488270afca76" prot="public" static="no">
+        <name>USB_DT_ENDPOINT</name>
+        <initializer>0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="60" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a182228ddacc0d9e10a38d935f56d9631" prot="public" static="no">
+        <name>USB_DT_HID</name>
+        <initializer>0x21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="62" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a4c6d04578ec8ac461548dd2042a82486" prot="public" static="no">
+        <name>USB_DT_REPORT</name>
+        <initializer>0x22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="63" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ac137cb2759d34a3a92697d17dcc0aa12" prot="public" static="no">
+        <name>USB_DT_PHYSICAL</name>
+        <initializer>0x23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="64" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1abc560ad776fbee14c7d1d308014f28b8" prot="public" static="no">
+        <name>USB_DT_HUB</name>
+        <initializer>0x29</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="65" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1adf113fe0d44d34bd71d49e7baf39d9d3" prot="public" static="no">
+        <name>USB_DT_DEVICE_SIZE</name>
+        <initializer>18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="70" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aba2ee8e6c45da0dd97562fee78991272" prot="public" static="no">
+        <name>USB_DT_CONFIG_SIZE</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="71" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aeaeb5548b6db222104675158bce05d85" prot="public" static="no">
+        <name>USB_DT_INTERFACE_SIZE</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="72" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a08bf41bc04ea5919ed8820007c198b71" prot="public" static="no">
+        <name>USB_DT_ENDPOINT_SIZE</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="73" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a05175986cd1b3b39b0c8c36447183391" prot="public" static="no">
+        <name>USB_DT_ENDPOINT_AUDIO_SIZE</name>
+        <initializer>9	/* Audio extension */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="74" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a90c97001015c3e7f6e0606970f00b8fd" prot="public" static="no">
+        <name>USB_DT_HUB_NONVAR_SIZE</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="75" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1acc255450641cdcfbc1379326c3ad5d0b" prot="public" static="no">
+        <name>USB_MAXENDPOINTS</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="109" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1af69ecdd9367b248cd22627a3a1886dfe" prot="public" static="no">
+        <name>USB_ENDPOINT_ADDRESS_MASK</name>
+        <initializer>0x0f    /* in bEndpointAddress */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="125" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a93a6aa5841b4ff46167822362add046d" prot="public" static="no">
+        <name>USB_ENDPOINT_DIR_MASK</name>
+        <initializer>0x80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="126" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1acd114fdf068aaa69407358ee5ccfd170" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_MASK</name>
+        <initializer>0x03    /* in bmAttributes */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="128" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a6a51ed22b06e5ca0f76a35b6bac8d73a" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_CONTROL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="129" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ab05aae4a5d079b8dfb6a9cb1325ea6e5" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_ISOCHRONOUS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="130" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1af4bac84d4576dc8f74f39dc75749e3dc" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_BULK</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="131" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a2cb5aa69a03df20aab217b808ad692a6" prot="public" static="no">
+        <name>USB_ENDPOINT_TYPE_INTERRUPT</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="132" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ac83b313beedadcb6ba5ef5ac492a75d3" prot="public" static="no">
+        <name>USB_MAXINTERFACES</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="135" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a4ab0ccffcb6bb8a11134ee350c30c9a4" prot="public" static="no">
+        <name>USB_MAXALTSETTING</name>
+        <initializer>128	/* Hard limit */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="154" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1adc60bb82427d36cfdca2cd895b955e19" prot="public" static="no">
+        <name>USB_MAXCONFIG</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="164" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a9a493ab751c46c46ab88d558e683a323" prot="public" static="no">
+        <name>USB_REQ_GET_STATUS</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="213" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a43687a0101d3a62f05ffcd6e80cfa7ef" prot="public" static="no">
+        <name>USB_REQ_CLEAR_FEATURE</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="214" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a3661e3551d3dbd0e10debfe058791045" prot="public" static="no">
+        <name>USB_REQ_SET_FEATURE</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="216" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aaca043a771a5d020e91011f458a3d31c" prot="public" static="no">
+        <name>USB_REQ_SET_ADDRESS</name>
+        <initializer>0x05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="218" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ae10a1fd5f65d075c17536fd3f7d8472e" prot="public" static="no">
+        <name>USB_REQ_GET_DESCRIPTOR</name>
+        <initializer>0x06</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="219" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ae787427813c070874ed3493b57f1e5d3" prot="public" static="no">
+        <name>USB_REQ_SET_DESCRIPTOR</name>
+        <initializer>0x07</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="220" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ae4c9a3af66b1d3203140c45af59de525" prot="public" static="no">
+        <name>USB_REQ_GET_CONFIGURATION</name>
+        <initializer>0x08</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="221" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a74588b0ebd757cfd2b9e4533324e7ae7" prot="public" static="no">
+        <name>USB_REQ_SET_CONFIGURATION</name>
+        <initializer>0x09</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="222" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a0eb3845dcaf168d3755565f7a89b3f6e" prot="public" static="no">
+        <name>USB_REQ_GET_INTERFACE</name>
+        <initializer>0x0A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="223" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a2ae35a6b81c8115f19dda1ef2180e73e" prot="public" static="no">
+        <name>USB_REQ_SET_INTERFACE</name>
+        <initializer>0x0B</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="224" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a88e5d25769684f2e06253f90fe402eaf" prot="public" static="no">
+        <name>USB_REQ_SYNCH_FRAME</name>
+        <initializer>0x0C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="225" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1af442f8706cfb3d4be5f6ddc10f50cca6" prot="public" static="no">
+        <name>USB_TYPE_STANDARD</name>
+        <initializer>(0x00 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="227" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1acd8c428aa0aca973ec78dd2f34c84cf1" prot="public" static="no">
+        <name>USB_TYPE_CLASS</name>
+        <initializer>(0x01 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="228" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1ac536dbee4e24f67c36582799f084ea6d" prot="public" static="no">
+        <name>USB_TYPE_VENDOR</name>
+        <initializer>(0x02 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="229" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a7d3b052172953c8a22290f71ae54c357" prot="public" static="no">
+        <name>USB_TYPE_RESERVED</name>
+        <initializer>(0x03 &lt;&lt; 5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="230" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a3e87c09c94711436bc446aa280c10693" prot="public" static="no">
+        <name>USB_RECIP_DEVICE</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="232" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1af17fccabaf184e41e5b75a909df014ae" prot="public" static="no">
+        <name>USB_RECIP_INTERFACE</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="233" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a1fdce9251d053f489f11b7634cdff200" prot="public" static="no">
+        <name>USB_RECIP_ENDPOINT</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="234" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aa61d48948439fdadb936c73b4f5341fb" prot="public" static="no">
+        <name>USB_RECIP_OTHER</name>
+        <initializer>0x03</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="235" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a4c5ffd9e3b2d23c93d29b70193b8d79c" prot="public" static="no">
+        <name>USB_ENDPOINT_IN</name>
+        <initializer>0x80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="241" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1a3bf21206de7c6013aa39b53836e05aac" prot="public" static="no">
+        <name>USB_ENDPOINT_OUT</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="242" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aadab4c3384b084a0c5b5dc8e63463868" prot="public" static="no">
+        <name>USB_ERROR_BEGIN</name>
+        <initializer>500000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="245" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lusb_8h_1aca8fa47314e1dbcd060d32b4c45fc519" prot="public" static="no">
+        <name>USB_LE16_TO_CPU</name>
+        <param><defname>x</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="251" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="lusb_8h_1ab6040b929dd43a9c73ca23f92097158b" prot="public" static="no">
+        <type>struct <ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref></type>
+        <definition>typedef struct usb_dev_handle usb_dev_handle</definition>
+        <argsstring></argsstring>
+        <name>usb_dev_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="1793" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="lusb_8h_1a5a4e2d0af40b6530bed742d8e4b3d758" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structusb__bus" kindref="compound">usb_bus</ref> *</type>
+        <definition>struct usb_bus* usb_busses</definition>
+        <argsstring></argsstring>
+        <name>usb_busses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="297" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="lusb_8h_1a40cbeb5888754f074c9af2b926f8189e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+        <definition>usb_dev_handle* usb_open</definition>
+        <argsstring>(struct usb_device *dev)</argsstring>
+        <name>usb_open</name>
+        <param>
+          <type>struct <ref refid="structusb__device" kindref="compound">usb_device</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="312" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1afedf07c116d8604a7d84f26e9b23ea27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_close</definition>
+        <argsstring>(usb_dev_handle *dev)</argsstring>
+        <name>usb_close</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="313" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a2f7398e82b6f4e85ec68a5acff8fe4b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_string</definition>
+        <argsstring>(usb_dev_handle *dev, int index, int langid, char *buf, size_t buflen)</argsstring>
+        <name>usb_get_string</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>langid</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buflen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="314" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a44f796c7d99142cbaac816506671eb5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_string_simple</definition>
+        <argsstring>(usb_dev_handle *dev, int index, char *buf, size_t buflen)</argsstring>
+        <name>usb_get_string_simple</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>buflen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="316" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1adcd4b8e9315b10c8f264939673f6f283" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_descriptor_by_endpoint</definition>
+        <argsstring>(usb_dev_handle *udev, int ep, unsigned char type, unsigned char index, void *buf, int size)</argsstring>
+        <name>usb_get_descriptor_by_endpoint</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>udev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref> *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="320" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1af2b6ed5aea5449852731e61f84703dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_get_descriptor</definition>
+        <argsstring>(usb_dev_handle *udev, unsigned char type, unsigned char index, void *buf, int size)</argsstring>
+        <name>usb_get_descriptor</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>udev</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref> *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="323" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a37cb353368c888ee1e8985c6ee689c8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_bulk_write</definition>
+        <argsstring>(libusb_device_handle *handle, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_bulk_write</name>
+        <param>
+          <type><ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="333" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a6d9aaee4b9e20ee4f5099f0636e064a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_bulk_read</definition>
+        <argsstring>(libusb_device_handle *handle, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_bulk_read</name>
+        <param>
+          <type><ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="335" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a1303b94c51199123d05367d33e2de58d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_interrupt_write</definition>
+        <argsstring>(usb_dev_handle *dev, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_interrupt_write</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="338" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a0d1535af34f66bf7707cbb3815568289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_interrupt_read</definition>
+        <argsstring>(usb_dev_handle *dev, int ep, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_interrupt_read</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ep</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="340" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a5889fb374936cb324d38bae34a7eec24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_control_msg</definition>
+        <argsstring>(libusb_device_handle *handle, int requesttype, int request, int value, int index, char *bytes, int size, int timeout)</argsstring>
+        <name>usb_control_msg</name>
+        <param>
+          <type><ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>requesttype</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a81ef49d6ec26c7a59c8a8a420d4dd068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_set_configuration</definition>
+        <argsstring>(usb_dev_handle *dev, int configuration)</argsstring>
+        <name>usb_set_configuration</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="351" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a70446a55ec1f949ed7d4e845164e9101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_claim_interface</definition>
+        <argsstring>(libusb_device_handle *handle, int interface)</argsstring>
+        <name>usb_claim_interface</name>
+        <param>
+          <type><ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref> *</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="355" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a5c5cae08bbc2f9f0641d2f1c40747637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_release_interface</definition>
+        <argsstring>(usb_dev_handle *dev, int interface)</argsstring>
+        <name>usb_release_interface</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="357" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a557b4119b2502a7a2f582422c37ad1a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_set_altinterface</definition>
+        <argsstring>(usb_dev_handle *dev, int alternate)</argsstring>
+        <name>usb_set_altinterface</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alternate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="358" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a52fa7676b021b74a30814b8600257f6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_resetep</definition>
+        <argsstring>(usb_dev_handle *dev, unsigned int ep)</argsstring>
+        <name>usb_resetep</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="359" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a1cf1c5aaa2e17e2d830c6a93600f9079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_clear_halt</definition>
+        <argsstring>(usb_dev_handle *dev, unsigned int ep)</argsstring>
+        <name>usb_clear_halt</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a6d7be469ffbcf25298d928f533367807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_reset</definition>
+        <argsstring>(usb_dev_handle *dev)</argsstring>
+        <name>usb_reset</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="361" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1abc1f899f71fffec9a4eeb7dd22fb7584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* usb_strerror</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_strerror</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="363" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1addfbdb66f507ffcd08b4496531ed0a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void usb_init</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_init</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="365" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a24159249f61904835d5e2639c9b74b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void usb_set_debug</definition>
+        <argsstring>(int level)</argsstring>
+        <name>usb_set_debug</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="366" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a7e0c7fa79f9d66c2d697ef34739cb529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_find_busses</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_find_busses</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="367" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a81abbb2de96915880fcfec55238e7537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int usb_find_devices</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_find_devices</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="368" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1a283cb806947b01c25ae6e3cb98a9ab73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structusb__device" kindref="compound">usb_device</ref> *</type>
+        <definition>struct usb_device* usb_device</definition>
+        <argsstring>(usb_dev_handle *dev)</argsstring>
+        <name>usb_device</name>
+        <param>
+          <type><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="369" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="lusb_8h_1ac57de22226015a792e047a6af1ddee5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="structusb__bus" kindref="compound">usb_bus</ref> *</type>
+        <definition>struct usb_bus* usb_get_busses</definition>
+        <argsstring>(void)</argsstring>
+        <name>usb_get_busses</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" line="370" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__USB_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__USB_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="libusb_8h" kindref="compound">libusb.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="lusb_8h_1a05594ec20ed58eb155514abfa84929d9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USE_LIBUSB_10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//#undef<sp/>USE_LIBUSB_10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="lusb_8h_1a8b85309bdb473716f6d45bff7bc357f8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTROLLER_BOARD_STM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>CONTROLLER_BOARD_STM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>&apos;interface&apos;<sp/>is<sp/>defined<sp/>somewhere<sp/>in<sp/>the<sp/>Windows<sp/>header<sp/>files.<sp/>This<sp/>macro</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>is<sp/>deleted<sp/>here<sp/>to<sp/>avoid<sp/>conflicts<sp/>and<sp/>compile<sp/>errors.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>PATH_MAX<sp/>from<sp/>limits.h<sp/>can&apos;t<sp/>be<sp/>used<sp/>on<sp/>Windows<sp/>if<sp/>the<sp/>dll<sp/>and</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>import<sp/>libraries<sp/>are<sp/>build/used<sp/>by<sp/>different<sp/>compilers</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="lusb_8h_1a927364bf724921dbce110225b861b900" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBUSB_PATH_MAX<sp/>512</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/>USB<sp/>spec<sp/>information</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>all<sp/>stuff<sp/>grabbed<sp/>from<sp/>various<sp/>USB<sp/>specs<sp/>and<sp/>is<sp/>pretty<sp/>much</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>not<sp/>subject<sp/>to<sp/>change</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>Device<sp/>and/or<sp/>Interface<sp/>Class<sp/>codes</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="lusb_8h_1a1e00c14ff205d2d88be93faa2a81927a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_PER_INTERFACE<sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>for<sp/>DeviceClass<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="lusb_8h_1a8785f84db1be6b0b5da34cd91a1b6138" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_AUDIO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="lusb_8h_1a5c76a53e5f10ec3e6b78ddddf31bbc46" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_COMM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="lusb_8h_1af062e949014bed74a8b5fedcf1705602" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_HID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="lusb_8h_1ab3e03403111b64480ba298d2641cf92f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_PRINTER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="lusb_8h_1aa99b73e335df09e6545fc44798a3c1f2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_MASS_STORAGE<sp/><sp/><sp/><sp/><sp/><sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="lusb_8h_1aac5a936a2d1a6e3403798b031294992a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_HUB<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="lusb_8h_1adf8c8c8eaec8c46ca9e7203b776e0c78" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_DATA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="lusb_8h_1ac2fd9544865272a8990d68a478fca95f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_CLASS_VENDOR_SPEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Descriptor<sp/>types</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="lusb_8h_1a906ba0fa4d6863d2035b57c95e47d85a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_DEVICE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="lusb_8h_1acb09b89c4c238b966761f3d6b22a115d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_CONFIG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="lusb_8h_1a842c171f51ce2cab2651aa1953c0e9e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_STRING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="lusb_8h_1a379537a80205e4ea065b7e05db921a5d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="lusb_8h_1a0ff819fc4805498bea95488270afca76" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_ENDPOINT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="lusb_8h_1a182228ddacc0d9e10a38d935f56d9631" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_HID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x21</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="lusb_8h_1a4c6d04578ec8ac461548dd2042a82486" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_REPORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x22</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="lusb_8h_1ac137cb2759d34a3a92697d17dcc0aa12" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_PHYSICAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x23</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="lusb_8h_1abc560ad776fbee14c7d1d308014f28b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_HUB<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x29</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>Descriptor<sp/>sizes<sp/>per<sp/>descriptor<sp/>type</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="lusb_8h_1adf113fe0d44d34bd71d49e7baf39d9d3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_DEVICE_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>18</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="lusb_8h_1aba2ee8e6c45da0dd97562fee78991272" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_CONFIG_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="lusb_8h_1aeaeb5548b6db222104675158bce05d85" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_INTERFACE_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="lusb_8h_1a08bf41bc04ea5919ed8820007c198b71" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_ENDPOINT_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="lusb_8h_1a05175986cd1b3b39b0c8c36447183391" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_ENDPOINT_AUDIO_SIZE<sp/><sp/>9<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Audio<sp/>extension<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="lusb_8h_1a90c97001015c3e7f6e0606970f00b8fd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_DT_HUB_NONVAR_SIZE<sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>ensure<sp/>byte-packed<sp/>structures<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;pshpack1.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>All<sp/>standard<sp/>descriptors<sp/>have<sp/>these<sp/>2<sp/>fields<sp/>in<sp/>common<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="structusb__descriptor__header" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__descriptor__header" kindref="compound">usb_descriptor_header</ref></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86" refid="structusb__descriptor__header_1a6a7aa8c4eeae61b9ce8bddeacb710876" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__descriptor__header_1a6a7aa8c4eeae61b9ce8bddeacb710876" kindref="member">bLength</ref>;</highlight></codeline>
+<codeline lineno="87" refid="structusb__descriptor__header_1a0468a242b85416a132f7a064eb8adb6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__descriptor__header_1a0468a242b85416a132f7a064eb8adb6a" kindref="member">bDescriptorType</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>String<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="structusb__string__descriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__string__descriptor" kindref="compound">usb_string_descriptor</ref></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93" refid="structusb__string__descriptor_1a04c26a4b1d8cb3297db0fbecb88891aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__string__descriptor_1a04c26a4b1d8cb3297db0fbecb88891aa" kindref="member">bLength</ref>;</highlight></codeline>
+<codeline lineno="94" refid="structusb__string__descriptor_1a8b150ec4cf85c3b64eaf60c5c750900e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__string__descriptor_1a8b150ec4cf85c3b64eaf60c5c750900e" kindref="member">bDescriptorType</ref>;</highlight></codeline>
+<codeline lineno="95" refid="structusb__string__descriptor_1a71171db99e9f46872ec70a5d1c5dcf1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>wData[1];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>HID<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="structusb__hid__descriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__hid__descriptor" kindref="compound">usb_hid_descriptor</ref></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101" refid="structusb__hid__descriptor_1af760ff96ad1eab58a7c041259804411c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__hid__descriptor_1af760ff96ad1eab58a7c041259804411c" kindref="member">bLength</ref>;</highlight></codeline>
+<codeline lineno="102" refid="structusb__hid__descriptor_1a4f4049e3092cf78227f7f40488e9bf62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__hid__descriptor_1a4f4049e3092cf78227f7f40488e9bf62" kindref="member">bDescriptorType</ref>;</highlight></codeline>
+<codeline lineno="103" refid="structusb__hid__descriptor_1ae3d392d2f74c5fd60429e707d6b86335" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__hid__descriptor_1ae3d392d2f74c5fd60429e707d6b86335" kindref="member">bcdHID</ref>;</highlight></codeline>
+<codeline lineno="104" refid="structusb__hid__descriptor_1aa593ead8390be2d3486dfe3404e38def" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__hid__descriptor_1aa593ead8390be2d3486dfe3404e38def" kindref="member">bCountryCode</ref>;</highlight></codeline>
+<codeline lineno="105" refid="structusb__hid__descriptor_1a090bc8e6c80ecdd0edc80abf28f26547" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__hid__descriptor_1a090bc8e6c80ecdd0edc80abf28f26547" kindref="member">bNumDescriptors</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Endpoint<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="lusb_8h_1acc255450641cdcfbc1379326c3ad5d0b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXENDPOINTS<sp/><sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="structusb__endpoint__descriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__endpoint__descriptor" kindref="compound">usb_endpoint_descriptor</ref></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112" refid="structusb__endpoint__descriptor_1a792e72235bfbb42fe487246656fb9a57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__endpoint__descriptor_1a792e72235bfbb42fe487246656fb9a57" kindref="member">bLength</ref>;</highlight></codeline>
+<codeline lineno="113" refid="structusb__endpoint__descriptor_1afae704c07c390d6c7bc74d32b409632a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__endpoint__descriptor_1afae704c07c390d6c7bc74d32b409632a" kindref="member">bDescriptorType</ref>;</highlight></codeline>
+<codeline lineno="114" refid="structusb__endpoint__descriptor_1a3c0136512afc100da7a3337fabf563cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__endpoint__descriptor_1a3c0136512afc100da7a3337fabf563cf" kindref="member">bEndpointAddress</ref>;</highlight></codeline>
+<codeline lineno="115" refid="structusb__endpoint__descriptor_1a39f8783cef8640c55ed00ce919dc26e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__endpoint__descriptor_1a39f8783cef8640c55ed00ce919dc26e7" kindref="member">bmAttributes</ref>;</highlight></codeline>
+<codeline lineno="116" refid="structusb__endpoint__descriptor_1adb5b164ef0da16a376fca9d342db936d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__endpoint__descriptor_1adb5b164ef0da16a376fca9d342db936d" kindref="member">wMaxPacketSize</ref>;</highlight></codeline>
+<codeline lineno="117" refid="structusb__endpoint__descriptor_1a697da8e797d07f674eef436726e66d00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__endpoint__descriptor_1a697da8e797d07f674eef436726e66d00" kindref="member">bInterval</ref>;</highlight></codeline>
+<codeline lineno="118" refid="structusb__endpoint__descriptor_1a5f45b77549750f597679198dcc6b4d50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__endpoint__descriptor_1a5f45b77549750f597679198dcc6b4d50" kindref="member">bRefresh</ref>;</highlight></codeline>
+<codeline lineno="119" refid="structusb__endpoint__descriptor_1ae1551fb79e178bf7e69b88589b212cd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__endpoint__descriptor_1ae1551fb79e178bf7e69b88589b212cd3" kindref="member">bSynchAddress</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="structusb__endpoint__descriptor_1a91832eb7b5fe2dc35c70952115e2f801" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structusb__endpoint__descriptor_1a91832eb7b5fe2dc35c70952115e2f801" kindref="member">extra</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Extra<sp/>descriptors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="structusb__endpoint__descriptor_1ad21f23975ef6f28490dd00ec44d3f404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__endpoint__descriptor_1ad21f23975ef6f28490dd00ec44d3f404" kindref="member">extralen</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="lusb_8h_1af69ecdd9367b248cd22627a3a1886dfe" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_ADDRESS_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0f<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>in<sp/>bEndpointAddress<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="lusb_8h_1a93a6aa5841b4ff46167822362add046d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_DIR_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x80</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="lusb_8h_1acd114fdf068aaa69407358ee5ccfd170" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>in<sp/>bmAttributes<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="lusb_8h_1a6a51ed22b06e5ca0f76a35b6bac8d73a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_CONTROL<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="lusb_8h_1ab05aae4a5d079b8dfb6a9cb1325ea6e5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_ISOCHRONOUS<sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="lusb_8h_1af4bac84d4576dc8f74f39dc75749e3dc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_BULK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="lusb_8h_1a2cb5aa69a03df20aab217b808ad692a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_TYPE_INTERRUPT<sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Interface<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="lusb_8h_1ac83b313beedadcb6ba5ef5ac492a75d3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXINTERFACES<sp/><sp/><sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="structusb__interface__descriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__interface__descriptor" kindref="compound">usb_interface_descriptor</ref></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138" refid="structusb__interface__descriptor_1ab9215c92cfcaa3148327be0ef0e093d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1ab9215c92cfcaa3148327be0ef0e093d6" kindref="member">bLength</ref>;</highlight></codeline>
+<codeline lineno="139" refid="structusb__interface__descriptor_1a36102cd4eda6f5588c90dca01a989476" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1a36102cd4eda6f5588c90dca01a989476" kindref="member">bDescriptorType</ref>;</highlight></codeline>
+<codeline lineno="140" refid="structusb__interface__descriptor_1a543f805b0e085e0faca651edfbcba15f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1a543f805b0e085e0faca651edfbcba15f" kindref="member">bInterfaceNumber</ref>;</highlight></codeline>
+<codeline lineno="141" refid="structusb__interface__descriptor_1a21c4427b640a64ee9f080569b739f258" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1a21c4427b640a64ee9f080569b739f258" kindref="member">bAlternateSetting</ref>;</highlight></codeline>
+<codeline lineno="142" refid="structusb__interface__descriptor_1a7149b2d4258ac31b27e6be4cfa331742" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1a7149b2d4258ac31b27e6be4cfa331742" kindref="member">bNumEndpoints</ref>;</highlight></codeline>
+<codeline lineno="143" refid="structusb__interface__descriptor_1ac624152fdd8be4eeaf88ef55859b7f5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1ac624152fdd8be4eeaf88ef55859b7f5c" kindref="member">bInterfaceClass</ref>;</highlight></codeline>
+<codeline lineno="144" refid="structusb__interface__descriptor_1a64ad7e72dd208eccbd9d23f6db704229" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1a64ad7e72dd208eccbd9d23f6db704229" kindref="member">bInterfaceSubClass</ref>;</highlight></codeline>
+<codeline lineno="145" refid="structusb__interface__descriptor_1aeed75b64584e3ae65f353072e3775f07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1aeed75b64584e3ae65f353072e3775f07" kindref="member">bInterfaceProtocol</ref>;</highlight></codeline>
+<codeline lineno="146" refid="structusb__interface__descriptor_1af865e728272cafbea262c5952e21c628" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__interface__descriptor_1af865e728272cafbea262c5952e21c628" kindref="member">iInterface</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="structusb__interface__descriptor_1aaa864bbf6b2e69fe6487d11e6f359945" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__endpoint__descriptor" kindref="compound">usb_endpoint_descriptor</ref><sp/>*<ref refid="structusb__interface__descriptor_1aaa864bbf6b2e69fe6487d11e6f359945" kindref="member">endpoint</ref>;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="structusb__interface__descriptor_1a0d39b4d435d8792f1aaf03e68cacdfef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structusb__interface__descriptor_1a0d39b4d435d8792f1aaf03e68cacdfef" kindref="member">extra</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Extra<sp/>descriptors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="structusb__interface__descriptor_1ac0a7dff17ffc27fbab51c6c3da13bc8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__interface__descriptor_1ac0a7dff17ffc27fbab51c6c3da13bc8b" kindref="member">extralen</ref>;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="lusb_8h_1a4ab0ccffcb6bb8a11134ee350c30c9a4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXALTSETTING<sp/><sp/><sp/>128<sp/></highlight><highlight class="comment">/*<sp/>Hard<sp/>limit<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="structusb__interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__interface" kindref="compound">usb_interface</ref></highlight></codeline>
+<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="158" refid="structusb__interface_1addcde0f74dd4139778f10742e4ae1867" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__interface__descriptor" kindref="compound">usb_interface_descriptor</ref><sp/>*<ref refid="structusb__interface_1addcde0f74dd4139778f10742e4ae1867" kindref="member">altsetting</ref>;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="structusb__interface_1aa4f464af60066d059eb5c75b91870a6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__interface_1aa4f464af60066d059eb5c75b91870a6c" kindref="member">num_altsetting</ref>;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Configuration<sp/>descriptor<sp/>information..<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="lusb_8h_1adc60bb82427d36cfdca2cd895b955e19" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_MAXCONFIG<sp/><sp/><sp/><sp/><sp/><sp/><sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="structusb__config__descriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__config__descriptor" kindref="compound">usb_config_descriptor</ref></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="167" refid="structusb__config__descriptor_1a16ee164f9ab5d25b586b7277ee5775fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__config__descriptor_1a16ee164f9ab5d25b586b7277ee5775fd" kindref="member">bLength</ref>;</highlight></codeline>
+<codeline lineno="168" refid="structusb__config__descriptor_1af64dfdc7a92a95a8c83a4d3b025c8bd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__config__descriptor_1af64dfdc7a92a95a8c83a4d3b025c8bd5" kindref="member">bDescriptorType</ref>;</highlight></codeline>
+<codeline lineno="169" refid="structusb__config__descriptor_1a7e9de4f30be997c86a7703eb7267f24f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__config__descriptor_1a7e9de4f30be997c86a7703eb7267f24f" kindref="member">wTotalLength</ref>;</highlight></codeline>
+<codeline lineno="170" refid="structusb__config__descriptor_1a85448487290828016f7dcc2ac6bca5dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__config__descriptor_1a85448487290828016f7dcc2ac6bca5dd" kindref="member">bNumInterfaces</ref>;</highlight></codeline>
+<codeline lineno="171" refid="structusb__config__descriptor_1a53d67bec10edc2f2be0a3864d9b68e9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__config__descriptor_1a53d67bec10edc2f2be0a3864d9b68e9a" kindref="member">bConfigurationValue</ref>;</highlight></codeline>
+<codeline lineno="172" refid="structusb__config__descriptor_1a62bd7716d7fba9bc78c0bdb5425d5d52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__config__descriptor_1a62bd7716d7fba9bc78c0bdb5425d5d52" kindref="member">iConfiguration</ref>;</highlight></codeline>
+<codeline lineno="173" refid="structusb__config__descriptor_1a936031980fea8573b8d43b7d6d7aead3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__config__descriptor_1a936031980fea8573b8d43b7d6d7aead3" kindref="member">bmAttributes</ref>;</highlight></codeline>
+<codeline lineno="174" refid="structusb__config__descriptor_1affa943ea51bdeb8e06db25e86845b54b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__config__descriptor_1affa943ea51bdeb8e06db25e86845b54b" kindref="member">MaxPower</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="structusb__config__descriptor_1a4c4a1cfa9bbec8a4c8b38f88cae5d739" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__interface" kindref="compound">usb_interface</ref><sp/>*<ref refid="structusb__config__descriptor_1a4c4a1cfa9bbec8a4c8b38f88cae5d739" kindref="member">interface</ref>;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="structusb__config__descriptor_1ac542fd9c91a1813f56c0a38f0a592cde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structusb__config__descriptor_1ac542fd9c91a1813f56c0a38f0a592cde" kindref="member">extra</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Extra<sp/>descriptors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="structusb__config__descriptor_1aae00d0a5a1cb85783feb0fb1c76f1efc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structusb__config__descriptor_1aae00d0a5a1cb85783feb0fb1c76f1efc" kindref="member">extralen</ref>;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Device<sp/>descriptor<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="structusb__device__descriptor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device__descriptor" kindref="compound">usb_device_descriptor</ref></highlight></codeline>
+<codeline lineno="184"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185" refid="structusb__device__descriptor_1a87b23e33e15e50fc14b10353dafcd728" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a87b23e33e15e50fc14b10353dafcd728" kindref="member">bLength</ref>;</highlight></codeline>
+<codeline lineno="186" refid="structusb__device__descriptor_1a8abad5f66e874dce593895283258bcbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a8abad5f66e874dce593895283258bcbe" kindref="member">bDescriptorType</ref>;</highlight></codeline>
+<codeline lineno="187" refid="structusb__device__descriptor_1abffa0ee4afe262009713e105a268721e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__device__descriptor_1abffa0ee4afe262009713e105a268721e" kindref="member">bcdUSB</ref>;</highlight></codeline>
+<codeline lineno="188" refid="structusb__device__descriptor_1a4e29e026ec08c63eb5ce7a951146e547" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a4e29e026ec08c63eb5ce7a951146e547" kindref="member">bDeviceClass</ref>;</highlight></codeline>
+<codeline lineno="189" refid="structusb__device__descriptor_1aeb85dbf4471963c93c72ead33df955fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1aeb85dbf4471963c93c72ead33df955fa" kindref="member">bDeviceSubClass</ref>;</highlight></codeline>
+<codeline lineno="190" refid="structusb__device__descriptor_1afe35f0bb20c4b328d74b50ea41c0df2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1afe35f0bb20c4b328d74b50ea41c0df2b" kindref="member">bDeviceProtocol</ref>;</highlight></codeline>
+<codeline lineno="191" refid="structusb__device__descriptor_1a45a3fa4aeac7f14a5d774ac13d23e15e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a45a3fa4aeac7f14a5d774ac13d23e15e" kindref="member">bMaxPacketSize0</ref>;</highlight></codeline>
+<codeline lineno="192" refid="structusb__device__descriptor_1a1cfe2a77790a8311439a14e5f84df33d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__device__descriptor_1a1cfe2a77790a8311439a14e5f84df33d" kindref="member">idVendor</ref>;</highlight></codeline>
+<codeline lineno="193" refid="structusb__device__descriptor_1a360259cbf070e8406e39ba6176ecb07f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__device__descriptor_1a360259cbf070e8406e39ba6176ecb07f" kindref="member">idProduct</ref>;</highlight></codeline>
+<codeline lineno="194" refid="structusb__device__descriptor_1a9eefe3cb95cf58e82677ac2c1ca16571" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__device__descriptor_1a9eefe3cb95cf58e82677ac2c1ca16571" kindref="member">bcdDevice</ref>;</highlight></codeline>
+<codeline lineno="195" refid="structusb__device__descriptor_1a2e0d73ddf5f50c1c72776ec9f1cb7dfa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a2e0d73ddf5f50c1c72776ec9f1cb7dfa" kindref="member">iManufacturer</ref>;</highlight></codeline>
+<codeline lineno="196" refid="structusb__device__descriptor_1a50b0d6115265610c7b0f12eb930e79bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a50b0d6115265610c7b0f12eb930e79bc" kindref="member">iProduct</ref>;</highlight></codeline>
+<codeline lineno="197" refid="structusb__device__descriptor_1a0a7877c6463a0c78619aec4db6fa6676" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a0a7877c6463a0c78619aec4db6fa6676" kindref="member">iSerialNumber</ref>;</highlight></codeline>
+<codeline lineno="198" refid="structusb__device__descriptor_1a5e875fff283a818dcd4a32484c699d50" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__device__descriptor_1a5e875fff283a818dcd4a32484c699d50" kindref="member">bNumConfigurations</ref>;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="structusb__ctrl__setup" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__ctrl__setup" kindref="compound">usb_ctrl_setup</ref></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="203" refid="structusb__ctrl__setup_1af90b3dbb8baa9887cb0ea30c66b8f912" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__ctrl__setup_1af90b3dbb8baa9887cb0ea30c66b8f912" kindref="member">bRequestType</ref>;</highlight></codeline>
+<codeline lineno="204" refid="structusb__ctrl__setup_1a6a4e6fa1b9fafe435677b2c15569a67c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><ref refid="structusb__ctrl__setup_1a6a4e6fa1b9fafe435677b2c15569a67c" kindref="member">bRequest</ref>;</highlight></codeline>
+<codeline lineno="205" refid="structusb__ctrl__setup_1a84a6450559702138b41fe26f83dd273f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__ctrl__setup_1a84a6450559702138b41fe26f83dd273f" kindref="member">wValue</ref>;</highlight></codeline>
+<codeline lineno="206" refid="structusb__ctrl__setup_1a37ab88de254d27be8e9f1d5ccc719893" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__ctrl__setup_1a37ab88de254d27be8e9f1d5ccc719893" kindref="member">wIndex</ref>;</highlight></codeline>
+<codeline lineno="207" refid="structusb__ctrl__setup_1aaa4408b66b0bc62e2cb3c1f3a51f0506" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="structusb__ctrl__setup_1aaa4408b66b0bc62e2cb3c1f3a51f0506" kindref="member">wLength</ref>;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/>*<sp/>Standard<sp/>requests</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="lusb_8h_1a9a493ab751c46c46ab88d558e683a323" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_STATUS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="lusb_8h_1a43687a0101d3a62f05ffcd6e80cfa7ef" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_CLEAR_FEATURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>0x02<sp/>is<sp/>reserved<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="lusb_8h_1a3661e3551d3dbd0e10debfe058791045" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_FEATURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>0x04<sp/>is<sp/>reserved<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="lusb_8h_1aaca043a771a5d020e91011f458a3d31c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_ADDRESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x05</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="lusb_8h_1ae10a1fd5f65d075c17536fd3f7d8472e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_DESCRIPTOR<sp/><sp/><sp/><sp/><sp/><sp/>0x06</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="lusb_8h_1ae787427813c070874ed3493b57f1e5d3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_DESCRIPTOR<sp/><sp/><sp/><sp/><sp/><sp/>0x07</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="lusb_8h_1ae4c9a3af66b1d3203140c45af59de525" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_CONFIGURATION<sp/><sp/><sp/>0x08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="lusb_8h_1a74588b0ebd757cfd2b9e4533324e7ae7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_CONFIGURATION<sp/><sp/><sp/>0x09</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="lusb_8h_1a0eb3845dcaf168d3755565f7a89b3f6e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_GET_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="lusb_8h_1a2ae35a6b81c8115f19dda1ef2180e73e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SET_INTERFACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="lusb_8h_1a88e5d25769684f2e06253f90fe402eaf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_REQ_SYNCH_FRAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x0C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="lusb_8h_1af442f8706cfb3d4be5f6ddc10f50cca6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_STANDARD<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x00<sp/>&lt;&lt;<sp/>5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="lusb_8h_1acd8c428aa0aca973ec78dd2f34c84cf1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_CLASS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x01<sp/>&lt;&lt;<sp/>5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="lusb_8h_1ac536dbee4e24f67c36582799f084ea6d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_VENDOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x02<sp/>&lt;&lt;<sp/>5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="lusb_8h_1a7d3b052172953c8a22290f71ae54c357" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_TYPE_RESERVED<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x03<sp/>&lt;&lt;<sp/>5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="lusb_8h_1a3e87c09c94711436bc446aa280c10693" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_DEVICE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="lusb_8h_1af17fccabaf184e41e5b75a909df014ae" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_INTERFACE<sp/><sp/><sp/><sp/><sp/>0x01</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="lusb_8h_1a1fdce9251d053f489f11b7634cdff200" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_ENDPOINT<sp/><sp/><sp/><sp/><sp/><sp/>0x02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="lusb_8h_1aa61d48948439fdadb936c73b4f5341fb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_RECIP_OTHER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x03</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/>*<sp/>Various<sp/>libusb<sp/>API<sp/>related<sp/>stuff</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="lusb_8h_1a4c5ffd9e3b2d23c93d29b70193b8d79c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_IN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x80</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="lusb_8h_1a3bf21206de7c6013aa39b53836e05aac" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ENDPOINT_OUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Error<sp/>codes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="lusb_8h_1aadab4c3384b084a0c5b5dc8e63463868" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_ERROR_BEGIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>500000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/>*<sp/>This<sp/>is<sp/>supposed<sp/>to<sp/>look<sp/>weird.<sp/>This<sp/>file<sp/>is<sp/>generated<sp/>from<sp/>autoconf</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/>*<sp/>and<sp/>I<sp/>didn&apos;t<sp/>want<sp/>to<sp/>make<sp/>this<sp/>too<sp/>complicated.</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="lusb_8h_1aca8fa47314e1dbcd060d32b4c45fc519" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USB_LE16_TO_CPU(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Data<sp/>types<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>struct<sp/>usb_device;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>struct<sp/>usb_bus;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device" kindref="compound">usb_device</ref>;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__bus" kindref="compound">usb_bus</ref>;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="structusb__device" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device" kindref="compound">usb_device</ref></highlight></codeline>
+<codeline lineno="260"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="261" refid="structusb__device_1a0f17263bca031533ee31834e4ad8f71a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device" kindref="compound">usb_device</ref><sp/>*<ref refid="structusb__device_1af816e97db5f8f02a7609f325735bb5f0" kindref="member">next</ref>,<sp/>*<ref refid="structusb__device_1a0f17263bca031533ee31834e4ad8f71a" kindref="member">prev</ref>;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="structusb__device_1a3362eda4e750319186d216b7a1f4dbe3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structusb__device_1a3362eda4e750319186d216b7a1f4dbe3" kindref="member">filename</ref>[<ref refid="lusb_8h_1a927364bf724921dbce110225b861b900" kindref="member">LIBUSB_PATH_MAX</ref>];</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="structusb__device_1a532e474ebc2a6bfa9512e6fa1aaedf3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__bus" kindref="compound">usb_bus</ref><sp/>*<ref refid="structusb__device_1a532e474ebc2a6bfa9512e6fa1aaedf3c" kindref="member">bus</ref>;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="structusb__device_1a33bbd71be994f58bf95c34f8a56db11f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device__descriptor" kindref="compound">usb_device_descriptor</ref><sp/>descriptor;</highlight></codeline>
+<codeline lineno="268" refid="structusb__device_1a5f95b1d5fb4be5338c3a8200cc739d7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__config__descriptor" kindref="compound">usb_config_descriptor</ref><sp/>*<ref refid="structusb__device_1a5f95b1d5fb4be5338c3a8200cc739d7b" kindref="member">config</ref>;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="structusb__device_1ab24fe133575a9d407358dad720cdd6a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="structusb__device_1ab24fe133575a9d407358dad720cdd6a7" kindref="member">dev</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Darwin<sp/>support<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="structusb__device_1afd0c2a51c51ef764ebcc1a43c553c1eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structusb__device_1afd0c2a51c51ef764ebcc1a43c553c1eb" kindref="member">devnum</ref>;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="structusb__device_1a88363220bd62e20d3fd5672a8be44a44" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structusb__device_1a88363220bd62e20d3fd5672a8be44a44" kindref="member">num_children</ref>;</highlight></codeline>
+<codeline lineno="275" refid="structusb__device_1acbc08ca89ba6b78ff7f4eca58ea54e77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device" kindref="compound">usb_device</ref><sp/>**<ref refid="structusb__device_1acbc08ca89ba6b78ff7f4eca58ea54e77" kindref="member">children</ref>;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="structusb__bus" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__bus" kindref="compound">usb_bus</ref></highlight></codeline>
+<codeline lineno="279"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="280" refid="structusb__bus_1a02d6ed8e783c4f40cf990196595be62a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__bus" kindref="compound">usb_bus</ref><sp/>*<ref refid="structusb__bus_1a7664167bbffd52eb4f7b9d5f8e49de7d" kindref="member">next</ref>,<sp/>*<ref refid="structusb__bus_1a02d6ed8e783c4f40cf990196595be62a" kindref="member">prev</ref>;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="structusb__bus_1a2ae1ce596050719b851308ec45c1861a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structusb__bus_1a2ae1ce596050719b851308ec45c1861a" kindref="member">dirname</ref>[<ref refid="lusb_8h_1a927364bf724921dbce110225b861b900" kindref="member">LIBUSB_PATH_MAX</ref>];</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="structusb__bus_1a2494df272248a4e4fbc91e847d5ce7e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device" kindref="compound">usb_device</ref><sp/>*<ref refid="structusb__bus_1a2494df272248a4e4fbc91e847d5ce7e5" kindref="member">devices</ref>;</highlight></codeline>
+<codeline lineno="285" refid="structusb__bus_1ae933d834bd3f2575104dfcb89151dbe3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="structusb__bus_1ae933d834bd3f2575104dfcb89151dbe3" kindref="member">location</ref>;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="structusb__bus_1a7235b4bb1221d0243002789162dacbe4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device" kindref="compound">usb_device</ref><sp/>*<ref refid="structusb__bus_1a7235b4bb1221d0243002789162dacbe4" kindref="member">root_dev</ref>;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref>;</highlight></codeline>
+<codeline lineno="291" refid="lusb_8h_1ab6040b929dd43a9c73ca23f92097158b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref>;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="comment">//#ifndef<sp/>__USB_C__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>usb_busses<sp/>usb_get_busses()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="comment">//#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__bus" kindref="compound">usb_bus</ref><sp/>*<ref refid="lusb_8h_1a5a4e2d0af40b6530bed742d8e4b3d758" kindref="member">usb_busses</ref>;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;poppack.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Function<sp/>prototypes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>usb.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*<ref refid="lusb_8h_1a40cbeb5888754f074c9af2b926f8189e" kindref="member">usb_open</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structusb__device" kindref="compound">usb_device</ref><sp/>*dev);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1afedf07c116d8604a7d84f26e9b23ea27" kindref="member">usb_close</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a2f7398e82b6f4e85ec68a5acff8fe4b4" kindref="member">usb_get_string</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>langid,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf,</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buflen);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a44f796c7d99142cbaac816506671eb5e" kindref="member">usb_get_string_simple</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf,</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>buflen);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>descriptors.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1adcd4b8e9315b10c8f264939673f6f283" kindref="member">usb_get_descriptor_by_endpoint</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*udev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>type,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>index,</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buf,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1af2b6ed5aea5449852731e61f84703dc2" kindref="member">usb_get_descriptor</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*udev,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>type,</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*buf,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>&lt;arch&gt;.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>USE_LIBUSB_10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a37cb353368c888ee1e8985c6ee689c8a" kindref="member">usb_bulk_write</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a6d9aaee4b9e20ee4f5099f0636e064a0" kindref="member">usb_bulk_read</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a37cb353368c888ee1e8985c6ee689c8a" kindref="member">usb_bulk_write</ref>(<ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref><sp/>*handle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a6d9aaee4b9e20ee4f5099f0636e064a0" kindref="member">usb_bulk_read</ref>(<ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref><sp/>*handle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a1303b94c51199123d05367d33e2de58d" kindref="member">usb_interrupt_write</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a0d1535af34f66bf7707cbb3815568289" kindref="member">usb_interrupt_read</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>USE_LIBUSB_10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a5889fb374936cb324d38bae34a7eec24" kindref="member">usb_control_msg</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>requesttype,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a5889fb374936cb324d38bae34a7eec24" kindref="member">usb_control_msg</ref>(<ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref><sp/>*handle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>requesttype,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>request,</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*bytes,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeout);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a81ef49d6ec26c7a59c8a8a420d4dd068" kindref="member">usb_set_configuration</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>configuration);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>USE_LIBUSB_10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a70446a55ec1f949ed7d4e845164e9101" kindref="member">usb_claim_interface</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interface);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a70446a55ec1f949ed7d4e845164e9101" kindref="member">usb_claim_interface</ref>(<ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref><sp/>*handle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interface);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a5c5cae08bbc2f9f0641d2f1c40747637" kindref="member">usb_release_interface</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>interface);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a557b4119b2502a7a2f582422c37ad1a9" kindref="member">usb_set_altinterface</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alternate);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a52fa7676b021b74a30814b8600257f6a" kindref="member">usb_resetep</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a1cf1c5aaa2e17e2d830c6a93600f9079" kindref="member">usb_clear_halt</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ep);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a6d7be469ffbcf25298d928f533367807" kindref="member">usb_reset</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*dev);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="lusb_8h_1abc1f899f71fffec9a4eeb7dd22fb7584" kindref="member">usb_strerror</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1addfbdb66f507ffcd08b4496531ed0a3d" kindref="member">usb_init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a24159249f61904835d5e2639c9b74b19" kindref="member">usb_set_debug</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a7e0c7fa79f9d66c2d697ef34739cb529" kindref="member">usb_find_busses</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="lusb_8h_1a81abbb2de96915880fcfec55238e7537" kindref="member">usb_find_devices</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__device" kindref="compound">usb_device</ref><sp/>*<ref refid="lusb_8h_1a283cb806947b01c25ae6e3cb98a9ab73" kindref="member">usb_device</ref>(<ref refid="structusb__dev__handle" kindref="compound">usb_dev_handle</ref><sp/>*<ref refid="structusb__device_1ab24fe133575a9d407358dad720cdd6a7" kindref="member">dev</ref>);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusb__bus" kindref="compound">usb_bus</ref><sp/>*<ref refid="lusb_8h_1ac57de22226015a792e047a6af1ddee5f" kindref="member">usb_get_busses</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__USB_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h"/>
+  </compounddef>
+</doxygen>

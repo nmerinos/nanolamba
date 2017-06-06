@@ -1,0 +1,894 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkCreate\fP (\fBvoid\fP)"
+.br
+.RI "Create SDK Object\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkDestroy\fP ()"
+.br
+.RI "Destroy SDK Object\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkRegister\fP (const char *sensor_cal_file_path)"
+.br
+.RI "Add one sensor to active sensor list\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetMaxSensorCount\fP ()"
+.br
+.RI "Get maximum count of supported sensors\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetNumOfValidFilters\fP ()"
+.br
+.RI "Get total number of valid filters\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int * \fBsdkGetValidFilters\fP ()"
+.br
+.RI "Get valid filters\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetSensorIDFromDevice\fP (char *sensor_id_str)"
+.br
+.RI "Get sensor ID of physical device(sensor) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetSensorIDFromCalData\fP (char *sensor_id_str)"
+.br
+.RI "Get sensor ID of sensor calibration data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkActivateSensorWithIndex\fP (int sensor_index)"
+.br
+.RI "Activate a specific sensor with index\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkActivateSensorWithID\fP (const char *sensor_id_str)"
+.br
+.RI "Activate a specific sensor\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetShutterSpeed\fP ()"
+.br
+.RI "Get shutter speed\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkSetShutterSpeed\fP (int shutter)"
+.br
+.RI "Change current shutter speed of a device(sensor) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetShutterSpeedLimits\fP (int *min_limit, int *max_limit)"
+.br
+.RI "Get Shutter Speed Limist\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkShutterSpeedToExposureTime\fP (int master_clock, int shutter_speed_val, double *exposure_time)"
+.br
+.RI "Convert shutter speed to exposure time(msec) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkExposureTimeToShutterSpeed\fP (int master_clock, double exposure_time, int *shutter_speed_val)"
+.br
+.RI "Convert exposure time (ms) to shutter speed\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetOptimalShutterSpeed\fP ()"
+.br
+.RI "Get optimal shutter speed by AE\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetWavelengthInfo\fP (double *start_wavelength, double *end_wavelength, double *interval_wavelength)"
+.br
+.RI "Get wavelength information data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetResolution\fP (double *resolution)"
+.br
+.RI "Get spectrum resolution\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkGetSpectrumLength\fP ()"
+.br
+.RI "Get size of spectrum data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkCalculateSpectrum\fP (int cur_ss, int frame_averages, double *spec_output, double *wavelength_output)"
+.br
+.RI "Calculate spectrum\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBsdkCalculateColor\fP (double *spectrum, double *wavelength, int spectrum_length, double *X, double *Y, double *Z, double *r, double *g, double *b, double *x, double *y, double *z, double *cct)"
+.br
+.RI "Get color information of current spectrum data\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "\fBEXPORT_DLL\fP int sdkActivateSensorWithID (const char * sensor_id_str)"
+
+.PP
+Activate a specific sensor\&. This function activates a specific sensor having a matched sensor index among multiple sensors if there are multiple sensors in system\&.
+.PP
+.PP
+.nf
+const char* sensor_id_str = "Y8585-1-85-85-0";
+int ret_value = sdkActivateSensorWithID(sensor_id_str);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_id_str\fP - sensor ID string [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduConnect\fP, \fBduDisconnect\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkActivateSensorWithIndex (int sensor_index)"
+
+.PP
+Activate a specific sensor with index\&. This function activates a specific sensor having a matched sensor index among multiple sensors if there are multiple sensors in system\&.
+.PP
+.PP
+.nf
+int sensor_index = 0; // default = 0 (1'th sensor)
+int ret_value = sdkActivateSensorWithIndex(sensor_index);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_index\fP - sensor index start from 0 [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduConnect\fP, \fBduDisconnect\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkCalculateColor (double * spectrum, double * wavelength, int spectrum_length, double * X, double * Y, double * Z, double * r, double * g, double * b, double * x, double * y, double * z, double * cct)"
+
+.PP
+Get color information of current spectrum data\&. Calculate color information and returns in \fCX\fP, \fCY\fP, \fCZ\fP, \fCr\fP, \fCg\fP, \fCb\fP, \fCx\fP, \fCy\fP, \fCz\fP, \fCcct\fP\&.
+.PP
+.PP
+.nf
+double    *spectrum_data;     // from csCalculateSpectrum() function
+double    *wavelength_data;   // from csCalculateSpectrum() function
+int       spectrum_length;    // from csCalculateSpectrum() function
+double    X, Y, Z;
+double    r, g, b;
+double    x, y, z;
+double    cct;
+int ret_value = sdkCalculateColor(spectrum_data, wavelength_data, spectrum_length,
+                              &X, &Y, &Z, &r, &g, &b, &x, &y, &z, &cct);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIspectrum\fP - Spectrum data [IN] 
+.br
+\fIwavelength\fP - Wavelength data [IN] 
+.br
+\fIspectrum_length\fP - Spectrum length [IN] 
+.br
+\fIX\fP - Pointer to a double which the numerical value for color (X) is returned [OUT] 
+.br
+\fIY\fP - Pointer to a double which the numerical value for color (Y) is returned [OUT] 
+.br
+\fIZ\fP - Pointer to a double which the numerical value for color (Z) is returned [OUT] 
+.br
+\fIr\fP - Pointer to a double which the numerical value for color (R) is returned [OUT] 
+.br
+\fIg\fP - Pointer to a double which the numerical value for color (G) is returned [OUT] 
+.br
+\fIb\fP - Pointer to a double which the numerical value for color (B) is returned [OUT] 
+.br
+\fIx\fP - Pointer to a double which the numerical value for color (x) is returned [OUT] 
+.br
+\fIy\fP - Pointer to a double which the numerical value for color (y) is returned [OUT] 
+.br
+\fIz\fP - Pointer to a double which the numerical value for color (z) is returned [OUT] 
+.br
+\fIcct\fP - Pointer to a double which the numerical value for CCT is returned [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS
+.IP "\(bu" 2
+cc_ec_color_object_is_null
+.IP "\(bu" 2
+cc_ec_memory_for_spectrum_data_buffer_is_null
+.IP "\(bu" 2
+cc_ec_memory_for_wavelength_data_buffer_is_null 
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetSpectrumLength\fP, \fBsdkCalculateSpectrum\fP 
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkCalculateSpectrum (int cur_ss, int frame_averages, double * spec_output, double * wavelength_output)"
+
+.PP
+Calculate spectrum\&. This function returns a calculated spectrum and wavelength data with input filter data\&.
+.PP
+.PP
+.nf
+int cur_ss = 50;
+int   frame_averages = 50;
+// get spectrum length
+int spectrum_length = sdkGetSpectrumLength();
+double* spectrum_data = (double*)malloc(sizeof(double)*spectrum_length);
+double* wavelength_data = (double*)malloc(sizeof(double)*spectrum_length);
+int ret_value = sdkCalculateSpectrum(cur_ss, frame_averages, spectrum_data, wavelength_data );
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcur_ss\fP - current shutter speed [IN] 
+.br
+\fIframe_averages\fP - frame count for averaging [IN] 
+.br
+\fIspec_output\fP - double pointer to spectrum data [OUT] 
+.br
+\fIwavelength_output\fP - double pointer to wavelength data [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+spectrum data size(length) (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_memory_for_spectrum_data_buffer_is_null
+.IP "\(bu" 2
+cc_ec_memory_for_wavelength_data_buffer_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetSpectrumLength\fP, \fBsdkGetResolution\fP, \fBsdkGetWavelengthInfo\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkCreate (\fBvoid\fP)"
+
+.PP
+Create SDK Object\&. This function create one SDK object\&.
+.PP
+.PP
+.nf
+int ret_value = sdkCreate();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_no_device_in_system
+.IP "\(bu" 2
+cc_ec_fail_to_load_sensor_cal_data
+.IP "\(bu" 2
+cc_ec_fail_to_initialize_color_object
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkDestroy\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkDestroy ()"
+
+.PP
+Destroy SDK Object\&. This function destroy SDK object\&.
+.PP
+.PP
+.nf
+int ret_value = sdkDestroy();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkCreate\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkExposureTimeToShutterSpeed (int master_clock, double exposure_time, int * shutter_speed_val)"
+
+.PP
+Convert exposure time (ms) to shutter speed\&. This function converts a exposure time (unit: msec) to shutter speed value based on sensor's master clock\&.
+.PP
+.PP
+.nf
+int master_clock = 5; // 5-MHz
+double exposure_time = 100\&.0;
+int shutter_speed = 0;
+int ret_value = sdkShutterSpeedToExposureTime(cur_ss, &exposure_time );
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaster_clock\fP - master clock of MCU to sensor (IN) 
+.br
+\fIexposure_time\fP - exposure time value (msec) (IN) 
+.br
+\fIshutter_speed_val\fP - int pointer to shutter speed (OUT)
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetShutterSpeed\fP, \fBsdkSetShutterSpeed\fP, \fBsdkGetShutterSpeedLimits\fP, \fBsdkShutterSpeedToExposureTime\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetMaxSensorCount ()"
+
+.PP
+Get maximum count of supported sensors\&. This function returns the maximum number of sensors supported by API/SDK\&.
+.PP
+.PP
+.nf
+int max_sensors = sdkGetMaxSensorCount();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fInone\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+maximum number of sensors
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkCreate\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetNumOfValidFilters ()"
+
+.PP
+Get total number of valid filters\&. This function returns the total number of valid filters in sensor calibration data\&.
+.PP
+.PP
+.nf
+int max_sensors = sdkGetNumOfValidFilters();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fInone\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+total number of valid filters
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkCreate\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetOptimalShutterSpeed ()"
+
+.PP
+Get optimal shutter speed by AE\&. This function returns an optimal shutter speed value which found by AE(Auto-Exposure) function\&.
+.PP
+.PP
+.nf
+int optimal_ss = 0;
+optimal_ss = sdkGetOptimalShutterSpeed();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+optimal shutter speed (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetShutterSpeed\fP, \fBsdkSetShutterSpeed\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetResolution (double * resolution)"
+
+.PP
+Get spectrum resolution\&. This function returns spectrum resolution information\&.
+.PP
+.PP
+.nf
+double spectrum_resolution;
+int ret_val = sdkGetResolution(&spectrum_resolution);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIspectrum_resolution\fP - double pointer to spectrum resolution [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetSpectrumLength\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetSensorIDFromCalData (char * sensor_id_str)"
+
+.PP
+Get sensor ID of sensor calibration data\&. This function returns sensor ID in sensor calibration data file\&.
+.PP
+.PP
+.nf
+char sensor_id_str[SENSOR_ID_STRING_LENGTH];
+int ret_val = sdkGetSensorIDFromCalData(sensor_id_str);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_id_str\fP - char buffer to contain sensor ID [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of NSP_RETURN_VALUE_SUCCESS\&.
+.IP "\(bu" 2
+the length of sensor ID string (>0)\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.IP "\(bu" 2
+cc_ec_memory_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetSensorIDFromDevice\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetSensorIDFromDevice (char * sensor_id_str)"
+
+.PP
+Get sensor ID of physical device(sensor) This function returns a sensor ID of currently activated physical device(sensor)\&. Current sensor is an activated one by \fBsdkActivateSensorWithID()\fP or \fBsdkActivateSensorWithIndex()\fP functions\&.
+.PP
+.PP
+.nf
+char sensor_id[SENSOR_ID_STRING_LENGTH];
+int ret_value = sdkGetSensorIDFromDevice(sensor_id);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpointer\fP to char array for sensor ID data [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_memory_is_null
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetSensorIDFromCalData\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetShutterSpeed ()"
+
+.PP
+Get shutter speed\&. This function returns a shutter speed value of currently activated sensor\&.
+.PP
+.PP
+.nf
+int cur_ss = 0;
+cur_ss = sdkGetShutterSpeed();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+current shutter speed (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkSetShutterSpeed\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetShutterSpeedLimits (int * min_limit, int * max_limit)"
+
+.PP
+Get Shutter Speed Limist\&. This function returns two shutter speed limits (minimum and maximum)\&.
+.PP
+.PP
+.nf
+int ss_min, ss_max;
+int ret_value = sdkGetShutterSpeedLimits(&ss_min, &ss_max);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIss_min\fP - int pointer to the minimum shutter speed (OUT) 
+.br
+\fIss_max\fP - int pointer to the maximum shutter speed (OUT)
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetShutterSpeed\fP, \fBsdkSetShutterSpeed\fP, \fBsdkShutterSpeedToExposureTime\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetSpectrumLength ()"
+
+.PP
+Get size of spectrum data\&. This function returns the size(length) of spectrum data\&.
+.PP
+.PP
+.nf
+int spectrum_length;
+spectrum_length = sdkGetSpectrumLength();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+spectrum data size(length) (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetWavelengthInfo\fP, \fBsdkGetResolution\fP, \fBsdkCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int* sdkGetValidFilters ()"
+
+.PP
+Get valid filters\&. This function returns the valid filters data in sensor calibration data\&.
+.PP
+.PP
+.nf
+int* valid_filters = sdkGetValidFilters();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fInone\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns pointer of:
+.IP "\(bu" 2
+integer array of valid filters
+.IP "\(bu" 2
+NULL
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkCreate\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkGetWavelengthInfo (double * start_wavelength, double * end_wavelength, double * interval_wavelength)"
+
+.PP
+Get wavelength information data\&. This function returns wavelength range information for spectrum data\&.
+.PP
+.PP
+.nf
+double start_wavelength, end_wavelength, wavelength_interval;
+int ret_val = sdkGetWavelengthInfo(&start_wavelength, &end_wavelength, &wavelength_interval);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstart_wavelength\fP - double pointer to start wavelength [OUT] 
+.br
+\fIend_wavelength\fP - double pointer to end wavelength [OUT] 
+.br
+\fIwavelength_interval\fP - double pointer to wavelength interval[OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of NSP_RETURN_VALUE_SUCCESS\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetResolution\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkRegister (const char * sensor_cal_file_path)"
+
+.PP
+Add one sensor to active sensor list\&. This function add one sensor to active sensor list by loading sensor calibration data\&.
+.PP
+.PP
+.nf
+const char* sensor_cal_file_path = "\&./config/sensor_Y8585-1-85-85-0\&.dat";
+int total_count_of_active_sensors = sdkRegister(sensor_cal_file_path);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_cal_file_path\fP - file path for sensor calibration data [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+total count of active sensors
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_no_device_in_system
+.IP "\(bu" 2
+cc_ec_fail_to_load_sensor_cal_data
+.IP "\(bu" 2
+cc_ec_fail_to_initialize_color_object
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkCreate\fP, \fBsdkDestroy\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkSetShutterSpeed (int shutter)"
+
+.PP
+Change current shutter speed of a device(sensor) This function changes shutter speed of currently activated device(sensor)\&.
+.PP
+.PP
+.nf
+int new_ss = 50;
+int ret_value = sdkSetShutterSpeed(new_ss);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIshutter\fP - shutter speed value [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduGetShutterSpeed\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int sdkShutterSpeedToExposureTime (int master_clock, int shutter_speed_val, double * exposure_time)"
+
+.PP
+Convert shutter speed to exposure time(msec) This function converts a shutter speed value to exposure time (unit: msec)\&.
+.PP
+.PP
+.nf
+int   master_clock = 5;   // 5 MHz
+int cur_ss = 50;
+double exposure_time = 0\&.0;
+int ret_value = sdkShutterSpeedToExposureTime(master_clock, cur_ss, &exposure_time );
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaster_clock\fP - master clock of MCU to sensor (IN) 
+.br
+\fIcur_ss\fP - current shutter speed (IN) 
+.br
+\fIexposure_time\fP - double pointer to exposure time (OUT)
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBsdkGetShutterSpeed\fP, \fBsdkSetShutterSpeed\fP, \fBsdkGetShutterSpeedLimits\fP, \fBsdkExposureTimeToShutterSpeed\fP  
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

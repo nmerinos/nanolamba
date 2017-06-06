@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__endpoint__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_endpoint_descriptor</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1aa47a5fa31c179e7cb92818c0572c18a3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_endpoint_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of this descriptor (in bytes) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="532" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1a609c257394a574af229293bddf26986e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_endpoint_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Descriptor type. Will have value <ref refid="libusb_8h_1a0a2e8a25dfdebf29fdd4764dcdbc1a9ca97df43465eec9e6db81346f521777815" kindref="member">libusb_descriptor_type::LIBUSB_DT_ENDPOINT</ref> LIBUSB_DT_ENDPOINT in this context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="537" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1a111d087a09cbeded8e15eda9127e23d2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_endpoint_descriptor::bEndpointAddress</definition>
+        <argsstring></argsstring>
+        <name>bEndpointAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The address of the endpoint described by this descriptor. Bits 0:3 are the endpoint number. Bits 4:6 are reserved. Bit 7 indicates direction, see <ref refid="libusb_8h_1a86c880af878493aa8f805c2aba654b8b" kindref="member">libusb_endpoint_direction</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="543" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1a932b84417c46467f9916ecf7b679160b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_endpoint_descriptor::bmAttributes</definition>
+        <argsstring></argsstring>
+        <name>bmAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Attributes which apply to the endpoint when it is configured using the bConfigurationValue. Bits 0:1 determine the transfer type and correspond to <ref refid="libusb_8h_1acb52027036a07de6ecc6c2bf07d07c71" kindref="member">libusb_transfer_type</ref>. Bits 2:3 are only used for isochronous endpoints and correspond to <ref refid="libusb_8h_1aa2231202dfe12eddca49b1193d44a441" kindref="member">libusb_iso_sync_type</ref>. Bits 4:5 are also only used for isochronous endpoints and correspond to <ref refid="libusb_8h_1ab72474551b0eb965401e6febb856007c" kindref="member">libusb_iso_usage_type</ref>. Bits 6:7 are reserved. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="552" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1ac1feafc3d7310b2c8ab360513bcfa7b4" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t libusb_endpoint_descriptor::wMaxPacketSize</definition>
+        <argsstring></argsstring>
+        <name>wMaxPacketSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum packet size this endpoint is capable of sending/receiving. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="555" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1a3194f3f04ebd860d59cbdb07d758f9d8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_endpoint_descriptor::bInterval</definition>
+        <argsstring></argsstring>
+        <name>bInterval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Interval for polling endpoint for data transfers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="558" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1a9176a6d206a48731244e33a89a2bea0b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_endpoint_descriptor::bRefresh</definition>
+        <argsstring></argsstring>
+        <name>bRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For audio devices only: the rate at which synchronization feedback is provided. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="562" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1ab8408ca33f4e135039b1900c6f50ce6d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_endpoint_descriptor::bSynchAddress</definition>
+        <argsstring></argsstring>
+        <name>bSynchAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For audio devices only: the address if the synch endpoint </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="565" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1a27a637679d4cd75fd6af5b8ea19a88d6" prot="public" static="no" mutable="no">
+        <type>const unsigned char *</type>
+        <definition>const unsigned char* libusb_endpoint_descriptor::extra</definition>
+        <argsstring></argsstring>
+        <name>extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extra descriptors. If libusbx encounters unknown endpoint descriptors, it will store them here, should you wish to parse them. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="569" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__endpoint__descriptor_1a0b34ea2919834df309eba8f2775491ae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int libusb_endpoint_descriptor::extra_length</definition>
+        <argsstring></argsstring>
+        <name>extra_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Length of the extra descriptors, in bytes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="572" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A structure representing the standard USB endpoint descriptor. This descriptor is documented in section 9.6.6 of the USB 3.0 specification. All multiple-byte fields are represented in host-endian format. </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="530" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="530" bodyend="573"/>
+    <listofallmembers>
+      <member refid="structlibusb__endpoint__descriptor_1a609c257394a574af229293bddf26986e" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1a111d087a09cbeded8e15eda9127e23d2" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>bEndpointAddress</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1a3194f3f04ebd860d59cbdb07d758f9d8" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>bInterval</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1aa47a5fa31c179e7cb92818c0572c18a3" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>bLength</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1a932b84417c46467f9916ecf7b679160b" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>bmAttributes</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1a9176a6d206a48731244e33a89a2bea0b" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>bRefresh</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1ab8408ca33f4e135039b1900c6f50ce6d" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>bSynchAddress</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1a27a637679d4cd75fd6af5b8ea19a88d6" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>extra</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1a0b34ea2919834df309eba8f2775491ae" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>extra_length</name></member>
+      <member refid="structlibusb__endpoint__descriptor_1ac1feafc3d7310b2c8ab360513bcfa7b4" prot="public" virt="non-virtual"><scope>libusb_endpoint_descriptor</scope><name>wMaxPacketSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

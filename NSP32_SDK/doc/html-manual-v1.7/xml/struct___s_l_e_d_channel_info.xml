@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_l_e_d_channel_info" kind="struct" language="C++" prot="public">
+    <compoundname>_SLEDChannelInfo</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_l_e_d_channel_info_1a495118531ed79752f61d5fd7968be0a7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _SLEDChannelInfo::available</definition>
+        <argsstring></argsstring>
+        <name>available</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="848" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_l_e_d_channel_info_1a924bf87a289f83e9afabea059419a919" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _SLEDChannelInfo::turn_on</definition>
+        <argsstring></argsstring>
+        <name>turn_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="849" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_l_e_d_channel_info_1ad5771b65748b094a727d078d8fa9fafa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _SLEDChannelInfo::channel_index</definition>
+        <argsstring></argsstring>
+        <name>channel_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="850" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_l_e_d_channel_info_1af60c3aca8b3322ea26d316af804ee3af" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _SLEDChannelInfo::brightness</definition>
+        <argsstring></argsstring>
+        <name>brightness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="851" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_l_e_d_channel_info_1a73bece8cdb5ca14413b9046ebb832087" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SLEDChannelInfo::peak_wavelength</definition>
+        <argsstring></argsstring>
+        <name>peak_wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="852" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_l_e_d_channel_info_1a93e5dd710227aef684db566b841c493d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SLEDChannelInfo::amphere</definition>
+        <argsstring></argsstring>
+        <name>amphere</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="853" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="853" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_l_e_d_channel_info_1a408474ac77070f9cf6954c1c0773693f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SLEDChannelInfo::_SLEDChannelInfo</definition>
+        <argsstring>()</argsstring>
+        <name>_SLEDChannelInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="855" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="855" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_l_e_d_channel_info_1a1089300b7bba2a0ee1e11471c0a2f28c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SLEDChannelInfo::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="860" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="860" bodyend="868"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="847" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="846" bodyend="869"/>
+    <listofallmembers>
+      <member refid="struct___s_l_e_d_channel_info_1a408474ac77070f9cf6954c1c0773693f" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>_SLEDChannelInfo</name></member>
+      <member refid="struct___s_l_e_d_channel_info_1a93e5dd710227aef684db566b841c493d" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>amphere</name></member>
+      <member refid="struct___s_l_e_d_channel_info_1a495118531ed79752f61d5fd7968be0a7" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>available</name></member>
+      <member refid="struct___s_l_e_d_channel_info_1af60c3aca8b3322ea26d316af804ee3af" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>brightness</name></member>
+      <member refid="struct___s_l_e_d_channel_info_1ad5771b65748b094a727d078d8fa9fafa" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>channel_index</name></member>
+      <member refid="struct___s_l_e_d_channel_info_1a73bece8cdb5ca14413b9046ebb832087" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>peak_wavelength</name></member>
+      <member refid="struct___s_l_e_d_channel_info_1a1089300b7bba2a0ee1e11471c0a2f28c" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>Reset</name></member>
+      <member refid="struct___s_l_e_d_channel_info_1a924bf87a289f83e9afabea059419a919" prot="public" virt="non-virtual"><scope>_SLEDChannelInfo</scope><name>turn_on</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

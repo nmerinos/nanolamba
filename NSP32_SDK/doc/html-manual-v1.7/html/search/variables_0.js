@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['a',['a',['../struct_s_l_a_b.html#a16c119d9f69d38435324244ec8f8a168',1,'SLAB']]],
+  ['actual_5flength',['actual_length',['../structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32',1,'libusb_iso_packet_descriptor::actual_length()'],['../structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607',1,'libusb_transfer::actual_length()']]],
+  ['adc',['adc',['../struct_s_data_acq_condition.html#a05a6184e38d8c6dd0e452bd8826c76c3',1,'SDataAcqCondition']]],
+  ['adc_5fgain',['ADC_GAIN',['../struct___s_filter_data_calib_perf.html#ad31406193d5ea16dcf031ff8577ff298',1,'_SFilterDataCalibPerf']]],
+  ['adc_5frange',['adc_range',['../struct___s_apollo_data.html#a5a105d57b6a38e05b210933c898c10da',1,'_SApolloData::adc_range()'],['../struct___s_titan_plan.html#aeb5b3cd204cdc97be3566ed07f5c9d72',1,'_STitanPlan::adc_range()']]],
+  ['adc_5frange_5fval',['ADC_RANGE_VAL',['../struct___s_filter_data_calib_perf.html#a46cff6896501ba9aba0bf2b6e9e5df08',1,'_SFilterDataCalibPerf']]],
+  ['algo_5ftype',['algo_type',['../struct_s_data_process_plan.html#aa04d48ec87b273e586f400a6bb6a5e55',1,'SDataProcessPlan']]],
+  ['algorithm',['algorithm',['../struct_filter_information.html#a602e717b082aeb053c632d1f76b0528d',1,'FilterInformation']]],
+  ['all_5ffilter_5fout_5fraw',['all_filter_out_raw',['../struct___s_filter_data_calib_perf.html#a454e25e184b2d168afbe007e4bdc93e2',1,'_SFilterDataCalibPerf']]],
+  ['allsamples_5ffilterout',['allSamples_filterout',['../struct___s_filter_ref_data.html#a3285ce7eef12825b359d8b635efe5318',1,'_SFilterRefData']]],
+  ['altsetting',['altsetting',['../structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce',1,'libusb_interface::altsetting()'],['../structusb__interface.html#addcde0f74dd4139778f10742e4ae1867',1,'usb_interface::altsetting()']]],
+  ['amphere',['amphere',['../struct___s_l_e_d_channel_info.html#a93e5dd710227aef684db566b841c493d',1,'_SLEDChannelInfo']]],
+  ['append',['append',['../struct_s_data_acq_condition.html#a3a7d9305a9498bf3dd421320bec37251',1,'SDataAcqCondition']]],
+  ['available',['available',['../struct___s_l_e_d_channel_info.html#a495118531ed79752f61d5fd7968be0a7',1,'_SLEDChannelInfo']]],
+  ['average',['average',['../struct_s_data_collect_plan.html#a48f80c67d70509e830c7f6ecfea58cb8',1,'SDataCollectPlan::average()'],['../struct_s_data_acq_condition.html#a9a26bfe3ec1d50c5e88f71d4c8705ba5',1,'SDataAcqCondition::average()'],['../struct___s_device_info.html#a2cc4d0bb88c4464521541049ec7917d4',1,'_SDeviceInfo::average()']]],
+  ['averages',['AVERAGES',['../struct___s_filter_ref_data.html#a170660bca5743c99f639f5f24a9a5d12',1,'_SFilterRefData::AVERAGES()'],['../struct___s_filter_measurement_data.html#a7227803ac042f17bcd02a23293c9624a',1,'_SFilterMeasurementData::AVERAGES()'],['../struct___s_filter_data_calib_perf.html#a6a2e61415496517af9e3ae8c4286c459',1,'_SFilterDataCalibPerf::AVERAGES()']]]
+];

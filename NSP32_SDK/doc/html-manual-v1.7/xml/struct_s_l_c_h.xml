@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_l_c_h" kind="struct" language="C++" prot="public">
+    <compoundname>SLCH</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_l_c_h_1acc47a9795c86432dc8c20d545f07f50f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SLCH::L</definition>
+        <argsstring></argsstring>
+        <name>L</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="299" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_l_c_h_1a5a2a813c8cd7d8316b427adf34d0add1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SLCH::C</definition>
+        <argsstring></argsstring>
+        <name>C</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="300" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_l_c_h_1ae701c152a0033f625eb6274996812f5c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SLCH::h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="301" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct definition for LCH color space. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="298" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="297" bodyend="302"/>
+    <listofallmembers>
+      <member refid="struct_s_l_c_h_1a5a2a813c8cd7d8316b427adf34d0add1" prot="public" virt="non-virtual"><scope>SLCH</scope><name>C</name></member>
+      <member refid="struct_s_l_c_h_1ae701c152a0033f625eb6274996812f5c" prot="public" virt="non-virtual"><scope>SLCH</scope><name>h</name></member>
+      <member refid="struct_s_l_c_h_1acc47a9795c86432dc8c20d545f07f50f" prot="public" virt="non-virtual"><scope>SLCH</scope><name>L</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_x_y_z" kind="struct" language="C++" prot="public">
+    <compoundname>SXYZ</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_x_y_z_1aa428e32e7d14433db0ac1b35d20dcf12" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SXYZ::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="223" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_x_y_z_1ae2025a7f7bbd13bf477877235f15cbd2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SXYZ::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="224" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_x_y_z_1a196f227b96a489d206fd1e3fdb5ef53b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SXYZ::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="225" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_x_y_z_1a7858204a8013d8b62f5af1f32380dce6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SXYZ::SXYZ</definition>
+        <argsstring>()</argsstring>
+        <name>SXYZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="227" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="227" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_x_y_z_1ab6cba15cf4f87d83078ccb7c5853aecf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SXYZ::SXYZ</definition>
+        <argsstring>(double x_, double y_, double z_)</argsstring>
+        <name>SXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>x_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="232" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="232" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct definition for XYZ color space. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="222" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="222" bodyend="238"/>
+    <listofallmembers>
+      <member refid="struct_s_x_y_z_1a7858204a8013d8b62f5af1f32380dce6" prot="public" virt="non-virtual"><scope>SXYZ</scope><name>SXYZ</name></member>
+      <member refid="struct_s_x_y_z_1ab6cba15cf4f87d83078ccb7c5853aecf" prot="public" virt="non-virtual"><scope>SXYZ</scope><name>SXYZ</name></member>
+      <member refid="struct_s_x_y_z_1aa428e32e7d14433db0ac1b35d20dcf12" prot="public" virt="non-virtual"><scope>SXYZ</scope><name>x</name></member>
+      <member refid="struct_s_x_y_z_1ae2025a7f7bbd13bf477877235f15cbd2" prot="public" virt="non-virtual"><scope>SXYZ</scope><name>y</name></member>
+      <member refid="struct_s_x_y_z_1a196f227b96a489d206fd1e3fdb5ef53b" prot="public" virt="non-virtual"><scope>SXYZ</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

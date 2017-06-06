@@ -1,0 +1,70 @@
+.TH "usb_device" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+usb_device
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <lusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBusb_device\fP * \fBnext\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_device\fP * \fBprev\fP"
+.br
+.ti -1c
+.RI "char \fBfilename\fP [\fBLIBUSB_PATH_MAX\fP]"
+.br
+.ti -1c
+.RI "struct \fBusb_bus\fP * \fBbus\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_device_descriptor\fP \fBdescriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_config_descriptor\fP * \fBconfig\fP"
+.br
+.ti -1c
+.RI "\fBvoid\fP * \fBdev\fP"
+.br
+.ti -1c
+.RI "unsigned char \fBdevnum\fP"
+.br
+.ti -1c
+.RI "unsigned char \fBnum_children\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_device\fP ** \fBchildren\fP"
+.br
+.in -1c
+.SH "Member Data Documentation"
+.PP 
+.SS "struct \fBusb_bus\fP* usb_device::bus"
+
+.SS "struct \fBusb_device\fP** usb_device::children"
+
+.SS "struct \fBusb_config_descriptor\fP* usb_device::config"
+
+.SS "struct \fBusb_device_descriptor\fP usb_device::descriptor"
+
+.SS "\fBvoid\fP* usb_device::dev"
+
+.SS "unsigned char usb_device::devnum"
+
+.SS "char usb_device::filename[\fBLIBUSB_PATH_MAX\fP]"
+
+.SS "struct \fBusb_device\fP* usb_device::next"
+
+.SS "unsigned char usb_device::num_children"
+
+.SS "struct \fBusb_device\fP * usb_device::prev"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

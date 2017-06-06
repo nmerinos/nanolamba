@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__interface__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_interface_descriptor</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a646b7bf875e5b927796d47e57c9182b8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of this descriptor (in bytes) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="582" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1affe977ae83d3bbf07513d87ebfb6ed0e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Descriptor type. Will have value <ref refid="libusb_8h_1a0a2e8a25dfdebf29fdd4764dcdbc1a9ca797f18e35ee27434562aed0c20c46b78" kindref="member">libusb_descriptor_type::LIBUSB_DT_INTERFACE</ref> LIBUSB_DT_INTERFACE in this context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="587" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a75046f443d3330f590f3d3fb1f9df863" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bInterfaceNumber</definition>
+        <argsstring></argsstring>
+        <name>bInterfaceNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of this interface </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="590" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a2c94bce217e8ecd5fd23728510e9c838" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bAlternateSetting</definition>
+        <argsstring></argsstring>
+        <name>bAlternateSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value used to select this alternate setting for this interface </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="593" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a487bd2058bfbe749d370c6e7d3add20e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bNumEndpoints</definition>
+        <argsstring></argsstring>
+        <name>bNumEndpoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of endpoints used by this interface (excluding the control endpoint). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="597" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a19dcf80e6a5fedf3d3673630897ad649" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bInterfaceClass</definition>
+        <argsstring></argsstring>
+        <name>bInterfaceClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB-IF class code for this interface. See <ref refid="libusb_8h_1ac529888effbefef8af4f9d17ebc903a1" kindref="member">libusb_class_code</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="600" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="600" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a0b9b890f84694a4e6a0103944e1247f4" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bInterfaceSubClass</definition>
+        <argsstring></argsstring>
+        <name>bInterfaceSubClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB-IF subclass code for this interface, qualified by the bInterfaceClass value </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="604" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a5062bbb17fc76e6c3624ea7ca68d554c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::bInterfaceProtocol</definition>
+        <argsstring></argsstring>
+        <name>bInterfaceProtocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB-IF protocol code for this interface, qualified by the bInterfaceClass and bInterfaceSubClass values </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="608" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="608" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a19227cc111c27e27c2c07430777e1ab8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_interface_descriptor::iInterface</definition>
+        <argsstring></argsstring>
+        <name>iInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Index of string descriptor describing this interface </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="611" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1a42bd0c63b361cf6c0bda5ecdf73e1c75" prot="public" static="no" mutable="no">
+        <type>const struct <ref refid="structlibusb__endpoint__descriptor" kindref="compound">libusb_endpoint_descriptor</ref> *</type>
+        <definition>const struct libusb_endpoint_descriptor* libusb_interface_descriptor::endpoint</definition>
+        <argsstring></argsstring>
+        <name>endpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Array of endpoint descriptors. This length of this array is determined by the bNumEndpoints field. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="615" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="615" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1aa1169e8c0b22a9928bbd51169609f31d" prot="public" static="no" mutable="no">
+        <type>const unsigned char *</type>
+        <definition>const unsigned char* libusb_interface_descriptor::extra</definition>
+        <argsstring></argsstring>
+        <name>extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extra descriptors. If libusbx encounters unknown interface descriptors, it will store them here, should you wish to parse them. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="619" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="619" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__interface__descriptor_1ad77fa0b951a83d0c7eac28920367f200" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int libusb_interface_descriptor::extra_length</definition>
+        <argsstring></argsstring>
+        <name>extra_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Length of the extra descriptors, in bytes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="622" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="622" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A structure representing the standard USB interface descriptor. This descriptor is documented in section 9.6.5 of the USB 3.0 specification. All multiple-byte fields are represented in host-endian format. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="75">
+        <label>libusb_interface_descriptor</label>
+        <link refid="structlibusb__interface__descriptor"/>
+        <childnode refid="76" relation="usage">
+          <edgelabel>endpoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="76">
+        <label>libusb_endpoint_descriptor</label>
+        <link refid="structlibusb__endpoint__descriptor"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="580" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="580" bodyend="623"/>
+    <listofallmembers>
+      <member refid="structlibusb__interface__descriptor_1a2c94bce217e8ecd5fd23728510e9c838" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bAlternateSetting</name></member>
+      <member refid="structlibusb__interface__descriptor_1affe977ae83d3bbf07513d87ebfb6ed0e" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structlibusb__interface__descriptor_1a19dcf80e6a5fedf3d3673630897ad649" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bInterfaceClass</name></member>
+      <member refid="structlibusb__interface__descriptor_1a75046f443d3330f590f3d3fb1f9df863" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bInterfaceNumber</name></member>
+      <member refid="structlibusb__interface__descriptor_1a5062bbb17fc76e6c3624ea7ca68d554c" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bInterfaceProtocol</name></member>
+      <member refid="structlibusb__interface__descriptor_1a0b9b890f84694a4e6a0103944e1247f4" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bInterfaceSubClass</name></member>
+      <member refid="structlibusb__interface__descriptor_1a646b7bf875e5b927796d47e57c9182b8" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bLength</name></member>
+      <member refid="structlibusb__interface__descriptor_1a487bd2058bfbe749d370c6e7d3add20e" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>bNumEndpoints</name></member>
+      <member refid="structlibusb__interface__descriptor_1a42bd0c63b361cf6c0bda5ecdf73e1c75" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>endpoint</name></member>
+      <member refid="structlibusb__interface__descriptor_1aa1169e8c0b22a9928bbd51169609f31d" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>extra</name></member>
+      <member refid="structlibusb__interface__descriptor_1ad77fa0b951a83d0c7eac28920367f200" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>extra_length</name></member>
+      <member refid="structlibusb__interface__descriptor_1a19227cc111c27e27c2c07430777e1ab8" prot="public" virt="non-virtual"><scope>libusb_interface_descriptor</scope><name>iInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

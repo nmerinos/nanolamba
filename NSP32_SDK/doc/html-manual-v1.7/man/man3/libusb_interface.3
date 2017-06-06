@@ -1,0 +1,33 @@
+.TH "libusb_interface" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_interface
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "const struct \fBlibusb_interface_descriptor\fP * \fBaltsetting\fP"
+.br
+.ti -1c
+.RI "int \fBnum_altsetting\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+A collection of alternate settings for a particular USB interface\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "const struct \fBlibusb_interface_descriptor\fP* libusb_interface::altsetting"
+Array of interface descriptors\&. The length of this array is determined by the num_altsetting field\&. 
+.SS "int libusb_interface::num_altsetting"
+The number of alternate settings that belong to this interface 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

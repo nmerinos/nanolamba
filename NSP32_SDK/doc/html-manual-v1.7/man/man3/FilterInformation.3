@@ -1,0 +1,104 @@
+.TH "FilterInformation" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FilterInformation \- FilterInfomration struct\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <nsp_base_types\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBnum_filters\fP"
+.br
+.ti -1c
+.RI "int \fBnum_valid_filters\fP"
+.br
+.ti -1c
+.RI "int \fBnum_resolution\fP"
+.br
+.ti -1c
+.RI "int \fBinterp_resolution\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBstart_wavelength\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBend_wavelength\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBinterval\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBstart_wavelength_interp\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBend_wavelength_interp\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP \fBinterval_interp\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP * \fBfilter_data_ptr\fP"
+.br
+.ti -1c
+.RI "\fBFLOAT64_TYPE\fP * \fBinterp_data_ptr\fP"
+.br
+.ti -1c
+.RI "int * \fBvalid_filters\fP"
+.br
+.ti -1c
+.RI "int \fBalgorithm\fP"
+.br
+.ti -1c
+.RI "int \fBsensorid_size\fP"
+.br
+.ti -1c
+.RI "char \fBsensorid\fP [15]"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+FilterInfomration struct\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "int FilterInformation::algorithm"
+
+.SS "\fBFLOAT64_TYPE\fP FilterInformation::end_wavelength"
+
+.SS "\fBFLOAT64_TYPE\fP FilterInformation::end_wavelength_interp"
+
+.SS "\fBFLOAT64_TYPE\fP* FilterInformation::filter_data_ptr"
+
+.SS "\fBFLOAT64_TYPE\fP* FilterInformation::interp_data_ptr"
+
+.SS "int FilterInformation::interp_resolution"
+
+.SS "\fBFLOAT64_TYPE\fP FilterInformation::interval"
+
+.SS "\fBFLOAT64_TYPE\fP FilterInformation::interval_interp"
+
+.SS "int FilterInformation::num_filters"
+
+.SS "int FilterInformation::num_resolution"
+
+.SS "int FilterInformation::num_valid_filters"
+
+.SS "char FilterInformation::sensorid[15]"
+
+.SS "int FilterInformation::sensorid_size"
+
+.SS "\fBFLOAT64_TYPE\fP FilterInformation::start_wavelength"
+
+.SS "\fBFLOAT64_TYPE\fP FilterInformation::start_wavelength_interp"
+
+.SS "int* FilterInformation::valid_filters"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

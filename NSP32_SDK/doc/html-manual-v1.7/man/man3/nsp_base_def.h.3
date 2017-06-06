@@ -1,0 +1,114 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_def.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_def.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'nsp_base_types\&.h'\fP
+.br
+\fC#include 'nsp_error_codes\&.h'\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <stdint\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBEXPORT_DLL\fP   __attribute__((dllexport))"
+.br
+.ti -1c
+.RI "#define \fBHANDLE\fP   int"
+.br
+.ti -1c
+.RI "#define \fBBOOL\fP   bool"
+.br
+.ti -1c
+.RI "#define \fBDWORD\fP   unsigned long"
+.br
+.ti -1c
+.RI "#define \fBMACHINE_PRECISION\fP   5\&.96e\-08"
+.br
+.RI "this is standard machine precision for 32 bit floats "
+.ti -1c
+.RI "#define \fBM_PI\fP   3\&.14159265358979323846  /* pi */"
+.br
+.ti -1c
+.RI "#define \fBIS_NAN\fP(x)   (((x) < 0) == ((x) >= 0))"
+.br
+.ti -1c
+.RI "#define \fBround\fP(x)   (x<0?ceil((x)\-0\&.5):floor((x)+0\&.5))"
+.br
+.ti -1c
+.RI "#define \fBround_prec\fP(x,  y)   (float) (floor(x*(1\&.0f/y) + 0\&.5)/(1\&.0f/y));"
+.br
+.ti -1c
+.RI "#define \fBCONTROLLER_BOARD_STM\fP"
+.br
+.ti -1c
+.RI "#define \fBRANGE_FROM_SATURATION\fP   50"
+.br
+.ti -1c
+.RI "#define \fBFILTER_VALUE_OF_SATURATION\fP   \fBDEVICE_MAX_FILTER_OUT\fP \- \fBRANGE_FROM_SATURATION\fP"
+.br
+.ti -1c
+.RI "#define \fBAE_FUNC_PIXEL_VARIATION_SIZE\fP   100"
+.br
+.ti -1c
+.RI "#define \fBAE_FUNC_SATURATION_LIMIT\fP   \fBDEVICE_MAX_FILTER_OUT\fP\-\fBAE_FUNC_PIXEL_VARIATION_SIZE\fP"
+.br
+.ti -1c
+.RI "#define \fBAE_FUNC_MESSAGE_LIGHT_TOO_LOW\fP   \-1"
+.br
+.ti -1c
+.RI "#define \fBAE_FUNC_MESSAGE_LIGHT_TOO_STRONG\fP   \-2"
+.br
+.ti -1c
+.RI "#define \fBSENSOR_ID_STRING_LENGTH\fP   26"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define AE_FUNC_MESSAGE_LIGHT_TOO_LOW   \-1"
+
+.SS "#define AE_FUNC_MESSAGE_LIGHT_TOO_STRONG   \-2"
+
+.SS "#define AE_FUNC_PIXEL_VARIATION_SIZE   100"
+
+.SS "#define AE_FUNC_SATURATION_LIMIT   \fBDEVICE_MAX_FILTER_OUT\fP\-\fBAE_FUNC_PIXEL_VARIATION_SIZE\fP"
+
+.SS "#define BOOL   bool"
+
+.SS "#define CONTROLLER_BOARD_STM"
+
+.SS "#define DWORD   unsigned long"
+
+.SS "#define EXPORT_DLL   __attribute__((dllexport))"
+
+.SS "#define FILTER_VALUE_OF_SATURATION   \fBDEVICE_MAX_FILTER_OUT\fP \- \fBRANGE_FROM_SATURATION\fP"
+
+.SS "#define HANDLE   int"
+
+.SS "#define IS_NAN(x)   (((x) < 0) == ((x) >= 0))"
+
+.SS "#define M_PI   3\&.14159265358979323846  /* pi */"
+
+.SS "#define MACHINE_PRECISION   5\&.96e\-08"
+
+.PP
+this is standard machine precision for 32 bit floats 
+.SS "#define RANGE_FROM_SATURATION   50"
+
+.SS "#define round(x)   (x<0?ceil((x)\-0\&.5):floor((x)+0\&.5))"
+
+.SS "#define round_prec(x, y)   (float) (floor(x*(1\&.0f/y) + 0\&.5)/(1\&.0f/y));"
+
+.SS "#define SENSOR_ID_STRING_LENGTH   26"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

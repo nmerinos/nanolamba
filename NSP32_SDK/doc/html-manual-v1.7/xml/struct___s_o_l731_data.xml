@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_o_l731_data" kind="struct" language="C++" prot="public">
+    <compoundname>_SOL731Data</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_o_l731_data_1acce30deb2657d69da0132569aea1eff5" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SOL731Data::resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="465" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a8ee7c4c01af07db3e57274d4a6472347" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SOL731Data::shutter_speed</definition>
+        <argsstring></argsstring>
+        <name>shutter_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="466" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a4192cd3d17ad26edf15289227f9b9770" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SOL731Data::filter_data</definition>
+        <argsstring></argsstring>
+        <name>filter_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="467" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a3209c1c29225cf22a78cd651f66d59ef" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SOL731Data::filter_device</definition>
+        <argsstring></argsstring>
+        <name>filter_device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="468" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a887e744f10bbc4052279de29c7d3e826" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SOL731Data::saturation</definition>
+        <argsstring></argsstring>
+        <name>saturation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="469" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a7407fe5da02b96515661c99f225395b2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SOL731Data::zero</definition>
+        <argsstring></argsstring>
+        <name>zero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="470" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1abd9fd6b90170e9019756fb317a580cfc" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SOL731Data::filter_data_wavelength</definition>
+        <argsstring></argsstring>
+        <name>filter_data_wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="471" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a262c70cd2ab911899a1d3434fbb295e1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SOL731Data::dark_noise</definition>
+        <argsstring></argsstring>
+        <name>dark_noise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="472" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1af087987d224bdfd7091c4c3b2a9dbe97" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SOL731Data::slit_size</definition>
+        <argsstring></argsstring>
+        <name>slit_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="473" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a3c3cc6e32a37cc73a9631f722661ead9" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SOL731Data::comments</definition>
+        <argsstring></argsstring>
+        <name>comments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="474" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a10d3341ba2bbb5fcfefdcdecfab3249a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SOL731Data::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="475" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a7e65415a9da6e275663af23e784ccdd0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SOL731Data::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="476" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1ab8af51b85882eb198cdc5d77b07f5230" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SOL731Data::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="477" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_o_l731_data_1a36541fc7b87cf1fb960a63c55ff0f42e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SOL731Data::monochromator_gain</definition>
+        <argsstring></argsstring>
+        <name>monochromator_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="478" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_o_l731_data_1abdf4a999596ad2899f6059eba73d5ec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SOL731Data::_SOL731Data</definition>
+        <argsstring>()</argsstring>
+        <name>_SOL731Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="480" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="480" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_o_l731_data_1aa657fd4ab81fcd7816392f873577f07b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SOL731Data::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="485" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="485" bodyend="501"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="464" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="463" bodyend="502"/>
+    <listofallmembers>
+      <member refid="struct___s_o_l731_data_1abdf4a999596ad2899f6059eba73d5ec0" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>_SOL731Data</name></member>
+      <member refid="struct___s_o_l731_data_1a3c3cc6e32a37cc73a9631f722661ead9" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>comments</name></member>
+      <member refid="struct___s_o_l731_data_1a262c70cd2ab911899a1d3434fbb295e1" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>dark_noise</name></member>
+      <member refid="struct___s_o_l731_data_1a4192cd3d17ad26edf15289227f9b9770" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>filter_data</name></member>
+      <member refid="struct___s_o_l731_data_1abd9fd6b90170e9019756fb317a580cfc" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>filter_data_wavelength</name></member>
+      <member refid="struct___s_o_l731_data_1a3209c1c29225cf22a78cd651f66d59ef" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>filter_device</name></member>
+      <member refid="struct___s_o_l731_data_1ab8af51b85882eb198cdc5d77b07f5230" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>id</name></member>
+      <member refid="struct___s_o_l731_data_1a10d3341ba2bbb5fcfefdcdecfab3249a" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>location</name></member>
+      <member refid="struct___s_o_l731_data_1a36541fc7b87cf1fb960a63c55ff0f42e" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>monochromator_gain</name></member>
+      <member refid="struct___s_o_l731_data_1aa657fd4ab81fcd7816392f873577f07b" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>Reset</name></member>
+      <member refid="struct___s_o_l731_data_1acce30deb2657d69da0132569aea1eff5" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>resolution</name></member>
+      <member refid="struct___s_o_l731_data_1a887e744f10bbc4052279de29c7d3e826" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>saturation</name></member>
+      <member refid="struct___s_o_l731_data_1a8ee7c4c01af07db3e57274d4a6472347" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>shutter_speed</name></member>
+      <member refid="struct___s_o_l731_data_1af087987d224bdfd7091c4c3b2a9dbe97" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>slit_size</name></member>
+      <member refid="struct___s_o_l731_data_1a7e65415a9da6e275663af23e784ccdd0" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>version</name></member>
+      <member refid="struct___s_o_l731_data_1a7407fe5da02b96515661c99f225395b2" prot="public" virt="non-virtual"><scope>_SOL731Data</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

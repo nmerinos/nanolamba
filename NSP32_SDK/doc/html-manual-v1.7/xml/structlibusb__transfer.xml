@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__transfer" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_transfer</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__transfer_1adaaf06aeb5ab2a8819e75310ec253f7a" prot="public" static="no" mutable="no">
+        <type><ref refid="libusb_8h_1a7df95821d20d27b5597f1d783749d6a4" kindref="member">libusb_device_handle</ref> *</type>
+        <definition>libusb_device_handle* libusb_transfer::dev_handle</definition>
+        <argsstring></argsstring>
+        <name>dev_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle of the device that this transfer will be submitted to </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1208" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1ae26c063df30c2e29835212aad98c6e06" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_transfer::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A bitwise OR combination of <ref refid="libusb_8h_1a1fb47dd0f7c209b60a3609ff0c03d56d" kindref="member">libusb_transfer_flags</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1211" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a0fcfd057f53b0e1bff6f1567761c231a" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char libusb_transfer::endpoint</definition>
+        <argsstring></argsstring>
+        <name>endpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Address of the endpoint where this transfer will be sent. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1214" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a7c9fa575986fe9f23bbecb26b766dff1" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char libusb_transfer::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type of the endpoint from <ref refid="libusb_8h_1acb52027036a07de6ecc6c2bf07d07c71" kindref="member">libusb_transfer_type</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1217" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a9a12af15ca5b482f5dcaebd26a848cbb" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int libusb_transfer::timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Timeout for this transfer in millseconds. A value of 0 indicates no timeout. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1221" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a64b2e70e76d52a7cd23daa3cd4fb397e" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="libusb_8h_1a9fcb2aa23d342060ebda1d0cf7478856" kindref="member">libusb_transfer_status</ref></type>
+        <definition>enum libusb_transfer_status libusb_transfer::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The status of the transfer. Read-only, and only for use within transfer callback function.</para><para>If this is an isochronous transfer, this field may read COMPLETED even if there were errors in the frames. Use the <ref refid="structlibusb__iso__packet__descriptor_1aab21ee2a5835a0e53d7ac5844ee34371" kindref="member">status</ref> field in each packet to determine if errors occurred. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1221" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a68c023e1f40b50aa8604a2495b6a391e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int libusb_transfer::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Length of the data buffer </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1233" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a7e858f07c48a271a62209d11376ae607" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int libusb_transfer::actual_length</definition>
+        <argsstring></argsstring>
+        <name>actual_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Actual length of data that was transferred. Read-only, and only for use within transfer callback function. Not valid for isochronous endpoint transfers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1238" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a69c6df011ec23ff3e481cc98bfff0623" prot="public" static="no" mutable="no">
+        <type>libusb_transfer_cb_fn</type>
+        <definition>libusb_transfer_cb_fn libusb_transfer::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback function. This will be invoked when the transfer completes, fails, or is cancelled. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1242" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1ab75ab3e7185f08e07a1ae858a35ebb7b" prot="public" static="no" mutable="no">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref> *</type>
+        <definition>void* libusb_transfer::user_data</definition>
+        <argsstring></argsstring>
+        <name>user_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>User context data to pass to the callback function. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1245" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a7fa594567e074191ce8f28b5fb4a3bea" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* libusb_transfer::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Data buffer </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1248" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a87d725a5521c26832fdc13611220014d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int libusb_transfer::num_iso_packets</definition>
+        <argsstring></argsstring>
+        <name>num_iso_packets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of isochronous packets. Only used for I/O with isochronous endpoints. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1252" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__transfer_1a0de0b13dfae411fc36217d35eb89b138" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structlibusb__iso__packet__descriptor" kindref="compound">libusb_iso_packet_descriptor</ref></type>
+        <definition>struct libusb_iso_packet_descriptor libusb_transfer::iso_packet_desc[0]</definition>
+        <argsstring>[0]</argsstring>
+        <name>iso_packet_desc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Isochronous packet descriptors, for isochronous transfers only. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1252" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1255" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The generic USB transfer structure. The user populates this structure and then submits it in order to request a transfer. After the transfer has completed, the library populates the transfer with the results and passes it back to the user. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="86">
+        <label>libusb_transfer</label>
+        <link refid="structlibusb__transfer"/>
+        <childnode refid="87" relation="usage">
+          <edgelabel>iso_packet_desc</edgelabel>
+        </childnode>
+      </node>
+      <node id="87">
+        <label>libusb_iso_packet_descriptor</label>
+        <link refid="structlibusb__iso__packet__descriptor"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1206" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1206" bodyend="1262"/>
+    <listofallmembers>
+      <member refid="structlibusb__transfer_1a7e858f07c48a271a62209d11376ae607" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>actual_length</name></member>
+      <member refid="structlibusb__transfer_1a7fa594567e074191ce8f28b5fb4a3bea" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>buffer</name></member>
+      <member refid="structlibusb__transfer_1a69c6df011ec23ff3e481cc98bfff0623" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>callback</name></member>
+      <member refid="structlibusb__transfer_1adaaf06aeb5ab2a8819e75310ec253f7a" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>dev_handle</name></member>
+      <member refid="structlibusb__transfer_1a0fcfd057f53b0e1bff6f1567761c231a" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>endpoint</name></member>
+      <member refid="structlibusb__transfer_1ae26c063df30c2e29835212aad98c6e06" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>flags</name></member>
+      <member refid="structlibusb__transfer_1a0de0b13dfae411fc36217d35eb89b138" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>iso_packet_desc</name></member>
+      <member refid="structlibusb__transfer_1a68c023e1f40b50aa8604a2495b6a391e" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>length</name></member>
+      <member refid="structlibusb__transfer_1a87d725a5521c26832fdc13611220014d" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>num_iso_packets</name></member>
+      <member refid="structlibusb__transfer_1a64b2e70e76d52a7cd23daa3cd4fb397e" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>status</name></member>
+      <member refid="structlibusb__transfer_1a9a12af15ca5b482f5dcaebd26a848cbb" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>timeout</name></member>
+      <member refid="structlibusb__transfer_1a7c9fa575986fe9f23bbecb26b766dff1" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>type</name></member>
+      <member refid="structlibusb__transfer_1ab75ab3e7185f08e07a1ae858a35ebb7b" prot="public" virt="non-virtual"><scope>libusb_transfer</scope><name>user_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

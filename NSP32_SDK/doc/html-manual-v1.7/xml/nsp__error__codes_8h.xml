@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__error__codes_8h" kind="file" language="C++">
+    <compoundname>nsp_error_codes.h</compoundname>
+    <includedby refid="nsp__base__def_8h" local="yes">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_def.h</includedby>
+    <invincdepgraph>
+      <node id="72">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h</label>
+        <link refid="nsp__error__codes_8h"/>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h</label>
+        <link refid="nsp__base__exceptions_8h"/>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h</label>
+        <link refid="nsp__base__api_8h"/>
+      </node>
+      <node id="78">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_base.h</label>
+        <link refid="nsp__device__interface__base_8h"/>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_core_common.h</label>
+        <link refid="nsp__core__common_8h"/>
+      </node>
+      <node id="79">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h</label>
+        <link refid="nsp__device__interface__stm__usb_8h"/>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_def.h</label>
+        <link refid="nsp__base__def_8h"/>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface.h</label>
+        <link refid="nsp__device__interface_8h"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nsp__error__codes_8h_1ab8235e34110852a5f2dea45c7d8926ea" prot="public" static="no">
+        <name>NSP_RETURN_VALUE_UNKNOWN</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" line="6" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__error__codes_8h_1a39ce2c8f8c597cc24d55658aa24f1d16" prot="public" static="no">
+        <name>NSP_RETURN_VALUE_SUCCESS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" line="7" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__error__codes_8h_1ab73cab1acf70c81a3f8ad3ad96c00202" prot="public" static="no">
+        <name>NSP_RETURN_VALUE_FAILURE</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" line="8" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__error__codes_8h_1a4fb7faa0183b87ec0c71b100e40d5874" prot="public" static="no">
+        <name>NSP_RETURN_VALUE_NO_MATCHED_SENSOR</name>
+        <initializer>-2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" line="9" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__error__codes_8h_1a5825b1254e246174dd6f05f2dba7f23b" prot="public" static="no">
+        <name>NSP_RETURN_VALUE_NO_MATCHED_CAL_DATA</name>
+        <initializer>-3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" line="10" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" prot="public" static="no">
+        <name>NSP_ERROR_CODE</name>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3af9908fd74cfb4bcabe1783ff4584f721" prot="public">
+          <name>cc_ec_start_code</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a7f97edc8d793236332b034222d2f1753" prot="public">
+          <name>cc_ec_fail</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a00325ca3ea663cb1c77bf2c27c20651e" prot="public">
+          <name>cc_ec_undefined_fail</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a51aaf520c92864faecaf6e34f240704d" prot="public">
+          <name>cc_ec_success</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a0fa81aa364f73b8da9b3993ba595151a" prot="public">
+          <name>cc_ec_memory_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3af8e9e0ce61134c4ae8aee2fb2919d9a6" prot="public">
+          <name>cc_ec_no_device_in_system</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a44e634baf34d1853ef4e612bd650cac5" prot="public">
+          <name>cc_ec_fail_to_connect_device</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6da0ec94304734be6bf70d749f5442e8" prot="public">
+          <name>cc_ec_fail_to_create_device_obj</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a48f4693f291630dc851775adf9dc0561" prot="public">
+          <name>cc_ec_fail_to_initialize_device</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a30282215269d9a5de217e7260398f813" prot="public">
+          <name>cc_ec_device_object_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6cbcd0085a5507a078b2d8a0b9f277bf" prot="public">
+          <name>cc_ec_sensor_id_is_empty</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a9b0efdee055a8473e39ae53270aa0437" prot="public">
+          <name>cc_ec_fw_recv_timeout</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6b3bcc04e4b1c334c8207010219c3584" prot="public">
+          <name>cc_ec_fail_to_create_core_spectrum_obj</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a8aa935257576e0392d31383be0fbb5c2" prot="public">
+          <name>cc_ec_fail_to_initialize_core_spectrum_obj</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ab9e6e01bcca3506241f43bf48923ee74" prot="public">
+          <name>cc_ec_fail_to_load_sensor_cal_data</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3acec2893ad03680c44d0f6dc1caa95571" prot="public">
+          <name>cc_ec_fail_to_add_sensor_to_active_sensor_list</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3afcdbe62d66bc69f9e4b55601a4fb6c60" prot="public">
+          <name>cc_ec_sensor_cal_data_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ab52760d2738592e4a213ad2dad189f7b" prot="public">
+          <name>cc_ec_sensor_cal_for_input_sensor_id_is_not_valid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ae3c2b1f2037d19a9d9cbe20670176ea4" prot="public">
+          <name>cc_ec_spectrum_core_object_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a71af014a06fd9299759051e1715f5ded" prot="public">
+          <name>cc_ec_memory_for_spectrum_data_buffer_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ae858e86bb4ee862af93a0b9687b821ad" prot="public">
+          <name>cc_ec_memory_for_wavelength_data_buffer_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a19656bb97d19b040661c559535529ff6" prot="public">
+          <name>cc_ec_filter_buffer_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a58118115fe76688609efa0a4fef3f65e" prot="public">
+          <name>cc_ec_filter_data_is_nan</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ad6004e36355ef5d5638441a24dde0a49" prot="public">
+          <name>cc_ec_background_buffer_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a3974de40224d6f441dabcfde4d521b4b" prot="public">
+          <name>cc_ec_fail_to_calculate_spectrum</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a89f3bcb3707fbbc84a87819ac3f557b2" prot="public">
+          <name>cc_ec_wrong_reply</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a25506b9ce5d09c1fd6b3d1f55d0c2398" prot="public">
+          <name>cc_ec_ill_defined_input</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a2ec9a1a83bbce06cc7ab8824f01f0f84" prot="public">
+          <name>cc_ec_ill_defined_output</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3aaa5e2a1d8f2ffe460e74aa04cece5a5b" prot="public">
+          <name>cc_ec_initialization_required</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a7e835145212d95510c32bbfbd39b8059" prot="public">
+          <name>cc_ec_file_open_failed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a267f137cbadc0aada3e9b3dbd7f1dfd0" prot="public">
+          <name>cc_ec_weights_matrix_allocation_fail</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a1e11d366b7e2b1e261a1626906d4ed8d" prot="public">
+          <name>cc_ec_fail_to_create_color_object</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a2cf466c59c6a8409cfda989bc9d42acf" prot="public">
+          <name>cc_ec_fail_to_initialize_color_object</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ac66a18c10cec189dc6eb3a30759674b5" prot="public">
+          <name>cc_ec_color_object_is_null</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a482e0a482cdf53e177d9fd94c857e8c4" prot="public">
+          <name>cc_ec_end_code</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>define error code for NSP API/SDK </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" line="13" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h" bodystart="13" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__NSP_ERROR_CODES_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_ERROR_CODES_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NSP<sp/>API<sp/>and<sp/>SDK<sp/>functions<sp/>returns<sp/>a<sp/>value<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>success,<sp/>unknown<sp/>or<sp/>failure<sp/>or<sp/>exception<sp/>codes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="nsp__error__codes_8h_1ab8235e34110852a5f2dea45c7d8926ea" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_RETURN_VALUE_UNKNOWN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="nsp__error__codes_8h_1a39ce2c8f8c597cc24d55658aa24f1d16" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_RETURN_VALUE_SUCCESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="nsp__error__codes_8h_1ab73cab1acf70c81a3f8ad3ad96c00202" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_RETURN_VALUE_FAILURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="nsp__error__codes_8h_1a4fb7faa0183b87ec0c71b100e40d5874" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_RETURN_VALUE_NO_MATCHED_SENSOR<sp/><sp/><sp/><sp/><sp/><sp/>-2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="nsp__error__codes_8h_1a5825b1254e246174dd6f05f2dba7f23b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_RETURN_VALUE_NO_MATCHED_CAL_DATA<sp/><sp/><sp/><sp/>-3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" kindref="member">NSP_ERROR_CODE</ref>{</highlight></codeline>
+<codeline lineno="14" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3af9908fd74cfb4bcabe1783ff4584f721" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3af9908fd74cfb4bcabe1783ff4584f721" kindref="member">cc_ec_start_code</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//GENERAL<sp/>ERROR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a7f97edc8d793236332b034222d2f1753" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a7f97edc8d793236332b034222d2f1753" kindref="member">cc_ec_fail</ref><sp/>=<sp/>-1,<sp/></highlight><highlight class="comment">//failed<sp/>for<sp/>undefined<sp/>reasons<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a00325ca3ea663cb1c77bf2c27c20651e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a00325ca3ea663cb1c77bf2c27c20651e" kindref="member">cc_ec_undefined_fail</ref><sp/>=<sp/>0,<sp/></highlight><highlight class="comment">//failed<sp/>for<sp/>undefined<sp/>reasons<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a51aaf520c92864faecaf6e34f240704d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a51aaf520c92864faecaf6e34f240704d" kindref="member">cc_ec_success</ref><sp/>=<sp/>1,<sp/></highlight><highlight class="comment">//success</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a0fa81aa364f73b8da9b3993ba595151a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a0fa81aa364f73b8da9b3993ba595151a" kindref="member">cc_ec_memory_is_null</ref>,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/>DEVICE<sp/>(SENSOR)<sp/>INTERFACE<sp/>LAYER<sp/>ERROR</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3af8e9e0ce61134c4ae8aee2fb2919d9a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3af8e9e0ce61134c4ae8aee2fb2919d9a6" kindref="member">cc_ec_no_device_in_system</ref>,</highlight></codeline>
+<codeline lineno="26" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a44e634baf34d1853ef4e612bd650cac5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a44e634baf34d1853ef4e612bd650cac5" kindref="member">cc_ec_fail_to_connect_device</ref>,</highlight></codeline>
+<codeline lineno="27" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6da0ec94304734be6bf70d749f5442e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6da0ec94304734be6bf70d749f5442e8" kindref="member">cc_ec_fail_to_create_device_obj</ref>,</highlight></codeline>
+<codeline lineno="28" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a48f4693f291630dc851775adf9dc0561" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a48f4693f291630dc851775adf9dc0561" kindref="member">cc_ec_fail_to_initialize_device</ref>,<sp/></highlight></codeline>
+<codeline lineno="29" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a30282215269d9a5de217e7260398f813" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a30282215269d9a5de217e7260398f813" kindref="member">cc_ec_device_object_is_null</ref>,</highlight></codeline>
+<codeline lineno="30" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6cbcd0085a5507a078b2d8a0b9f277bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6cbcd0085a5507a078b2d8a0b9f277bf" kindref="member">cc_ec_sensor_id_is_empty</ref>,</highlight></codeline>
+<codeline lineno="31" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a9b0efdee055a8473e39ae53270aa0437" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a9b0efdee055a8473e39ae53270aa0437" kindref="member">cc_ec_fw_recv_timeout</ref>,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/>SPECTRAL<sp/>COMMAND<sp/>LAYER<sp/>ERROR<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/>For<sp/>these<sp/>errors,<sp/>check<sp/>for<sp/>bugs<sp/>in<sp/>the<sp/>message<sp/>protocol<sp/>implementation,<sp/>usage<sp/>of<sp/>the<sp/>functions</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6b3bcc04e4b1c334c8207010219c3584" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a6b3bcc04e4b1c334c8207010219c3584" kindref="member">cc_ec_fail_to_create_core_spectrum_obj</ref>,</highlight></codeline>
+<codeline lineno="38" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a8aa935257576e0392d31383be0fbb5c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a8aa935257576e0392d31383be0fbb5c2" kindref="member">cc_ec_fail_to_initialize_core_spectrum_obj</ref>,<sp/></highlight></codeline>
+<codeline lineno="39" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ab9e6e01bcca3506241f43bf48923ee74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ab9e6e01bcca3506241f43bf48923ee74" kindref="member">cc_ec_fail_to_load_sensor_cal_data</ref>,</highlight></codeline>
+<codeline lineno="40" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3acec2893ad03680c44d0f6dc1caa95571" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3acec2893ad03680c44d0f6dc1caa95571" kindref="member">cc_ec_fail_to_add_sensor_to_active_sensor_list</ref>,</highlight></codeline>
+<codeline lineno="41" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3afcdbe62d66bc69f9e4b55601a4fb6c60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3afcdbe62d66bc69f9e4b55601a4fb6c60" kindref="member">cc_ec_sensor_cal_data_is_null</ref>,</highlight></codeline>
+<codeline lineno="42" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ab52760d2738592e4a213ad2dad189f7b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ab52760d2738592e4a213ad2dad189f7b" kindref="member">cc_ec_sensor_cal_for_input_sensor_id_is_not_valid</ref>,</highlight></codeline>
+<codeline lineno="43" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ae3c2b1f2037d19a9d9cbe20670176ea4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ae3c2b1f2037d19a9d9cbe20670176ea4" kindref="member">cc_ec_spectrum_core_object_is_null</ref>,</highlight></codeline>
+<codeline lineno="44" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a71af014a06fd9299759051e1715f5ded" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a71af014a06fd9299759051e1715f5ded" kindref="member">cc_ec_memory_for_spectrum_data_buffer_is_null</ref>,</highlight></codeline>
+<codeline lineno="45" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ae858e86bb4ee862af93a0b9687b821ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ae858e86bb4ee862af93a0b9687b821ad" kindref="member">cc_ec_memory_for_wavelength_data_buffer_is_null</ref>,</highlight></codeline>
+<codeline lineno="46" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a19656bb97d19b040661c559535529ff6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a19656bb97d19b040661c559535529ff6" kindref="member">cc_ec_filter_buffer_is_null</ref>,</highlight></codeline>
+<codeline lineno="47" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a58118115fe76688609efa0a4fef3f65e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a58118115fe76688609efa0a4fef3f65e" kindref="member">cc_ec_filter_data_is_nan</ref>,</highlight></codeline>
+<codeline lineno="48" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ad6004e36355ef5d5638441a24dde0a49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ad6004e36355ef5d5638441a24dde0a49" kindref="member">cc_ec_background_buffer_is_null</ref>,</highlight></codeline>
+<codeline lineno="49" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a3974de40224d6f441dabcfde4d521b4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a3974de40224d6f441dabcfde4d521b4b" kindref="member">cc_ec_fail_to_calculate_spectrum</ref>,</highlight></codeline>
+<codeline lineno="50" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a89f3bcb3707fbbc84a87819ac3f557b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a89f3bcb3707fbbc84a87819ac3f557b2" kindref="member">cc_ec_wrong_reply</ref>,<sp/></highlight></codeline>
+<codeline lineno="51" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a25506b9ce5d09c1fd6b3d1f55d0c2398" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a25506b9ce5d09c1fd6b3d1f55d0c2398" kindref="member">cc_ec_ill_defined_input</ref>,<sp/></highlight></codeline>
+<codeline lineno="52" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a2ec9a1a83bbce06cc7ab8824f01f0f84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a2ec9a1a83bbce06cc7ab8824f01f0f84" kindref="member">cc_ec_ill_defined_output</ref>,<sp/></highlight></codeline>
+<codeline lineno="53" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3aaa5e2a1d8f2ffe460e74aa04cece5a5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3aaa5e2a1d8f2ffe460e74aa04cece5a5b" kindref="member">cc_ec_initialization_required</ref>,</highlight></codeline>
+<codeline lineno="54" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a7e835145212d95510c32bbfbd39b8059" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a7e835145212d95510c32bbfbd39b8059" kindref="member">cc_ec_file_open_failed</ref>,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/>SYNTHESIS<sp/>LAYER<sp/>ERROR</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/>These<sp/>errors<sp/>occured<sp/>due<sp/>to<sp/>bugs<sp/>in<sp/>CrystalCore</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a267f137cbadc0aada3e9b3dbd7f1dfd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a267f137cbadc0aada3e9b3dbd7f1dfd0" kindref="member">cc_ec_weights_matrix_allocation_fail</ref>,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/>APPLICATION<sp/>(COLOR)<sp/>LAYER<sp/>ERROR</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/>These<sp/>errors<sp/>occured<sp/>due<sp/>to<sp/>bugs<sp/>in<sp/>application<sp/>for<sp/>color</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a1e11d366b7e2b1e261a1626906d4ed8d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a1e11d366b7e2b1e261a1626906d4ed8d" kindref="member">cc_ec_fail_to_create_color_object</ref>,</highlight></codeline>
+<codeline lineno="67" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a2cf466c59c6a8409cfda989bc9d42acf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a2cf466c59c6a8409cfda989bc9d42acf" kindref="member">cc_ec_fail_to_initialize_color_object</ref>,</highlight></codeline>
+<codeline lineno="68" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ac66a18c10cec189dc6eb3a30759674b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3ac66a18c10cec189dc6eb3a30759674b5" kindref="member">cc_ec_color_object_is_null</ref>,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a482e0a482cdf53e177d9fd94c857e8c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3a482e0a482cdf53e177d9fd94c857e8c4" kindref="member">cc_ec_end_code</ref>,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>__NSP_ERROR_CODES_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_error_codes.h"/>
+  </compounddef>
+</doxygen>

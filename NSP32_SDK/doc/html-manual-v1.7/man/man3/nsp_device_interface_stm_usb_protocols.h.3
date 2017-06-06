@@ -1,0 +1,440 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol/nsp_device_interface_stm_usb_protocols.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBHPK_CIS_MODE_POWER_SAVE\fP   0x00"
+.br
+.ti -1c
+.RI "#define \fBHPK_CIS_MODE_POWER_ON_AND_WAIT\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBHPK_CIS_MODE_SINGLE_CAPTURE\fP   0x02"
+.br
+.ti -1c
+.RI "#define \fBHPK_CIS_MODE_CONTINUOUS_CAPTURE\fP   0x03"
+.br
+.ti -1c
+.RI "#define \fBHPK_CIS_MODE_ALL_RESET\fP   0x04"
+.br
+.ti -1c
+.RI "#define \fBEFM32_SENSOR_ID_SIZE\fP   5"
+.br
+.ti -1c
+.RI "#define \fBEFM32_SENSOR_DATA_SIZE\fP   2048"
+.br
+.ti -1c
+.RI "#define \fBEFM32_SPECTRUM_DATA_SIZE\fP   2048"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ACQUIRE_MODE_SINGLE\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ACQUIRE_MODE_CONTINUOUS\fP   0x02"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ACQUIRE_MODE_TIME_INTERVAL\fP   0x03"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ACQUIRE_MODE_HW_TRIGGER\fP   0x04"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_SENSOR_STOP\fP   \-0x01"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_CONTROLLER_STOP\fP   \-0x02"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_INVALID_EXPOSURE_TIME\fP   \-0x03"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_INVALID_COMMAND\fP   \-0x04"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_INVALID_LED_STATUS\fP   \-0x05"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_INVALID_ACQUIRE_MODE\fP   \-0x06"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_NOT_SUPPORTED_ALGO\fP   \-0x07"
+.br
+.ti -1c
+.RI "#define \fBEFM32_ERROR_UNKNOWN\fP   \-0xff"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_NO_OP\fP   0x00"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_SENSOR_ID\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_SENSOR_DATA\fP   0x02"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_ACQUIRE_MODE\fP   0x03"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_LOW_EXPOSURE_TIME\fP   0x04"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_UPPER_EXPOSURE_TIME\fP   0x24"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_LOW_EXPOSURE_TIME\fP   0x05"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_UPPER_EXPOSURE_TIME\fP   0x25"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_LOW_BLANK_TIME\fP   0x21"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_UPPER_BLANK_TIME\fP   0x22"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_LOW_BLANK_TIME\fP   0x26"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_UPPER_BLANK_TIME\fP   0x27"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_ADC_RANGE\fP   0x13"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_ADC_RANGE\fP   0x23"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_ADC_RESOLUTION\fP   0x14"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_ADC_RESOLUTION\fP   0x28"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_SENSOR_STATUS\fP   0x06"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_CONTROLLER_STATUS\fP   0x07"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_LED_STATUS\fP   0x08"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_LED_STATUS\fP   0x09"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_ERROR\fP   0x0a"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_SPECTRUM\fP   0x0b"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_XYZ\fP   0x0c"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_AMBIENT\fP   0x0d"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_MCU_MODE\fP   0x0e"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_INTEG_TIME\fP   0x0f"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_ROI_START_POS\fP   0x11"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_ROI_SIZE\fP   0x12"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_ADC_RANGE\fP   0x13"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_AMP_GAIN_RESOLUTION\fP   0x14"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_INIT_ACQ\fP   0x16"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_FIN_ACQ\fP   0x17"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_READ_REGISTER_DATA\fP   0x18"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_WRITE_REGISTER_ADDR\fP   0x19"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_WRITE_REGISTER_DATA\fP   0x1a"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_AVERAGED_SENSOR_DATA\fP   0x1b"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_LED_TOGGLE\fP   0x20"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_BURST_MODE\fP   0x30"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_TEST_BYTE\fP   0x29"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_START_ROW\fP   0x2a"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_START_ROW\fP   0x31"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_START_COL\fP   0x2b"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_START_COL\fP   0x32"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_NUMB_ROW\fP   0x2c"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_NUMB_ROW\fP   0x33"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_NUMB_COL\fP   0x2d"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_NUMB_COL\fP   0x34"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_FRAME_AVERAGE\fP   0x35"
+.br
+.RI "definitions for on-board processing "
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_FRAME_AVERAGE\fP   0x36"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_TEST_BURST_MODE\fP   0x37"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_DARK_FRAME\fP   0x38"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_DARK_CORRECTION_MODE\fP   0x39"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_DARK_CORRECTION_MODE\fP   0x3a"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_POI_COUNT\fP   0x40"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_POI_COUNT\fP   0x41"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_CLEAR_POI_INDEX_LIST\fP   0x42"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_POI_INDEX_LIST\fP   0x43"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_POI_INDEX_LIST\fP   0x44"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_GET_POI_DATA\fP   0x45"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_START_BULK_TRANSFER\fP   0x46"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_STOP_BULK_TRANSFER\fP   0x47"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_EXPOSURE_TIME\fP   0x50"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_SET_BLANK_TIME\fP   0x51"
+.br
+.ti -1c
+.RI "#define \fBEFM32_COMM_REBOOT\fP   0xff"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define EFM32_ACQUIRE_MODE_CONTINUOUS   0x02"
+
+.SS "#define EFM32_ACQUIRE_MODE_HW_TRIGGER   0x04"
+
+.SS "#define EFM32_ACQUIRE_MODE_SINGLE   0x01"
+
+.SS "#define EFM32_ACQUIRE_MODE_TIME_INTERVAL   0x03"
+
+.SS "#define EFM32_COMM_CLEAR_POI_INDEX_LIST   0x42"
+
+.SS "#define EFM32_COMM_FIN_ACQ   0x17"
+
+.SS "#define EFM32_COMM_GET_ADC_RANGE   0x23"
+
+.SS "#define EFM32_COMM_GET_ADC_RESOLUTION   0x28"
+
+.SS "#define EFM32_COMM_GET_AMBIENT   0x0d"
+
+.SS "#define EFM32_COMM_GET_AVERAGED_SENSOR_DATA   0x1b"
+
+.SS "#define EFM32_COMM_GET_CONTROLLER_STATUS   0x07"
+
+.SS "#define EFM32_COMM_GET_DARK_CORRECTION_MODE   0x3a"
+
+.SS "#define EFM32_COMM_GET_DARK_FRAME   0x38"
+
+.SS "#define EFM32_COMM_GET_ERROR   0x0a"
+
+.SS "#define EFM32_COMM_GET_FRAME_AVERAGE   0x35"
+
+.PP
+definitions for on-board processing 
+.SS "#define EFM32_COMM_GET_LED_STATUS   0x08"
+
+.SS "#define EFM32_COMM_GET_LOW_BLANK_TIME   0x26"
+
+.SS "#define EFM32_COMM_GET_LOW_EXPOSURE_TIME   0x04"
+
+.SS "#define EFM32_COMM_GET_NUMB_COL   0x2d"
+
+.SS "#define EFM32_COMM_GET_NUMB_ROW   0x2c"
+
+.SS "#define EFM32_COMM_GET_POI_COUNT   0x41"
+
+.SS "#define EFM32_COMM_GET_POI_DATA   0x45"
+
+.SS "#define EFM32_COMM_GET_POI_INDEX_LIST   0x44"
+
+.SS "#define EFM32_COMM_GET_SENSOR_DATA   0x02"
+
+.SS "#define EFM32_COMM_GET_SENSOR_ID   0x01"
+
+.SS "#define EFM32_COMM_GET_SENSOR_STATUS   0x06"
+
+.SS "#define EFM32_COMM_GET_SPECTRUM   0x0b"
+
+.SS "#define EFM32_COMM_GET_START_COL   0x2b"
+
+.SS "#define EFM32_COMM_GET_START_ROW   0x2a"
+
+.SS "#define EFM32_COMM_GET_TEST_BYTE   0x29"
+
+.SS "#define EFM32_COMM_GET_UPPER_BLANK_TIME   0x27"
+
+.SS "#define EFM32_COMM_GET_UPPER_EXPOSURE_TIME   0x24"
+
+.SS "#define EFM32_COMM_GET_XYZ   0x0c"
+
+.SS "#define EFM32_COMM_INIT_ACQ   0x16"
+
+.SS "#define EFM32_COMM_NO_OP   0x00"
+
+.SS "#define EFM32_COMM_READ_REGISTER_DATA   0x18"
+
+.SS "#define EFM32_COMM_REBOOT   0xff"
+
+.SS "#define EFM32_COMM_SET_ACQUIRE_MODE   0x03"
+
+.SS "#define EFM32_COMM_SET_ADC_RANGE   0x13"
+
+.SS "#define EFM32_COMM_SET_ADC_RANGE   0x13"
+
+.SS "#define EFM32_COMM_SET_ADC_RESOLUTION   0x14"
+
+.SS "#define EFM32_COMM_SET_AMP_GAIN_RESOLUTION   0x14"
+
+.SS "#define EFM32_COMM_SET_BLANK_TIME   0x51"
+
+.SS "#define EFM32_COMM_SET_BURST_MODE   0x30"
+
+.SS "#define EFM32_COMM_SET_DARK_CORRECTION_MODE   0x39"
+
+.SS "#define EFM32_COMM_SET_EXPOSURE_TIME   0x50"
+
+.SS "#define EFM32_COMM_SET_FRAME_AVERAGE   0x36"
+
+.SS "#define EFM32_COMM_SET_INTEG_TIME   0x0f"
+
+.SS "#define EFM32_COMM_SET_LED_STATUS   0x09"
+
+.SS "#define EFM32_COMM_SET_LED_TOGGLE   0x20"
+
+.SS "#define EFM32_COMM_SET_LOW_BLANK_TIME   0x21"
+
+.SS "#define EFM32_COMM_SET_LOW_EXPOSURE_TIME   0x05"
+
+.SS "#define EFM32_COMM_SET_MCU_MODE   0x0e"
+
+.SS "#define EFM32_COMM_SET_NUMB_COL   0x34"
+
+.SS "#define EFM32_COMM_SET_NUMB_ROW   0x33"
+
+.SS "#define EFM32_COMM_SET_POI_COUNT   0x40"
+
+.SS "#define EFM32_COMM_SET_POI_INDEX_LIST   0x43"
+
+.SS "#define EFM32_COMM_SET_ROI_SIZE   0x12"
+
+.SS "#define EFM32_COMM_SET_ROI_START_POS   0x11"
+
+.SS "#define EFM32_COMM_SET_START_COL   0x32"
+
+.SS "#define EFM32_COMM_SET_START_ROW   0x31"
+
+.SS "#define EFM32_COMM_SET_UPPER_BLANK_TIME   0x22"
+
+.SS "#define EFM32_COMM_SET_UPPER_EXPOSURE_TIME   0x25"
+
+.SS "#define EFM32_COMM_START_BULK_TRANSFER   0x46"
+
+.SS "#define EFM32_COMM_STOP_BULK_TRANSFER   0x47"
+
+.SS "#define EFM32_COMM_TEST_BURST_MODE   0x37"
+
+.SS "#define EFM32_COMM_WRITE_REGISTER_ADDR   0x19"
+
+.SS "#define EFM32_COMM_WRITE_REGISTER_DATA   0x1a"
+
+.SS "#define EFM32_ERROR_CONTROLLER_STOP   \-0x02"
+
+.SS "#define EFM32_ERROR_INVALID_ACQUIRE_MODE   \-0x06"
+
+.SS "#define EFM32_ERROR_INVALID_COMMAND   \-0x04"
+
+.SS "#define EFM32_ERROR_INVALID_EXPOSURE_TIME   \-0x03"
+
+.SS "#define EFM32_ERROR_INVALID_LED_STATUS   \-0x05"
+
+.SS "#define EFM32_ERROR_NOT_SUPPORTED_ALGO   \-0x07"
+
+.SS "#define EFM32_ERROR_SENSOR_STOP   \-0x01"
+
+.SS "#define EFM32_ERROR_UNKNOWN   \-0xff"
+
+.SS "#define EFM32_SENSOR_DATA_SIZE   2048"
+
+.SS "#define EFM32_SENSOR_ID_SIZE   5"
+
+.SS "#define EFM32_SPECTRUM_DATA_SIZE   2048"
+
+.SS "#define HPK_CIS_MODE_ALL_RESET   0x04"
+
+.SS "#define HPK_CIS_MODE_CONTINUOUS_CAPTURE   0x03"
+
+.SS "#define HPK_CIS_MODE_POWER_ON_AND_WAIT   0x01"
+
+.SS "#define HPK_CIS_MODE_POWER_SAVE   0x00"
+
+.SS "#define HPK_CIS_MODE_SINGLE_CAPTURE   0x02"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

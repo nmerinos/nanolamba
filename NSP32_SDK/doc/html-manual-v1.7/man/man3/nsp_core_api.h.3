@@ -1,0 +1,617 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_api.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_api.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsCreate\fP (\fBvoid\fP)"
+.br
+.RI "Initialize Core Spectrum C API\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsDestroy\fP (\fBvoid\fP)"
+.br
+.RI "Destroy Core Spectrum C API\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsRegister\fP (const char *sensor_cal_file_path)"
+.br
+.RI "Add one sensor to sensor calibration data container (DB)\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsCapacity\fP (\fBvoid\fP)"
+.br
+.RI "Get capacity of sensor data list\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP char ** \fBcsGetSensorList\fP ()"
+.br
+.RI "Get sensor ID list\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsGetSensorID\fP (char *sensor_id_str)"
+.br
+.RI "Get sensor ID of sensor calibration data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsActivateSensorWithID\fP (const char *sensor_id_str)"
+.br
+.RI "Activate one sensor data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsGetWavelengthInfo\fP (double *start_wavelength, double *end_wavelength, double *interval_wavelength)"
+.br
+.RI "Get wavelength information data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsGetResolution\fP (double *resolution)"
+.br
+.RI "Get spectrum resolution\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsGetNumOfValidFilters\fP (\fBvoid\fP)"
+.br
+.RI "Get number of valid filters\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int * \fBcsGetValidFilters\fP (\fBvoid\fP)"
+.br
+.RI "Get valid filters\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsGetSpectrumLength\fP (\fBvoid\fP)"
+.br
+.RI "Get size of spectrum data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsGetSensorParameters\fP (int *adc_gain, int *adc_range)"
+.br
+.RI "Get register settings\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsSetBackground\fP (double *background_data)"
+.br
+.RI "Set background filter data\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBcsCalculateSpectrum\fP (double *filter_input, int cur_ss, double *spec_output, double *wavelength_output)"
+.br
+.RI "Calculate spectrum\&. "
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "\fBEXPORT_DLL\fP int csActivateSensorWithID (const char * sensor_id_str)"
+
+.PP
+Activate one sensor data\&. This function activates one sensor data of input sensor ID\&.
+.PP
+.PP
+.nf
+char sensor_id_str[SENSOR_ID_STRING_LENGTH];
+int ret_val = csActivateSensorWithID(sensor_id_str);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_id_str\fP - char buffer to contain sensor ID [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of NSP_RETURN_VALUE_SUCCESS\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.IP "\(bu" 2
+cc_ec_memory_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsRegister\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csCalculateSpectrum (double * filter_input, int cur_ss, double * spec_output, double * wavelength_output)"
+
+.PP
+Calculate spectrum\&. This function returns a calculated spectrum and wavelength data with input filter data\&.
+.PP
+.PP
+.nf
+int cur_ss = 50;
+double filter_data[SENSOR_DATA_SIZE];
+// acquire raw filter data from device(sensor) with shutter speed 'cur_ss'
+
+// get spectrum length
+int spectrum_length = csGetSpectrumLength();
+double* spectrum_data = (double*)malloc(sizeof(double)*spectrum_length);
+double* wavelength_data = (double*)malloc(sizeof(double)*spectrum_length);
+int ret_value = csCalculateSpectrum(filter_data, cur_ss, spectrum_data, wavelength_data );
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+spectrum data size(length) (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetSpectrumLength\fP, \fBcsGetResolution\fP, \fBcsCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csCapacity (\fBvoid\fP)"
+
+.PP
+Get capacity of sensor data list\&. This function returns total number of sensors in sensor data list\&.
+.PP
+.PP
+.nf
+int total_sensors = csCapacity();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric values of total number of sensors in sensor data list, NSP_RETURN_VALUE_FAILURE, or exception\&.
+.IP "\(bu" 2
+the number of sensors in the sensor cal data container(>0)\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE\&.
+.IP "\(bu" 2
+cc_ec_fail_to_create_core_spectrum_obj\&.
+.IP "\(bu" 2
+cc_ec_sensor_id_is_empty\&.
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsCreate\fP, \fBcsDestroy\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csCreate (\fBvoid\fP)"
+
+.PP
+Initialize Core Spectrum C API\&. This function create a core spectrum object\&.
+.PP
+.PP
+.nf
+int ret_val = csCreate();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric values of NSP_RETURN_VALUE_SUCCESS, NSP_RETURN_VALUE_FAILURE, or exception\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE\&.
+.IP "\(bu" 2
+cc_ec_fail_to_create_core_spectrum_obj\&.
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsDestroy\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csDestroy (\fBvoid\fP)"
+
+.PP
+Destroy Core Spectrum C API\&. This function finalize a core spectrum object\&.
+.PP
+.PP
+.nf
+int ret_val = csDestroy();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of NSP_RETURN_VALUE_SUCCESS\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS\&.
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsCreate\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csGetNumOfValidFilters (\fBvoid\fP)"
+
+.PP
+Get number of valid filters\&. This function returns the number of valid filters among 1024 filters\&.
+.PP
+.PP
+.nf
+int num_of_valid_filters;
+num_of_valid_filters = csGetNumOfValidFilters();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+the number of valid filters (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetWavelengthInfo\fP, \fBcsGetResolution\fP, \fBcsCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csGetResolution (double * resolution)"
+
+.PP
+Get spectrum resolution\&. This function returns spectrum resolution information\&.
+.PP
+.PP
+.nf
+double spectrum_resolution;
+int ret_val = csGetResolution(&spectrum_resolution);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIspectrum_resolution\fP - double pointer to spectrum resolution [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetWavelengthInfo\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csGetSensorID (char * sensor_id_str)"
+
+.PP
+Get sensor ID of sensor calibration data\&. This function returns sensor ID in sensor calibration data file\&.
+.PP
+.PP
+.nf
+char sensor_id_str[SENSOR_ID_STRING_LENGTH];
+int ret_val = csGetSensorID(sensor_id_str);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_id_str\fP - char buffer to contain sensor ID [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of NSP_RETURN_VALUE_SUCCESS\&.
+.IP "\(bu" 2
+the length of sensor ID string (>0)\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.IP "\(bu" 2
+cc_ec_memory_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsRegister\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP char** csGetSensorList ()"
+
+.PP
+Get sensor ID list\&. This function returns 2D string array havin sensor IDs\&.
+.PP
+.PP
+.nf
+char **sensor_id_list = NULL;
+sensor_id_list = csGetSensorList();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fInone\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns double pointer to the array having sensor IDs\&.
+.IP "\(bu" 2
+a list of sensors IDs\&.
+.IP "\(bu" 2
+NULL\&.
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetSensorID\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csGetSensorParameters (int * adc_gain, int * adc_range)"
+
+.PP
+Get register settings\&. This function returns ADC register settings from physical device (sensor)\&.
+.PP
+.PP
+.nf
+int adc_gain, adc_range;
+int ret_value = csGetSensorParameters(&adc_gain, &adc_range);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIadc_gain\fP - pointer to ADC gain info: 0 or 1(default) [OUT] 
+.br
+\fIadc_range\fP - pointer to ADC range info (0~255) [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetWavelengthInfo\fP, \fBcsGetResolution\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csGetSpectrumLength (\fBvoid\fP)"
+
+.PP
+Get size of spectrum data\&. This function returns the size(length) of spectrum data\&.
+.PP
+.PP
+.nf
+int spectrum_length;
+spectrum_length = csGetSpectrumLength();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+spectrum data size(length) (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetWavelengthInfo\fP, \fBcsGetResolution\fP, \fBcsCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int* csGetValidFilters (\fBvoid\fP)"
+
+.PP
+Get valid filters\&. This function returns the valid filters\&.
+.PP
+.PP
+.nf
+int* valid_filters = NULL;
+valid_filters = csGetValidFilters();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+the pointer to the integer array of valid filters
+.IP "\(bu" 2
+NULL
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetWavelengthInfo\fP, \fBcsGetResolution\fP, \fBcsCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csGetWavelengthInfo (double * start_wavelength, double * end_wavelength, double * interval_wavelength)"
+
+.PP
+Get wavelength information data\&. This function returns wavelength range information for spectrum data\&.
+.PP
+.PP
+.nf
+double start_wavelength, end_wavelength, wavelength_interval;
+int ret_val = csGetWavelengthInfo(&start_wavelength, &end_wavelength, &wavelength_interval);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIstart_wavelength\fP - double pointer to start wavelength [OUT] 
+.br
+\fIend_wavelength\fP - double pointer to end wavelength [OUT] 
+.br
+\fIwavelength_interval\fP - double pointer to wavelength interval[OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of NSP_RETURN_VALUE_SUCCESS\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetResolution\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csRegister (const char * sensor_cal_file_path)"
+
+.PP
+Add one sensor to sensor calibration data container (DB)\&. This function add one sensor to Core Spectrum object by loading sensor calibration data file\&.
+.PP
+.PP
+.nf
+// 'Y8585-1-85-85-0' is a sensor ID of a specific physical sensor\&.
+char* sensor_cal_data_path = "\&./config/sensor_Y8585-1-85-85-0\&.dat";
+int ret_val = csRegister(sensor_cal_data_path);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_cal_file_path\fP - sensor calibration file path [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric values of NSP_RETURN_VALUE_SUCCESS, NSP_RETURN_VALUE_FAILURE, or exception\&.
+.IP "\(bu" 2
+the number of sensors in the sensor cal data container(>0)\&.
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE\&.
+.IP "\(bu" 2
+cc_ec_fail_to_create_core_spectrum_obj\&.
+.IP "\(bu" 2
+cc_ec_sensor_id_is_empty\&.
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsCreate\fP, \fBcsDestroy\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int csSetBackground (double * background_data)"
+
+.PP
+Set background filter data\&. This function set input filter data as background data\&. Background data will be used to correct background signal before spectrum calculation\&.
+.PP
+.PP
+.nf
+double filter_data[SENSOR_DATA_SIZE];
+// acquire raw filter data at SS=1
+
+int ret_value = csSetBackground((double *)filter_data);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbackground_data\fP - double pointer to raw filter data [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_spectrum_core_object_is_null
+.IP "\(bu" 2
+cc_ec_background_buffer_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsCalculateSpectrum\fP  
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

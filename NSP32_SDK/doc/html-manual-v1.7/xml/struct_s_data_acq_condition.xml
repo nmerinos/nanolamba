@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_data_acq_condition" kind="struct" language="C++" prot="public">
+    <compoundname>SDataAcqCondition</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a149b6390b6fb288f4abd8541e4214607" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::deviceid</definition>
+        <argsstring></argsstring>
+        <name>deviceid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="295" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1ab8b5b0a81dd4728f71412aac313b01ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::datasize</definition>
+        <argsstring></argsstring>
+        <name>datasize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="296" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1ad0790c632d0b1e744f6b072233da456d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string SDataAcqCondition::sensortype</definition>
+        <argsstring></argsstring>
+        <name>sensortype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="297" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a05a6184e38d8c6dd0e452bd8826c76c3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::adc</definition>
+        <argsstring></argsstring>
+        <name>adc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="298" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a14282305eca33a03d7c3601377a14826" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::gain</definition>
+        <argsstring></argsstring>
+        <name>gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="299" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1ae904518b6a49411d8839099cd4c1395d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::ss</definition>
+        <argsstring></argsstring>
+        <name>ss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="300" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a9a26bfe3ec1d50c5e88f71d4c8705ba5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::average</definition>
+        <argsstring></argsstring>
+        <name>average</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="301" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1ae125fc7a2b16266561781492799d467e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::frames</definition>
+        <argsstring></argsstring>
+        <name>frames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="302" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a3a7d9305a9498bf3dd421320bec37251" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SDataAcqCondition::append</definition>
+        <argsstring></argsstring>
+        <name>append</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="303" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1af74290284d6c2cb9a8e28547b03f31ce" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1aff9e11b82313e231140e0b5b81f66b23" kindref="member">eAcqDataType</ref></type>
+        <definition>eAcqDataType SDataAcqCondition::datatype</definition>
+        <argsstring></argsstring>
+        <name>datatype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="304" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1acf0412e74974902645d3b122f6617d64" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SDataAcqCondition::validpixelonly</definition>
+        <argsstring></argsstring>
+        <name>validpixelonly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="305" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a8a5af22ca7df42fb25c101550b510863" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SDataAcqCondition::normalized</definition>
+        <argsstring></argsstring>
+        <name>normalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="306" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1aa360cb40215930b281780217b805ebe0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SDataAcqCondition::hdr</definition>
+        <argsstring></argsstring>
+        <name>hdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="307" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a5863691dd7828321477ddeb3740995e5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::hdrscale</definition>
+        <argsstring></argsstring>
+        <name>hdrscale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="308" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a2c01e4cef2e493ed81e3f0e11ce04576" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SDataAcqCondition::useAE</definition>
+        <argsstring></argsstring>
+        <name>useAE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="309" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a766803f5791f9f288acd6519b0fd05a6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SDataAcqCondition::ignoreOutliers</definition>
+        <argsstring></argsstring>
+        <name>ignoreOutliers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="310" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1aa24b74aaf91a4a72da8ec9d5ca466e34" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::pixelBinningMode</definition>
+        <argsstring></argsstring>
+        <name>pixelBinningMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="311" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_acq_condition_1a3e90e0ae3b0798fdedc972fd799a0de9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataAcqCondition::darkcorrectionMode</definition>
+        <argsstring></argsstring>
+        <name>darkcorrectionMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="312" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_data_acq_condition_1a598e17c34465c55bed88974839115346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SDataAcqCondition::SDataAcqCondition</definition>
+        <argsstring>()</argsstring>
+        <name>SDataAcqCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="314" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="314" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_data_acq_condition_1ad298552d7be5665de5416799bd2b12d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SDataAcqCondition::SDataAcqCondition</definition>
+        <argsstring>(int _ss, int _average)</argsstring>
+        <name>SDataAcqCondition</name>
+        <param>
+          <type>int</type>
+          <declname>_ss</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_average</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="319" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="319" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_data_acq_condition_1aafcf38a1b8a8840fbc1c7a35ea0f21db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void SDataAcqCondition::set_device_index</definition>
+        <argsstring>(int device_index)</argsstring>
+        <name>set_device_index</name>
+        <param>
+          <type>int</type>
+          <declname>device_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="326" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="326" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_s_data_acq_condition_1ab306909165b32ee477b4151944ed3271" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void SDataAcqCondition::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="329" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="329" bodyend="349"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="294" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="293" bodyend="350"/>
+    <listofallmembers>
+      <member refid="struct_s_data_acq_condition_1a05a6184e38d8c6dd0e452bd8826c76c3" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>adc</name></member>
+      <member refid="struct_s_data_acq_condition_1a3a7d9305a9498bf3dd421320bec37251" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>append</name></member>
+      <member refid="struct_s_data_acq_condition_1a9a26bfe3ec1d50c5e88f71d4c8705ba5" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>average</name></member>
+      <member refid="struct_s_data_acq_condition_1a3e90e0ae3b0798fdedc972fd799a0de9" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>darkcorrectionMode</name></member>
+      <member refid="struct_s_data_acq_condition_1ab8b5b0a81dd4728f71412aac313b01ce" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>datasize</name></member>
+      <member refid="struct_s_data_acq_condition_1af74290284d6c2cb9a8e28547b03f31ce" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>datatype</name></member>
+      <member refid="struct_s_data_acq_condition_1a149b6390b6fb288f4abd8541e4214607" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>deviceid</name></member>
+      <member refid="struct_s_data_acq_condition_1ae125fc7a2b16266561781492799d467e" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>frames</name></member>
+      <member refid="struct_s_data_acq_condition_1a14282305eca33a03d7c3601377a14826" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>gain</name></member>
+      <member refid="struct_s_data_acq_condition_1aa360cb40215930b281780217b805ebe0" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>hdr</name></member>
+      <member refid="struct_s_data_acq_condition_1a5863691dd7828321477ddeb3740995e5" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>hdrscale</name></member>
+      <member refid="struct_s_data_acq_condition_1a766803f5791f9f288acd6519b0fd05a6" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>ignoreOutliers</name></member>
+      <member refid="struct_s_data_acq_condition_1a8a5af22ca7df42fb25c101550b510863" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>normalized</name></member>
+      <member refid="struct_s_data_acq_condition_1aa24b74aaf91a4a72da8ec9d5ca466e34" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>pixelBinningMode</name></member>
+      <member refid="struct_s_data_acq_condition_1ab306909165b32ee477b4151944ed3271" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>reset</name></member>
+      <member refid="struct_s_data_acq_condition_1a598e17c34465c55bed88974839115346" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>SDataAcqCondition</name></member>
+      <member refid="struct_s_data_acq_condition_1ad298552d7be5665de5416799bd2b12d2" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>SDataAcqCondition</name></member>
+      <member refid="struct_s_data_acq_condition_1ad0790c632d0b1e744f6b072233da456d" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>sensortype</name></member>
+      <member refid="struct_s_data_acq_condition_1aafcf38a1b8a8840fbc1c7a35ea0f21db" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>set_device_index</name></member>
+      <member refid="struct_s_data_acq_condition_1ae904518b6a49411d8839099cd4c1395d" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>ss</name></member>
+      <member refid="struct_s_data_acq_condition_1a2c01e4cef2e493ed81e3f0e11ce04576" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>useAE</name></member>
+      <member refid="struct_s_data_acq_condition_1acf0412e74974902645d3b122f6617d64" prot="public" virt="non-virtual"><scope>SDataAcqCondition</scope><name>validpixelonly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

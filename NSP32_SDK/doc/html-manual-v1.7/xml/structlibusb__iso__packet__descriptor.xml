@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__iso__packet__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_iso_packet_descriptor</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__iso__packet__descriptor_1a374d36e24869c8b07bf8eb1a18fa10ad" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int libusb_iso_packet_descriptor::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Length of data to request in this packet </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1178" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__iso__packet__descriptor_1a03fa4f4eaf8a8b4e5c05931809581a32" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int libusb_iso_packet_descriptor::actual_length</definition>
+        <argsstring></argsstring>
+        <name>actual_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Amount of data that was actually transferred </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1181" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__iso__packet__descriptor_1aab21ee2a5835a0e53d7ac5844ee34371" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="libusb_8h_1a9fcb2aa23d342060ebda1d0cf7478856" kindref="member">libusb_transfer_status</ref></type>
+        <definition>enum libusb_transfer_status libusb_iso_packet_descriptor::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Status code for this packet </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1181" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1184" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Isochronous packet descriptor. </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="1176" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="1176" bodyend="1185"/>
+    <listofallmembers>
+      <member refid="structlibusb__iso__packet__descriptor_1a03fa4f4eaf8a8b4e5c05931809581a32" prot="public" virt="non-virtual"><scope>libusb_iso_packet_descriptor</scope><name>actual_length</name></member>
+      <member refid="structlibusb__iso__packet__descriptor_1a374d36e24869c8b07bf8eb1a18fa10ad" prot="public" virt="non-virtual"><scope>libusb_iso_packet_descriptor</scope><name>length</name></member>
+      <member refid="structlibusb__iso__packet__descriptor_1aab21ee2a5835a0e53d7ac5844ee34371" prot="public" virt="non-virtual"><scope>libusb_iso_packet_descriptor</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

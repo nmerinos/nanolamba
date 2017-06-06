@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_apollo_data" kind="struct" language="C++" prot="public">
+    <compoundname>_SApolloData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_apollo_data_1ab36bcf4356c3cf3a64ee75623d83fa1c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SApolloData::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="507" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="507" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1ad4126ef9f6cfe71d2880c21d8d42edfc" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SApolloData::sensor_id</definition>
+        <argsstring></argsstring>
+        <name>sensor_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="508" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1a5a105d57b6a38e05b210933c898c10da" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SApolloData::adc_range</definition>
+        <argsstring></argsstring>
+        <name>adc_range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="509" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1ab08cd8e16457efeb0c3463bb8d006d91" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _SApolloData::shutter_speed</definition>
+        <argsstring></argsstring>
+        <name>shutter_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="510" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1aa7cce6f98039215480992032346a8084" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SApolloData::sequence_data_path</definition>
+        <argsstring></argsstring>
+        <name>sequence_data_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="512" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1a462dfa6fe9a95f7c868c3455562e65f1" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref></type>
+        <definition>SDoubleArray2D _SApolloData::filter_data</definition>
+        <argsstring></argsstring>
+        <name>filter_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="513" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1a34f88830ea4a0b9350745f7596db3550" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SApolloData::dark_noise</definition>
+        <argsstring></argsstring>
+        <name>dark_noise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="514" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1a3a2288d230c31a63abffaaa905a2d5f3" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; _SApolloData::wavelength</definition>
+        <argsstring></argsstring>
+        <name>wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="515" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_apollo_data_1aaf866f63e081fa07a9b87d3055ef2603" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SApolloData::source_type</definition>
+        <argsstring></argsstring>
+        <name>source_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="516" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="516" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_apollo_data_1a01cab22e596bfb46cedd7d4b61ba61d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SApolloData::_SApolloData</definition>
+        <argsstring>()</argsstring>
+        <name>_SApolloData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="519" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="519" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_apollo_data_1a33e3cb64c127d63c3be6e55d84328637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SApolloData::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="524" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="524" bodyend="535"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="506" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="505" bodyend="536"/>
+    <listofallmembers>
+      <member refid="struct___s_apollo_data_1a01cab22e596bfb46cedd7d4b61ba61d0" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>_SApolloData</name></member>
+      <member refid="struct___s_apollo_data_1a5a105d57b6a38e05b210933c898c10da" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>adc_range</name></member>
+      <member refid="struct___s_apollo_data_1a34f88830ea4a0b9350745f7596db3550" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>dark_noise</name></member>
+      <member refid="struct___s_apollo_data_1ab36bcf4356c3cf3a64ee75623d83fa1c" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>date</name></member>
+      <member refid="struct___s_apollo_data_1a462dfa6fe9a95f7c868c3455562e65f1" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>filter_data</name></member>
+      <member refid="struct___s_apollo_data_1a33e3cb64c127d63c3be6e55d84328637" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>Reset</name></member>
+      <member refid="struct___s_apollo_data_1ad4126ef9f6cfe71d2880c21d8d42edfc" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>sensor_id</name></member>
+      <member refid="struct___s_apollo_data_1aa7cce6f98039215480992032346a8084" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>sequence_data_path</name></member>
+      <member refid="struct___s_apollo_data_1ab08cd8e16457efeb0c3463bb8d006d91" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>shutter_speed</name></member>
+      <member refid="struct___s_apollo_data_1aaf866f63e081fa07a9b87d3055ef2603" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>source_type</name></member>
+      <member refid="struct___s_apollo_data_1a3a2288d230c31a63abffaaa905a2d5f3" prot="public" virt="non-virtual"><scope>_SApolloData</scope><name>wavelength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

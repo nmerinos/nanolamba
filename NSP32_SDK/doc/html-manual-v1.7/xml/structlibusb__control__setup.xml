@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__control__setup" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_control_setup</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__control__setup_1a39b148c231d675492ccd2383196926bf" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_control_setup::bmRequestType</definition>
+        <argsstring></argsstring>
+        <name>bmRequestType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Request type. Bits 0:4 determine recipient, see <ref refid="libusb_8h_1a20a4e8a729aa543fa742a5086596cbae" kindref="member">libusb_request_recipient</ref>. Bits 5:6 determine type, see <ref refid="libusb_8h_1a0b0933ae70744726cde11254c39fac91" kindref="member">libusb_request_type</ref>. Bit 7 determines data transfer direction, see <ref refid="libusb_8h_1a86c880af878493aa8f805c2aba654b8b" kindref="member">libusb_endpoint_direction</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="872" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__control__setup_1a1b80a28b8d4e8586fc54358194e70087" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_control_setup::bRequest</definition>
+        <argsstring></argsstring>
+        <name>bRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Request. If the type bits of bmRequestType are equal to <ref refid="libusb_8h_1a0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209" kindref="member">LIBUSB_REQUEST_TYPE_STANDARD</ref> then this field refers to <ref refid="libusb_8h_1a5b5912057c2d7e23b3ed5aa0c20236df" kindref="member">libusb_standard_request</ref>. For other cases, use of this field is application-specific. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="879" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="879" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__control__setup_1abbb6daa01fe4b6a05dc43492e4e53a7d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t libusb_control_setup::wValue</definition>
+        <argsstring></argsstring>
+        <name>wValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value. Varies according to request </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="882" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="882" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__control__setup_1a70c2ae456344b200a19d434ace85ae2b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t libusb_control_setup::wIndex</definition>
+        <argsstring></argsstring>
+        <name>wIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Index. Varies according to request, typically used to pass an index or offset </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="886" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__control__setup_1a3c442c64fd7619b43b782367235766cc" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t libusb_control_setup::wLength</definition>
+        <argsstring></argsstring>
+        <name>wLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Number of bytes to transfer </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="889" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="889" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Setup packet for control transfers. </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="866" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="866" bodyend="890"/>
+    <listofallmembers>
+      <member refid="structlibusb__control__setup_1a39b148c231d675492ccd2383196926bf" prot="public" virt="non-virtual"><scope>libusb_control_setup</scope><name>bmRequestType</name></member>
+      <member refid="structlibusb__control__setup_1a1b80a28b8d4e8586fc54358194e70087" prot="public" virt="non-virtual"><scope>libusb_control_setup</scope><name>bRequest</name></member>
+      <member refid="structlibusb__control__setup_1a70c2ae456344b200a19d434ace85ae2b" prot="public" virt="non-virtual"><scope>libusb_control_setup</scope><name>wIndex</name></member>
+      <member refid="structlibusb__control__setup_1a3c442c64fd7619b43b782367235766cc" prot="public" virt="non-virtual"><scope>libusb_control_setup</scope><name>wLength</name></member>
+      <member refid="structlibusb__control__setup_1abbb6daa01fe4b6a05dc43492e4e53a7d" prot="public" virt="non-virtual"><scope>libusb_control_setup</scope><name>wValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

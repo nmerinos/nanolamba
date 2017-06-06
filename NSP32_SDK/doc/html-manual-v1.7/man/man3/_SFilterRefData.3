@@ -1,0 +1,163 @@
+.TH "_SFilterRefData" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+_SFilterRefData
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <nsp_sdk_def\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB_SFilterRefData\fP ()"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetGrayData\fP (\fBSDoubleArray2D\fP &dataIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetWRGBData\fP (\fBSDoubleArray2D\fP &dataIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetColorData\fP (\fBSDoubleArray2D\fP &dataIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetAverages\fP (unsigned int iIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetShutterSpeed\fP (unsigned int iIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetSensorType\fP (std::string &strIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetDate\fP (std::string &strIn)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBSetDataType\fP (std::string &strIn)"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP & \fBGetGrayData\fP ()"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP & \fBGetWRGBData\fP ()"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP & \fBGetColorData\fP ()"
+.br
+.ti -1c
+.RI "unsigned int \fBGetAverages\fP ()"
+.br
+.ti -1c
+.RI "unsigned int \fBGetShutterSpeed\fP ()"
+.br
+.ti -1c
+.RI "std::string & \fBGetSensorType\fP ()"
+.br
+.ti -1c
+.RI "std::string & \fBGetDate\fP ()"
+.br
+.ti -1c
+.RI "std::string & \fBGetDataType\fP ()"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBReset\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSDoubleArray2D\fP \fBgray_filterout\fP"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP \fBsetWRGB_filterout\fP"
+.br
+.ti -1c
+.RI "\fBSDoubleArray2D\fP \fBallSamples_filterout\fP"
+.br
+.ti -1c
+.RI "std::string \fBdata\fP"
+.br
+.ti -1c
+.RI "std::string \fBsensorType\fP"
+.br
+.ti -1c
+.RI "double \fBSHUTTER_SPEED\fP"
+.br
+.ti -1c
+.RI "double \fBAVERAGES\fP"
+.br
+.ti -1c
+.RI "double \fBsatValue\fP"
+.br
+.ti -1c
+.RI "std::string \fBdate\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "_SFilterRefData::_SFilterRefData ()\fC [inline]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "unsigned int _SFilterRefData::GetAverages ()\fC [inline]\fP"
+
+.SS "\fBSDoubleArray2D\fP& _SFilterRefData::GetColorData ()\fC [inline]\fP"
+
+.SS "std::string& _SFilterRefData::GetDataType ()\fC [inline]\fP"
+
+.SS "std::string& _SFilterRefData::GetDate ()\fC [inline]\fP"
+
+.SS "\fBSDoubleArray2D\fP& _SFilterRefData::GetGrayData ()\fC [inline]\fP"
+
+.SS "std::string& _SFilterRefData::GetSensorType ()\fC [inline]\fP"
+
+.SS "unsigned int _SFilterRefData::GetShutterSpeed ()\fC [inline]\fP"
+
+.SS "\fBSDoubleArray2D\fP& _SFilterRefData::GetWRGBData ()\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::Reset ()\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetAverages (unsigned int iIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetColorData (\fBSDoubleArray2D\fP & dataIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetDataType (std::string & strIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetDate (std::string & strIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetGrayData (\fBSDoubleArray2D\fP & dataIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetSensorType (std::string & strIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetShutterSpeed (unsigned int iIn)\fC [inline]\fP"
+
+.SS "\fBvoid\fP _SFilterRefData::SetWRGBData (\fBSDoubleArray2D\fP & dataIn)\fC [inline]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBSDoubleArray2D\fP _SFilterRefData::allSamples_filterout"
+
+.SS "double _SFilterRefData::AVERAGES"
+
+.SS "std::string _SFilterRefData::data"
+
+.SS "std::string _SFilterRefData::date"
+
+.SS "\fBSDoubleArray2D\fP _SFilterRefData::gray_filterout"
+
+.SS "double _SFilterRefData::satValue"
+
+.SS "std::string _SFilterRefData::sensorType"
+
+.SS "\fBSDoubleArray2D\fP _SFilterRefData::setWRGB_filterout"
+
+.SS "double _SFilterRefData::SHUTTER_SPEED"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

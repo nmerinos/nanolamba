@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['target_5fdn_5fvalue',['target_dn_value',['../struct__nsp__def__auto__exposure__parameters.html#adba8ec5e76bf87cf0a403fe30ca1ec90',1,'_nsp_def_auto_exposure_parameters']]],
+  ['temporal_5ffilterout',['temporal_filterout',['../struct___s_filter_measurement_data.html#af1d5cf215000ba8fab34a7e50b742142',1,'_SFilterMeasurementData']]],
+  ['test_5fdevice',['test_device',['../classnsp__device__interface.html#a6349a6561d122af4b2eea6fbafcaadd4',1,'nsp_device_interface::test_device()'],['../classnsp__device__interface__base.html#afb1ce5bcf151cad524343878d4adee2d',1,'nsp_device_interface_base::test_device()']]],
+  ['threshold',['threshold',['../struct___s_sensor_tray_info_data.html#a8ecc5dfa8f8dc330ea81dbbc7a7fdeb7',1,'_SSensorTrayInfoData']]],
+  ['threshold_5ffor_5fquality_5fscore',['THRESHOLD_FOR_QUALITY_SCORE',['../nsp__sdk__def_8h.html#a55f595039c8110b109e397d3151b9544',1,'nsp_sdk_def.h']]],
+  ['time',['TIME',['../nsp__sdk__def_8h.html#ae808562e29fca8d705fa0b386732b3b6',1,'nsp_sdk_def.h']]],
+  ['timeout',['timeout',['../structlibusb__transfer.html#a9a12af15ca5b482f5dcaebd26a848cbb',1,'libusb_transfer']]],
+  ['timestamp',['Timestamp',['../struct___o_o_irrad_data_file_info.html#a9412fd23bbf07a698887918d69399262',1,'_OOIrradDataFileInfo']]],
+  ['to_5fdegree',['TO_DEGREE',['../nsp__sdk__def_8h.html#a7eb5d6a16382a3c5ea8d5a7e81ed6ce9',1,'nsp_sdk_def.h']]],
+  ['to_5fradian',['TO_RADIAN',['../nsp__sdk__def_8h.html#a05c57f856c51afdea9c63618e27f979f',1,'nsp_sdk_def.h']]],
+  ['toolbar_5fbutton_5fsize',['TOOLBAR_BUTTON_SIZE',['../nsp__sdk__def_8h.html#ae7521c50f5b9e9a914c4290ce14b0cdb',1,'nsp_sdk_def.h']]],
+  ['toolbar_5ficon_5fsize',['TOOLBAR_ICON_SIZE',['../nsp__sdk__def_8h.html#afb8081a360043a246bb9083d4abdec87',1,'nsp_sdk_def.h']]],
+  ['total_5fnum_5fof_5fsensor_5fdesign_5ftypes',['TOTAL_NUM_OF_SENSOR_DESIGN_TYPES',['../nsp__sdk__def_8h.html#ae1ded54fc2946f15891c3a303fd0dc18',1,'nsp_sdk_def.h']]],
+  ['total_5fsensors',['total_sensors',['../struct___s_sensor_tray_info_data.html#a065967f00d950fe37136d6b2a8891670',1,'_SSensorTrayInfoData']]],
+  ['turn_5fon',['turn_on',['../struct___s_l_e_d_channel_info.html#a924bf87a289f83e9afabea059419a919',1,'_SLEDChannelInfo']]],
+  ['type',['type',['../struct___s_device_info.html#adc4c6d13cefe1fc94f581db90e11e1b6',1,'_SDeviceInfo::type()'],['../structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1',1,'libusb_transfer::type()']]]
+];

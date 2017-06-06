@@ -1,0 +1,635 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_interface_stm_usb.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'nsp_base_def\&.h'\fP
+.br
+\fC#include 'nsp_sdk_def\&.h'\fP
+.br
+\fC#include 'protocol/nsp_device_interface_stm_usb_protocols\&.h'\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBUsbDevHandle\fP"
+.br
+.ti -1c
+.RI "struct \fBUsbDevId\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBEFM32_GET_DATA_FROM_DEVICE\fP   0x10"
+.br
+.ti -1c
+.RI "#define \fBEFM32_SET_DATA_TO_DEVICE\fP   0x11"
+.br
+.ti -1c
+.RI "#define \fBALLOW_NEGATIVE_SIGNAL\fP   1"
+.br
+.ti -1c
+.RI "#define \fBALLOW_FRAME_DATA_CASTING_TO_INTEGER\fP   1"
+.br
+.ti -1c
+.RI "#define \fBLOWER_LIMIT_OF_FILTERS_DN\fP   50"
+.br
+.ti -1c
+.RI "#define \fBSLEEP_TIME_TO_ACQUISITION\fP   30"
+.br
+.ti -1c
+.RI "#define \fBBLANK_TIME_SCALE_FACTOR\fP   0\&.7"
+.br
+.ti -1c
+.RI "#define \fBDOUBLE_SS_RATIO\fP   0\&.5"
+.br
+.ti -1c
+.RI "#define \fBRECIEVED_BYTE_BUFFER\fP   2048"
+.br
+.ti -1c
+.RI "#define \fBFMA_MAX_NUM_BUFFERS\fP   100"
+.br
+.ti -1c
+.RI "#define \fBEMF32_DEVICE_TAG\fP   1"
+.br
+.ti -1c
+.RI "#define \fBEMF32_MIN_SHUTTER_SPEED\fP   1"
+.br
+.ti -1c
+.RI "#define \fBEMF32_MAX_SHUTTER_SPEED\fP   16777215"
+.br
+.ti -1c
+.RI "#define \fBEMF32_NUM_FILTERS\fP   1024"
+.br
+.ti -1c
+.RI "#define \fBEMF32_START_LAM\fP   350"
+.br
+.ti -1c
+.RI "#define \fBEMF32_END_LAM\fP   1100"
+.br
+.ti -1c
+.RI "#define \fBEMF32_FILTER_INTERVAL\fP   1"
+.br
+.ti -1c
+.RI "#define \fBEMF32_FILTER_RESOLUTION\fP   751"
+.br
+.ti -1c
+.RI "#define \fBEMF32_DEFAULT_NUM_AVERAGES\fP   1"
+.br
+.ti -1c
+.RI "#define \fBEMF32_DEFAULT_COM_PORT\fP   6"
+.br
+.ti -1c
+.RI "#define \fBEMF32_DEFAULT_VID\fP   0x16C1"
+.br
+.ti -1c
+.RI "#define \fBEMF32_DEFAULT_PID\fP   0x0482"
+.br
+.ti -1c
+.RI "#define \fBEMF32_LEDDRIVER_VID\fP   0x16C1"
+.br
+.ti -1c
+.RI "#define \fBEMF32_LEDDRIVER_PID\fP   0x0483"
+.br
+.ti -1c
+.RI "#define \fBEMF32_MIN_FILTER_OUT\fP   0"
+.br
+.ti -1c
+.RI "#define \fBEMF32_MAX_FILTER_OUT\fP   \fBDEVICE_MAX_FILTER_OUT\fP"
+.br
+.ti -1c
+.RI "#define \fBFRAME_NUM_FOR_SKIP\fP   0"
+.br
+.ti -1c
+.RI "#define \fBINIT_VAL_BLANK_TIME\fP   2"
+.br
+.ti -1c
+.RI "#define \fBINIT_VAL_ADC_RANGE\fP   132"
+.br
+.ti -1c
+.RI "#define \fBINIT_VAL_ADC_GAIN\fP   1"
+.br
+.ti -1c
+.RI "#define \fBSHUTTER_SPEED_BASE\fP   32"
+.br
+.ti -1c
+.RI "#define \fBSENSOR_ID_SIZE\fP   \fBEFM32_SENSOR_ID_SIZE\fP"
+.br
+.ti -1c
+.RI "#define \fBEFM32_MCLK\fP   5\&.0"
+.br
+.ti -1c
+.RI "#define \fBCONVERT_SS_TO_INTEG_TIME\fP(ss)   ((((384+16*(32+1))*ss)+160)/(\fBEFM32_MCLK\fP*1000))"
+.br
+.ti -1c
+.RI "#define \fBCONVERT_INTEG_TIME_TO_SS\fP(msec)   (((msec*(\fBEFM32_MCLK\fP*1000)\-160)\-384)/(16*(32+1)))"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_MASTER_CLOCK\fP   \fBEFM32_MCLK\fP"
+.br
+.ti -1c
+.RI "#define \fBDEFAULT_INITIAL_SHUTTER_SPEED\fP   1"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef pair< int, \fBusb_dev_handle\fP * > \fBdev_Pair\fP"
+.br
+.ti -1c
+.RI "typedef pair< int, int > \fBdev_id_Pair\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBconnect_device\fP (unsigned int iDeviceId=0)"
+.br
+.RI "Connect to USB device\&. "
+.ti -1c
+.RI "int \fBconnect_device\fP (\fBvoid\fP)"
+.br
+.ti -1c
+.RI "bool \fBconnect_device\fP (int iVID, int iPID, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "bool \fBconnect_LED_device\fP ()"
+.br
+.ti -1c
+.RI "bool \fBdisconnect_device\fP (unsigned int iDeviceId=0)"
+.br
+.RI "Disconnect USB device\&. "
+.ti -1c
+.RI "\fBvoid\fP \fBprint_device_info\fP (struct \fBusb_device\fP *pDev)"
+.br
+.RI "Print device information\&. "
+.ti -1c
+.RI "\fBvoid\fP \fBinitialize_sensor\fP (unsigned int iDeviceId=0)"
+.br
+.RI "initialize sensor with initial register values "
+.ti -1c
+.RI "\fBvoid\fP \fBstart_sensor\fP (unsigned int iDeviceId=0)"
+.br
+.RI "initialize acquisition "
+.ti -1c
+.RI "\fBvoid\fP \fBstop_sensor\fP (unsigned int iDeviceId=0)"
+.br
+.RI "finalize acquistion "
+.ti -1c
+.RI "\fBvoid\fP \fBsend_command_to_device\fP (int iCommand, int wValue, unsigned int iDeviceId=0)"
+.br
+.RI "Write command to device with value\&. "
+.ti -1c
+.RI "\fBvoid\fP \fBconvert_2048C_to_1024F\fP (char *inputC, double *outputF)"
+.br
+.RI "Convert char array(2048) to double array(1024) "
+.ti -1c
+.RI "unsigned char \fBread_from_device\fP (int iCommand, int wValue, unsigned int iDeviceId=0)"
+.br
+.RI "Read data from device\&. "
+.ti -1c
+.RI "unsigned char \fBdo_control_transfer\fP (int iCommand, int wValue, unsigned int iDeviceId=0)"
+.br
+.RI "Send/Read data to/from device\&. "
+.ti -1c
+.RI "unsigned char \fBread_register_data\fP (unsigned char ucAddr, unsigned int iDeviceId=0)"
+.br
+.RI "read data from a register "
+.ti -1c
+.RI "\fBvoid\fP \fBwrite_register_data\fP (unsigned char ucAddr, unsigned char ucData, unsigned int iDeviceId=0)"
+.br
+.RI "write data to register "
+.ti -1c
+.RI "double \fBacquire_frame_data\fP (double *frameBuf, int iDarkCorrectionMode, unsigned int iDeviceId=0)"
+.br
+.RI "acquire one frame (returns dark value of currently acquired frame) "
+.ti -1c
+.RI "int \fBacquire_frame_data_2048\fP (char *frameBuf, unsigned int iDeviceId=0)"
+.br
+.RI "acquire one frame without data conversion "
+.ti -1c
+.RI "int \fBalloc_transfer_bulk\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "int \fBalloc_transfer_bulk_l\fP (int num_iso_pack, int length, unsigned char *buffer, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "int \fBacquire_frame_data_bulk\fP (int iCommand, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "int \fBacquire_frame_data_control\fP (int iCommand, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "double \fBacquire_sub_frame_data\fP (int *frameBuf, int iDarkCorrectionMode, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBinitialize_device_interface\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBreconnect_device\fP (unsigned int &iDeviceId, struct \fBlibusb_device\fP *currDev, \fBlibusb_context\fP *lctx, bool detach)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBclose_device_interface\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_device_index\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_LED_module_op_mode\fP (unsigned int iOpMode, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_frame_data_acq_mode\fP (unsigned int iAcqMode, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "unsigned \fBget_connected_total_devices\fP ()"
+.br
+.ti -1c
+.RI "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP \fBget_sensor_id_with_index\fP (char *SensorID, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP \fBget_sensor_id_with_index\fP (char *lot_char, short *lot_id, short *wafer_id, short *x_coord, short *y_coord, short *sensor_type, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "std::string \fBdecode_sensor_id_from_string\fP (char *buf, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBget_firmware_version\fP (unsigned char *version)"
+.br
+.ti -1c
+.RI "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP \fBset_shutter_speed_to_sensor\fP (int iShutterSpeed, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBget_shutter_speed_from_sensor\fP (int *iCurSS, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBget_current_shutter_speed\fP (int *iShutterSpeed, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBget_current_shutter_speed\fP ()"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_blank_time_to_sensor\fP (int iBlankTime, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBget_blank_time_from_sensor\fP (int *iBlankTime, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP \fBset_adc_setting_values\fP (unsigned char ucADCRange, unsigned char ucGain, unsigned char ucRes, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBget_adc_setting_values\fP (unsigned char *ucADCRange, unsigned char *ucGain, unsigned char *ucRes, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "int \fBinitialize_ae_module\fP (const char *strFileName_intensityLUT, const char *strFileName_ssLUT)"
+.br
+.ti -1c
+.RI "int \fBfind_optimal_shutter_speed_with_ae\fP (std::vector< int > &valid_filters, int frame_average, int sleep_time=1000, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "bool \fBset_params_for_ae_module\fP (int target_DN, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "bool \fBset_params_for_ae_module\fP (int target_DN, int upper_DN, int lower_DN, int mean_DN, int max_integ_DN, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBEXPORT_DLL\fP double \fBget_filter_data_from_sensor\fP (double *pOutputFilterValue, int iNumOfAverages, int iDarkCorrectionMode, int useContAcq=0, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "int \fBread_roi_info_from_fw\fP (int iCommand, int wValue, unsigned iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBwrite_roi_info_to_fw\fP (int iCommand, int wValue, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "std::vector< int > \fBget_roi_info_from_sensor\fP (int iCommand, int wValue, unsigned iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_roi_info_to_sensor\fP (int iCommand, std::vector< int > POI, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBget_roi_info_from_sensor\fP (std::vector< int > &poi, int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_roi_info_to_sensor\fP (std::vector< int > &poi, int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBget_roi_data_from_sensor\fP (std::vector< int > &poi_data, int iPoiSize, std::vector< double > &poi_background, int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_frame_average_count_for_on_board_processing\fP (unsigned char ucData, unsigned int iDeviceId=0)"
+.br
+.RI "set/get on-board frame average count "
+.ti -1c
+.RI "unsigned char \fBget_frame_average_count_for_on_board_processing\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_dark_correction_mode_for_on_board_processing\fP (bool bEnable, unsigned int iDeviceId=0)"
+.br
+.RI "enable/disable on-board dark correction "
+.ti -1c
+.RI "unsigned char \fBget_dark_correction_mode_for_on_board_processing\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBget_dark_frame_for_on_board_processing\fP (unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "bool \fBget_valid_filters_only\fP (std::vector< double > &input_frame, std::vector< int > &valid_filters, std::vector< double > &output_frame)"
+.br
+.ti -1c
+.RI "int \fBget_sleep_time_for_shutter_speed\fP (int iShutterSpeed)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBdevice_interface_test\fP (double *fpFilterValueAveraged, int iAverageIndex, unsigned int iDeviceId=0)"
+.br
+.RI "Test function\&. "
+.ti -1c
+.RI "\fBvoid\fP \fBconvert_number_to_binary\fP (int number)"
+.br
+.ti -1c
+.RI "bool \fBis_led_driver_open\fP ()"
+.br
+.RI "Functions for LED driver\&. "
+.ti -1c
+.RI "bool \fBis_led_driver_close\fP ()"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_state_to_led_device\fP (bool *OnArray, int nNumOfLED, int intensity)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_op_mode_to_led_device\fP (int iOpMode, int iToggleIntervalTime)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_led_state_values\fP (bool *OnArray, int nNumOfLED, int intensity, unsigned int iDeviceId=0)"
+.br
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBset_led_op_mode_values\fP (int iOpMode, int iToggleIntervalTime, unsigned int iDeviceId=0)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define ALLOW_FRAME_DATA_CASTING_TO_INTEGER   1"
+
+.SS "#define ALLOW_NEGATIVE_SIGNAL   1"
+
+.SS "#define BLANK_TIME_SCALE_FACTOR   0\&.7"
+
+.SS "#define CONVERT_INTEG_TIME_TO_SS(msec)   (((msec*(\fBEFM32_MCLK\fP*1000)\-160)\-384)/(16*(32+1)))"
+
+.SS "#define CONVERT_SS_TO_INTEG_TIME(ss)   ((((384+16*(32+1))*ss)+160)/(\fBEFM32_MCLK\fP*1000))"
+
+.SS "#define DEFAULT_INITIAL_SHUTTER_SPEED   1"
+
+.SS "#define DOUBLE_SS_RATIO   0\&.5"
+
+.SS "#define EFM32_GET_DATA_FROM_DEVICE   0x10"
+
+.SS "#define EFM32_MCLK   5\&.0"
+
+.SS "#define EFM32_SET_DATA_TO_DEVICE   0x11"
+
+.SS "#define EMF32_DEFAULT_COM_PORT   6"
+
+.SS "#define EMF32_DEFAULT_NUM_AVERAGES   1"
+
+.SS "#define EMF32_DEFAULT_PID   0x0482"
+
+.SS "#define EMF32_DEFAULT_VID   0x16C1"
+
+.SS "#define EMF32_DEVICE_TAG   1"
+
+.SS "#define EMF32_END_LAM   1100"
+
+.SS "#define EMF32_FILTER_INTERVAL   1"
+
+.SS "#define EMF32_FILTER_RESOLUTION   751"
+
+.SS "#define EMF32_LEDDRIVER_PID   0x0483"
+
+.SS "#define EMF32_LEDDRIVER_VID   0x16C1"
+
+.SS "#define EMF32_MAX_FILTER_OUT   \fBDEVICE_MAX_FILTER_OUT\fP"
+
+.SS "#define EMF32_MAX_SHUTTER_SPEED   16777215"
+
+.SS "#define EMF32_MIN_FILTER_OUT   0"
+
+.SS "#define EMF32_MIN_SHUTTER_SPEED   1"
+
+.SS "#define EMF32_NUM_FILTERS   1024"
+
+.SS "#define EMF32_START_LAM   350"
+
+.SS "#define FMA_MAX_NUM_BUFFERS   100"
+
+.SS "#define FRAME_NUM_FOR_SKIP   0"
+
+.SS "#define INIT_VAL_ADC_GAIN   1"
+
+.SS "#define INIT_VAL_ADC_RANGE   132"
+
+.SS "#define INIT_VAL_BLANK_TIME   2"
+
+.SS "#define LOWER_LIMIT_OF_FILTERS_DN   50"
+
+.SS "#define NSP_DEVICE_MASTER_CLOCK   \fBEFM32_MCLK\fP"
+
+.SS "#define RECIEVED_BYTE_BUFFER   2048"
+
+.SS "#define SENSOR_ID_SIZE   \fBEFM32_SENSOR_ID_SIZE\fP"
+
+.SS "#define SHUTTER_SPEED_BASE   32"
+
+.SS "#define SLEEP_TIME_TO_ACQUISITION   30"
+
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef pair<int, int> \fBdev_id_Pair\fP"
+
+.SS "typedef pair<int, \fBusb_dev_handle\fP*> \fBdev_Pair\fP"
+
+.SH "Function Documentation"
+.PP 
+.SS "double acquire_frame_data (double * frameBuf, int iDarkCorrectionMode, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+acquire one frame (returns dark value of currently acquired frame) 
+.SS "int acquire_frame_data_2048 (char * frameBuf, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+acquire one frame without data conversion 
+.SS "int acquire_frame_data_bulk (int iCommand, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "int acquire_frame_data_control (int iCommand, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "double acquire_sub_frame_data (int * frameBuf, int iDarkCorrectionMode, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "int alloc_transfer_bulk (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "int alloc_transfer_bulk_l (int num_iso_pack, int length, unsigned char * buffer, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP close_device_interface (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "bool connect_device (unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+Connect to USB device\&. 
+.SS "int connect_device (\fBvoid\fP)"
+
+.SS "bool connect_device (int iVID, int iPID, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "bool connect_LED_device ()"
+
+.SS "\fBvoid\fP convert_2048C_to_1024F (char * inputC, double * outputF)"
+
+.PP
+Convert char array(2048) to double array(1024) 
+.SS "\fBvoid\fP convert_number_to_binary (int number)"
+
+.SS "std::string decode_sensor_id_from_string (char * buf, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP device_interface_test (double * fpFilterValueAveraged, int iAverageIndex, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+Test function\&. 
+.SS "bool disconnect_device (unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+Disconnect USB device\&. 
+.SS "unsigned char do_control_transfer (int iCommand, int wValue, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+Send/Read data to/from device\&. 
+.SS "int find_optimal_shutter_speed_with_ae (std::vector< int > & valid_filters, int frame_average, int sleep_time = \fC1000\fP, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP get_adc_setting_values (unsigned char * ucADCRange, unsigned char * ucGain, unsigned char * ucRes, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP get_blank_time_from_sensor (int * iBlankTime, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "unsigned get_connected_total_devices ()"
+
+.SS "\fBNSP_ERROR_CODE\fP get_current_shutter_speed (int * iShutterSpeed, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP get_current_shutter_speed ()"
+
+.SS "unsigned char get_dark_correction_mode_for_on_board_processing (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP get_dark_frame_for_on_board_processing (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBEXPORT_DLL\fP double get_filter_data_from_sensor (double * pOutputFilterValue, int iNumOfAverages, int iDarkCorrectionMode, int useContAcq = \fC0\fP, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP get_firmware_version (unsigned char * version)"
+
+.SS "unsigned char get_frame_average_count_for_on_board_processing (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP get_roi_data_from_sensor (std::vector< int > & poi_data, int iPoiSize, std::vector< double > & poi_background, int iDeviceId = \fC0\fP)"
+
+.SS "std::vector<int> get_roi_info_from_sensor (int iCommand, int wValue, unsigned iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP get_roi_info_from_sensor (std::vector< int > & poi, int iDeviceId = \fC0\fP)"
+
+.SS "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP get_sensor_id_with_index (char * SensorID, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP get_sensor_id_with_index (char * lot_char, short * lot_id, short * wafer_id, short * x_coord, short * y_coord, short * sensor_type, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP get_shutter_speed_from_sensor (int * iCurSS, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "int get_sleep_time_for_shutter_speed (int iShutterSpeed)"
+
+.SS "bool get_valid_filters_only (std::vector< double > & input_frame, std::vector< int > & valid_filters, std::vector< double > & output_frame)"
+
+.SS "int initialize_ae_module (const char * strFileName_intensityLUT, const char * strFileName_ssLUT)"
+
+.SS "\fBNSP_ERROR_CODE\fP initialize_device_interface (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP initialize_sensor (unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+initialize sensor with initial register values 
+.SS "bool is_led_driver_close ()"
+
+.SS "bool is_led_driver_open ()"
+
+.PP
+Functions for LED driver\&. 
+.SS "\fBvoid\fP print_device_info (struct \fBusb_device\fP * pDev)"
+
+.PP
+Print device information\&. 
+.SS "unsigned char read_from_device (int iCommand, int wValue, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+Read data from device\&. 
+.SS "unsigned char read_register_data (unsigned char ucAddr, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+read data from a register 
+.SS "int read_roi_info_from_fw (int iCommand, int wValue, unsigned iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP reconnect_device (unsigned int & iDeviceId, struct \fBlibusb_device\fP * currDev, \fBlibusb_context\fP * lctx, bool detach)"
+
+.SS "\fBvoid\fP send_command_to_device (int iCommand, int wValue, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+Write command to device with value\&. 
+.SS "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP set_adc_setting_values (unsigned char ucADCRange, unsigned char ucGain, unsigned char ucRes, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP set_blank_time_to_sensor (int iBlankTime, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP set_dark_correction_mode_for_on_board_processing (bool bEnable, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+enable/disable on-board dark correction 
+.SS "\fBNSP_ERROR_CODE\fP set_device_index (unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP set_frame_average_count_for_on_board_processing (unsigned char ucData, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+set/get on-board frame average count 
+.SS "\fBNSP_ERROR_CODE\fP set_frame_data_acq_mode (unsigned int iAcqMode, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP set_LED_module_op_mode (unsigned int iOpMode, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP set_led_op_mode_values (int iOpMode, int iToggleIntervalTime, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP set_led_state_values (bool * OnArray, int nNumOfLED, int intensity, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP set_op_mode_to_led_device (int iOpMode, int iToggleIntervalTime)"
+
+.SS "bool set_params_for_ae_module (int target_DN, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "bool set_params_for_ae_module (int target_DN, int upper_DN, int lower_DN, int mean_DN, int max_integ_DN, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP set_roi_info_to_sensor (int iCommand, std::vector< int > POI, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBvoid\fP set_roi_info_to_sensor (std::vector< int > & poi, int iDeviceId = \fC0\fP)"
+
+.SS "\fBEXPORT_DLL\fP \fBNSP_ERROR_CODE\fP set_shutter_speed_to_sensor (int iShutterSpeed, unsigned int iDeviceId = \fC0\fP)"
+
+.SS "\fBNSP_ERROR_CODE\fP set_state_to_led_device (bool * OnArray, int nNumOfLED, int intensity)"
+
+.SS "\fBvoid\fP start_sensor (unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+initialize acquisition 
+.SS "\fBvoid\fP stop_sensor (unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+finalize acquistion 
+.SS "\fBvoid\fP write_register_data (unsigned char ucAddr, unsigned char ucData, unsigned int iDeviceId = \fC0\fP)"
+
+.PP
+write data to register 
+.SS "\fBvoid\fP write_roi_info_to_fw (int iCommand, int wValue, unsigned int iDeviceId = \fC0\fP)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

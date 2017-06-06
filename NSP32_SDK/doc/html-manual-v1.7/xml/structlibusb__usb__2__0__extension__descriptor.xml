@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__usb__2__0__extension__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_usb_2_0_extension_descriptor</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__usb__2__0__extension__descriptor_1a11b9f042687aec219e0e777530df0664" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_usb_2_0_extension_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of this descriptor (in bytes) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="777" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="777" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__usb__2__0__extension__descriptor_1ab3f73eeaabab1e8db659bcb6b2cb59c5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_usb_2_0_extension_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Descriptor type. Will have value <ref refid="libusb_8h_1a0a2e8a25dfdebf29fdd4764dcdbc1a9ca56875fd1a3df25bdea7680fa9047743c" kindref="member">libusb_descriptor_type::LIBUSB_DT_DEVICE_CAPABILITY</ref> LIBUSB_DT_DEVICE_CAPABILITY in this context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="782" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="782" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__usb__2__0__extension__descriptor_1aa6a3e671c23b77eef252f17ce865734e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_usb_2_0_extension_descriptor::bDevCapabilityType</definition>
+        <argsstring></argsstring>
+        <name>bDevCapabilityType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Capability type. Will have value <ref refid="libusb_8h_1a6ccabbf3b3728ae69608ba83bba4e64ca243b090db95a0fdf7104fbf581724b86" kindref="member">libusb_capability_type::LIBUSB_BT_USB_2_0_EXTENSION</ref> LIBUSB_BT_USB_2_0_EXTENSION in this context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="787" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="787" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__usb__2__0__extension__descriptor_1ab22e1857d38c9205aaecca52b2e20ae0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t libusb_usb_2_0_extension_descriptor::bmAttributes</definition>
+        <argsstring></argsstring>
+        <name>bmAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitmap encoding of supported device level features. A value of one in a bit location indicates a feature is supported; a value of zero indicates it is not supported. See <ref refid="libusb_8h_1acb8cfa928bffdd0066a3dd2e6aba0558" kindref="member">libusb_usb_2_0_extension_attributes</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="793" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="793" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A structure representing the USB 2.0 Extension descriptor This descriptor is documented in section 9.6.2.1 of the USB 3.0 specification. All multiple-byte fields are represented in host-endian format. </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="775" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="775" bodyend="794"/>
+    <listofallmembers>
+      <member refid="structlibusb__usb__2__0__extension__descriptor_1ab3f73eeaabab1e8db659bcb6b2cb59c5" prot="public" virt="non-virtual"><scope>libusb_usb_2_0_extension_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structlibusb__usb__2__0__extension__descriptor_1aa6a3e671c23b77eef252f17ce865734e" prot="public" virt="non-virtual"><scope>libusb_usb_2_0_extension_descriptor</scope><name>bDevCapabilityType</name></member>
+      <member refid="structlibusb__usb__2__0__extension__descriptor_1a11b9f042687aec219e0e777530df0664" prot="public" virt="non-virtual"><scope>libusb_usb_2_0_extension_descriptor</scope><name>bLength</name></member>
+      <member refid="structlibusb__usb__2__0__extension__descriptor_1ab22e1857d38c9205aaecca52b2e20ae0" prot="public" virt="non-virtual"><scope>libusb_usb_2_0_extension_descriptor</scope><name>bmAttributes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

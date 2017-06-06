@@ -1,0 +1,90 @@
+.TH "libusb_transfer" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_transfer
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBlibusb_device_handle\fP * \fBdev_handle\fP"
+.br
+.ti -1c
+.RI "uint8_t \fBflags\fP"
+.br
+.ti -1c
+.RI "unsigned char \fBendpoint\fP"
+.br
+.ti -1c
+.RI "unsigned char \fBtype\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBtimeout\fP"
+.br
+.ti -1c
+.RI "enum \fBlibusb_transfer_status\fP \fBstatus\fP"
+.br
+.ti -1c
+.RI "int \fBlength\fP"
+.br
+.ti -1c
+.RI "int \fBactual_length\fP"
+.br
+.ti -1c
+.RI "libusb_transfer_cb_fn \fBcallback\fP"
+.br
+.ti -1c
+.RI "\fBvoid\fP * \fBuser_data\fP"
+.br
+.ti -1c
+.RI "unsigned char * \fBbuffer\fP"
+.br
+.ti -1c
+.RI "int \fBnum_iso_packets\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_iso_packet_descriptor\fP \fBiso_packet_desc\fP [0]"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The generic USB transfer structure\&. The user populates this structure and then submits it in order to request a transfer\&. After the transfer has completed, the library populates the transfer with the results and passes it back to the user\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "int libusb_transfer::actual_length"
+Actual length of data that was transferred\&. Read-only, and only for use within transfer callback function\&. Not valid for isochronous endpoint transfers\&. 
+.SS "unsigned char* libusb_transfer::buffer"
+Data buffer 
+.SS "libusb_transfer_cb_fn libusb_transfer::callback"
+Callback function\&. This will be invoked when the transfer completes, fails, or is cancelled\&. 
+.SS "\fBlibusb_device_handle\fP* libusb_transfer::dev_handle"
+Handle of the device that this transfer will be submitted to 
+.SS "unsigned char libusb_transfer::endpoint"
+Address of the endpoint where this transfer will be sent\&. 
+.SS "uint8_t libusb_transfer::flags"
+A bitwise OR combination of \fBlibusb_transfer_flags\fP\&. 
+.SS "struct \fBlibusb_iso_packet_descriptor\fP libusb_transfer::iso_packet_desc[0]"
+Isochronous packet descriptors, for isochronous transfers only\&. 
+.SS "int libusb_transfer::length"
+Length of the data buffer 
+.SS "int libusb_transfer::num_iso_packets"
+Number of isochronous packets\&. Only used for I/O with isochronous endpoints\&. 
+.SS "enum \fBlibusb_transfer_status\fP libusb_transfer::status"
+The status of the transfer\&. Read-only, and only for use within transfer callback function\&.
+.PP
+If this is an isochronous transfer, this field may read COMPLETED even if there were errors in the frames\&. Use the \fBstatus\fP field in each packet to determine if errors occurred\&. 
+.SS "unsigned int libusb_transfer::timeout"
+Timeout for this transfer in millseconds\&. A value of 0 indicates no timeout\&. 
+.SS "unsigned char libusb_transfer::type"
+Type of the endpoint from \fBlibusb_transfer_type\fP 
+.SS "\fBvoid\fP* libusb_transfer::user_data"
+User context data to pass to the callback function\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

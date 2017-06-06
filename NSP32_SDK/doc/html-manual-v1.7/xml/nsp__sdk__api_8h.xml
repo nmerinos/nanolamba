@@ -1,0 +1,963 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__sdk__api_8h" kind="file" language="C++">
+    <compoundname>nsp_sdk_api.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="nsp__sdk__api_8h_1aae91b75be9523806e334e923550cd9fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkCreate</definition>
+        <argsstring>(void)</argsstring>
+        <name>sdkCreate</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+<para>Create SDK Object. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function create one SDK object.</para><para><programlisting><codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkCreate();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_no_device_in_system</para></listitem><listitem><para>cc_ec_fail_to_load_sensor_cal_data</para></listitem><listitem><para>cc_ec_fail_to_initialize_color_object</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1aab6612a2b250982513d8a2434d223f38" kindref="member">sdkDestroy</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1aab6612a2b250982513d8a2434d223f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>sdkDestroy</name>
+        <briefdescription>
+<para>Destroy SDK Object. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function destroy SDK object.</para><para><programlisting><codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkDestroy();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1aae91b75be9523806e334e923550cd9fb" kindref="member">sdkCreate</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a091a9b2027c5ff2915d87dbea2667a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkRegister</definition>
+        <argsstring>(const char *sensor_cal_file_path)</argsstring>
+        <name>sdkRegister</name>
+        <param>
+          <type>const char *</type>
+          <declname>sensor_cal_file_path</declname>
+        </param>
+        <briefdescription>
+<para>Add one sensor to active sensor list. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function add one sensor to active sensor list by loading sensor calibration data.</para><para><programlisting><codeline><highlight class="normal">const<sp/>char*<sp/>sensor_cal_file_path<sp/>=<sp/>&quot;./config/sensor_Y8585-1-85-85-0.dat&quot;;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>total_count_of_active_sensors<sp/>=<sp/>sdkRegister(sensor_cal_file_path);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sensor_cal_file_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- file path for sensor calibration data [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>total count of active sensors</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_no_device_in_system</para></listitem><listitem><para>cc_ec_fail_to_load_sensor_cal_data</para></listitem><listitem><para>cc_ec_fail_to_initialize_color_object</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1aae91b75be9523806e334e923550cd9fb" kindref="member">sdkCreate</ref>, <ref refid="nsp__sdk__api_8h_1aab6612a2b250982513d8a2434d223f38" kindref="member">sdkDestroy</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1ae4b26dd74309184266c6f49e1c2daf09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetMaxSensorCount</definition>
+        <argsstring>()</argsstring>
+        <name>sdkGetMaxSensorCount</name>
+        <briefdescription>
+<para>Get maximum count of supported sensors. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns the maximum number of sensors supported by API/SDK.</para><para><programlisting><codeline><highlight class="normal">int<sp/>max_sensors<sp/>=<sp/>sdkGetMaxSensorCount();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>maximum number of sensors</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1aae91b75be9523806e334e923550cd9fb" kindref="member">sdkCreate</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1aa54133191fe5c015be922718978e6e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetNumOfValidFilters</definition>
+        <argsstring>()</argsstring>
+        <name>sdkGetNumOfValidFilters</name>
+        <briefdescription>
+<para>Get total number of valid filters. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns the total number of valid filters in sensor calibration data.</para><para><programlisting><codeline><highlight class="normal">int<sp/>max_sensors<sp/>=<sp/>sdkGetNumOfValidFilters();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>total number of valid filters</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1aae91b75be9523806e334e923550cd9fb" kindref="member">sdkCreate</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1ada7828c5565dfa3361065ef7b7bde067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int *</type>
+        <definition>EXPORT_DLL int* sdkGetValidFilters</definition>
+        <argsstring>()</argsstring>
+        <name>sdkGetValidFilters</name>
+        <briefdescription>
+<para>Get valid filters. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns the valid filters data in sensor calibration data.</para><para><programlisting><codeline><highlight class="normal">int*<sp/>valid_filters<sp/>=<sp/>sdkGetValidFilters();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns pointer of:<itemizedlist>
+<listitem><para>integer array of valid filters</para></listitem><listitem><para>NULL</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1aae91b75be9523806e334e923550cd9fb" kindref="member">sdkCreate</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a6b90ff4cb1ec6de747c01d976e019090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetSensorIDFromDevice</definition>
+        <argsstring>(char *sensor_id_str)</argsstring>
+        <name>sdkGetSensorIDFromDevice</name>
+        <param>
+          <type>char *</type>
+          <declname>sensor_id_str</declname>
+        </param>
+        <briefdescription>
+<para>Get sensor ID of physical device(sensor) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns a sensor ID of currently activated physical device(sensor). Current sensor is an activated one by <ref refid="nsp__sdk__api_8h_1a227c7f9a801fdc427b918d4eba5be031" kindref="member">sdkActivateSensorWithID()</ref> or <ref refid="nsp__sdk__api_8h_1a104ec1cc2019f7517d5d5e20907896bd" kindref="member">sdkActivateSensorWithIndex()</ref> functions.</para><para><programlisting><codeline><highlight class="normal">char<sp/>sensor_id[SENSOR_ID_STRING_LENGTH];</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkGetSensorIDFromDevice(sensor_id);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to char array for sensor ID data [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_memory_is_null</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a8ba4809a5e19a44c0f1636e96024e5da" kindref="member">sdkGetSensorIDFromCalData</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="181" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a8ba4809a5e19a44c0f1636e96024e5da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetSensorIDFromCalData</definition>
+        <argsstring>(char *sensor_id_str)</argsstring>
+        <name>sdkGetSensorIDFromCalData</name>
+        <param>
+          <type>char *</type>
+          <declname>sensor_id_str</declname>
+        </param>
+        <briefdescription>
+<para>Get sensor ID of sensor calibration data. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns sensor ID in sensor calibration data file.</para><para><programlisting><codeline><highlight class="normal">char<sp/>sensor_id_str[SENSOR_ID_STRING_LENGTH];</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>sdkGetSensorIDFromCalData(sensor_id_str);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sensor_id_str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- char buffer to contain sensor ID [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of NSP_RETURN_VALUE_SUCCESS.<itemizedlist>
+<listitem><para>the length of sensor ID string (&gt;0).</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_spectrum_core_object_is_null</para></listitem><listitem><para>cc_ec_memory_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a6b90ff4cb1ec6de747c01d976e019090" kindref="member">sdkGetSensorIDFromDevice</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a104ec1cc2019f7517d5d5e20907896bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkActivateSensorWithIndex</definition>
+        <argsstring>(int sensor_index)</argsstring>
+        <name>sdkActivateSensorWithIndex</name>
+        <param>
+          <type>int</type>
+          <declname>sensor_index</declname>
+        </param>
+        <briefdescription>
+<para>Activate a specific sensor with index. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function activates a specific sensor having a matched sensor index among multiple sensors if there are multiple sensors in system.</para><para><programlisting><codeline><highlight class="normal">int<sp/>sensor_index<sp/>=<sp/>0;<sp/>//<sp/>default<sp/>=<sp/>0<sp/>(1&apos;th<sp/>sensor)</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkActivateSensorWithIndex(sensor_index);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sensor_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sensor index start from 0 [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a3e121fb2fe76faa3b1c26115aaa3041b" kindref="member">duConnect</ref>, <ref refid="nsp__device__api_8h_1a5bf16831aaffef8041577d65e7509d36" kindref="member">duDisconnect</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="229" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a227c7f9a801fdc427b918d4eba5be031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkActivateSensorWithID</definition>
+        <argsstring>(const char *sensor_id_str)</argsstring>
+        <name>sdkActivateSensorWithID</name>
+        <param>
+          <type>const char *</type>
+          <declname>sensor_id_str</declname>
+        </param>
+        <briefdescription>
+<para>Activate a specific sensor. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function activates a specific sensor having a matched sensor index among multiple sensors if there are multiple sensors in system.</para><para><programlisting><codeline><highlight class="normal">const<sp/>char*<sp/>sensor_id_str<sp/>=<sp/>&quot;Y8585-1-85-85-0&quot;;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkActivateSensorWithID(sensor_id_str);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sensor_id_str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sensor ID string [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a3e121fb2fe76faa3b1c26115aaa3041b" kindref="member">duConnect</ref>, <ref refid="nsp__device__api_8h_1a5bf16831aaffef8041577d65e7509d36" kindref="member">duDisconnect</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="253" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a747c169595fdc73b2830495cfc6d60e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetShutterSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>sdkGetShutterSpeed</name>
+        <briefdescription>
+<para>Get shutter speed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns a shutter speed value of currently activated sensor.</para><para><programlisting><codeline><highlight class="normal">int<sp/>cur_ss<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">cur_ss<sp/>=<sp/>sdkGetShutterSpeed();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>current shutter speed (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a9f3030ee1847fce4db096594c955b778" kindref="member">sdkSetShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="276" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a9f3030ee1847fce4db096594c955b778" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkSetShutterSpeed</definition>
+        <argsstring>(int shutter)</argsstring>
+        <name>sdkSetShutterSpeed</name>
+        <param>
+          <type>int</type>
+          <declname>shutter</declname>
+        </param>
+        <briefdescription>
+<para>Change current shutter speed of a device(sensor) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function changes shutter speed of currently activated device(sensor).</para><para><programlisting><codeline><highlight class="normal">int<sp/>new_ss<sp/>=<sp/>50;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkSetShutterSpeed(new_ss);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shutter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- shutter speed value [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1ab5878f3fc4143724ae54b616c0dac2e9" kindref="member">duGetShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="299" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a02b5f23a4f7e60787ffeeb752e44e0a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetShutterSpeedLimits</definition>
+        <argsstring>(int *min_limit, int *max_limit)</argsstring>
+        <name>sdkGetShutterSpeedLimits</name>
+        <param>
+          <type>int *</type>
+          <declname>min_limit</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>max_limit</declname>
+        </param>
+        <briefdescription>
+<para>Get Shutter Speed Limist. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns two shutter speed limits (minimum and maximum).</para><para><programlisting><codeline><highlight class="normal">int<sp/>ss_min,<sp/>ss_max;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkGetShutterSpeedLimits(&amp;ss_min,<sp/>&amp;ss_max);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ss_min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int pointer to the minimum shutter speed (OUT) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ss_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int pointer to the maximum shutter speed (OUT)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a747c169595fdc73b2830495cfc6d60e5" kindref="member">sdkGetShutterSpeed</ref>, <ref refid="nsp__sdk__api_8h_1a9f3030ee1847fce4db096594c955b778" kindref="member">sdkSetShutterSpeed</ref>, <ref refid="nsp__sdk__api_8h_1a7e4637eeb74250a714a21466b8f69f99" kindref="member">sdkShutterSpeedToExposureTime</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="322" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a7e4637eeb74250a714a21466b8f69f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkShutterSpeedToExposureTime</definition>
+        <argsstring>(int master_clock, int shutter_speed_val, double *exposure_time)</argsstring>
+        <name>sdkShutterSpeedToExposureTime</name>
+        <param>
+          <type>int</type>
+          <declname>master_clock</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shutter_speed_val</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>exposure_time</declname>
+        </param>
+        <briefdescription>
+<para>Convert shutter speed to exposure time(msec) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function converts a shutter speed value to exposure time (unit: msec).</para><para><programlisting><codeline><highlight class="normal">int<sp/><sp/><sp/>master_clock<sp/>=<sp/>5;<sp/><sp/><sp/>//<sp/>5<sp/>MHz</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>cur_ss<sp/>=<sp/>50;</highlight></codeline>
+<codeline><highlight class="normal">double<sp/>exposure_time<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkShutterSpeedToExposureTime(master_clock,<sp/>cur_ss,<sp/>&amp;exposure_time<sp/>);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>master_clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- master clock of MCU to sensor (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cur_ss</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- current shutter speed (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exposure_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to exposure time (OUT)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a747c169595fdc73b2830495cfc6d60e5" kindref="member">sdkGetShutterSpeed</ref>, <ref refid="nsp__sdk__api_8h_1a9f3030ee1847fce4db096594c955b778" kindref="member">sdkSetShutterSpeed</ref>, <ref refid="nsp__sdk__api_8h_1a02b5f23a4f7e60787ffeeb752e44e0a1" kindref="member">sdkGetShutterSpeedLimits</ref>, <ref refid="nsp__sdk__api_8h_1a08cbbbee04a28088c5f9fa11046a6c52" kindref="member">sdkExposureTimeToShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="348" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a08cbbbee04a28088c5f9fa11046a6c52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkExposureTimeToShutterSpeed</definition>
+        <argsstring>(int master_clock, double exposure_time, int *shutter_speed_val)</argsstring>
+        <name>sdkExposureTimeToShutterSpeed</name>
+        <param>
+          <type>int</type>
+          <declname>master_clock</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>exposure_time</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>shutter_speed_val</declname>
+        </param>
+        <briefdescription>
+<para>Convert exposure time (ms) to shutter speed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function converts a exposure time (unit: msec) to shutter speed value based on sensor&apos;s master clock.</para><para><programlisting><codeline><highlight class="normal">int<sp/>master_clock<sp/>=<sp/>5;<sp/>//<sp/>5-MHz</highlight></codeline>
+<codeline><highlight class="normal">double<sp/>exposure_time<sp/>=<sp/>100.0;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>shutter_speed<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkShutterSpeedToExposureTime(cur_ss,<sp/>&amp;exposure_time<sp/>);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>master_clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- master clock of MCU to sensor (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exposure_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- exposure time value (msec) (IN) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shutter_speed_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int pointer to shutter speed (OUT)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a747c169595fdc73b2830495cfc6d60e5" kindref="member">sdkGetShutterSpeed</ref>, <ref refid="nsp__sdk__api_8h_1a9f3030ee1847fce4db096594c955b778" kindref="member">sdkSetShutterSpeed</ref>, <ref refid="nsp__sdk__api_8h_1a02b5f23a4f7e60787ffeeb752e44e0a1" kindref="member">sdkGetShutterSpeedLimits</ref>, <ref refid="nsp__sdk__api_8h_1a7e4637eeb74250a714a21466b8f69f99" kindref="member">sdkShutterSpeedToExposureTime</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="374" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1afd8befefe80a3bb1087f1822932c3fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetOptimalShutterSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>sdkGetOptimalShutterSpeed</name>
+        <briefdescription>
+<para>Get optimal shutter speed by AE. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns an optimal shutter speed value which found by AE(Auto-Exposure) function.</para><para><programlisting><codeline><highlight class="normal">int<sp/>optimal_ss<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">optimal_ss<sp/>=<sp/>sdkGetOptimalShutterSpeed();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>optimal shutter speed (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a747c169595fdc73b2830495cfc6d60e5" kindref="member">sdkGetShutterSpeed</ref>, <ref refid="nsp__sdk__api_8h_1a9f3030ee1847fce4db096594c955b778" kindref="member">sdkSetShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="397" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1ac4965412cd51faec4735299f7a7cfe26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetWavelengthInfo</definition>
+        <argsstring>(double *start_wavelength, double *end_wavelength, double *interval_wavelength)</argsstring>
+        <name>sdkGetWavelengthInfo</name>
+        <param>
+          <type>double *</type>
+          <declname>start_wavelength</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>end_wavelength</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>interval_wavelength</declname>
+        </param>
+        <briefdescription>
+<para>Get wavelength information data. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns wavelength range information for spectrum data.</para><para><programlisting><codeline><highlight class="normal">double<sp/>start_wavelength,<sp/>end_wavelength,<sp/>wavelength_interval;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>sdkGetWavelengthInfo(&amp;start_wavelength,<sp/>&amp;end_wavelength,<sp/>&amp;wavelength_interval);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start_wavelength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to start wavelength [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end_wavelength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to end wavelength [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wavelength_interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to wavelength interval[OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of NSP_RETURN_VALUE_SUCCESS.<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_spectrum_core_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1a051e5a9103eec8fd7fe85532f33baf71" kindref="member">sdkGetResolution</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="422" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a051e5a9103eec8fd7fe85532f33baf71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetResolution</definition>
+        <argsstring>(double *resolution)</argsstring>
+        <name>sdkGetResolution</name>
+        <param>
+          <type>double *</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+<para>Get spectrum resolution. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns spectrum resolution information.</para><para><programlisting><codeline><highlight class="normal">double<sp/>spectrum_resolution;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>sdkGetResolution(&amp;spectrum_resolution);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>spectrum_resolution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to spectrum resolution [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_spectrum_core_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1ae6a043e018b2356b9a4e848c568bee67" kindref="member">sdkGetSpectrumLength</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="445" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1ae6a043e018b2356b9a4e848c568bee67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkGetSpectrumLength</definition>
+        <argsstring>()</argsstring>
+        <name>sdkGetSpectrumLength</name>
+        <briefdescription>
+<para>Get size of spectrum data. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns the size(length) of spectrum data.</para><para><programlisting><codeline><highlight class="normal">int<sp/>spectrum_length;</highlight></codeline>
+<codeline><highlight class="normal">spectrum_length<sp/>=<sp/>sdkGetSpectrumLength();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>spectrum data size(length) (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_spectrum_core_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1ac4965412cd51faec4735299f7a7cfe26" kindref="member">sdkGetWavelengthInfo</ref>, <ref refid="nsp__sdk__api_8h_1a051e5a9103eec8fd7fe85532f33baf71" kindref="member">sdkGetResolution</ref>, <ref refid="nsp__sdk__api_8h_1aabc5d93609d1dd12a98a08d782b2e788" kindref="member">sdkCalculateSpectrum</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="468" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1aabc5d93609d1dd12a98a08d782b2e788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkCalculateSpectrum</definition>
+        <argsstring>(int cur_ss, int frame_averages, double *spec_output, double *wavelength_output)</argsstring>
+        <name>sdkCalculateSpectrum</name>
+        <param>
+          <type>int</type>
+          <declname>cur_ss</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_averages</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>spec_output</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>wavelength_output</declname>
+        </param>
+        <briefdescription>
+<para>Calculate spectrum. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns a calculated spectrum and wavelength data with input filter data.</para><para><programlisting><codeline><highlight class="normal">int<sp/>cur_ss<sp/>=<sp/>50;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/>frame_averages<sp/>=<sp/>50;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>get<sp/>spectrum<sp/>length</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>spectrum_length<sp/>=<sp/>sdkGetSpectrumLength();</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/>spectrum_data<sp/>=<sp/>(double*)malloc(sizeof(double)*spectrum_length);</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/>wavelength_data<sp/>=<sp/>(double*)malloc(sizeof(double)*spectrum_length);</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkCalculateSpectrum(cur_ss,<sp/>frame_averages,<sp/>spectrum_data,<sp/>wavelength_data<sp/>);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cur_ss</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- current shutter speed [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_averages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- frame count for averaging [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spec_output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to spectrum data [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wavelength_output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to wavelength data [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>spectrum data size(length) (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_memory_for_spectrum_data_buffer_is_null</para></listitem><listitem><para>cc_ec_memory_for_wavelength_data_buffer_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1ae6a043e018b2356b9a4e848c568bee67" kindref="member">sdkGetSpectrumLength</ref>, <ref refid="nsp__sdk__api_8h_1a051e5a9103eec8fd7fe85532f33baf71" kindref="member">sdkGetResolution</ref>, <ref refid="nsp__sdk__api_8h_1ac4965412cd51faec4735299f7a7cfe26" kindref="member">sdkGetWavelengthInfo</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="500" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__sdk__api_8h_1a29a5da70e92c0209987d9bae78254fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int sdkCalculateColor</definition>
+        <argsstring>(double *spectrum, double *wavelength, int spectrum_length, double *X, double *Y, double *Z, double *r, double *g, double *b, double *x, double *y, double *z, double *cct)</argsstring>
+        <name>sdkCalculateColor</name>
+        <param>
+          <type>double *</type>
+          <declname>spectrum</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>wavelength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>spectrum_length</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>X</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>Y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>Z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>cct</declname>
+        </param>
+        <briefdescription>
+<para>Get color information of current spectrum data. </para>        </briefdescription>
+        <detaileddescription>
+<para>Calculate color information and returns in <computeroutput>X</computeroutput>, <computeroutput>Y</computeroutput>, <computeroutput>Z</computeroutput>, <computeroutput>r</computeroutput>, <computeroutput>g</computeroutput>, <computeroutput>b</computeroutput>, <computeroutput>x</computeroutput>, <computeroutput>y</computeroutput>, <computeroutput>z</computeroutput>, <computeroutput>cct</computeroutput>.</para><para><programlisting><codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>*spectrum_data;<sp/><sp/><sp/><sp/><sp/>//<sp/>from<sp/>csCalculateSpectrum()<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>*wavelength_data;<sp/><sp/><sp/>//<sp/>from<sp/>csCalculateSpectrum()<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/><sp/><sp/><sp/><sp/>spectrum_length;<sp/><sp/><sp/><sp/>//<sp/>from<sp/>csCalculateSpectrum()<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>X,<sp/>Y,<sp/>Z;</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>r,<sp/>g,<sp/>b;</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>x,<sp/>y,<sp/>z;</highlight></codeline>
+<codeline><highlight class="normal">double<sp/><sp/><sp/><sp/>cct;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>sdkCalculateColor(spectrum_data,<sp/>wavelength_data,<sp/>spectrum_length,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;X,<sp/>&amp;Y,<sp/>&amp;Z,<sp/>&amp;r,<sp/>&amp;g,<sp/>&amp;b,<sp/>&amp;x,<sp/>&amp;y,<sp/>&amp;z,<sp/>&amp;cct);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>spectrum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Spectrum data [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wavelength</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Wavelength data [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spectrum_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Spectrum length [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>X</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (X) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (Y) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (Z) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (R) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (G) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (B) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (x) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (y) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for color (z) is returned [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cct</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- Pointer to a double which the numerical value for CCT is returned [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_FAILURE</para></listitem><listitem><para>NSP_RETURN_VALUE_SUCCESS</para></listitem><listitem><para>cc_ec_color_object_is_null</para></listitem><listitem><para>cc_ec_memory_for_spectrum_data_buffer_is_null</para></listitem><listitem><para>cc_ec_memory_for_wavelength_data_buffer_is_null </para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__sdk__api_8h_1ae6a043e018b2356b9a4e848c568bee67" kindref="member">sdkGetSpectrumLength</ref>, <ref refid="nsp__sdk__api_8h_1aabc5d93609d1dd12a98a08d782b2e788" kindref="member">sdkCalculateSpectrum</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h" line="544" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">NSP_SDK_API.H</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Provides<sp/>API<sp/>functions</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NSP_SDK_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_SDK_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__declspec(dllexport)<sp/>//For<sp/>exporting<sp/>to<sp/>DLL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__linux__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__attribute__((visibility(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>function<sp/>prefix:<sp/>sdk<sp/>-<sp/>SDK<sp/>(unified)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1aae91b75be9523806e334e923550cd9fb" kindref="member">sdkCreate</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1aab6612a2b250982513d8a2434d223f38" kindref="member">sdkDestroy</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a091a9b2027c5ff2915d87dbea2667a8d" kindref="member">sdkRegister</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_cal_file_path);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1ae4b26dd74309184266c6f49e1c2daf09" kindref="member">sdkGetMaxSensorCount</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1aa54133191fe5c015be922718978e6e68" kindref="member">sdkGetNumOfValidFilters</ref>();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/><ref refid="nsp__sdk__api_8h_1ada7828c5565dfa3361065ef7b7bde067" kindref="member">sdkGetValidFilters</ref>();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a6b90ff4cb1ec6de747c01d976e019090" kindref="member">sdkGetSensorIDFromDevice</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_id_str<sp/>);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a8ba4809a5e19a44c0f1636e96024e5da" kindref="member">sdkGetSensorIDFromCalData</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_id_str);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a104ec1cc2019f7517d5d5e20907896bd" kindref="member">sdkActivateSensorWithIndex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sensor_index);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a227c7f9a801fdc427b918d4eba5be031" kindref="member">sdkActivateSensorWithID</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_id_str);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a747c169595fdc73b2830495cfc6d60e5" kindref="member">sdkGetShutterSpeed</ref>();</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a9f3030ee1847fce4db096594c955b778" kindref="member">sdkSetShutterSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shutter);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a02b5f23a4f7e60787ffeeb752e44e0a1" kindref="member">sdkGetShutterSpeedLimits</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>min_limit,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>max_limit);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a7e4637eeb74250a714a21466b8f69f99" kindref="member">sdkShutterSpeedToExposureTime</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>master_clock,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shutter_speed_val,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>exposure_time);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a08cbbbee04a28088c5f9fa11046a6c52" kindref="member">sdkExposureTimeToShutterSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>master_clock,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>exposure_time,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>shutter_speed_val);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1afd8befefe80a3bb1087f1822932c3fdb" kindref="member">sdkGetOptimalShutterSpeed</ref>();</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1ac4965412cd51faec4735299f7a7cfe26" kindref="member">sdkGetWavelengthInfo</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*start_wavelength,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*end_wavelength,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*interval_wavelength);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a051e5a9103eec8fd7fe85532f33baf71" kindref="member">sdkGetResolution</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>resolution);<sp/></highlight></codeline>
+<codeline lineno="446"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1ae6a043e018b2356b9a4e848c568bee67" kindref="member">sdkGetSpectrumLength</ref>();</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1aabc5d93609d1dd12a98a08d782b2e788" kindref="member">sdkCalculateSpectrum</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cur_ss,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>frame_averages,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>spec_output,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>wavelength_output);</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="544"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__sdk__api_8h_1a29a5da70e92c0209987d9bae78254fe6" kindref="member">sdkCalculateColor</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>spectrum,<sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>wavelength,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>spectrum_length,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>X,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>Z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>r,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>g,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>cct);</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"></highlight></codeline>
+<codeline lineno="546"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="547"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="549"><highlight class="normal"></highlight></codeline>
+<codeline lineno="550"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__NSP_SDK_API_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_sdk_api.h"/>
+  </compounddef>
+</doxygen>

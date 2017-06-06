@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_00639e50a5e06ba932c41b2ae621276d" kind="dir">
+    <compoundname>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device</compoundname>
+    <innerdir refid="dir_f66bb7eedf2ad2c3510a78fad55d6588">D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/protocol</innerdir>
+    <innerfile refid="libusb_8h">libusb.h</innerfile>
+    <innerfile refid="lusb_8h">lusb.h</innerfile>
+    <innerfile refid="lusbi_8h">lusbi.h</innerfile>
+    <innerfile refid="nsp__device__def_8h">nsp_device_def.h</innerfile>
+    <innerfile refid="nsp__device__interface_8h">nsp_device_interface.h</innerfile>
+    <innerfile refid="nsp__device__interface__base_8h">nsp_device_interface_base.h</innerfile>
+    <innerfile refid="nsp__device__interface__stm__usb_8h">nsp_device_interface_stm_usb.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/"/>
+  </compounddef>
+</doxygen>

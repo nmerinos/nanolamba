@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_spec_ref_data" kind="struct" language="C++" prot="public">
+    <compoundname>_SSpecRefData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_spec_ref_data_1a970da5afd5573c3f8cb972a7fb0330af" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref></type>
+        <definition>SDoubleArray2D _SSpecRefData::spec_WRGB</definition>
+        <argsstring></argsstring>
+        <name>spec_WRGB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="429" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_spec_ref_data_1aa07ca59aba92d62752995972f1fe107d" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref></type>
+        <definition>SDoubleArray2D _SSpecRefData::spec_gray</definition>
+        <argsstring></argsstring>
+        <name>spec_gray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="430" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_spec_ref_data_1af02b0803afade6966b183f8f9227ec1c" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref></type>
+        <definition>SDoubleArray2D _SSpecRefData::spec_allSamples</definition>
+        <argsstring></argsstring>
+        <name>spec_allSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="431" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_spec_ref_data_1a632b86e198016954dda3ad977a532abd" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SSpecRefData::monitor</definition>
+        <argsstring></argsstring>
+        <name>monitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="432" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_spec_ref_data_1ac6ae9dcf0d2547a290d86dc95e3c554f" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _SSpecRefData::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="433" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a87ee601e8ff20b8215c6d722ea35d79f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_SSpecRefData::_SSpecRefData</definition>
+        <argsstring>()</argsstring>
+        <name>_SSpecRefData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="435" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="435" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1aff2299d8692c5db04c33121c4126e918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SSpecRefData::SetWRGBData</definition>
+        <argsstring>(SDoubleArray2D &amp;dataIn)</argsstring>
+        <name>SetWRGBData</name>
+        <param>
+          <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+          <declname>dataIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="440" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="440" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a7d124f2b9ea2cc657fb05daa5b66b83a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SSpecRefData::SetGrayData</definition>
+        <argsstring>(SDoubleArray2D &amp;dataIn)</argsstring>
+        <name>SetGrayData</name>
+        <param>
+          <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+          <declname>dataIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="441" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="441" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a7da0c40a8ebd2b368306fe6a6e465854" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SSpecRefData::SetColorData</definition>
+        <argsstring>(SDoubleArray2D &amp;dataIn)</argsstring>
+        <name>SetColorData</name>
+        <param>
+          <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+          <declname>dataIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="442" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="442" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a3a7a5fdf32a21a3fb4a53ca56326e3bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SSpecRefData::SetDeviceType</definition>
+        <argsstring>(std::string &amp;strIn)</argsstring>
+        <name>SetDeviceType</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>strIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="443" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="443" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a344d09844589158b97700358f0596221" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SSpecRefData::SetDate</definition>
+        <argsstring>(std::string &amp;strIn)</argsstring>
+        <name>SetDate</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>strIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="444" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="444" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a0a07ea17f643285f25a2fcda1cc40b65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+        <definition>SDoubleArray2D&amp; _SSpecRefData::GetWRGBData</definition>
+        <argsstring>()</argsstring>
+        <name>GetWRGBData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="446" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="446" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1ab3d2d2b6de11919df6c0f3e22c08351a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+        <definition>SDoubleArray2D&amp; _SSpecRefData::GetGrayData</definition>
+        <argsstring>()</argsstring>
+        <name>GetGrayData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="447" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="447" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a92a880f119d9d92f56bae4f23a5c1f42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="nsp__sdk__def_8h_1a567bd65fcf8c3d794ecdb19d5df47e1b" kindref="member">SDoubleArray2D</ref> &amp;</type>
+        <definition>SDoubleArray2D&amp; _SSpecRefData::GetColorData</definition>
+        <argsstring>()</argsstring>
+        <name>GetColorData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="448" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="448" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a46e7a4abfd24d1d4ef2908473393ef73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string &amp;</type>
+        <definition>std::string&amp; _SSpecRefData::GetDeviceType</definition>
+        <argsstring>()</argsstring>
+        <name>GetDeviceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="449" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="449" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1a2b0e71f4a3669f9d89a1171c897a266f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string &amp;</type>
+        <definition>std::string&amp; _SSpecRefData::GetDate</definition>
+        <argsstring>()</argsstring>
+        <name>GetDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="450" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="450" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_spec_ref_data_1aa812eff96de6cbaea254bd6163d90e14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _SSpecRefData::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="452" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="452" bodyend="459"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="428" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="427" bodyend="460"/>
+    <listofallmembers>
+      <member refid="struct___s_spec_ref_data_1a87ee601e8ff20b8215c6d722ea35d79f" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>_SSpecRefData</name></member>
+      <member refid="struct___s_spec_ref_data_1ac6ae9dcf0d2547a290d86dc95e3c554f" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>date</name></member>
+      <member refid="struct___s_spec_ref_data_1a92a880f119d9d92f56bae4f23a5c1f42" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>GetColorData</name></member>
+      <member refid="struct___s_spec_ref_data_1a2b0e71f4a3669f9d89a1171c897a266f" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>GetDate</name></member>
+      <member refid="struct___s_spec_ref_data_1a46e7a4abfd24d1d4ef2908473393ef73" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>GetDeviceType</name></member>
+      <member refid="struct___s_spec_ref_data_1ab3d2d2b6de11919df6c0f3e22c08351a" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>GetGrayData</name></member>
+      <member refid="struct___s_spec_ref_data_1a0a07ea17f643285f25a2fcda1cc40b65" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>GetWRGBData</name></member>
+      <member refid="struct___s_spec_ref_data_1a632b86e198016954dda3ad977a532abd" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>monitor</name></member>
+      <member refid="struct___s_spec_ref_data_1aa812eff96de6cbaea254bd6163d90e14" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>Reset</name></member>
+      <member refid="struct___s_spec_ref_data_1a7da0c40a8ebd2b368306fe6a6e465854" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>SetColorData</name></member>
+      <member refid="struct___s_spec_ref_data_1a344d09844589158b97700358f0596221" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>SetDate</name></member>
+      <member refid="struct___s_spec_ref_data_1a3a7a5fdf32a21a3fb4a53ca56326e3bc" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>SetDeviceType</name></member>
+      <member refid="struct___s_spec_ref_data_1a7d124f2b9ea2cc657fb05daa5b66b83a" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>SetGrayData</name></member>
+      <member refid="struct___s_spec_ref_data_1aff2299d8692c5db04c33121c4126e918" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>SetWRGBData</name></member>
+      <member refid="struct___s_spec_ref_data_1af02b0803afade6966b183f8f9227ec1c" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>spec_allSamples</name></member>
+      <member refid="struct___s_spec_ref_data_1aa07ca59aba92d62752995972f1fe107d" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>spec_gray</name></member>
+      <member refid="struct___s_spec_ref_data_1a970da5afd5573c3f8cb972a7fb0330af" prot="public" virt="non-virtual"><scope>_SSpecRefData</scope><name>spec_WRGB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

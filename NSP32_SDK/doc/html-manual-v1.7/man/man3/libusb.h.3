@@ -1,0 +1,1360 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdint\&.h>\fP
+.br
+\fC#include <sys/types\&.h>\fP
+.br
+\fC#include <time\&.h>\fP
+.br
+\fC#include <limits\&.h>\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBlibusb_device_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_endpoint_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_interface_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_interface\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_config_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_ss_endpoint_companion_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_bos_dev_capability_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_bos_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_usb_2_0_extension_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_ss_usb_device_capability_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_container_id_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_control_setup\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_version\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_iso_packet_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_transfer\fP"
+.br
+.ti -1c
+.RI "struct \fBlibusb_pollfd\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBLIBUSB_DEPRECATED_FOR\fP(f)"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_CALL\fP"
+.br
+.ti -1c
+.RI "#define \fBLIBUSBX_API_VERSION\fP   0x01000102"
+.br
+.ti -1c
+.RI "#define \fBlibusb_le16_to_cpu\fP   libusb_cpu_to_le16"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_DEVICE_SIZE\fP   18"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_CONFIG_SIZE\fP   9"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_INTERFACE_SIZE\fP   9"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_ENDPOINT_SIZE\fP   7"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_ENDPOINT_AUDIO_SIZE\fP   9	/* Audio extension */"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_HUB_NONVAR_SIZE\fP   7"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_SS_ENDPOINT_COMPANION_SIZE\fP   6"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_BOS_SIZE\fP   5"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_DEVICE_CAPABILITY_SIZE\fP   3"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_BT_USB_2_0_EXTENSION_SIZE\fP   7"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_BT_SS_USB_DEVICE_CAPABILITY_SIZE\fP   10"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_BT_CONTAINER_ID_SIZE\fP   20"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_DT_BOS_MAX_SIZE\fP"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_ENDPOINT_ADDRESS_MASK\fP   0x0f    /* in bEndpointAddress */"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_ENDPOINT_DIR_MASK\fP   0x80"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_TRANSFER_TYPE_MASK\fP   0x03    /* in bmAttributes */"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_ISO_SYNC_TYPE_MASK\fP   0x0C"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_ISO_USAGE_TYPE_MASK\fP   0x30"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_CONTROL_SETUP_SIZE\fP   (sizeof(struct \fBlibusb_control_setup\fP))"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_ERROR_COUNT\fP   14"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_HOTPLUG_MATCH_ANY\fP   \-1"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fBlibusb_context\fP \fBlibusb_context\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBlibusb_device\fP \fBlibusb_device\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBlibusb_device_handle\fP \fBlibusb_device_handle\fP"
+.br
+.ti -1c
+.RI "typedef \fBvoid\fP(\fBLIBUSB_CALL\fP * \fBlibusb_pollfd_added_cb\fP) (int fd, short events, \fBvoid\fP *user_data)"
+.br
+.ti -1c
+.RI "typedef \fBvoid\fP(\fBLIBUSB_CALL\fP * \fBlibusb_pollfd_removed_cb\fP) (int fd, \fBvoid\fP *user_data)"
+.br
+.ti -1c
+.RI "typedef int \fBlibusb_hotplug_callback_handle\fP"
+.br
+.ti -1c
+.RI "typedef int(\fBLIBUSB_CALL\fP * \fBlibusb_hotplug_callback_fn\fP) (\fBlibusb_context\fP *ctx, \fBlibusb_device\fP *device, \fBlibusb_hotplug_event\fP event, \fBvoid\fP *user_data)"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBlibusb_class_code\fP { \fBLIBUSB_CLASS_PER_INTERFACE\fP = 0, \fBLIBUSB_CLASS_AUDIO\fP = 1, \fBLIBUSB_CLASS_COMM\fP = 2, \fBLIBUSB_CLASS_HID\fP = 3, \fBLIBUSB_CLASS_PHYSICAL\fP = 5, \fBLIBUSB_CLASS_PRINTER\fP = 7, \fBLIBUSB_CLASS_PTP\fP = 6, \fBLIBUSB_CLASS_IMAGE\fP = 6, \fBLIBUSB_CLASS_MASS_STORAGE\fP = 8, \fBLIBUSB_CLASS_HUB\fP = 9, \fBLIBUSB_CLASS_DATA\fP = 10, \fBLIBUSB_CLASS_SMART_CARD\fP = 0x0b, \fBLIBUSB_CLASS_CONTENT_SECURITY\fP = 0x0d, \fBLIBUSB_CLASS_VIDEO\fP = 0x0e, \fBLIBUSB_CLASS_PERSONAL_HEALTHCARE\fP = 0x0f, \fBLIBUSB_CLASS_DIAGNOSTIC_DEVICE\fP = 0xdc, \fBLIBUSB_CLASS_WIRELESS\fP = 0xe0, \fBLIBUSB_CLASS_APPLICATION\fP = 0xfe, \fBLIBUSB_CLASS_VENDOR_SPEC\fP = 0xff }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_descriptor_type\fP { \fBLIBUSB_DT_DEVICE\fP = 0x01, \fBLIBUSB_DT_CONFIG\fP = 0x02, \fBLIBUSB_DT_STRING\fP = 0x03, \fBLIBUSB_DT_INTERFACE\fP = 0x04, \fBLIBUSB_DT_ENDPOINT\fP = 0x05, \fBLIBUSB_DT_BOS\fP = 0x0f, \fBLIBUSB_DT_DEVICE_CAPABILITY\fP = 0x10, \fBLIBUSB_DT_HID\fP = 0x21, \fBLIBUSB_DT_REPORT\fP = 0x22, \fBLIBUSB_DT_PHYSICAL\fP = 0x23, \fBLIBUSB_DT_HUB\fP = 0x29, \fBLIBUSB_DT_SUPERSPEED_HUB\fP = 0x2a, \fBLIBUSB_DT_SS_ENDPOINT_COMPANION\fP = 0x30 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_endpoint_direction\fP { \fBLIBUSB_ENDPOINT_IN\fP = 0x80, \fBLIBUSB_ENDPOINT_OUT\fP = 0x00 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_transfer_type\fP { \fBLIBUSB_TRANSFER_TYPE_CONTROL\fP = 0, \fBLIBUSB_TRANSFER_TYPE_ISOCHRONOUS\fP = 1, \fBLIBUSB_TRANSFER_TYPE_BULK\fP = 2, \fBLIBUSB_TRANSFER_TYPE_INTERRUPT\fP = 3 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_standard_request\fP { \fBLIBUSB_REQUEST_GET_STATUS\fP = 0x00, \fBLIBUSB_REQUEST_CLEAR_FEATURE\fP = 0x01, \fBLIBUSB_REQUEST_SET_FEATURE\fP = 0x03, \fBLIBUSB_REQUEST_SET_ADDRESS\fP = 0x05, \fBLIBUSB_REQUEST_GET_DESCRIPTOR\fP = 0x06, \fBLIBUSB_REQUEST_SET_DESCRIPTOR\fP = 0x07, \fBLIBUSB_REQUEST_GET_CONFIGURATION\fP = 0x08, \fBLIBUSB_REQUEST_SET_CONFIGURATION\fP = 0x09, \fBLIBUSB_REQUEST_GET_INTERFACE\fP = 0x0A, \fBLIBUSB_REQUEST_SET_INTERFACE\fP = 0x0B, \fBLIBUSB_REQUEST_SYNCH_FRAME\fP = 0x0C, \fBLIBUSB_REQUEST_SET_SEL\fP = 0x30, \fBLIBUSB_SET_ISOCH_DELAY\fP = 0x31 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_request_type\fP { \fBLIBUSB_REQUEST_TYPE_STANDARD\fP = (0x00 << 5), \fBLIBUSB_REQUEST_TYPE_CLASS\fP = (0x01 << 5), \fBLIBUSB_REQUEST_TYPE_VENDOR\fP = (0x02 << 5), \fBLIBUSB_REQUEST_TYPE_RESERVED\fP = (0x03 << 5) }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_request_recipient\fP { \fBLIBUSB_RECIPIENT_DEVICE\fP = 0x00, \fBLIBUSB_RECIPIENT_INTERFACE\fP = 0x01, \fBLIBUSB_RECIPIENT_ENDPOINT\fP = 0x02, \fBLIBUSB_RECIPIENT_OTHER\fP = 0x03 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_iso_sync_type\fP { \fBLIBUSB_ISO_SYNC_TYPE_NONE\fP = 0, \fBLIBUSB_ISO_SYNC_TYPE_ASYNC\fP = 1, \fBLIBUSB_ISO_SYNC_TYPE_ADAPTIVE\fP = 2, \fBLIBUSB_ISO_SYNC_TYPE_SYNC\fP = 3 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_iso_usage_type\fP { \fBLIBUSB_ISO_USAGE_TYPE_DATA\fP = 0, \fBLIBUSB_ISO_USAGE_TYPE_FEEDBACK\fP = 1, \fBLIBUSB_ISO_USAGE_TYPE_IMPLICIT\fP = 2 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_speed\fP { \fBLIBUSB_SPEED_UNKNOWN\fP = 0, \fBLIBUSB_SPEED_LOW\fP = 1, \fBLIBUSB_SPEED_FULL\fP = 2, \fBLIBUSB_SPEED_HIGH\fP = 3, \fBLIBUSB_SPEED_SUPER\fP = 4 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_supported_speed\fP { \fBLIBUSB_LOW_SPEED_OPERATION\fP = 1, \fBLIBUSB_FULL_SPEED_OPERATION\fP = 2, \fBLIBUSB_HIGH_SPEED_OPERATION\fP = 4, \fBLIBUSB_SUPER_SPEED_OPERATION\fP = 8 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_usb_2_0_extension_attributes\fP { \fBLIBUSB_BM_LPM_SUPPORT\fP = 2 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_ss_usb_device_capability_attributes\fP { \fBLIBUSB_BM_LTM_SUPPORT\fP = 2 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_bos_type\fP { \fBLIBUSB_BT_WIRELESS_USB_DEVICE_CAPABILITY\fP = 1, \fBLIBUSB_BT_USB_2_0_EXTENSION\fP = 2, \fBLIBUSB_BT_SS_USB_DEVICE_CAPABILITY\fP = 3, \fBLIBUSB_BT_CONTAINER_ID\fP = 4 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_error\fP { \fBLIBUSB_SUCCESS\fP = 0, \fBLIBUSB_ERROR_IO\fP = -1, \fBLIBUSB_ERROR_INVALID_PARAM\fP = -2, \fBLIBUSB_ERROR_ACCESS\fP = -3, \fBLIBUSB_ERROR_NO_DEVICE\fP = -4, \fBLIBUSB_ERROR_NOT_FOUND\fP = -5, \fBLIBUSB_ERROR_BUSY\fP = -6, \fBLIBUSB_ERROR_TIMEOUT\fP = -7, \fBLIBUSB_ERROR_OVERFLOW\fP = -8, \fBLIBUSB_ERROR_PIPE\fP = -9, \fBLIBUSB_ERROR_INTERRUPTED\fP = -10, \fBLIBUSB_ERROR_NO_MEM\fP = -11, \fBLIBUSB_ERROR_NOT_SUPPORTED\fP = -12, \fBLIBUSB_ERROR_OTHER\fP = -99 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_transfer_status\fP { \fBLIBUSB_TRANSFER_COMPLETED\fP, \fBLIBUSB_TRANSFER_ERROR\fP, \fBLIBUSB_TRANSFER_TIMED_OUT\fP, \fBLIBUSB_TRANSFER_CANCELLED\fP, \fBLIBUSB_TRANSFER_STALL\fP, \fBLIBUSB_TRANSFER_NO_DEVICE\fP, \fBLIBUSB_TRANSFER_OVERFLOW\fP }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_transfer_flags\fP { \fBLIBUSB_TRANSFER_SHORT_NOT_OK\fP = 1<<0, \fBLIBUSB_TRANSFER_FREE_BUFFER\fP = 1<<1, \fBLIBUSB_TRANSFER_FREE_TRANSFER\fP = 1<<2, \fBLIBUSB_TRANSFER_ADD_ZERO_PACKET\fP = 1 << 3 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_capability\fP { \fBLIBUSB_CAP_HAS_CAPABILITY\fP = 0x0000, \fBLIBUSB_CAP_HAS_HOTPLUG\fP = 0x0001, \fBLIBUSB_CAP_HAS_HID_ACCESS\fP = 0x0100, \fBLIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER\fP = 0x0101 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_log_level\fP { \fBLIBUSB_LOG_LEVEL_NONE\fP = 0, \fBLIBUSB_LOG_LEVEL_ERROR\fP, \fBLIBUSB_LOG_LEVEL_WARNING\fP, \fBLIBUSB_LOG_LEVEL_INFO\fP, \fBLIBUSB_LOG_LEVEL_DEBUG\fP }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_hotplug_flag\fP { \fBLIBUSB_HOTPLUG_ENUMERATE\fP = 1 }"
+.br
+.ti -1c
+.RI "enum \fBlibusb_hotplug_event\fP { \fBLIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED\fP = 0x01, \fBLIBUSB_HOTPLUG_EVENT_DEVICE_LEFT\fP = 0x02 }"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "typedef \fBvoid\fP (\fBLIBUSB_CALL\fP *libusb_transfer_cb_fn)(struct \fBlibusb_transfer\fP *transfer)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_init\fP (\fBlibusb_context\fP **ctx)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_exit\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_set_debug\fP (\fBlibusb_context\fP *ctx, int level)"
+.br
+.ti -1c
+.RI "const struct \fBlibusb_version\fP *\fBLIBUSB_CALL\fP \fBlibusb_get_version\fP (\fBvoid\fP)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_has_capability\fP (uint32_t capability)"
+.br
+.ti -1c
+.RI "const char *\fBLIBUSB_CALL\fP \fBlibusb_error_name\fP (int errcode)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_setlocale\fP (const char *locale)"
+.br
+.ti -1c
+.RI "const char *\fBLIBUSB_CALL\fP \fBlibusb_strerror\fP (enum \fBlibusb_error\fP errcode)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_device_list\fP (\fBlibusb_context\fP *ctx, \fBlibusb_device\fP ***list)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_device_list\fP (\fBlibusb_device\fP **list, int unref_devices)"
+.br
+.ti -1c
+.RI "\fBlibusb_device\fP *\fBLIBUSB_CALL\fP \fBlibusb_ref_device\fP (\fBlibusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_unref_device\fP (\fBlibusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_configuration\fP (\fBlibusb_device_handle\fP *dev, int *config)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_device_descriptor\fP (\fBlibusb_device\fP *dev, struct \fBlibusb_device_descriptor\fP *desc)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_active_config_descriptor\fP (\fBlibusb_device\fP *dev, struct \fBlibusb_config_descriptor\fP **config)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_config_descriptor\fP (\fBlibusb_device\fP *dev, uint8_t config_index, struct \fBlibusb_config_descriptor\fP **config)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_config_descriptor_by_value\fP (\fBlibusb_device\fP *dev, uint8_t bConfigurationValue, struct \fBlibusb_config_descriptor\fP **config)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_config_descriptor\fP (struct \fBlibusb_config_descriptor\fP *config)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_ss_endpoint_companion_descriptor\fP (struct \fBlibusb_context\fP *ctx, const struct \fBlibusb_endpoint_descriptor\fP *endpoint, struct \fBlibusb_ss_endpoint_companion_descriptor\fP **ep_comp)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_ss_endpoint_companion_descriptor\fP (struct \fBlibusb_ss_endpoint_companion_descriptor\fP *ep_comp)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_bos_descriptor\fP (\fBlibusb_device_handle\fP *handle, struct \fBlibusb_bos_descriptor\fP **bos)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_bos_descriptor\fP (struct \fBlibusb_bos_descriptor\fP *bos)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_usb_2_0_extension_descriptor\fP (struct \fBlibusb_context\fP *ctx, struct \fBlibusb_bos_dev_capability_descriptor\fP *dev_cap, struct \fBlibusb_usb_2_0_extension_descriptor\fP **usb_2_0_extension)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_usb_2_0_extension_descriptor\fP (struct \fBlibusb_usb_2_0_extension_descriptor\fP *usb_2_0_extension)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_ss_usb_device_capability_descriptor\fP (struct \fBlibusb_context\fP *ctx, struct \fBlibusb_bos_dev_capability_descriptor\fP *dev_cap, struct \fBlibusb_ss_usb_device_capability_descriptor\fP **ss_usb_device_cap)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_ss_usb_device_capability_descriptor\fP (struct \fBlibusb_ss_usb_device_capability_descriptor\fP *ss_usb_device_cap)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_container_id_descriptor\fP (struct \fBlibusb_context\fP *ctx, struct \fBlibusb_bos_dev_capability_descriptor\fP *dev_cap, struct \fBlibusb_container_id_descriptor\fP **container_id)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_container_id_descriptor\fP (struct \fBlibusb_container_id_descriptor\fP *container_id)"
+.br
+.ti -1c
+.RI "uint8_t \fBLIBUSB_CALL\fP \fBlibusb_get_bus_number\fP (\fBlibusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "uint8_t \fBLIBUSB_CALL\fP \fBlibusb_get_port_number\fP (\fBlibusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_port_numbers\fP (\fBlibusb_device\fP *dev, uint8_t *port_numbers, int port_numbers_len)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_port_path\fP (\fBlibusb_context\fP *ctx, \fBlibusb_device\fP *dev, uint8_t *path, uint8_t path_length)"
+.br
+.ti -1c
+.RI "\fBlibusb_device\fP *\fBLIBUSB_CALL\fP \fBlibusb_get_parent\fP (\fBlibusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "uint8_t \fBLIBUSB_CALL\fP \fBlibusb_get_device_address\fP (\fBlibusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_device_speed\fP (\fBlibusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_max_packet_size\fP (\fBlibusb_device\fP *dev, unsigned char endpoint)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_max_iso_packet_size\fP (\fBlibusb_device\fP *dev, unsigned char endpoint)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_open\fP (\fBlibusb_device\fP *dev, \fBlibusb_device_handle\fP **handle)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_close\fP (\fBlibusb_device_handle\fP *dev_handle)"
+.br
+.ti -1c
+.RI "\fBlibusb_device\fP *\fBLIBUSB_CALL\fP \fBlibusb_get_device\fP (\fBlibusb_device_handle\fP *dev_handle)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_set_configuration\fP (\fBlibusb_device_handle\fP *dev, int configuration)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_claim_interface\fP (\fBlibusb_device_handle\fP *dev, int interface_number)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_release_interface\fP (\fBlibusb_device_handle\fP *dev, int interface_number)"
+.br
+.ti -1c
+.RI "\fBlibusb_device_handle\fP *\fBLIBUSB_CALL\fP \fBlibusb_open_device_with_vid_pid\fP (\fBlibusb_context\fP *ctx, uint16_t vendor_id, uint16_t product_id)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_set_interface_alt_setting\fP (\fBlibusb_device_handle\fP *dev, int interface_number, int alternate_setting)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_clear_halt\fP (\fBlibusb_device_handle\fP *dev, unsigned char endpoint)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_reset_device\fP (\fBlibusb_device_handle\fP *dev)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_kernel_driver_active\fP (\fBlibusb_device_handle\fP *dev, int interface_number)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_detach_kernel_driver\fP (\fBlibusb_device_handle\fP *dev, int interface_number)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_attach_kernel_driver\fP (\fBlibusb_device_handle\fP *dev, int interface_number)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_set_auto_detach_kernel_driver\fP (\fBlibusb_device_handle\fP *dev, int enable)"
+.br
+.ti -1c
+.RI "struct \fBlibusb_transfer\fP *\fBLIBUSB_CALL\fP \fBlibusb_alloc_transfer\fP (int iso_packets)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_submit_transfer\fP (struct \fBlibusb_transfer\fP *transfer)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_cancel_transfer\fP (struct \fBlibusb_transfer\fP *transfer)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_free_transfer\fP (struct \fBlibusb_transfer\fP *transfer)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_control_transfer\fP (\fBlibusb_device_handle\fP *dev_handle, uint8_t request_type, uint8_t bRequest, uint16_t wValue, uint16_t wIndex, unsigned char *data, uint16_t wLength, unsigned int timeout)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_bulk_transfer\fP (\fBlibusb_device_handle\fP *dev_handle, unsigned char endpoint, unsigned char *data, int length, int *actual_length, unsigned int timeout)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_interrupt_transfer\fP (\fBlibusb_device_handle\fP *dev_handle, unsigned char endpoint, unsigned char *data, int length, int *actual_length, unsigned int timeout)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_string_descriptor_ascii\fP (\fBlibusb_device_handle\fP *dev, uint8_t desc_index, unsigned char *data, int length)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_try_lock_events\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_lock_events\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_unlock_events\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_event_handling_ok\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_event_handler_active\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_lock_event_waiters\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_unlock_event_waiters\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_wait_for_event\fP (\fBlibusb_context\fP *ctx, struct timeval *tv)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_handle_events_timeout\fP (\fBlibusb_context\fP *ctx, struct timeval *tv)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_handle_events_timeout_completed\fP (\fBlibusb_context\fP *ctx, struct timeval *tv, int *completed)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_handle_events\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_handle_events_completed\fP (\fBlibusb_context\fP *ctx, int *completed)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_handle_events_locked\fP (\fBlibusb_context\fP *ctx, struct timeval *tv)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_pollfds_handle_timeouts\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_get_next_timeout\fP (\fBlibusb_context\fP *ctx, struct timeval *tv)"
+.br
+.ti -1c
+.RI "const struct \fBlibusb_pollfd\fP **\fBLIBUSB_CALL\fP \fBlibusb_get_pollfds\fP (\fBlibusb_context\fP *ctx)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_set_pollfd_notifiers\fP (\fBlibusb_context\fP *ctx, \fBlibusb_pollfd_added_cb\fP added_cb, \fBlibusb_pollfd_removed_cb\fP removed_cb, \fBvoid\fP *user_data)"
+.br
+.ti -1c
+.RI "int \fBLIBUSB_CALL\fP \fBlibusb_hotplug_register_callback\fP (\fBlibusb_context\fP *ctx, \fBlibusb_hotplug_event\fP events, \fBlibusb_hotplug_flag\fP flags, int vendor_id, int product_id, int dev_class, \fBlibusb_hotplug_callback_fn\fP cb_fn, \fBvoid\fP *user_data, \fBlibusb_hotplug_callback_handle\fP *handle)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBLIBUSB_CALL\fP \fBlibusb_hotplug_deregister_callback\fP (\fBlibusb_context\fP *ctx, \fBlibusb_hotplug_callback_handle\fP handle)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define LIBUSB_BT_CONTAINER_ID_SIZE   20"
+
+.SS "#define LIBUSB_BT_SS_USB_DEVICE_CAPABILITY_SIZE   10"
+
+.SS "#define LIBUSB_BT_USB_2_0_EXTENSION_SIZE   7"
+
+.SS "#define LIBUSB_CALL"
+libusbx's Windows calling convention\&.
+.PP
+Under Windows, the selection of available compilers and configurations means that, unlike other platforms, there is not \fIone true calling convention\fP (calling convention: the manner in which parameters are passed to funcions in the generated assembly code)\&.
+.PP
+Matching the Windows API itself, libusbx uses the WINAPI convention (which translates to the \fCstdcall\fP convention) and guarantees that the library is compiled in this way\&. The public header file also includes appropriate annotations so that your own software will use the right convention, even if another convention is being used by default within your codebase\&.
+.PP
+The one consideration that you must apply in your software is to mark all functions which you use as libusbx callbacks with this LIBUSB_CALL annotation, so that they too get compiled for the correct calling convention\&.
+.PP
+On non-Windows operating systems, this macro is defined as nothing\&. This means that you can apply it to your code without worrying about cross-platform compatibility\&. 
+.SS "#define LIBUSB_CONTROL_SETUP_SIZE   (sizeof(struct \fBlibusb_control_setup\fP))"
+
+.SS "#define LIBUSB_DEPRECATED_FOR(f)"
+
+.SS "#define LIBUSB_DT_BOS_MAX_SIZE"
+\fBValue:\fP
+.PP
+.nf
+((LIBUSB_DT_BOS_SIZE)     +\
+                    (LIBUSB_BT_USB_2_0_EXTENSION_SIZE)       +\
+                    (LIBUSB_BT_SS_USB_DEVICE_CAPABILITY_SIZE) +\
+                    (LIBUSB_BT_CONTAINER_ID_SIZE))
+.fi
+.SS "#define LIBUSB_DT_BOS_SIZE   5"
+
+.SS "#define LIBUSB_DT_CONFIG_SIZE   9"
+
+.SS "#define LIBUSB_DT_DEVICE_CAPABILITY_SIZE   3"
+
+.SS "#define LIBUSB_DT_DEVICE_SIZE   18"
+
+.SS "#define LIBUSB_DT_ENDPOINT_AUDIO_SIZE   9	/* Audio extension */"
+
+.SS "#define LIBUSB_DT_ENDPOINT_SIZE   7"
+
+.SS "#define LIBUSB_DT_HUB_NONVAR_SIZE   7"
+
+.SS "#define LIBUSB_DT_INTERFACE_SIZE   9"
+
+.SS "#define LIBUSB_DT_SS_ENDPOINT_COMPANION_SIZE   6"
+
+.SS "#define LIBUSB_ENDPOINT_ADDRESS_MASK   0x0f    /* in bEndpointAddress */"
+
+.SS "#define LIBUSB_ENDPOINT_DIR_MASK   0x80"
+
+.SS "#define LIBUSB_ERROR_COUNT   14"
+
+.SS "#define LIBUSB_HOTPLUG_MATCH_ANY   \-1"
+Wildcard matching for hotplug events 
+.SS "#define LIBUSB_ISO_SYNC_TYPE_MASK   0x0C"
+
+.SS "#define LIBUSB_ISO_USAGE_TYPE_MASK   0x30"
+
+.SS "#define libusb_le16_to_cpu   libusb_cpu_to_le16"
+Convert a 16-bit value from little-endian to host-endian format\&. On little endian systems, this function does nothing\&. On big endian systems, the bytes are swapped\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIx\fP the little-endian value to convert 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the value in host-endian byte order 
+.RE
+.PP
+
+.SS "#define LIBUSB_TRANSFER_TYPE_MASK   0x03    /* in bmAttributes */"
+
+.SS "#define LIBUSBX_API_VERSION   0x01000102"
+libusbx's API version\&.
+.PP
+Since version 1\&.0\&.13, to help with feature detection, libusbx defines a LIBUSBX_API_VERSION macro that gets increased every time there is a significant change to the API, such as the introduction of a new call, the definition of a new macro/enum member, or any other element that libusbx applications may want to detect at compilation time\&.
+.PP
+The macro is typically used in an application as follows: 
+.PP
+.nf
+#if defined(LIBUSBX_API_VERSION) && (LIBUSBX_API_VERSION >= 0x01001234)
+// Use one of the newer features from the libusbx API
+#endif
+
+.fi
+.PP
+.PP
+Another feature of LIBUSBX_API_VERSION is that it can be used to detect whether you are compiling against the libusb or the libusbx library\&.
+.PP
+Internally, LIBUSBX_API_VERSION is defined as follows: (libusbx major << 24) | (libusbx minor << 16) | (16 bit incremental) 
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fBlibusb_context\fP \fBlibusb_context\fP"
+Structure representing a libusbx session\&. The concept of individual libusbx sessions allows for your program to use two libraries (or dynamically load two modules) which both independently use libusb\&. This will prevent interference between the individual libusbx users - for example \fBlibusb_set_debug()\fP will not affect the other user of the library, and \fBlibusb_exit()\fP will not destroy resources that the other user is still using\&.
+.PP
+Sessions are created by \fBlibusb_init()\fP and destroyed through \fBlibusb_exit()\fP\&. If your application is guaranteed to only ever include a single libusbx user (i\&.e\&. you), you do not have to worry about contexts: pass NULL in every function call where a context is required\&. The default context will be used\&.
+.PP
+For more information, see \fBcontexts\fP\&. 
+.SS "typedef struct \fBlibusb_device\fP \fBlibusb_device\fP"
+Structure representing a USB device detected on the system\&. This is an opaque type for which you are only ever provided with a pointer, usually originating from \fBlibusb_get_device_list()\fP\&.
+.PP
+Certain operations can be performed on a device, but in order to do any I/O you will have to first obtain a device handle using \fBlibusb_open()\fP\&.
+.PP
+Devices are reference counted with \fBlibusb_ref_device()\fP and \fBlibusb_unref_device()\fP, and are freed when the reference count reaches 0\&. New devices presented by \fBlibusb_get_device_list()\fP have a reference count of 1, and \fBlibusb_free_device_list()\fP can optionally decrease the reference count on all devices in the list\&. \fBlibusb_open()\fP adds another reference which is later destroyed by \fBlibusb_close()\fP\&. 
+.SS "typedef struct \fBlibusb_device_handle\fP \fBlibusb_device_handle\fP"
+Structure representing a handle on a USB device\&. This is an opaque type for which you are only ever provided with a pointer, usually originating from \fBlibusb_open()\fP\&.
+.PP
+A device handle is used to perform I/O and other operations\&. When finished with a device handle, you should call \fBlibusb_close()\fP\&. 
+.SS "typedef int(\fBLIBUSB_CALL\fP * libusb_hotplug_callback_fn) (\fBlibusb_context\fP *ctx, \fBlibusb_device\fP *device, \fBlibusb_hotplug_event\fP event, \fBvoid\fP *user_data)"
+Hotplug callback function type\&. When requesting hotplug event notifications, you pass a pointer to a callback function of this type\&.
+.PP
+This callback may be called by an internal event thread and as such it is recommended the callback do minimal processing before returning\&.
+.PP
+libusbx will call this function later, when a matching event had happened on a matching device\&. See \fBhotplug\fP for more information\&.
+.PP
+It is safe to call either \fBlibusb_hotplug_register_callback()\fP or \fBlibusb_hotplug_deregister_callback()\fP from within a callback function\&.
+.PP
+Since version 1\&.0\&.16, \fBLIBUSBX_API_VERSION\fP >= 0x01000102
+.PP
+\fBParameters:\fP
+.RS 4
+\fIctx\fP context of this notification 
+.br
+\fIdevice\fP libusb_device this event occurred on 
+.br
+\fIevent\fP event that occurred 
+.br
+\fIuser_data\fP user data provided when this callback was registered 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+bool whether this callback is finished processing events\&. returning 1 will cause this callback to be deregistered 
+.RE
+.PP
+
+.SS "typedef int \fBlibusb_hotplug_callback_handle\fP"
+Callback handle\&.
+.PP
+Callbacks handles are generated by \fBlibusb_hotplug_register_callback()\fP and can be used to deregister callbacks\&. Callback handles are unique per libusb_context and it is safe to call \fBlibusb_hotplug_deregister_callback()\fP on an already deregisted callback\&.
+.PP
+Since version 1\&.0\&.16, \fBLIBUSBX_API_VERSION\fP >= 0x01000102
+.PP
+For more information, see \fBhotplug\fP\&. 
+.SS "typedef \fBvoid\fP(\fBLIBUSB_CALL\fP * libusb_pollfd_added_cb) (int fd, short events, \fBvoid\fP *user_data)"
+Callback function, invoked when a new file descriptor should be added to the set of file descriptors monitored for events\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfd\fP the new file descriptor 
+.br
+\fIevents\fP events to monitor for, see \fBlibusb_pollfd\fP for a description 
+.br
+\fIuser_data\fP User data pointer specified in \fBlibusb_set_pollfd_notifiers()\fP call 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBlibusb_set_pollfd_notifiers()\fP 
+.RE
+.PP
+
+.SS "typedef \fBvoid\fP(\fBLIBUSB_CALL\fP * libusb_pollfd_removed_cb) (int fd, \fBvoid\fP *user_data)"
+Callback function, invoked when a file descriptor should be removed from the set of file descriptors being monitored for events\&. After returning from this callback, do not use that file descriptor again\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIfd\fP the file descriptor to stop monitoring 
+.br
+\fIuser_data\fP User data pointer specified in \fBlibusb_set_pollfd_notifiers()\fP call 
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBlibusb_set_pollfd_notifiers()\fP 
+.RE
+.PP
+
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBlibusb_bos_type\fP"
+USB capability types 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_BT_WIRELESS_USB_DEVICE_CAPABILITY \fP\fP
+Wireless USB device capability 
+.TP
+\fB\fILIBUSB_BT_USB_2_0_EXTENSION \fP\fP
+USB 2\&.0 extensions 
+.TP
+\fB\fILIBUSB_BT_SS_USB_DEVICE_CAPABILITY \fP\fP
+SuperSpeed USB device capability 
+.TP
+\fB\fILIBUSB_BT_CONTAINER_ID \fP\fP
+Container ID type 
+.SS "enum \fBlibusb_capability\fP"
+Capabilities supported by an instance of libusb on the current running platform\&. Test if the loaded library supports a given capability by calling \fBlibusb_has_capability()\fP\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_CAP_HAS_CAPABILITY \fP\fP
+The \fBlibusb_has_capability()\fP API is available\&. 
+.TP
+\fB\fILIBUSB_CAP_HAS_HOTPLUG \fP\fP
+Hotplug support is available on this platform\&. 
+.TP
+\fB\fILIBUSB_CAP_HAS_HID_ACCESS \fP\fP
+The library can access HID devices without requiring user intervention\&. Note that before being able to actually access an HID device, you may still have to call additional libusbx functions such as \fBlibusb_detach_kernel_driver()\fP\&. 
+.TP
+\fB\fILIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER \fP\fP
+The library supports detaching of the default USB driver, using \fBlibusb_detach_kernel_driver()\fP, if one is set by the OS kernel 
+.SS "enum \fBlibusb_class_code\fP"
+Device and/or Interface Class codes 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_CLASS_PER_INTERFACE \fP\fP
+In the context of a \fBdevice descriptor\fP, this bDeviceClass value indicates that each interface specifies its own class information and all interfaces operate independently\&. 
+.TP
+\fB\fILIBUSB_CLASS_AUDIO \fP\fP
+Audio class 
+.TP
+\fB\fILIBUSB_CLASS_COMM \fP\fP
+Communications class 
+.TP
+\fB\fILIBUSB_CLASS_HID \fP\fP
+Human Interface Device class 
+.TP
+\fB\fILIBUSB_CLASS_PHYSICAL \fP\fP
+Physical 
+.TP
+\fB\fILIBUSB_CLASS_PRINTER \fP\fP
+Printer class 
+.TP
+\fB\fILIBUSB_CLASS_PTP \fP\fP
+Image class 
+.TP
+\fB\fILIBUSB_CLASS_IMAGE \fP\fP
+.TP
+\fB\fILIBUSB_CLASS_MASS_STORAGE \fP\fP
+Mass storage class 
+.TP
+\fB\fILIBUSB_CLASS_HUB \fP\fP
+Hub class 
+.TP
+\fB\fILIBUSB_CLASS_DATA \fP\fP
+Data class 
+.TP
+\fB\fILIBUSB_CLASS_SMART_CARD \fP\fP
+Smart Card 
+.TP
+\fB\fILIBUSB_CLASS_CONTENT_SECURITY \fP\fP
+Content Security 
+.TP
+\fB\fILIBUSB_CLASS_VIDEO \fP\fP
+Video 
+.TP
+\fB\fILIBUSB_CLASS_PERSONAL_HEALTHCARE \fP\fP
+Personal Healthcare 
+.TP
+\fB\fILIBUSB_CLASS_DIAGNOSTIC_DEVICE \fP\fP
+Diagnostic Device 
+.TP
+\fB\fILIBUSB_CLASS_WIRELESS \fP\fP
+Wireless class 
+.TP
+\fB\fILIBUSB_CLASS_APPLICATION \fP\fP
+Application class 
+.TP
+\fB\fILIBUSB_CLASS_VENDOR_SPEC \fP\fP
+Class is vendor-specific 
+.SS "enum \fBlibusb_descriptor_type\fP"
+Descriptor types as defined by the USB specification\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_DT_DEVICE \fP\fP
+Device descriptor\&. See \fBlibusb_device_descriptor\fP\&. 
+.TP
+\fB\fILIBUSB_DT_CONFIG \fP\fP
+Configuration descriptor\&. See \fBlibusb_config_descriptor\fP\&. 
+.TP
+\fB\fILIBUSB_DT_STRING \fP\fP
+String descriptor 
+.TP
+\fB\fILIBUSB_DT_INTERFACE \fP\fP
+Interface descriptor\&. See \fBlibusb_interface_descriptor\fP\&. 
+.TP
+\fB\fILIBUSB_DT_ENDPOINT \fP\fP
+Endpoint descriptor\&. See \fBlibusb_endpoint_descriptor\fP\&. 
+.TP
+\fB\fILIBUSB_DT_BOS \fP\fP
+BOS descriptor 
+.TP
+\fB\fILIBUSB_DT_DEVICE_CAPABILITY \fP\fP
+Device Capability descriptor 
+.TP
+\fB\fILIBUSB_DT_HID \fP\fP
+HID descriptor 
+.TP
+\fB\fILIBUSB_DT_REPORT \fP\fP
+HID report descriptor 
+.TP
+\fB\fILIBUSB_DT_PHYSICAL \fP\fP
+Physical descriptor 
+.TP
+\fB\fILIBUSB_DT_HUB \fP\fP
+Hub descriptor 
+.TP
+\fB\fILIBUSB_DT_SUPERSPEED_HUB \fP\fP
+SuperSpeed Hub descriptor 
+.TP
+\fB\fILIBUSB_DT_SS_ENDPOINT_COMPANION \fP\fP
+SuperSpeed Endpoint Companion descriptor 
+.SS "enum \fBlibusb_endpoint_direction\fP"
+Endpoint direction\&. Values for bit 7 of the \fBendpoint address\fP scheme\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_ENDPOINT_IN \fP\fP
+In: device-to-host 
+.TP
+\fB\fILIBUSB_ENDPOINT_OUT \fP\fP
+Out: host-to-device 
+.SS "enum \fBlibusb_error\fP"
+Error codes\&. Most libusbx functions return 0 on success or one of these codes on failure\&. You can call \fBlibusb_error_name()\fP to retrieve a string representation of an error code or \fBlibusb_strerror()\fP to get an end-user suitable description of an error code\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_SUCCESS \fP\fP
+Success (no error) 
+.TP
+\fB\fILIBUSB_ERROR_IO \fP\fP
+Input/output error 
+.TP
+\fB\fILIBUSB_ERROR_INVALID_PARAM \fP\fP
+Invalid parameter 
+.TP
+\fB\fILIBUSB_ERROR_ACCESS \fP\fP
+Access denied (insufficient permissions) 
+.TP
+\fB\fILIBUSB_ERROR_NO_DEVICE \fP\fP
+No such device (it may have been disconnected) 
+.TP
+\fB\fILIBUSB_ERROR_NOT_FOUND \fP\fP
+Entity not found 
+.TP
+\fB\fILIBUSB_ERROR_BUSY \fP\fP
+Resource busy 
+.TP
+\fB\fILIBUSB_ERROR_TIMEOUT \fP\fP
+Operation timed out 
+.TP
+\fB\fILIBUSB_ERROR_OVERFLOW \fP\fP
+Overflow 
+.TP
+\fB\fILIBUSB_ERROR_PIPE \fP\fP
+Pipe error 
+.TP
+\fB\fILIBUSB_ERROR_INTERRUPTED \fP\fP
+System call interrupted (perhaps due to signal) 
+.TP
+\fB\fILIBUSB_ERROR_NO_MEM \fP\fP
+Insufficient memory 
+.TP
+\fB\fILIBUSB_ERROR_NOT_SUPPORTED \fP\fP
+Operation not supported or unimplemented on this platform 
+.TP
+\fB\fILIBUSB_ERROR_OTHER \fP\fP
+Other error 
+.SS "enum \fBlibusb_hotplug_event\fP"
+Since version 1\&.0\&.16, \fBLIBUSBX_API_VERSION\fP >= 0x01000102
+.PP
+Hotplug events 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED \fP\fP
+A device has been plugged in and is ready to use 
+.TP
+\fB\fILIBUSB_HOTPLUG_EVENT_DEVICE_LEFT \fP\fP
+A device has left and is no longer available\&. It is the user's responsibility to call libusb_close on any handle associated with a disconnected device\&. It is safe to call libusb_get_device_descriptor on a device that has left 
+.SS "enum \fBlibusb_hotplug_flag\fP"
+Since version 1\&.0\&.16, \fBLIBUSBX_API_VERSION\fP >= 0x01000102
+.PP
+Flags for hotplug events 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_HOTPLUG_ENUMERATE \fP\fP
+Arm the callback and fire it for all matching currently attached devices\&. 
+.SS "enum \fBlibusb_iso_sync_type\fP"
+Synchronization type for isochronous endpoints\&. Values for bits 2:3 of the \fBbmAttributes\fP field in \fBlibusb_endpoint_descriptor\fP\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_ISO_SYNC_TYPE_NONE \fP\fP
+No synchronization 
+.TP
+\fB\fILIBUSB_ISO_SYNC_TYPE_ASYNC \fP\fP
+Asynchronous 
+.TP
+\fB\fILIBUSB_ISO_SYNC_TYPE_ADAPTIVE \fP\fP
+Adaptive 
+.TP
+\fB\fILIBUSB_ISO_SYNC_TYPE_SYNC \fP\fP
+Synchronous 
+.SS "enum \fBlibusb_iso_usage_type\fP"
+Usage type for isochronous endpoints\&. Values for bits 4:5 of the \fBbmAttributes\fP field in \fBlibusb_endpoint_descriptor\fP\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_ISO_USAGE_TYPE_DATA \fP\fP
+Data endpoint 
+.TP
+\fB\fILIBUSB_ISO_USAGE_TYPE_FEEDBACK \fP\fP
+Feedback endpoint 
+.TP
+\fB\fILIBUSB_ISO_USAGE_TYPE_IMPLICIT \fP\fP
+Implicit feedback Data endpoint 
+.SS "enum \fBlibusb_log_level\fP"
+Log message levels\&.
+.IP "\(bu" 2
+LIBUSB_LOG_LEVEL_NONE (0) : no messages ever printed by the library (default)
+.IP "\(bu" 2
+LIBUSB_LOG_LEVEL_ERROR (1) : error messages are printed to stderr
+.IP "\(bu" 2
+LIBUSB_LOG_LEVEL_WARNING (2) : warning and error messages are printed to stderr
+.IP "\(bu" 2
+LIBUSB_LOG_LEVEL_INFO (3) : informational messages are printed to stdout, warning and error messages are printed to stderr
+.IP "\(bu" 2
+LIBUSB_LOG_LEVEL_DEBUG (4) : debug and informational messages are printed to stdout, warnings and errors to stderr 
+.PP
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_LOG_LEVEL_NONE \fP\fP
+.TP
+\fB\fILIBUSB_LOG_LEVEL_ERROR \fP\fP
+.TP
+\fB\fILIBUSB_LOG_LEVEL_WARNING \fP\fP
+.TP
+\fB\fILIBUSB_LOG_LEVEL_INFO \fP\fP
+.TP
+\fB\fILIBUSB_LOG_LEVEL_DEBUG \fP\fP
+.SS "enum \fBlibusb_request_recipient\fP"
+Recipient bits of the \fBbmRequestType\fP field in control transfers\&. Values 4 through 31 are reserved\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_RECIPIENT_DEVICE \fP\fP
+Device 
+.TP
+\fB\fILIBUSB_RECIPIENT_INTERFACE \fP\fP
+Interface 
+.TP
+\fB\fILIBUSB_RECIPIENT_ENDPOINT \fP\fP
+Endpoint 
+.TP
+\fB\fILIBUSB_RECIPIENT_OTHER \fP\fP
+Other 
+.SS "enum \fBlibusb_request_type\fP"
+Request type bits of the \fBbmRequestType\fP field in control transfers\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_REQUEST_TYPE_STANDARD \fP\fP
+Standard 
+.TP
+\fB\fILIBUSB_REQUEST_TYPE_CLASS \fP\fP
+Class 
+.TP
+\fB\fILIBUSB_REQUEST_TYPE_VENDOR \fP\fP
+Vendor 
+.TP
+\fB\fILIBUSB_REQUEST_TYPE_RESERVED \fP\fP
+Reserved 
+.SS "enum \fBlibusb_speed\fP"
+Speed codes\&. Indicates the speed at which the device is operating\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_SPEED_UNKNOWN \fP\fP
+The OS doesn't report or know the device speed\&. 
+.TP
+\fB\fILIBUSB_SPEED_LOW \fP\fP
+The device is operating at low speed (1\&.5MBit/s)\&. 
+.TP
+\fB\fILIBUSB_SPEED_FULL \fP\fP
+The device is operating at full speed (12MBit/s)\&. 
+.TP
+\fB\fILIBUSB_SPEED_HIGH \fP\fP
+The device is operating at high speed (480MBit/s)\&. 
+.TP
+\fB\fILIBUSB_SPEED_SUPER \fP\fP
+The device is operating at super speed (5000MBit/s)\&. 
+.SS "enum \fBlibusb_ss_usb_device_capability_attributes\fP"
+Masks for the bits of the \fBbmAttributes\fP field field of the SuperSpeed USB Device Capability descriptor\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_BM_LTM_SUPPORT \fP\fP
+Supports Latency Tolerance Messages (LTM) 
+.SS "enum \fBlibusb_standard_request\fP"
+Standard requests, as defined in table 9-5 of the USB 3\&.0 specifications 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_REQUEST_GET_STATUS \fP\fP
+Request status of the specific recipient 
+.TP
+\fB\fILIBUSB_REQUEST_CLEAR_FEATURE \fP\fP
+Clear or disable a specific feature 
+.TP
+\fB\fILIBUSB_REQUEST_SET_FEATURE \fP\fP
+Set or enable a specific feature 
+.TP
+\fB\fILIBUSB_REQUEST_SET_ADDRESS \fP\fP
+Set device address for all future accesses 
+.TP
+\fB\fILIBUSB_REQUEST_GET_DESCRIPTOR \fP\fP
+Get the specified descriptor 
+.TP
+\fB\fILIBUSB_REQUEST_SET_DESCRIPTOR \fP\fP
+Used to update existing descriptors or add new descriptors 
+.TP
+\fB\fILIBUSB_REQUEST_GET_CONFIGURATION \fP\fP
+Get the current device configuration value 
+.TP
+\fB\fILIBUSB_REQUEST_SET_CONFIGURATION \fP\fP
+Set device configuration 
+.TP
+\fB\fILIBUSB_REQUEST_GET_INTERFACE \fP\fP
+Return the selected alternate setting for the specified interface 
+.TP
+\fB\fILIBUSB_REQUEST_SET_INTERFACE \fP\fP
+Select an alternate interface for the specified interface 
+.TP
+\fB\fILIBUSB_REQUEST_SYNCH_FRAME \fP\fP
+Set then report an endpoint's synchronization frame 
+.TP
+\fB\fILIBUSB_REQUEST_SET_SEL \fP\fP
+Sets both the U1 and U2 Exit Latency 
+.TP
+\fB\fILIBUSB_SET_ISOCH_DELAY \fP\fP
+Delay from the time a host transmits a packet to the time it is received by the device\&. 
+.SS "enum \fBlibusb_supported_speed\fP"
+Supported speeds (wSpeedSupported) bitfield\&. Indicates what speeds the device supports\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_LOW_SPEED_OPERATION \fP\fP
+Low speed operation supported (1\&.5MBit/s)\&. 
+.TP
+\fB\fILIBUSB_FULL_SPEED_OPERATION \fP\fP
+Full speed operation supported (12MBit/s)\&. 
+.TP
+\fB\fILIBUSB_HIGH_SPEED_OPERATION \fP\fP
+High speed operation supported (480MBit/s)\&. 
+.TP
+\fB\fILIBUSB_SUPER_SPEED_OPERATION \fP\fP
+Superspeed operation supported (5000MBit/s)\&. 
+.SS "enum \fBlibusb_transfer_flags\fP"
+\fBlibusb_transfer\&.flags\fP values 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_TRANSFER_SHORT_NOT_OK \fP\fP
+Report short frames as errors 
+.TP
+\fB\fILIBUSB_TRANSFER_FREE_BUFFER \fP\fP
+Automatically free() transfer buffer during \fBlibusb_free_transfer()\fP 
+.TP
+\fB\fILIBUSB_TRANSFER_FREE_TRANSFER \fP\fP
+Automatically call \fBlibusb_free_transfer()\fP after callback returns\&. If this flag is set, it is illegal to call \fBlibusb_free_transfer()\fP from your transfer callback, as this will result in a double-free when this flag is acted upon\&. 
+.TP
+\fB\fILIBUSB_TRANSFER_ADD_ZERO_PACKET \fP\fP
+Terminate transfers that are a multiple of the endpoint's wMaxPacketSize with an extra zero length packet\&. This is useful when a device protocol mandates that each logical request is terminated by an incomplete packet (i\&.e\&. the logical requests are not separated by other means)\&.
+.PP
+This flag only affects host-to-device transfers to bulk and interrupt endpoints\&. In other situations, it is ignored\&.
+.PP
+This flag only affects transfers with a length that is a multiple of the endpoint's wMaxPacketSize\&. On transfers of other lengths, this flag has no effect\&. Therefore, if you are working with a device that needs a ZLP whenever the end of the logical request falls on a packet boundary, then it is sensible to set this flag on \fIevery\fP transfer (you do not have to worry about only setting it on transfers that end on the boundary)\&.
+.PP
+This flag is currently only supported on Linux\&. On other systems, \fBlibusb_submit_transfer()\fP will return LIBUSB_ERROR_NOT_SUPPORTED for every transfer where this flag is set\&.
+.PP
+Available since libusb-1\&.0\&.9\&. 
+.SS "enum \fBlibusb_transfer_status\fP"
+Transfer status codes 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_TRANSFER_COMPLETED \fP\fP
+Transfer completed without error\&. Note that this does not indicate that the entire amount of requested data was transferred\&. 
+.TP
+\fB\fILIBUSB_TRANSFER_ERROR \fP\fP
+Transfer failed 
+.TP
+\fB\fILIBUSB_TRANSFER_TIMED_OUT \fP\fP
+Transfer timed out 
+.TP
+\fB\fILIBUSB_TRANSFER_CANCELLED \fP\fP
+Transfer was cancelled 
+.TP
+\fB\fILIBUSB_TRANSFER_STALL \fP\fP
+For bulk/interrupt endpoints: halt condition detected (endpoint stalled)\&. For control endpoints: control request not supported\&. 
+.TP
+\fB\fILIBUSB_TRANSFER_NO_DEVICE \fP\fP
+Device was disconnected 
+.TP
+\fB\fILIBUSB_TRANSFER_OVERFLOW \fP\fP
+Device sent more data than requested 
+.SS "enum \fBlibusb_transfer_type\fP"
+Endpoint transfer type\&. Values for bits 0:1 of the \fBendpoint attributes\fP field\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_TRANSFER_TYPE_CONTROL \fP\fP
+Control endpoint 
+.TP
+\fB\fILIBUSB_TRANSFER_TYPE_ISOCHRONOUS \fP\fP
+Isochronous endpoint 
+.TP
+\fB\fILIBUSB_TRANSFER_TYPE_BULK \fP\fP
+Bulk endpoint 
+.TP
+\fB\fILIBUSB_TRANSFER_TYPE_INTERRUPT \fP\fP
+Interrupt endpoint 
+.SS "enum \fBlibusb_usb_2_0_extension_attributes\fP"
+Masks for the bits of the \fBbmAttributes\fP field of the USB 2\&.0 Extension descriptor\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fILIBUSB_BM_LPM_SUPPORT \fP\fP
+Supports Link Power Management (LPM) 
+.SH "Function Documentation"
+.PP 
+.SS "struct \fBlibusb_transfer\fP* \fBLIBUSB_CALL\fP libusb_alloc_transfer (int iso_packets)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_attach_kernel_driver (\fBlibusb_device_handle\fP * dev, int interface_number)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_bulk_transfer (\fBlibusb_device_handle\fP * dev_handle, unsigned char endpoint, unsigned char * data, int length, int * actual_length, unsigned int timeout)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_cancel_transfer (struct \fBlibusb_transfer\fP * transfer)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_claim_interface (\fBlibusb_device_handle\fP * dev, int interface_number)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_clear_halt (\fBlibusb_device_handle\fP * dev, unsigned char endpoint)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_close (\fBlibusb_device_handle\fP * dev_handle)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_control_transfer (\fBlibusb_device_handle\fP * dev_handle, uint8_t request_type, uint8_t bRequest, uint16_t wValue, uint16_t wIndex, unsigned char * data, uint16_t wLength, unsigned int timeout)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_detach_kernel_driver (\fBlibusb_device_handle\fP * dev, int interface_number)"
+
+.SS "const char* \fBLIBUSB_CALL\fP libusb_error_name (int errcode)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_event_handler_active (\fBlibusb_context\fP * ctx)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_event_handling_ok (\fBlibusb_context\fP * ctx)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_exit (\fBlibusb_context\fP * ctx)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_bos_descriptor (struct \fBlibusb_bos_descriptor\fP * bos)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_config_descriptor (struct \fBlibusb_config_descriptor\fP * config)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_container_id_descriptor (struct \fBlibusb_container_id_descriptor\fP * container_id)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_device_list (\fBlibusb_device\fP ** list, int unref_devices)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_ss_endpoint_companion_descriptor (struct \fBlibusb_ss_endpoint_companion_descriptor\fP * ep_comp)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_ss_usb_device_capability_descriptor (struct \fBlibusb_ss_usb_device_capability_descriptor\fP * ss_usb_device_cap)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_transfer (struct \fBlibusb_transfer\fP * transfer)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_free_usb_2_0_extension_descriptor (struct \fBlibusb_usb_2_0_extension_descriptor\fP * usb_2_0_extension)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_active_config_descriptor (\fBlibusb_device\fP * dev, struct \fBlibusb_config_descriptor\fP ** config)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_bos_descriptor (\fBlibusb_device_handle\fP * handle, struct \fBlibusb_bos_descriptor\fP ** bos)"
+
+.SS "uint8_t \fBLIBUSB_CALL\fP libusb_get_bus_number (\fBlibusb_device\fP * dev)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_config_descriptor (\fBlibusb_device\fP * dev, uint8_t config_index, struct \fBlibusb_config_descriptor\fP ** config)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_config_descriptor_by_value (\fBlibusb_device\fP * dev, uint8_t bConfigurationValue, struct \fBlibusb_config_descriptor\fP ** config)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_configuration (\fBlibusb_device_handle\fP * dev, int * config)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_container_id_descriptor (struct \fBlibusb_context\fP * ctx, struct \fBlibusb_bos_dev_capability_descriptor\fP * dev_cap, struct \fBlibusb_container_id_descriptor\fP ** container_id)"
+
+.SS "\fBlibusb_device\fP* \fBLIBUSB_CALL\fP libusb_get_device (\fBlibusb_device_handle\fP * dev_handle)"
+
+.SS "uint8_t \fBLIBUSB_CALL\fP libusb_get_device_address (\fBlibusb_device\fP * dev)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_device_descriptor (\fBlibusb_device\fP * dev, struct \fBlibusb_device_descriptor\fP * desc)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_device_list (\fBlibusb_context\fP * ctx, \fBlibusb_device\fP *** list)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_device_speed (\fBlibusb_device\fP * dev)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_max_iso_packet_size (\fBlibusb_device\fP * dev, unsigned char endpoint)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_max_packet_size (\fBlibusb_device\fP * dev, unsigned char endpoint)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_next_timeout (\fBlibusb_context\fP * ctx, struct timeval * tv)"
+
+.SS "\fBlibusb_device\fP* \fBLIBUSB_CALL\fP libusb_get_parent (\fBlibusb_device\fP * dev)"
+
+.SS "const struct \fBlibusb_pollfd\fP** \fBLIBUSB_CALL\fP libusb_get_pollfds (\fBlibusb_context\fP * ctx)"
+
+.SS "uint8_t \fBLIBUSB_CALL\fP libusb_get_port_number (\fBlibusb_device\fP * dev)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_port_numbers (\fBlibusb_device\fP * dev, uint8_t * port_numbers, int port_numbers_len)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_port_path (\fBlibusb_context\fP * ctx, \fBlibusb_device\fP * dev, uint8_t * path, uint8_t path_length)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_ss_endpoint_companion_descriptor (struct \fBlibusb_context\fP * ctx, const struct \fBlibusb_endpoint_descriptor\fP * endpoint, struct \fBlibusb_ss_endpoint_companion_descriptor\fP ** ep_comp)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_ss_usb_device_capability_descriptor (struct \fBlibusb_context\fP * ctx, struct \fBlibusb_bos_dev_capability_descriptor\fP * dev_cap, struct \fBlibusb_ss_usb_device_capability_descriptor\fP ** ss_usb_device_cap)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_string_descriptor_ascii (\fBlibusb_device_handle\fP * dev, uint8_t desc_index, unsigned char * data, int length)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_get_usb_2_0_extension_descriptor (struct \fBlibusb_context\fP * ctx, struct \fBlibusb_bos_dev_capability_descriptor\fP * dev_cap, struct \fBlibusb_usb_2_0_extension_descriptor\fP ** usb_2_0_extension)"
+
+.SS "const struct \fBlibusb_version\fP* \fBLIBUSB_CALL\fP libusb_get_version (\fBvoid\fP)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_handle_events (\fBlibusb_context\fP * ctx)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_handle_events_completed (\fBlibusb_context\fP * ctx, int * completed)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_handle_events_locked (\fBlibusb_context\fP * ctx, struct timeval * tv)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_handle_events_timeout (\fBlibusb_context\fP * ctx, struct timeval * tv)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_handle_events_timeout_completed (\fBlibusb_context\fP * ctx, struct timeval * tv, int * completed)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_has_capability (uint32_t capability)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_hotplug_deregister_callback (\fBlibusb_context\fP * ctx, \fBlibusb_hotplug_callback_handle\fP handle)"
+Deregisters a hotplug callback\&.
+.PP
+Deregister a callback from a libusb_context\&. This function is safe to call from within a hotplug callback\&.
+.PP
+Since version 1\&.0\&.16, \fBLIBUSBX_API_VERSION\fP >= 0x01000102
+.PP
+\fBParameters:\fP
+.RS 4
+\fIctx\fP context this callback is registered with 
+.br
+\fIhandle\fP the handle of the callback to deregister 
+.RE
+.PP
+
+.SS "int \fBLIBUSB_CALL\fP libusb_hotplug_register_callback (\fBlibusb_context\fP * ctx, \fBlibusb_hotplug_event\fP events, \fBlibusb_hotplug_flag\fP flags, int vendor_id, int product_id, int dev_class, \fBlibusb_hotplug_callback_fn\fP cb_fn, \fBvoid\fP * user_data, \fBlibusb_hotplug_callback_handle\fP * handle)"
+Register a hotplug callback function
+.PP
+Register a callback with the libusb_context\&. The callback will fire when a matching event occurs on a matching device\&. The callback is armed until either it is deregistered with \fBlibusb_hotplug_deregister_callback()\fP or the supplied callback returns 1 to indicate it is finished processing events\&.
+.PP
+If the \fBLIBUSB_HOTPLUG_ENUMERATE\fP is passed the callback will be called with a \fBLIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED\fP for all devices already plugged into the machine\&. Note that libusbx modifies its internal device list from a separate thread, while calling hotplug callbacks from \fBlibusb_handle_events()\fP, so it is possible for a device to already be present on, or removed from, its internal device list, while the hotplug callbacks still need to be dispatched\&. This means that when using \fBLIBUSB_HOTPLUG_ENUMERATE\fP, your callback may be called twice for the arrival of the same device, once from \fBlibusb_hotplug_register_callback()\fP and once from \fBlibusb_handle_events()\fP; and/or your callback may be called for the removal of a device for which an arrived call was never made\&.
+.PP
+Since version 1\&.0\&.16, \fBLIBUSBX_API_VERSION\fP >= 0x01000102
+.PP
+\fBParameters:\fP
+.RS 4
+\fIctx\fP context to register this callback with 
+.br
+\fIevents\fP bitwise or of events that will trigger this callback\&. See \fBlibusb_hotplug_event\fP 
+.br
+\fIflags\fP hotplug callback flags\&. See \fBlibusb_hotplug_flag\fP 
+.br
+\fIvendor_id\fP the vendor id to match or \fBLIBUSB_HOTPLUG_MATCH_ANY\fP 
+.br
+\fIproduct_id\fP the product id to match or \fBLIBUSB_HOTPLUG_MATCH_ANY\fP 
+.br
+\fIdev_class\fP the device class to match or \fBLIBUSB_HOTPLUG_MATCH_ANY\fP 
+.br
+\fIcb_fn\fP the function to be invoked on a matching event/device 
+.br
+\fIuser_data\fP user data to pass to the callback function 
+.br
+\fIhandle\fP pointer to store the handle of the allocated callback (can be NULL) 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+LIBUSB_SUCCESS on success LIBUSB_ERROR code on failure 
+.RE
+.PP
+
+.SS "int \fBLIBUSB_CALL\fP libusb_init (\fBlibusb_context\fP ** ctx)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_interrupt_transfer (\fBlibusb_device_handle\fP * dev_handle, unsigned char endpoint, unsigned char * data, int length, int * actual_length, unsigned int timeout)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_kernel_driver_active (\fBlibusb_device_handle\fP * dev, int interface_number)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_lock_event_waiters (\fBlibusb_context\fP * ctx)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_lock_events (\fBlibusb_context\fP * ctx)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_open (\fBlibusb_device\fP * dev, \fBlibusb_device_handle\fP ** handle)"
+
+.SS "\fBlibusb_device_handle\fP* \fBLIBUSB_CALL\fP libusb_open_device_with_vid_pid (\fBlibusb_context\fP * ctx, uint16_t vendor_id, uint16_t product_id)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_pollfds_handle_timeouts (\fBlibusb_context\fP * ctx)"
+
+.SS "\fBlibusb_device\fP* \fBLIBUSB_CALL\fP libusb_ref_device (\fBlibusb_device\fP * dev)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_release_interface (\fBlibusb_device_handle\fP * dev, int interface_number)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_reset_device (\fBlibusb_device_handle\fP * dev)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_set_auto_detach_kernel_driver (\fBlibusb_device_handle\fP * dev, int enable)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_set_configuration (\fBlibusb_device_handle\fP * dev, int configuration)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_set_debug (\fBlibusb_context\fP * ctx, int level)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_set_interface_alt_setting (\fBlibusb_device_handle\fP * dev, int interface_number, int alternate_setting)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_set_pollfd_notifiers (\fBlibusb_context\fP * ctx, \fBlibusb_pollfd_added_cb\fP added_cb, \fBlibusb_pollfd_removed_cb\fP removed_cb, \fBvoid\fP * user_data)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_setlocale (const char * locale)"
+
+.SS "const char* \fBLIBUSB_CALL\fP libusb_strerror (enum \fBlibusb_error\fP errcode)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_submit_transfer (struct \fBlibusb_transfer\fP * transfer)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_try_lock_events (\fBlibusb_context\fP * ctx)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_unlock_event_waiters (\fBlibusb_context\fP * ctx)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_unlock_events (\fBlibusb_context\fP * ctx)"
+
+.SS "\fBvoid\fP \fBLIBUSB_CALL\fP libusb_unref_device (\fBlibusb_device\fP * dev)"
+
+.SS "int \fBLIBUSB_CALL\fP libusb_wait_for_event (\fBlibusb_context\fP * ctx, struct timeval * tv)"
+
+.SS "typedef void (\fBLIBUSB_CALL\fP * libusb_transfer_cb_fn)"
+Asynchronous transfer callback function type\&. When submitting asynchronous transfers, you pass a pointer to a callback function of this type via the \fBcallback\fP member of the \fBlibusb_transfer\fP structure\&. libusbx will call this function later, when the transfer has completed or failed\&. See \fBasyncio\fP for more information\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItransfer\fP The \fBlibusb_transfer\fP struct the callback function is being notified about\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

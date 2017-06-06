@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___o_o_irrad_data" kind="struct" language="C++" prot="public">
+    <compoundname>_OOIrradData</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___o_o_irrad_data_1acac426e978dd7bc1f99afa60aa3c5816" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _OOIrradData::wavelength</definition>
+        <argsstring></argsstring>
+        <name>wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="620" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___o_o_irrad_data_1a013c4c4393a45ddcef5c61a762c3f2a0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _OOIrradData::power</definition>
+        <argsstring></argsstring>
+        <name>power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="621" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="621" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="619" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="618" bodyend="622"/>
+    <listofallmembers>
+      <member refid="struct___o_o_irrad_data_1a013c4c4393a45ddcef5c61a762c3f2a0" prot="public" virt="non-virtual"><scope>_OOIrradData</scope><name>power</name></member>
+      <member refid="struct___o_o_irrad_data_1acac426e978dd7bc1f99afa60aa3c5816" prot="public" virt="non-virtual"><scope>_OOIrradData</scope><name>wavelength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

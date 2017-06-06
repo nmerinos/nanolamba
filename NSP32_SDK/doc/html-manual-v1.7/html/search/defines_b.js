@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['n_5f',['N_',['../nsp__sdk__def_8h.html#aba49c317732ed2f938129061ee53fe32',1,'nsp_sdk_def.h']]],
+  ['nan',['NaN',['../nsp__base__types_8h.html#a953f667fb27fb68dd74a487d002b19b5',1,'nsp_base_types.h']]],
+  ['normalization_5fmode_5f0to1',['NORMALIZATION_MODE_0TO1',['../nsp__sdk__def_8h.html#ac090862672e8103fe946a18e2368e55e',1,'nsp_sdk_def.h']]],
+  ['normalization_5fmode_5f0to100',['NORMALIZATION_MODE_0TO100',['../nsp__sdk__def_8h.html#a87cb4f50cbf00850d8589c30392c0039',1,'nsp_sdk_def.h']]],
+  ['normalization_5fmode_5fnone',['NORMALIZATION_MODE_NONE',['../nsp__sdk__def_8h.html#a93d0dad9208f0f1d4c4fe0cef69f0fcf',1,'nsp_sdk_def.h']]],
+  ['nsp_5fdevice_5fae_5fsaturation_5findicator',['NSP_DEVICE_AE_SATURATION_INDICATOR',['../nsp__device__def_8h.html#af6c14e88a6a23d398f3424f60e9a14f4',1,'nsp_device_def.h']]],
+  ['nsp_5fdevice_5fae_5fsaturation_5fratio',['NSP_DEVICE_AE_SATURATION_RATIO',['../nsp__device__def_8h.html#ac9232e76d3ccc5531a6b285da7f3003d',1,'nsp_device_def.h']]],
+  ['nsp_5fdevice_5fmaster_5fclock',['NSP_DEVICE_MASTER_CLOCK',['../nsp__core__common_8h.html#aaf0dfd84095bc9b6ee2b07b87943e90e',1,'NSP_DEVICE_MASTER_CLOCK():&#160;nsp_core_common.h'],['../nsp__device__def_8h.html#aaf0dfd84095bc9b6ee2b07b87943e90e',1,'NSP_DEVICE_MASTER_CLOCK():&#160;nsp_device_def.h'],['../nsp__device__interface__stm__usb_8h.html#aaf0dfd84095bc9b6ee2b07b87943e90e',1,'NSP_DEVICE_MASTER_CLOCK():&#160;nsp_device_interface_stm_usb.h']]],
+  ['nsp_5fdevice_5fmax_5fdevices',['NSP_DEVICE_MAX_DEVICES',['../nsp__device__def_8h.html#aabdac6a0f51f10a8aa319ea5656dfcf8',1,'nsp_device_def.h']]],
+  ['nsp_5fdevice_5fmax_5fss',['NSP_DEVICE_MAX_SS',['../nsp__device__def_8h.html#aadc2a18c643b8f765d3e60ac0ab4e6ab',1,'nsp_device_def.h']]],
+  ['nsp_5fdevice_5fmin_5fss',['NSP_DEVICE_MIN_SS',['../nsp__device__def_8h.html#aea0705bb7c9a65e02269b3288ba12674',1,'nsp_device_def.h']]],
+  ['nsp_5fdevice_5fss_5fmax',['NSP_DEVICE_SS_MAX',['../nsp__device__api_8h.html#ae42e6a0a6407a781054b2e9e3175dd51',1,'nsp_device_api.h']]],
+  ['nsp_5fdevice_5fss_5fmin',['NSP_DEVICE_SS_MIN',['../nsp__device__api_8h.html#ae403dbf11f7692749ce4c56dd20b6c84',1,'nsp_device_api.h']]],
+  ['nsp_5freturn_5fvalue_5ffailure',['NSP_RETURN_VALUE_FAILURE',['../nsp__error__codes_8h.html#ab73cab1acf70c81a3f8ad3ad96c00202',1,'nsp_error_codes.h']]],
+  ['nsp_5freturn_5fvalue_5fno_5fmatched_5fcal_5fdata',['NSP_RETURN_VALUE_NO_MATCHED_CAL_DATA',['../nsp__error__codes_8h.html#a5825b1254e246174dd6f05f2dba7f23b',1,'nsp_error_codes.h']]],
+  ['nsp_5freturn_5fvalue_5fno_5fmatched_5fsensor',['NSP_RETURN_VALUE_NO_MATCHED_SENSOR',['../nsp__error__codes_8h.html#a4fb7faa0183b87ec0c71b100e40d5874',1,'nsp_error_codes.h']]],
+  ['nsp_5freturn_5fvalue_5fsuccess',['NSP_RETURN_VALUE_SUCCESS',['../nsp__error__codes_8h.html#a39ce2c8f8c597cc24d55658aa24f1d16',1,'nsp_error_codes.h']]],
+  ['nsp_5freturn_5fvalue_5funknown',['NSP_RETURN_VALUE_UNKNOWN',['../nsp__error__codes_8h.html#ab8235e34110852a5f2dea45c7d8926ea',1,'nsp_error_codes.h']]],
+  ['num_5fof_5fdark_5fpixels',['NUM_OF_DARK_PIXELS',['../nsp__core__common_8h.html#af5b4684a5222a0f10cd56acb36282e6e',1,'nsp_core_common.h']]],
+  ['num_5fto_5fstring',['NUM_TO_STRING',['../nsp__sdk__def_8h.html#a7061026b4e63ce55f0d962caffa5563f',1,'nsp_sdk_def.h']]]
+];

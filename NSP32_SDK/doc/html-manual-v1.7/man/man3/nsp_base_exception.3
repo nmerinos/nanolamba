@@ -1,0 +1,53 @@
+.TH "nsp_base_exception" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+nsp_base_exception
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <nsp_base_exceptions\&.h>\fP
+.PP
+Inherits exception\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBnsp_base_exception\fP (\fBNSP_ERROR_CODE\fP error_code_input)"
+.br
+.ti -1c
+.RI "const char * \fBwhat\fP () const  throw ()"
+.br
+.RI "The \fBwhat()\fP function will return the description of the error as a string\&. "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBNSP_ERROR_CODE\fP \fBerror_code\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+This is the exception class for the NSP API/SDK\&. Try, catch statments should be used to catch any exceptions that can be thrown If exceptions are not caught it will produce a runtime error and terminate the application\&.
+.PP
+This class inherits from std::exception\&. Catching std::exception will also catch this class and any other exception thrown by std library 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "nsp_base_exception::nsp_base_exception (\fBNSP_ERROR_CODE\fP error_code_input)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "const char* nsp_base_exception::what () const"
+
+.PP
+The \fBwhat()\fP function will return the description of the error as a string\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBNSP_ERROR_CODE\fP nsp_base_exception::error_code"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

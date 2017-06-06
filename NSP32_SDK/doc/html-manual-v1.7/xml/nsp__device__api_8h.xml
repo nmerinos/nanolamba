@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__device__api_8h" kind="file" language="C++">
+    <compoundname>nsp_device_api.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="267">
+        <label>stdint.h</label>
+      </node>
+      <node id="266">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h</label>
+        <link refid="nsp__device__api_8h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" prot="public" static="no">
+        <name>EXPORT_DLL</name>
+        <initializer>__attribute__((visibility(&quot;default&quot;)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="15" column="10" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" prot="public" static="no">
+        <name>EXPORT_DLL</name>
+        <initializer>__attribute__((dllexport))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="17" column="18" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1ae4cc35dcc70810fa972cc8a5185a28fa" prot="public" static="no">
+        <name>BOOL</name>
+        <initializer>bool</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="19" column="13" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1aa2325c9a912e147df25648aa008e9256" prot="public" static="no">
+        <name>LARGE_INTEGER</name>
+        <initializer>int64_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="20" column="13" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1aa39b39d94407451a6ec0226479db68cf" prot="public" static="no">
+        <name>DWORD</name>
+        <initializer>unsigned long</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="21" column="13" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1a71c76ce6fa11d5148a284dcf2ca7b12a" prot="public" static="no">
+        <name>MACHINE_PRECISION</name>
+        <initializer>5.96e-08</initializer>
+        <briefdescription>
+<para>this is standard machine precision for 32 bit floats </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="23" column="13" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1a5cf0e9289db02ad9d2072c46dfd5b914" prot="public" static="no">
+        <name>SENSOR_ID_STRING_LENGTH</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="27" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1a148c44e2e5bb295e12c94b137e9717a7" prot="public" static="no">
+        <name>SENSOR_DATA_SIZE</name>
+        <initializer>1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="31" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1ae403dbf11f7692749ce4c56dd20b6c84" prot="public" static="no">
+        <name>NSP_DEVICE_SS_MIN</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="34" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nsp__device__api_8h_1ae42e6a0a6407a781054b2e9e3175dd51" prot="public" static="no">
+        <name>NSP_DEVICE_SS_MAX</name>
+        <initializer>3000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="35" column="9" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="nsp__device__api_8h_1a3e121fb2fe76faa3b1c26115aaa3041b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duConnect</definition>
+        <argsstring>()</argsstring>
+        <name>duConnect</name>
+        <briefdescription>
+<para>Connect to physical device(sensor) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function try to connect to physical device(sensor) and returns the total number of sensors in system.</para><para><programlisting><codeline><highlight class="normal">int<sp/>num_of_sensors<sp/>=<sp/>duConnect();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>total number of sensors in system (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_fail_to_create_device_obj</para></listitem><listitem><para>cc_ec_no_device_in_system</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a5bf16831aaffef8041577d65e7509d36" kindref="member">duDisconnect</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a5bf16831aaffef8041577d65e7509d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duDisconnect</definition>
+        <argsstring>()</argsstring>
+        <name>duDisconnect</name>
+        <briefdescription>
+<para>Disconnect physical device(sensor) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function disconnects physical device(sensor).</para><para><programlisting><codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duDisconnect();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a3e121fb2fe76faa3b1c26115aaa3041b" kindref="member">duConnect</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a16b14cee97fee5462688ecf5d9b48b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> char **</type>
+        <definition>EXPORT_DLL char** duGetSensorList</definition>
+        <argsstring>()</argsstring>
+        <name>duGetSensorList</name>
+        <briefdescription>
+<para>Get sensor ID list which are connected to system. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns a string list containing sensor IDs in your system.</para><para><programlisting><codeline><highlight class="normal">char**<sp/>duGetSensorList();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns double pointers to char array:<itemizedlist>
+<listitem><para>char pointers array containing sensor ID</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a3e121fb2fe76faa3b1c26115aaa3041b" kindref="member">duConnect</ref>, <ref refid="nsp__device__api_8h_1a5bf16831aaffef8041577d65e7509d36" kindref="member">duDisconnect</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a38e060d6a7e0f10dae3ba8926d40cccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duActivateSensorWithIndex</definition>
+        <argsstring>(int sensor_index)</argsstring>
+        <name>duActivateSensorWithIndex</name>
+        <param>
+          <type>int</type>
+          <declname>sensor_index</declname>
+        </param>
+        <briefdescription>
+<para>Activate a specific sensor. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function activates a specific sensor having a matched sensor index among multiple sensors if there are multiple sensors in system.</para><para><programlisting><codeline><highlight class="normal">int<sp/>sensor_index<sp/>=<sp/>0;<sp/>//<sp/>default<sp/>=<sp/>0<sp/>(1&apos;th<sp/>sensor)</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duActivateSensorWithIndex(sensor_index);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sensor_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sensor index start from 0 [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a22f09c7908f92084ac6738be9f5722d8" kindref="member">duActivateSensorWithID</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a222e82d3e4272d95d0efcd88fe64f655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetMaxSensorCount</definition>
+        <argsstring>()</argsstring>
+        <name>duGetMaxSensorCount</name>
+        <briefdescription>
+<para>Get maximum count of supported sensors. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns the maximum number of sensors supported by API/SDK.</para><para><programlisting><codeline><highlight class="normal">int<sp/>max_sensors<sp/>=<sp/>duGetMaxSensorCount();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>maximum number of sensors</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a22f09c7908f92084ac6738be9f5722d8" kindref="member">duActivateSensorWithID</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="149" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a22f09c7908f92084ac6738be9f5722d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duActivateSensorWithID</definition>
+        <argsstring>(const char *sensor_id_str)</argsstring>
+        <name>duActivateSensorWithID</name>
+        <param>
+          <type>const char *</type>
+          <declname>sensor_id_str</declname>
+        </param>
+        <briefdescription>
+<para>Activate a specific sensor. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function activates a specific sensor having a matched sensor ID among multiple sensors if there are multiple sensors in system.</para><para><programlisting><codeline><highlight class="normal">char*<sp/>sensor_id_str<sp/>=<sp/>&quot;Y8585-1-85-85-0&quot;;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duActivateSensorWithID(sensor_id_str);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sensor_id_str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- sensor ID string [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>sensor index (&gt;=0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a38e060d6a7e0f10dae3ba8926d40cccc" kindref="member">duActivateSensorWithIndex</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="172" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a841a59278c085a69bad8315fc8dc3221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetTotalSensors</definition>
+        <argsstring>()</argsstring>
+        <name>duGetTotalSensors</name>
+        <briefdescription>
+<para>Get devices count. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns a total number of devices in system.</para><para><programlisting><codeline><highlight class="normal">int<sp/>total_num_of_sensors<sp/>=<sp/>duGetTotalSensors();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>total number of devices (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="194" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1ab03002a5566dbe4441a34721ea1f584f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetSensorID</definition>
+        <argsstring>(char *sensor_id)</argsstring>
+        <name>duGetSensorID</name>
+        <param>
+          <type>char *</type>
+          <declname>sensor_id</declname>
+        </param>
+        <briefdescription>
+<para>Get sensor ID of physical device(sensor) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns a sensor ID of currently activated physical device(sensor). Current sensor is an activated one by <ref refid="nsp__device__api_8h_1a38e060d6a7e0f10dae3ba8926d40cccc" kindref="member">duActivateSensorWithIndex()</ref> function.</para><para><programlisting><codeline><highlight class="normal">char<sp/>sensor_id[SENSOR_ID_STRING_LENGTH];</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duGetSensorID(sensor_id);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to char array for sensor ID data [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_memory_is_null</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a38e060d6a7e0f10dae3ba8926d40cccc" kindref="member">duActivateSensorWithIndex</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1ab5878f3fc4143724ae54b616c0dac2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetShutterSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>duGetShutterSpeed</name>
+        <briefdescription>
+<para>Get shutter speed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns a shutter speed value of currently activated sensor.</para><para><programlisting><codeline><highlight class="normal">int<sp/>cur_ss<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">cur_ss<sp/>=<sp/>duGetShutterSpeed();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>current shutter speed (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a9046a8da5019b0f37c80b5af80c140eb" kindref="member">duSetShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="242" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a74df9afa0a3e67ed6c10d5c7add39b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetShutterSpeedLimits</definition>
+        <argsstring>(int *min_limit, int *max_limit)</argsstring>
+        <name>duGetShutterSpeedLimits</name>
+        <param>
+          <type>int *</type>
+          <declname>min_limit</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>max_limit</declname>
+        </param>
+        <briefdescription>
+<para>Get shutter speed limits. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns two limit values for shutter speed (minimum and maximum).</para><para><programlisting><codeline><highlight class="normal">int<sp/>ss_min,<sp/>ss_max;</highlight></codeline>
+<codeline><highlight class="normal">cur_ss<sp/>=<sp/>duGetShutterSpeedLimits(&amp;ss_min,<sp/>&amp;ss_max);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ss_min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int pointer to minimum shutter speed value [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ss_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int pointer to maximum shutter speed value [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a9046a8da5019b0f37c80b5af80c140eb" kindref="member">duSetShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="266" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a3bef26f75e3ad96eca375e7a298d1ebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duShutterSpeedToExposureTime</definition>
+        <argsstring>(int master_clock, int shutter_speed, double *exposure_time_val)</argsstring>
+        <name>duShutterSpeedToExposureTime</name>
+        <param>
+          <type>int</type>
+          <declname>master_clock</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shutter_speed</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>exposure_time_val</declname>
+        </param>
+        <briefdescription>
+<para>Convert shutter speed to exposure time (unit: ms) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function converts shutter speed to exposure time based on MASTER CLOCK of sensor.</para><para><programlisting><codeline><highlight class="normal">int<sp/>master_clock<sp/>=<sp/>5;<sp/>//<sp/>MCLK<sp/>=<sp/>5-MHz</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>shutter_speed<sp/>=<sp/>1000</highlight></codeline>
+<codeline><highlight class="normal">double<sp/>exposure_time_val<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">cur_ss<sp/>=<sp/>duShutterSpeedToExposureTime(master_clock,<sp/>shutter_speed,<sp/>&amp;exposure_time_val);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>master_clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- master clock of MCU to sensor [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shutter_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- shutter speed value [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exposure_time_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to exposure time value [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a5a7a98c7cb35e29bd17c07ce46f7f144" kindref="member">duExposureTimeToShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="293" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a5a7a98c7cb35e29bd17c07ce46f7f144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duExposureTimeToShutterSpeed</definition>
+        <argsstring>(int master_clock, double exposure_time_val, int *shutter_speed)</argsstring>
+        <name>duExposureTimeToShutterSpeed</name>
+        <param>
+          <type>int</type>
+          <declname>master_clock</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>exposure_time_val</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>shutter_speed</declname>
+        </param>
+        <briefdescription>
+<para>Convert exposure time (ms) to shutter speed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function converts exposure time to shutter speed based on MASTER CLOCK of sensor.</para><para><programlisting><codeline><highlight class="normal">int<sp/>master_clock<sp/>=<sp/>5;<sp/>//<sp/>MCLK<sp/>=<sp/>5-MHz</highlight></codeline>
+<codeline><highlight class="normal">double<sp/>exposure_time_val<sp/>=<sp/>100;<sp/>//<sp/>100<sp/>msec</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>shutter_speed<sp/>=<sp/>0</highlight></codeline>
+<codeline><highlight class="normal">cur_ss<sp/>=<sp/>duExposureTimeToShutterSpeed(master_clock,<sp/>exposure_time_val,<sp/>&amp;shutter_speed);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>master_clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- master clock of MCU to sensor [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exposure_time_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- exposure time value (ms) [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shutter_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int pointer to shutter speed value [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a3bef26f75e3ad96eca375e7a298d1ebb" kindref="member">duShutterSpeedToExposureTime</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a9046a8da5019b0f37c80b5af80c140eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duSetShutterSpeed</definition>
+        <argsstring>(int shutter)</argsstring>
+        <name>duSetShutterSpeed</name>
+        <param>
+          <type>int</type>
+          <declname>shutter</declname>
+        </param>
+        <briefdescription>
+<para>Change current shutter speed of a device(sensor) </para>        </briefdescription>
+        <detaileddescription>
+<para>This function changes shutter speed of currently activated device(sensor).</para><para><programlisting><codeline><highlight class="normal">int<sp/>new_ss<sp/>=<sp/>50;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duSetShutterSpeed(new_ss);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>shutter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- shutter speed value [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1ab5878f3fc4143724ae54b616c0dac2e9" kindref="member">duGetShutterSpeed</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="344" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a30d376b2b475f0c301dce97e72893cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetOptimalShutterSpeed</definition>
+        <argsstring>(int *valid_filters_in, int num_of_valid_filters)</argsstring>
+        <name>duGetOptimalShutterSpeed</name>
+        <param>
+          <type>int *</type>
+          <declname>valid_filters_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_of_valid_filters</declname>
+        </param>
+        <briefdescription>
+<para>Get optimal shutter speed by AE. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns an optimal shutter speed value which found by AE(Auto-Exposure) function.</para><para><programlisting><codeline><highlight class="normal">int<sp/>optimal_ss<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/>num_of_valid_filters<sp/>=<sp/>1024;</highlight></codeline>
+<codeline><highlight class="normal">int*<sp/><sp/>valid_filters_in<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline><highlight class="normal">optimal_ss<sp/>=<sp/>duGetOptimalShutterSpeed(valid_filters_in,<sp/>num_of_valid_filters);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valid_filters_in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- pointer to the integer array [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_of_valid_filters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the size of array [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>optimal shutter speed (&gt;0)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__api_8h_1a2330c866f1744de7595d293198a8798e" kindref="member">csGetSpectrumLength</ref>, <ref refid="nsp__core__api_8h_1ad771b83317747d7eb90d193a5cf8df48" kindref="member">csGetResolution</ref>, <ref refid="nsp__core__api_8h_1a2a54dfee902c8868978066ae9d962e64" kindref="member">csCalculateSpectrum</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="370" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a491b6c133fd47180eca01ba944652020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetFilterData</definition>
+        <argsstring>(double *output, int number_of_averages)</argsstring>
+        <name>duGetFilterData</name>
+        <param>
+          <type>double *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>number_of_averages</declname>
+        </param>
+        <briefdescription>
+<para>Get raw filter data from physical device(sensor). </para>        </briefdescription>
+        <detaileddescription>
+<para>This function acquires one raw filter data from physical device(sensor).</para><para><programlisting><codeline><highlight class="normal">double<sp/>filter_data[SENSOR_DATA_SIZE];</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>frame_averages<sp/>=<sp/>50;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duGetFilterData(filter_data,<sp/>frame_averages);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to raw filter data [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>number_of_averages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- number of frame averages [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a9046a8da5019b0f37c80b5af80c140eb" kindref="member">duSetShutterSpeed</ref>, <ref refid="nsp__device__api_8h_1a312c812be965fa9338843b5b979153b8" kindref="member">duSetSensorParameters</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="395" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a312c812be965fa9338843b5b979153b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duSetSensorParameters</definition>
+        <argsstring>(int _adc_gain, int _adc_range)</argsstring>
+        <name>duSetSensorParameters</name>
+        <param>
+          <type>int</type>
+          <declname>_adc_gain</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_adc_range</declname>
+        </param>
+        <briefdescription>
+<para>Set sensor registers. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function changes sensor registers for ADC gain, ADC range, and ADC resolution.</para><para><programlisting><codeline><highlight class="normal">int<sp/>adc_gain<sp/>=<sp/>1;<sp/>//<sp/>1=1X<sp/>(default),<sp/>0=4X</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>adc_range<sp/>=<sp/>132;<sp/>//<sp/>132<sp/>(default)</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duSetSensorParameters(adc_gain,<sp/>adc_range);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_adc_gain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ADC gain value [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_adc_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- ADC range value [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a8e5885b8a3a514b86a2480493babf386" kindref="member">duGetSensorParameters</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="420" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__device__api_8h_1a8e5885b8a3a514b86a2480493babf386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int duGetSensorParameters</definition>
+        <argsstring>(int *_adc_gain, int *_adc_range)</argsstring>
+        <name>duGetSensorParameters</name>
+        <param>
+          <type>int *</type>
+          <declname>_adc_gain</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>_adc_range</declname>
+        </param>
+        <briefdescription>
+<para>Get settings of sensor registers. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns the current settings of sensor registers (ADC gain and ADC range).</para><para><programlisting><codeline><highlight class="normal">int<sp/>adc_gain<sp/>=<sp/>1;<sp/>//<sp/>1=1X<sp/>(default),<sp/>0=4X</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>adc_range<sp/>=<sp/>132;<sp/>//<sp/>132<sp/>(default)</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>duGetSensorParameters(&amp;adc_gain,<sp/>&amp;adc_range);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_adc_gain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- integer pointer to ADC gain value [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_adc_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- integer pointer to ADC range value [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>NSP_RETURN_VALUE_SUCCESS (1)</para></listitem><listitem><para>NSP_RETURN_VALUE_FAILURE (-1)</para></listitem><listitem><para>cc_ec_device_object_is_null</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__device__api_8h_1a312c812be965fa9338843b5b979153b8" kindref="member">duSetSensorParameters</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" line="445" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">NSP_DEVICE_API.H</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Provides<sp/>interface<sp/>to<sp/>apollo<sp/>sensor<sp/></highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NSP_DEVICE_INTERFACE_MATLAB_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_DEVICE_INTERFACE_MATLAB_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__declspec(dllexport)<sp/>//For<sp/>exporting<sp/>to<sp/>DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__attribute__((visibility(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>EXPORT_DLL<sp/><sp/>__attribute__((dllexport))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//#define<sp/>HANDLE<sp/><sp/>int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="nsp__device__api_8h_1ae4cc35dcc70810fa972cc8a5185a28fa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>BOOL<sp/><sp/><sp/><sp/>bool</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="nsp__device__api_8h_1aa2325c9a912e147df25648aa008e9256" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>LARGE_INTEGER<sp/><sp/><sp/>int64_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="nsp__device__api_8h_1aa39b39d94407451a6ec0226479db68cf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>DWORD<sp/><sp/><sp/>unsigned<sp/>long<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MACHINE_PRECISION<sp/><sp/><sp/><sp/>5.96e-08</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SENSOR_ID_STRING_LENGTH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="nsp__device__api_8h_1a5cf0e9289db02ad9d2072c46dfd5b914" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_ID_STRING_LENGTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SENSOR_DATA_SIZE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="nsp__device__api_8h_1a148c44e2e5bb295e12c94b137e9717a7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SENSOR_DATA_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="nsp__device__api_8h_1ae403dbf11f7692749ce4c56dd20b6c84" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_DEVICE_SS_MIN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="nsp__device__api_8h_1ae42e6a0a6407a781054b2e9e3175dd51" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NSP_DEVICE_SS_MAX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>function<sp/>prefix:<sp/>du<sp/>-<sp/>Device<sp/>USB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a3e121fb2fe76faa3b1c26115aaa3041b" kindref="member">duConnect</ref>();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a5bf16831aaffef8041577d65e7509d36" kindref="member">duDisconnect</ref>();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/><ref refid="nsp__device__api_8h_1a16b14cee97fee5462688ecf5d9b48b58" kindref="member">duGetSensorList</ref>();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a38e060d6a7e0f10dae3ba8926d40cccc" kindref="member">duActivateSensorWithIndex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sensor_index);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a222e82d3e4272d95d0efcd88fe64f655" kindref="member">duGetMaxSensorCount</ref>();</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a22f09c7908f92084ac6738be9f5722d8" kindref="member">duActivateSensorWithID</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_id_str);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a841a59278c085a69bad8315fc8dc3221" kindref="member">duGetTotalSensors</ref>();</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1ab03002a5566dbe4441a34721ea1f584f" kindref="member">duGetSensorID</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_id<sp/>);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1ab5878f3fc4143724ae54b616c0dac2e9" kindref="member">duGetShutterSpeed</ref>();</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a74df9afa0a3e67ed6c10d5c7add39b5a" kindref="member">duGetShutterSpeedLimits</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>min_limit,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>max_limit);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a3bef26f75e3ad96eca375e7a298d1ebb" kindref="member">duShutterSpeedToExposureTime</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>master_clock,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shutter_speed,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>exposure_time_val);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a5a7a98c7cb35e29bd17c07ce46f7f144" kindref="member">duExposureTimeToShutterSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>master_clock,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>exposure_time_val,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>shutter_speed);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a9046a8da5019b0f37c80b5af80c140eb" kindref="member">duSetShutterSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shutter);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a30d376b2b475f0c301dce97e72893cee" kindref="member">duGetOptimalShutterSpeed</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>valid_filters_in,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num_of_valid_filters);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a491b6c133fd47180eca01ba944652020" kindref="member">duGetFilterData</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*output,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>number_of_averages);</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a312c812be965fa9338843b5b979153b8" kindref="member">duSetSensorParameters</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_adc_gain,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_adc_range);</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__device__api_8h_1a8e5885b8a3a514b86a2480493babf386" kindref="member">duGetSensorParameters</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>_adc_gain,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>_adc_range);</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"></highlight></codeline>
+<codeline lineno="447"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="448"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"></highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__NSP_DEVICE_INTERFACE_MATLAB_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h"/>
+  </compounddef>
+</doxygen>

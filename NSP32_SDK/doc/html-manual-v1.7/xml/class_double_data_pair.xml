@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_double_data_pair" kind="class" language="C++" prot="public">
+    <compoundname>DoubleDataPair</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_double_data_pair_1ae9a49d322327600848ff3ffb41b99b01" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DoubleDataPair::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="119" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_double_data_pair_1a99dd353c44a651b93d6a0ed41ee2ff99" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DoubleDataPair::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="120" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class definition for DOUBLE data pair of &apos;key&apos; and &apos;val&apos;. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="117" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="116" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_double_data_pair_1ae9a49d322327600848ff3ffb41b99b01" prot="public" virt="non-virtual"><scope>DoubleDataPair</scope><name>key</name></member>
+      <member refid="class_double_data_pair_1a99dd353c44a651b93d6a0ed41ee2ff99" prot="public" virt="non-virtual"><scope>DoubleDataPair</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

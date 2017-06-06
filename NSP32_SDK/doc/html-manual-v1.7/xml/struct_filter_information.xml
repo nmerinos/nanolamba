@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_filter_information" kind="struct" language="C++" prot="public">
+    <compoundname>FilterInformation</compoundname>
+    <includes refid="nsp__base__types_8h" local="no">nsp_base_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_filter_information_1af844b6c282e84861f66535cbfabffaf1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FilterInformation::num_filters</definition>
+        <argsstring></argsstring>
+        <name>num_filters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="68" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a11761de27c94ae6adf70787bbcb765c8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FilterInformation::num_valid_filters</definition>
+        <argsstring></argsstring>
+        <name>num_valid_filters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="69" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a54d3b96559456ce514698e56fdf2d9af" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FilterInformation::num_resolution</definition>
+        <argsstring></argsstring>
+        <name>num_resolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="70" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a8eecc503bf74ab3e1a89b7db4b22d941" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FilterInformation::interp_resolution</definition>
+        <argsstring></argsstring>
+        <name>interp_resolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="71" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a24963ba80bed3dc51dbea2a87b248c3d" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE FilterInformation::start_wavelength</definition>
+        <argsstring></argsstring>
+        <name>start_wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="72" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a7da25441acb8febe27680984426bb679" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE FilterInformation::end_wavelength</definition>
+        <argsstring></argsstring>
+        <name>end_wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="73" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a3014e7924f0fb67e95dd40c2eec9290f" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE FilterInformation::interval</definition>
+        <argsstring></argsstring>
+        <name>interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="74" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a1cece7635e146b44502bb82d8540030a" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE FilterInformation::start_wavelength_interp</definition>
+        <argsstring></argsstring>
+        <name>start_wavelength_interp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="75" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1af7d3dcae69886eb9e48e14c437eb3805" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE FilterInformation::end_wavelength_interp</definition>
+        <argsstring></argsstring>
+        <name>end_wavelength_interp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="76" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1aeb89d888bc1ddebd2fb6803895d25ae2" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref></type>
+        <definition>FLOAT64_TYPE FilterInformation::interval_interp</definition>
+        <argsstring></argsstring>
+        <name>interval_interp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="77" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a3020accdb2b68cf471fb01a430bc20ac" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref> *</type>
+        <definition>FLOAT64_TYPE* FilterInformation::filter_data_ptr</definition>
+        <argsstring></argsstring>
+        <name>filter_data_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="78" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a390d94a36de9375c0f4e018bb806125c" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__base__types_8h_1a05248a48bf41ef1603b84187c7a67555" kindref="member">FLOAT64_TYPE</ref> *</type>
+        <definition>FLOAT64_TYPE* FilterInformation::interp_data_ptr</definition>
+        <argsstring></argsstring>
+        <name>interp_data_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="79" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a356d2414d239fba2adba58ea9c6ad4ff" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* FilterInformation::valid_filters</definition>
+        <argsstring></argsstring>
+        <name>valid_filters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="80" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1a602e717b082aeb053c632d1f76b0528d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FilterInformation::algorithm</definition>
+        <argsstring></argsstring>
+        <name>algorithm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="81" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1ac8722605a16eacc19c6e9e0389f20759" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FilterInformation::sensorid_size</definition>
+        <argsstring></argsstring>
+        <name>sensorid_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="82" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_filter_information_1aff87fe1555b66240330f483a74e9751f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char FilterInformation::sensorid[15]</definition>
+        <argsstring>[15]</argsstring>
+        <name>sensorid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="83" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FilterInfomration struct. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" line="66" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_types.h" bodystart="66" bodyend="84"/>
+    <listofallmembers>
+      <member refid="struct_filter_information_1a602e717b082aeb053c632d1f76b0528d" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>algorithm</name></member>
+      <member refid="struct_filter_information_1a7da25441acb8febe27680984426bb679" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>end_wavelength</name></member>
+      <member refid="struct_filter_information_1af7d3dcae69886eb9e48e14c437eb3805" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>end_wavelength_interp</name></member>
+      <member refid="struct_filter_information_1a3020accdb2b68cf471fb01a430bc20ac" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>filter_data_ptr</name></member>
+      <member refid="struct_filter_information_1a390d94a36de9375c0f4e018bb806125c" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>interp_data_ptr</name></member>
+      <member refid="struct_filter_information_1a8eecc503bf74ab3e1a89b7db4b22d941" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>interp_resolution</name></member>
+      <member refid="struct_filter_information_1a3014e7924f0fb67e95dd40c2eec9290f" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>interval</name></member>
+      <member refid="struct_filter_information_1aeb89d888bc1ddebd2fb6803895d25ae2" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>interval_interp</name></member>
+      <member refid="struct_filter_information_1af844b6c282e84861f66535cbfabffaf1" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>num_filters</name></member>
+      <member refid="struct_filter_information_1a54d3b96559456ce514698e56fdf2d9af" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>num_resolution</name></member>
+      <member refid="struct_filter_information_1a11761de27c94ae6adf70787bbcb765c8" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>num_valid_filters</name></member>
+      <member refid="struct_filter_information_1aff87fe1555b66240330f483a74e9751f" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>sensorid</name></member>
+      <member refid="struct_filter_information_1ac8722605a16eacc19c6e9e0389f20759" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>sensorid_size</name></member>
+      <member refid="struct_filter_information_1a24963ba80bed3dc51dbea2a87b248c3d" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>start_wavelength</name></member>
+      <member refid="struct_filter_information_1a1cece7635e146b44502bb82d8540030a" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>start_wavelength_interp</name></member>
+      <member refid="struct_filter_information_1a356d2414d239fba2adba58ea9c6ad4ff" prot="public" virt="non-virtual"><scope>FilterInformation</scope><name>valid_filters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

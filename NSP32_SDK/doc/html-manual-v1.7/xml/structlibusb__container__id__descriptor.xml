@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structlibusb__container__id__descriptor" kind="struct" language="C++" prot="public">
+    <compoundname>libusb_container_id_descriptor</compoundname>
+    <includes refid="libusb_8h" local="no">libusb.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlibusb__container__id__descriptor_1aa95ab98f88151e5d05f0c6d3d983abd8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_container_id_descriptor::bLength</definition>
+        <argsstring></argsstring>
+        <name>bLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of this descriptor (in bytes) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="845" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__container__id__descriptor_1a4773f74ef9411441e59e9b31bc61c44b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_container_id_descriptor::bDescriptorType</definition>
+        <argsstring></argsstring>
+        <name>bDescriptorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Descriptor type. Will have value <ref refid="libusb_8h_1a0a2e8a25dfdebf29fdd4764dcdbc1a9ca56875fd1a3df25bdea7680fa9047743c" kindref="member">libusb_descriptor_type::LIBUSB_DT_DEVICE_CAPABILITY</ref> LIBUSB_DT_DEVICE_CAPABILITY in this context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="850" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__container__id__descriptor_1a9c6771495f9010d2cceb86f9738053ac" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_container_id_descriptor::bDevCapabilityType</definition>
+        <argsstring></argsstring>
+        <name>bDevCapabilityType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Capability type. Will have value <ref refid="libusb_8h_1a6ccabbf3b3728ae69608ba83bba4e64cac3c00e8861b4b596ea1f53c505809e5e" kindref="member">libusb_capability_type::LIBUSB_BT_CONTAINER_ID</ref> LIBUSB_BT_CONTAINER_ID in this context. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="855" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__container__id__descriptor_1ae9c428c25e90439904e97f697f32545b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_container_id_descriptor::bReserved</definition>
+        <argsstring></argsstring>
+        <name>bReserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved field </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="858" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlibusb__container__id__descriptor_1a0c74613e2be1d8da0e349024a8b73621" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t libusb_container_id_descriptor::ContainerID[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>ContainerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>128 bit UUID </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="861" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="861" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A structure representing the Container ID descriptor. This descriptor is documented in section 9.6.2.3 of the USB 3.0 specification. All multiple-byte fields, except UUIDs, are represented in host-endian format. </para>    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" line="843" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/libusb.h" bodystart="843" bodyend="862"/>
+    <listofallmembers>
+      <member refid="structlibusb__container__id__descriptor_1a4773f74ef9411441e59e9b31bc61c44b" prot="public" virt="non-virtual"><scope>libusb_container_id_descriptor</scope><name>bDescriptorType</name></member>
+      <member refid="structlibusb__container__id__descriptor_1a9c6771495f9010d2cceb86f9738053ac" prot="public" virt="non-virtual"><scope>libusb_container_id_descriptor</scope><name>bDevCapabilityType</name></member>
+      <member refid="structlibusb__container__id__descriptor_1aa95ab98f88151e5d05f0c6d3d983abd8" prot="public" virt="non-virtual"><scope>libusb_container_id_descriptor</scope><name>bLength</name></member>
+      <member refid="structlibusb__container__id__descriptor_1ae9c428c25e90439904e97f697f32545b" prot="public" virt="non-virtual"><scope>libusb_container_id_descriptor</scope><name>bReserved</name></member>
+      <member refid="structlibusb__container__id__descriptor_1a0c74613e2be1d8da0e349024a8b73621" prot="public" virt="non-virtual"><scope>libusb_container_id_descriptor</scope><name>ContainerID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

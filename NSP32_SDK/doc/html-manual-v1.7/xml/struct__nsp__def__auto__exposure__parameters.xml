@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__nsp__def__auto__exposure__parameters" kind="struct" language="C++" prot="public">
+    <compoundname>_nsp_def_auto_exposure_parameters</compoundname>
+    <includes refid="nsp__device__def_8h" local="no">nsp_device_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1a268e17dafc7c1caa715caa9e802b1985" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::initial_ss</definition>
+        <argsstring></argsstring>
+        <name>initial_ss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="55" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1ae1dd9e8ed7411395c98258d4a5d65b11" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::min_ss</definition>
+        <argsstring></argsstring>
+        <name>min_ss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="56" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1a664f803bd02a550a73339e3adfe8cfe1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::max_ss</definition>
+        <argsstring></argsstring>
+        <name>max_ss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="57" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1adba8ec5e76bf87cf0a403fe30ca1ec90" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::target_dn_value</definition>
+        <argsstring></argsstring>
+        <name>target_dn_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="58" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1ae109cc00bc1746418e3f3a97389075e7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::upper_dn_value</definition>
+        <argsstring></argsstring>
+        <name>upper_dn_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="59" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1adc0db9ee8cf26554f7a650831047c981" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::lower_dn_value</definition>
+        <argsstring></argsstring>
+        <name>lower_dn_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="60" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1a477e5324b9a267b62a5aa4d299f49554" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::mean_upper_dn_value</definition>
+        <argsstring></argsstring>
+        <name>mean_upper_dn_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="61" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nsp__def__auto__exposure__parameters_1af3669d92d106dec03e5ff6e0b9d47367" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nsp_def_auto_exposure_parameters::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="62" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct__nsp__def__auto__exposure__parameters_1a4e6bd8e2f9396a5aaa06786a691b9990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_nsp_def_auto_exposure_parameters::_nsp_def_auto_exposure_parameters</definition>
+        <argsstring>()</argsstring>
+        <name>_nsp_def_auto_exposure_parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="64" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="struct__nsp__def__auto__exposure__parameters_1aef61d694b46b023ef824598d51455fdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _nsp_def_auto_exposure_parameters::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="69" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="69" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" line="54" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/nsp_device_def.h" bodystart="53" bodyend="81"/>
+    <listofallmembers>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1a4e6bd8e2f9396a5aaa06786a691b9990" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>_nsp_def_auto_exposure_parameters</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1aef61d694b46b023ef824598d51455fdd" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>init</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1a268e17dafc7c1caa715caa9e802b1985" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>initial_ss</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1adc0db9ee8cf26554f7a650831047c981" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>lower_dn_value</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1a664f803bd02a550a73339e3adfe8cfe1" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>max_ss</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1a477e5324b9a267b62a5aa4d299f49554" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>mean_upper_dn_value</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1ae1dd9e8ed7411395c98258d4a5d65b11" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>min_ss</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1af3669d92d106dec03e5ff6e0b9d47367" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>mode</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1adba8ec5e76bf87cf0a403fe30ca1ec90" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>target_dn_value</name></member>
+      <member refid="struct__nsp__def__auto__exposure__parameters_1ae109cc00bc1746418e3f3a97389075e7" prot="public" virt="non-virtual"><scope>_nsp_def_auto_exposure_parameters</scope><name>upper_dn_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,38 @@
+.TH "libusb_iso_packet_descriptor" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+libusb_iso_packet_descriptor
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <libusb\&.h>\fP
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBlength\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBactual_length\fP"
+.br
+.ti -1c
+.RI "enum \fBlibusb_transfer_status\fP \fBstatus\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Isochronous packet descriptor\&. 
+.SH "Member Data Documentation"
+.PP 
+.SS "unsigned int libusb_iso_packet_descriptor::actual_length"
+Amount of data that was actually transferred 
+.SS "unsigned int libusb_iso_packet_descriptor::length"
+Length of data to request in this packet 
+.SS "enum \fBlibusb_transfer_status\fP libusb_iso_packet_descriptor::status"
+Status code for this packet 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

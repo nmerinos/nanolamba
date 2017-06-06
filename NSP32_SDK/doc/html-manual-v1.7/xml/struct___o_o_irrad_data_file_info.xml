@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___o_o_irrad_data_file_info" kind="struct" language="C++" prot="public">
+    <compoundname>_OOIrradDataFileInfo</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___o_o_irrad_data_file_info_1a9412fd23bbf07a698887918d69399262" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _OOIrradDataFileInfo::Timestamp</definition>
+        <argsstring></argsstring>
+        <name>Timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="609" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="609" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___o_o_irrad_data_file_info_1a863184a3afd1aca345010f915d3a0822" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _OOIrradDataFileInfo::Spectrometer</definition>
+        <argsstring></argsstring>
+        <name>Spectrometer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="610" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="610" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___o_o_irrad_data_file_info_1a4567965227d176bcff6ad7b626b50b37" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _OOIrradDataFileInfo::Lamp_SN</definition>
+        <argsstring></argsstring>
+        <name>Lamp_SN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="611" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___o_o_irrad_data_file_info_1ac8b0d61849f69a23de3e479713559c9c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _OOIrradDataFileInfo::Integ_Time</definition>
+        <argsstring></argsstring>
+        <name>Integ_Time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="612" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="612" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___o_o_irrad_data_file_info_1af9236c4c80371eb0cb346b12b21f4d82" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _OOIrradDataFileInfo::Frame_average</definition>
+        <argsstring></argsstring>
+        <name>Frame_average</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="613" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="613" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___o_o_irrad_data_file_info_1af3899a1156fd186b34c43cf93522814c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _OOIrradDataFileInfo::Boxcar</definition>
+        <argsstring></argsstring>
+        <name>Boxcar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="614" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="614" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___o_o_irrad_data_file_info_1abf3187f4d1132029a6408eb58eae5fa6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _OOIrradDataFileInfo::Fiber_size</definition>
+        <argsstring></argsstring>
+        <name>Fiber_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="615" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="615" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="608" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="607" bodyend="616"/>
+    <listofallmembers>
+      <member refid="struct___o_o_irrad_data_file_info_1af3899a1156fd186b34c43cf93522814c" prot="public" virt="non-virtual"><scope>_OOIrradDataFileInfo</scope><name>Boxcar</name></member>
+      <member refid="struct___o_o_irrad_data_file_info_1abf3187f4d1132029a6408eb58eae5fa6" prot="public" virt="non-virtual"><scope>_OOIrradDataFileInfo</scope><name>Fiber_size</name></member>
+      <member refid="struct___o_o_irrad_data_file_info_1af9236c4c80371eb0cb346b12b21f4d82" prot="public" virt="non-virtual"><scope>_OOIrradDataFileInfo</scope><name>Frame_average</name></member>
+      <member refid="struct___o_o_irrad_data_file_info_1ac8b0d61849f69a23de3e479713559c9c" prot="public" virt="non-virtual"><scope>_OOIrradDataFileInfo</scope><name>Integ_Time</name></member>
+      <member refid="struct___o_o_irrad_data_file_info_1a4567965227d176bcff6ad7b626b50b37" prot="public" virt="non-virtual"><scope>_OOIrradDataFileInfo</scope><name>Lamp_SN</name></member>
+      <member refid="struct___o_o_irrad_data_file_info_1a863184a3afd1aca345010f915d3a0822" prot="public" virt="non-virtual"><scope>_OOIrradDataFileInfo</scope><name>Spectrometer</name></member>
+      <member refid="struct___o_o_irrad_data_file_info_1a9412fd23bbf07a698887918d69399262" prot="public" virt="non-virtual"><scope>_OOIrradDataFileInfo</scope><name>Timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

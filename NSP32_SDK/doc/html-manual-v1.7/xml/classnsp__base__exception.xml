@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classnsp__base__exception" kind="class" language="C++" prot="public">
+    <compoundname>nsp_base_exception</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">exception</basecompoundref>
+    <includes refid="nsp__base__exceptions_8h" local="no">nsp_base_exceptions.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classnsp__base__exception_1a357156ddf8479c0de81a3204cc6b6c53" prot="public" static="no" mutable="no">
+        <type><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" kindref="member">NSP_ERROR_CODE</ref></type>
+        <definition>NSP_ERROR_CODE nsp_base_exception::error_code</definition>
+        <argsstring></argsstring>
+        <name>error_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h" line="30" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnsp__base__exception_1a2c0ab9e6252a0e5902d88455ce37a124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>nsp_base_exception::nsp_base_exception</definition>
+        <argsstring>(NSP_ERROR_CODE error_code_input)</argsstring>
+        <name>nsp_base_exception</name>
+        <param>
+          <type><ref refid="nsp__error__codes_8h_1a62d16416ab2b2b6a55f8fe58605ca0a3" kindref="member">NSP_ERROR_CODE</ref></type>
+          <declname>error_code_input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classnsp__base__exception_1a419840b5719b9653da324ed5003dcd29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* nsp_base_exception::what</definition>
+        <argsstring>() const</argsstring>
+        <name>what</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>The <ref refid="classnsp__base__exception_1a419840b5719b9653da324ed5003dcd29" kindref="member">what()</ref> function will return the description of the error as a string. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the exception class for the NSP API/SDK. Try, catch statments should be used to catch any exceptions that can be thrown If exceptions are not caught it will produce a runtime error and terminate the application.</para><para>This class inherits from std::exception. Catching std::exception will also catch this class and any other exception thrown by std library </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="92">
+        <label>nsp_base_exception</label>
+        <link refid="classnsp__base__exception"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>std::exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="94">
+        <label>nsp_base_exception</label>
+        <link refid="classnsp__base__exception"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>std::exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h" line="22" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/nsp_base_exceptions.h" bodystart="22" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classnsp__base__exception_1a357156ddf8479c0de81a3204cc6b6c53" prot="public" virt="non-virtual"><scope>nsp_base_exception</scope><name>error_code</name></member>
+      <member refid="classnsp__base__exception_1a2c0ab9e6252a0e5902d88455ce37a124" prot="public" virt="non-virtual"><scope>nsp_base_exception</scope><name>nsp_base_exception</name></member>
+      <member refid="classnsp__base__exception_1a419840b5719b9653da324ed5003dcd29" prot="public" virt="non-virtual"><scope>nsp_base_exception</scope><name>what</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

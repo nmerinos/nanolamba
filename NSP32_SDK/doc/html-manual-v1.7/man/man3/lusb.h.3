@@ -1,0 +1,517 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/device/lusb.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include 'libusb\&.h'\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fBusb_descriptor_header\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_string_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_hid_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_endpoint_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_interface_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_interface\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_config_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_device_descriptor\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_ctrl_setup\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_device\fP"
+.br
+.ti -1c
+.RI "struct \fBusb_bus\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBUSE_LIBUSB_10\fP"
+.br
+.ti -1c
+.RI "#define \fBCONTROLLER_BOARD_STM\fP"
+.br
+.ti -1c
+.RI "#define \fBLIBUSB_PATH_MAX\fP   512"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_PER_INTERFACE\fP   0	/* for DeviceClass */"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_AUDIO\fP   1"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_COMM\fP   2"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_HID\fP   3"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_PRINTER\fP   7"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_MASS_STORAGE\fP   8"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_HUB\fP   9"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_DATA\fP   10"
+.br
+.ti -1c
+.RI "#define \fBUSB_CLASS_VENDOR_SPEC\fP   0xff"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_DEVICE\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_CONFIG\fP   0x02"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_STRING\fP   0x03"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_INTERFACE\fP   0x04"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_ENDPOINT\fP   0x05"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_HID\fP   0x21"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_REPORT\fP   0x22"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_PHYSICAL\fP   0x23"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_HUB\fP   0x29"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_DEVICE_SIZE\fP   18"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_CONFIG_SIZE\fP   9"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_INTERFACE_SIZE\fP   9"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_ENDPOINT_SIZE\fP   7"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_ENDPOINT_AUDIO_SIZE\fP   9	/* Audio extension */"
+.br
+.ti -1c
+.RI "#define \fBUSB_DT_HUB_NONVAR_SIZE\fP   7"
+.br
+.ti -1c
+.RI "#define \fBUSB_MAXENDPOINTS\fP   32"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_ADDRESS_MASK\fP   0x0f    /* in bEndpointAddress */"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_DIR_MASK\fP   0x80"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_TYPE_MASK\fP   0x03    /* in bmAttributes */"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_TYPE_CONTROL\fP   0"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_TYPE_ISOCHRONOUS\fP   1"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_TYPE_BULK\fP   2"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_TYPE_INTERRUPT\fP   3"
+.br
+.ti -1c
+.RI "#define \fBUSB_MAXINTERFACES\fP   32"
+.br
+.ti -1c
+.RI "#define \fBUSB_MAXALTSETTING\fP   128	/* Hard limit */"
+.br
+.ti -1c
+.RI "#define \fBUSB_MAXCONFIG\fP   8"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_GET_STATUS\fP   0x00"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_CLEAR_FEATURE\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_SET_FEATURE\fP   0x03"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_SET_ADDRESS\fP   0x05"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_GET_DESCRIPTOR\fP   0x06"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_SET_DESCRIPTOR\fP   0x07"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_GET_CONFIGURATION\fP   0x08"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_SET_CONFIGURATION\fP   0x09"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_GET_INTERFACE\fP   0x0A"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_SET_INTERFACE\fP   0x0B"
+.br
+.ti -1c
+.RI "#define \fBUSB_REQ_SYNCH_FRAME\fP   0x0C"
+.br
+.ti -1c
+.RI "#define \fBUSB_TYPE_STANDARD\fP   (0x00 << 5)"
+.br
+.ti -1c
+.RI "#define \fBUSB_TYPE_CLASS\fP   (0x01 << 5)"
+.br
+.ti -1c
+.RI "#define \fBUSB_TYPE_VENDOR\fP   (0x02 << 5)"
+.br
+.ti -1c
+.RI "#define \fBUSB_TYPE_RESERVED\fP   (0x03 << 5)"
+.br
+.ti -1c
+.RI "#define \fBUSB_RECIP_DEVICE\fP   0x00"
+.br
+.ti -1c
+.RI "#define \fBUSB_RECIP_INTERFACE\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBUSB_RECIP_ENDPOINT\fP   0x02"
+.br
+.ti -1c
+.RI "#define \fBUSB_RECIP_OTHER\fP   0x03"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_IN\fP   0x80"
+.br
+.ti -1c
+.RI "#define \fBUSB_ENDPOINT_OUT\fP   0x00"
+.br
+.ti -1c
+.RI "#define \fBUSB_ERROR_BEGIN\fP   500000"
+.br
+.ti -1c
+.RI "#define \fBUSB_LE16_TO_CPU\fP(x)"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fBusb_dev_handle\fP \fBusb_dev_handle\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBusb_dev_handle\fP * \fBusb_open\fP (struct \fBusb_device\fP *dev)"
+.br
+.ti -1c
+.RI "int \fBusb_close\fP (\fBusb_dev_handle\fP *dev)"
+.br
+.ti -1c
+.RI "int \fBusb_get_string\fP (\fBusb_dev_handle\fP *dev, int index, int langid, char *buf, size_t buflen)"
+.br
+.ti -1c
+.RI "int \fBusb_get_string_simple\fP (\fBusb_dev_handle\fP *dev, int index, char *buf, size_t buflen)"
+.br
+.ti -1c
+.RI "int \fBusb_get_descriptor_by_endpoint\fP (\fBusb_dev_handle\fP *udev, int ep, unsigned char type, unsigned char index, \fBvoid\fP *buf, int size)"
+.br
+.ti -1c
+.RI "int \fBusb_get_descriptor\fP (\fBusb_dev_handle\fP *udev, unsigned char type, unsigned char index, \fBvoid\fP *buf, int size)"
+.br
+.ti -1c
+.RI "int \fBusb_bulk_write\fP (\fBlibusb_device_handle\fP *handle, int ep, char *bytes, int size, int timeout)"
+.br
+.ti -1c
+.RI "int \fBusb_bulk_read\fP (\fBlibusb_device_handle\fP *handle, int ep, char *bytes, int size, int timeout)"
+.br
+.ti -1c
+.RI "int \fBusb_interrupt_write\fP (\fBusb_dev_handle\fP *dev, int ep, char *bytes, int size, int timeout)"
+.br
+.ti -1c
+.RI "int \fBusb_interrupt_read\fP (\fBusb_dev_handle\fP *dev, int ep, char *bytes, int size, int timeout)"
+.br
+.ti -1c
+.RI "int \fBusb_control_msg\fP (\fBlibusb_device_handle\fP *handle, int requesttype, int request, int value, int index, char *bytes, int size, int timeout)"
+.br
+.ti -1c
+.RI "int \fBusb_set_configuration\fP (\fBusb_dev_handle\fP *dev, int configuration)"
+.br
+.ti -1c
+.RI "int \fBusb_claim_interface\fP (\fBlibusb_device_handle\fP *handle, int interface)"
+.br
+.ti -1c
+.RI "int \fBusb_release_interface\fP (\fBusb_dev_handle\fP *dev, int interface)"
+.br
+.ti -1c
+.RI "int \fBusb_set_altinterface\fP (\fBusb_dev_handle\fP *dev, int alternate)"
+.br
+.ti -1c
+.RI "int \fBusb_resetep\fP (\fBusb_dev_handle\fP *dev, unsigned int ep)"
+.br
+.ti -1c
+.RI "int \fBusb_clear_halt\fP (\fBusb_dev_handle\fP *dev, unsigned int ep)"
+.br
+.ti -1c
+.RI "int \fBusb_reset\fP (\fBusb_dev_handle\fP *dev)"
+.br
+.ti -1c
+.RI "char * \fBusb_strerror\fP (\fBvoid\fP)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBusb_init\fP (\fBvoid\fP)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBusb_set_debug\fP (int level)"
+.br
+.ti -1c
+.RI "int \fBusb_find_busses\fP (\fBvoid\fP)"
+.br
+.ti -1c
+.RI "int \fBusb_find_devices\fP (\fBvoid\fP)"
+.br
+.ti -1c
+.RI "struct \fBusb_device\fP * \fBusb_device\fP (\fBusb_dev_handle\fP *dev)"
+.br
+.ti -1c
+.RI "struct \fBusb_bus\fP * \fBusb_get_busses\fP (\fBvoid\fP)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "struct \fBusb_bus\fP * \fBusb_busses\fP"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define CONTROLLER_BOARD_STM"
+
+.SS "#define LIBUSB_PATH_MAX   512"
+
+.SS "#define USB_CLASS_AUDIO   1"
+
+.SS "#define USB_CLASS_COMM   2"
+
+.SS "#define USB_CLASS_DATA   10"
+
+.SS "#define USB_CLASS_HID   3"
+
+.SS "#define USB_CLASS_HUB   9"
+
+.SS "#define USB_CLASS_MASS_STORAGE   8"
+
+.SS "#define USB_CLASS_PER_INTERFACE   0	/* for DeviceClass */"
+
+.SS "#define USB_CLASS_PRINTER   7"
+
+.SS "#define USB_CLASS_VENDOR_SPEC   0xff"
+
+.SS "#define USB_DT_CONFIG   0x02"
+
+.SS "#define USB_DT_CONFIG_SIZE   9"
+
+.SS "#define USB_DT_DEVICE   0x01"
+
+.SS "#define USB_DT_DEVICE_SIZE   18"
+
+.SS "#define USB_DT_ENDPOINT   0x05"
+
+.SS "#define USB_DT_ENDPOINT_AUDIO_SIZE   9	/* Audio extension */"
+
+.SS "#define USB_DT_ENDPOINT_SIZE   7"
+
+.SS "#define USB_DT_HID   0x21"
+
+.SS "#define USB_DT_HUB   0x29"
+
+.SS "#define USB_DT_HUB_NONVAR_SIZE   7"
+
+.SS "#define USB_DT_INTERFACE   0x04"
+
+.SS "#define USB_DT_INTERFACE_SIZE   9"
+
+.SS "#define USB_DT_PHYSICAL   0x23"
+
+.SS "#define USB_DT_REPORT   0x22"
+
+.SS "#define USB_DT_STRING   0x03"
+
+.SS "#define USB_ENDPOINT_ADDRESS_MASK   0x0f    /* in bEndpointAddress */"
+
+.SS "#define USB_ENDPOINT_DIR_MASK   0x80"
+
+.SS "#define USB_ENDPOINT_IN   0x80"
+
+.SS "#define USB_ENDPOINT_OUT   0x00"
+
+.SS "#define USB_ENDPOINT_TYPE_BULK   2"
+
+.SS "#define USB_ENDPOINT_TYPE_CONTROL   0"
+
+.SS "#define USB_ENDPOINT_TYPE_INTERRUPT   3"
+
+.SS "#define USB_ENDPOINT_TYPE_ISOCHRONOUS   1"
+
+.SS "#define USB_ENDPOINT_TYPE_MASK   0x03    /* in bmAttributes */"
+
+.SS "#define USB_ERROR_BEGIN   500000"
+
+.SS "#define USB_LE16_TO_CPU(x)"
+
+.SS "#define USB_MAXALTSETTING   128	/* Hard limit */"
+
+.SS "#define USB_MAXCONFIG   8"
+
+.SS "#define USB_MAXENDPOINTS   32"
+
+.SS "#define USB_MAXINTERFACES   32"
+
+.SS "#define USB_RECIP_DEVICE   0x00"
+
+.SS "#define USB_RECIP_ENDPOINT   0x02"
+
+.SS "#define USB_RECIP_INTERFACE   0x01"
+
+.SS "#define USB_RECIP_OTHER   0x03"
+
+.SS "#define USB_REQ_CLEAR_FEATURE   0x01"
+
+.SS "#define USB_REQ_GET_CONFIGURATION   0x08"
+
+.SS "#define USB_REQ_GET_DESCRIPTOR   0x06"
+
+.SS "#define USB_REQ_GET_INTERFACE   0x0A"
+
+.SS "#define USB_REQ_GET_STATUS   0x00"
+
+.SS "#define USB_REQ_SET_ADDRESS   0x05"
+
+.SS "#define USB_REQ_SET_CONFIGURATION   0x09"
+
+.SS "#define USB_REQ_SET_DESCRIPTOR   0x07"
+
+.SS "#define USB_REQ_SET_FEATURE   0x03"
+
+.SS "#define USB_REQ_SET_INTERFACE   0x0B"
+
+.SS "#define USB_REQ_SYNCH_FRAME   0x0C"
+
+.SS "#define USB_TYPE_CLASS   (0x01 << 5)"
+
+.SS "#define USB_TYPE_RESERVED   (0x03 << 5)"
+
+.SS "#define USB_TYPE_STANDARD   (0x00 << 5)"
+
+.SS "#define USB_TYPE_VENDOR   (0x02 << 5)"
+
+.SS "#define USE_LIBUSB_10"
+
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fBusb_dev_handle\fP \fBusb_dev_handle\fP"
+
+.SH "Function Documentation"
+.PP 
+.SS "int usb_bulk_read (\fBlibusb_device_handle\fP * handle, int ep, char * bytes, int size, int timeout)"
+
+.SS "int usb_bulk_write (\fBlibusb_device_handle\fP * handle, int ep, char * bytes, int size, int timeout)"
+
+.SS "int usb_claim_interface (\fBlibusb_device_handle\fP * handle, int interface)"
+
+.SS "int usb_clear_halt (\fBusb_dev_handle\fP * dev, unsigned int ep)"
+
+.SS "int usb_close (\fBusb_dev_handle\fP * dev)"
+
+.SS "int usb_control_msg (\fBlibusb_device_handle\fP * handle, int requesttype, int request, int value, int index, char * bytes, int size, int timeout)"
+
+.SS "struct \fBusb_device\fP* \fBusb_device\fP (\fBusb_dev_handle\fP * dev)"
+
+.SS "int usb_find_busses (\fBvoid\fP)"
+
+.SS "int usb_find_devices (\fBvoid\fP)"
+
+.SS "struct \fBusb_bus\fP* usb_get_busses (\fBvoid\fP)"
+
+.SS "int usb_get_descriptor (\fBusb_dev_handle\fP * udev, unsigned char type, unsigned char index, \fBvoid\fP * buf, int size)"
+
+.SS "int usb_get_descriptor_by_endpoint (\fBusb_dev_handle\fP * udev, int ep, unsigned char type, unsigned char index, \fBvoid\fP * buf, int size)"
+
+.SS "int usb_get_string (\fBusb_dev_handle\fP * dev, int index, int langid, char * buf, size_t buflen)"
+
+.SS "int usb_get_string_simple (\fBusb_dev_handle\fP * dev, int index, char * buf, size_t buflen)"
+
+.SS "\fBvoid\fP usb_init (\fBvoid\fP)"
+
+.SS "int usb_interrupt_read (\fBusb_dev_handle\fP * dev, int ep, char * bytes, int size, int timeout)"
+
+.SS "int usb_interrupt_write (\fBusb_dev_handle\fP * dev, int ep, char * bytes, int size, int timeout)"
+
+.SS "\fBusb_dev_handle\fP* usb_open (struct \fBusb_device\fP * dev)"
+
+.SS "int usb_release_interface (\fBusb_dev_handle\fP * dev, int interface)"
+
+.SS "int usb_reset (\fBusb_dev_handle\fP * dev)"
+
+.SS "int usb_resetep (\fBusb_dev_handle\fP * dev, unsigned int ep)"
+
+.SS "int usb_set_altinterface (\fBusb_dev_handle\fP * dev, int alternate)"
+
+.SS "int usb_set_configuration (\fBusb_dev_handle\fP * dev, int configuration)"
+
+.SS "\fBvoid\fP usb_set_debug (int level)"
+
+.SS "char* usb_strerror (\fBvoid\fP)"
+
+.SH "Variable Documentation"
+.PP 
+.SS "struct \fBusb_bus\fP* usb_busses"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

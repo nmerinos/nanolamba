@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__core__open__source__api_8h" kind="file" language="C++">
+    <compoundname>nsp_core_open_source_api.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1a88e0b3c4ebb7ac86d49179e203142d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosLoadSensorData</definition>
+        <argsstring>(char *sensor_data_file_path)</argsstring>
+        <name>cosLoadSensorData</name>
+        <param>
+          <type>char *</type>
+          <declname>sensor_data_file_path</declname>
+        </param>
+        <briefdescription>
+<para>Load Sensor Calibration Data From File. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function loads spectral sensor&apos;s calibration data from a binary file.</para><para><programlisting><codeline><highlight class="normal">char*<sp/>sensor_data_file_path<sp/>=<sp/>&quot;./config/sensor_Y8585-1-85-85-0.dat&quot;;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>cosLoadSensorData(sensor_data_file_path);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sensor_data_file_path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- char pointer to the calibration file path [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__api_8h_1a8dfa6ea301e66d8d58a286e17783f461" kindref="member">csCreate</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1a806604c831563f8aa070f6bae63f76a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosAllocMemory</definition>
+        <argsstring>()</argsstring>
+        <name>cosAllocMemory</name>
+        <briefdescription>
+<para>Allocate Memory for COS API. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function allocates the internal memory buffers for sensor calibration data.</para><para><programlisting><codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>cosAllocMemory();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__open__source__api_8h_1a6cc876bc400b802bc33c5696f089a721" kindref="member">cosFreeMemory</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1a6cc876bc400b802bc33c5696f089a721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosFreeMemory</definition>
+        <argsstring>()</argsstring>
+        <name>cosFreeMemory</name>
+        <briefdescription>
+<para>Free Memory for COS API. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function frees the allocated memory buffers.</para><para><programlisting><codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>cosFreeMemory();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__open__source__api_8h_1a806604c831563f8aa070f6bae63f76a8" kindref="member">cosAllocMemory</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1a32fa9a904050fd2960c515bbf69a387d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosCalculateSpectrum</definition>
+        <argsstring>(double *raw_sensor_data, double *background_data, int data_size, int ss, double *spec_data, int out_data_size)</argsstring>
+        <name>cosCalculateSpectrum</name>
+        <param>
+          <type>double *</type>
+          <declname>raw_sensor_data</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>background_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>data_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ss</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>spec_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>out_data_size</declname>
+        </param>
+        <briefdescription>
+<para>Calculate Spectrum by COS API. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function calculates a spectra and return it.</para><para><programlisting><codeline><highlight class="normal">double*<sp/>background_data;<sp/><sp/>//<sp/>acquired<sp/>by<sp/>your<sp/>own<sp/>code<sp/>at<sp/>SS=1</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/>raw_sensor_data;<sp/><sp/>//<sp/>acquired<sp/>by<sp/>your<sp/>own<sp/>code<sp/>at<sp/>SS=N</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/>data_size<sp/>=<sp/>1024;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>usual<sp/>size<sp/>of<sp/>one<sp/>raw<sp/>sensor<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/>ss<sp/>=<sp/>30;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>ss=N,<sp/>shutter<sp/>speed<sp/>what<sp/>used<sp/>for<sp/>raw<sp/>sensor<sp/>data<sp/>acquisition</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/>spec_data_length<sp/>=<sp/>cosGetSpectrumLength();</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/><sp/><sp/>spec_data<sp/>=<sp/>(double<sp/>*)malloc(sizeof(double)*spec_data_length);</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>cosCalculateSpectrum(raw_sensor_data,<sp/>background_data,<sp/>data_size,<sp/>ss,<sp/>spec_data,<sp/>spec_data_length);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>raw_sensor_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to the raw sensor data buffer [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>background_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to the background data buffer [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int value for data size [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ss</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int value for shutter speed [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spec_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to the spectrum data [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int value for spectrum size [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__open__source__api_8h_1aa078521f448c343541d0bb5a08eea319" kindref="member">cosGetWavelength()</ref>, <ref refid="nsp__core__open__source__api_8h_1a87606eaccc8c5ce6260610356ad248e1" kindref="member">cosSpectrumToCsvFile()</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1aa078521f448c343541d0bb5a08eea319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosGetWavelength</definition>
+        <argsstring>(double *wave_data, int out_data_size)</argsstring>
+        <name>cosGetWavelength</name>
+        <param>
+          <type>double *</type>
+          <declname>wave_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>out_data_size</declname>
+        </param>
+        <briefdescription>
+<para>Get Wavelength Data. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns wavelength list data of which the size is matched with spectrum.</para><para><programlisting><codeline><highlight class="normal">int<sp/><sp/><sp/>spec_data_size<sp/>=<sp/>cosGetSpectrumLength();</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/>wavelength_data<sp/>=<sp/>(double<sp/>*)malloc(sizeof(double)*spec_data_size);;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>cosGetWavelength(wavelength_data,<sp/>spec_data_size);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wave_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to the wavlength data [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>out_data_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int value for wavelength data size [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__open__source__api_8h_1a32fa9a904050fd2960c515bbf69a387d" kindref="member">cosCalculateSpectrum</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1a755ad2c866480e95d7bb5de2c4bd46b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosGetSpectrumLength</definition>
+        <argsstring>(void)</argsstring>
+        <name>cosGetSpectrumLength</name>
+        <param>
+          <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        </param>
+        <briefdescription>
+<para>Get Size of a Spectra. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns the size(length) of spectrum data.</para><para><programlisting><codeline><highlight class="normal">int<sp/>spectrum_length;</highlight></codeline>
+<codeline><highlight class="normal">spectrum_length<sp/>=<sp/>cosGetSpectrumLength();</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of spectrum length (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__open__source__api_8h_1a32fa9a904050fd2960c515bbf69a387d" kindref="member">cosCalculateSpectrum</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="148" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1abc3d2b95a063e518295041f945db8157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosGetSensorParameters</definition>
+        <argsstring>(int *adc_gain, int *adc_range)</argsstring>
+        <name>cosGetSensorParameters</name>
+        <param>
+          <type>int *</type>
+          <declname>adc_gain</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>adc_range</declname>
+        </param>
+        <briefdescription>
+<para>Get Sensor Parameters. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns sensor parameters(ADC settings) from calibration data.</para><para><programlisting><codeline><highlight class="normal">int<sp/>adc_gain,<sp/>adc_range;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_value<sp/>=<sp/>cosGetSensorParameters(&amp;adc_gain,<sp/>&amp;adc_range);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>adc_gain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- pointer to ADC gain info: 0 or 1(default) [OUT] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>adc_range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- pointer to ADC range info (0~255) [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="169" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1af957604d71be9cb99e7b4c5499b8c644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosShutterSpeedToExposureTime</definition>
+        <argsstring>(int master_clock, int shutter_speed, double *exposure_time_val)</argsstring>
+        <name>cosShutterSpeedToExposureTime</name>
+        <param>
+          <type>int</type>
+          <declname>master_clock</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shutter_speed</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>exposure_time_val</declname>
+        </param>
+        <briefdescription>
+<para>Convert Shutter Speed to Exposure Time. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function converts shutter speed to exposure time based on MASTER CLOCK of sensor (unit: ms).</para><para><programlisting><codeline><highlight class="normal">int<sp/>master_clock<sp/>=<sp/>5;<sp/>//<sp/>MCLK<sp/>=<sp/>5-MHz</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>shutter_speed<sp/>=<sp/>1000</highlight></codeline>
+<codeline><highlight class="normal">double<sp/>exposure_time_val<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">cosShutterSpeedToExposureTime(master_clock,<sp/>shutter_speed,<sp/>&amp;exposure_time_val);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>master_clock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- master clock of MCU to sensor [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>shutter_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- shutter speed value [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exposure_time_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to exposure time value [OUT]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="193" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1a87606eaccc8c5ce6260610356ad248e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosSpectrumToCsvFile</definition>
+        <argsstring>(char *str_file_name, double *spec_data, double *wavelength_data, int data_size)</argsstring>
+        <name>cosSpectrumToCsvFile</name>
+        <param>
+          <type>char *</type>
+          <declname>str_file_name</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>spec_data</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>wavelength_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>data_size</declname>
+        </param>
+        <briefdescription>
+<para>Save Spectrum To CSV-format File. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function saves a spectra to CSV-format file and can be used for debugging purpose.</para><para><programlisting><codeline><highlight class="normal">char<sp/>str_file_name<sp/>=<sp/>&quot;spec_data_dumped.csv&quot;;</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>spec_data<sp/>=<sp/>cosCalculateSpectrum(...);</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>wavelength_data<sp/>=<sp/>cosGetWavelength(....);</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/>spec_data_size<sp/>=<sp/>cosGetSpectrumLength();</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>cosSpectrumToCsvFile(str_file_name,<sp/>spec_data,<sp/>wavelength_data,<sp/>spec_data_size);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str_file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- char pointer to file name [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spec_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to spectrum data[IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wavelength_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to wavelength data[IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int value for spectrum data size [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__open__source__api_8h_1a4e334f3f60e0fcf0d83ec437da21bc18" kindref="member">cosFilterDataToCsvFile</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="220" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="nsp__core__open__source__api_8h_1a4e334f3f60e0fcf0d83ec437da21bc18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> int</type>
+        <definition>EXPORT_DLL int cosFilterDataToCsvFile</definition>
+        <argsstring>(char *str_file_name, double *filter_data, int ss, int data_size)</argsstring>
+        <name>cosFilterDataToCsvFile</name>
+        <param>
+          <type>char *</type>
+          <declname>str_file_name</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>filter_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ss</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>data_size</declname>
+        </param>
+        <briefdescription>
+<para>Save Raw Sensor Data to CSV-format File. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function saves a raw sensor data to CSV-format file which can be used for debugging purpose.</para><para><programlisting><codeline><highlight class="normal">char<sp/>str_file_name<sp/>=<sp/>&quot;filter_data_dumped.csv&quot;;</highlight></codeline>
+<codeline><highlight class="normal">double*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>filter_data;<sp/><sp/><sp/><sp/>//<sp/>acquired<sp/>by<sp/>your<sp/>own<sp/>code</highlight></codeline>
+<codeline><highlight class="normal">int<sp/><sp/><sp/>data_size<sp/>=<sp/>1024;</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>ret_val<sp/>=<sp/>cosFilterDataToCsvFile(str_file_name,<sp/>filter_data,<sp/>data_size);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str_file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- char pointer to file name [IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- double pointer to raw sensor data[IN] </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- int value for raw sensor data size [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of 1 (success) or -1(failure).</para></simplesect>
+<simplesect kind="see"><para><ref refid="nsp__core__open__source__api_8h_1a87606eaccc8c5ce6260610356ad248e1" kindref="member">cosSpectrumToCsvFile</ref>  </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h" line="244" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__NSP_CORE_OPEN_SOURCE_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_CORE_OPEN_SOURCE_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__declspec(dllexport)<sp/>//For<sp/>exporting<sp/>to<sp/>DLL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__linux__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__attribute__((visibility(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>function<sp/>prefix:<sp/>cos<sp/>-<sp/>Core<sp/>Open<sp/>Source</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1a88e0b3c4ebb7ac86d49179e203142d41" kindref="member">cosLoadSensorData</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>sensor_data_file_path);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1a806604c831563f8aa070f6bae63f76a8" kindref="member">cosAllocMemory</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1a6cc876bc400b802bc33c5696f089a721" kindref="member">cosFreeMemory</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1a32fa9a904050fd2960c515bbf69a387d" kindref="member">cosCalculateSpectrum</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>raw_sensor_data,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>background_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>data_size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ss,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*spec_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>out_data_size);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1aa078521f448c343541d0bb5a08eea319" kindref="member">cosGetWavelength</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>wave_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>out_data_size);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1a755ad2c866480e95d7bb5de2c4bd46b7" kindref="member">cosGetSpectrumLength</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1abc3d2b95a063e518295041f945db8157" kindref="member">cosGetSensorParameters</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>adc_gain,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>adc_range);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1af957604d71be9cb99e7b4c5499b8c644" kindref="member">cosShutterSpeedToExposureTime</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>master_clock,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shutter_speed,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>exposure_time_val);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1a87606eaccc8c5ce6260610356ad248e1" kindref="member">cosSpectrumToCsvFile</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str_file_name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>spec_data,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>wavelength_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>data_size);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="nsp__core__open__source__api_8h_1a4e334f3f60e0fcf0d83ec437da21bc18" kindref="member">cosFilterDataToCsvFile</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str_file_name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>filter_data,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ss,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>data_size);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__NSP_CORE_OPEN_SOURCE_API_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_core_open_source_api.h"/>
+  </compounddef>
+</doxygen>

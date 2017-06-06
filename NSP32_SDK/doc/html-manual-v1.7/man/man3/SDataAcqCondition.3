@@ -1,0 +1,138 @@
+.TH "SDataAcqCondition" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SDataAcqCondition
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <nsp_sdk_def\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSDataAcqCondition\fP ()"
+.br
+.ti -1c
+.RI "\fBSDataAcqCondition\fP (int _ss, int _average)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBset_device_index\fP (int device_index)"
+.br
+.ti -1c
+.RI "\fBvoid\fP \fBreset\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBdeviceid\fP"
+.br
+.ti -1c
+.RI "int \fBdatasize\fP"
+.br
+.ti -1c
+.RI "std::string \fBsensortype\fP"
+.br
+.ti -1c
+.RI "int \fBadc\fP"
+.br
+.ti -1c
+.RI "int \fBgain\fP"
+.br
+.ti -1c
+.RI "int \fBss\fP"
+.br
+.ti -1c
+.RI "int \fBaverage\fP"
+.br
+.ti -1c
+.RI "int \fBframes\fP"
+.br
+.ti -1c
+.RI "bool \fBappend\fP"
+.br
+.ti -1c
+.RI "\fBeAcqDataType\fP \fBdatatype\fP"
+.br
+.ti -1c
+.RI "bool \fBvalidpixelonly\fP"
+.br
+.ti -1c
+.RI "bool \fBnormalized\fP"
+.br
+.ti -1c
+.RI "bool \fBhdr\fP"
+.br
+.ti -1c
+.RI "int \fBhdrscale\fP"
+.br
+.ti -1c
+.RI "bool \fBuseAE\fP"
+.br
+.ti -1c
+.RI "bool \fBignoreOutliers\fP"
+.br
+.ti -1c
+.RI "int \fBpixelBinningMode\fP"
+.br
+.ti -1c
+.RI "int \fBdarkcorrectionMode\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SDataAcqCondition::SDataAcqCondition ()\fC [inline]\fP"
+
+.SS "SDataAcqCondition::SDataAcqCondition (int _ss, int _average)\fC [inline]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBvoid\fP SDataAcqCondition::reset ()\fC [inline]\fP"
+
+.SS "\fBvoid\fP SDataAcqCondition::set_device_index (int device_index)\fC [inline]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "int SDataAcqCondition::adc"
+
+.SS "bool SDataAcqCondition::append"
+
+.SS "int SDataAcqCondition::average"
+
+.SS "int SDataAcqCondition::darkcorrectionMode"
+
+.SS "int SDataAcqCondition::datasize"
+
+.SS "\fBeAcqDataType\fP SDataAcqCondition::datatype"
+
+.SS "int SDataAcqCondition::deviceid"
+
+.SS "int SDataAcqCondition::frames"
+
+.SS "int SDataAcqCondition::gain"
+
+.SS "bool SDataAcqCondition::hdr"
+
+.SS "int SDataAcqCondition::hdrscale"
+
+.SS "bool SDataAcqCondition::ignoreOutliers"
+
+.SS "bool SDataAcqCondition::normalized"
+
+.SS "int SDataAcqCondition::pixelBinningMode"
+
+.SS "std::string SDataAcqCondition::sensortype"
+
+.SS "int SDataAcqCondition::ss"
+
+.SS "bool SDataAcqCondition::useAE"
+
+.SS "bool SDataAcqCondition::validpixelonly"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

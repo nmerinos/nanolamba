@@ -1,0 +1,694 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <map>\fP
+.br
+\fC#include <algorithm>\fP
+.br
+\fC#include <cmath>\fP
+.br
+\fC#include <deque>\fP
+.br
+\fC#include <vector>\fP
+.br
+\fC#include <string>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <stdint\&.h>\fP
+.br
+\fC#include 'nsp_base_types\&.h'\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "struct \fB_SModelConfigForSVM\fP"
+.br
+.ti -1c
+.RI "struct \fB_SModelConfigForANN\fP"
+.br
+.ti -1c
+.RI "struct \fB_SSpectralData\fP"
+.br
+.ti -1c
+.RI "struct \fBSDataCollectPlan\fP"
+.br
+.ti -1c
+.RI "struct \fBSDataProcessPlan\fP"
+.br
+.ti -1c
+.RI "struct \fBSDataAcqCondition\fP"
+.br
+.ti -1c
+.RI "struct \fBSOneFilterData\fP"
+.br
+.ti -1c
+.RI "struct \fB_SFilterRefData\fP"
+.br
+.ti -1c
+.RI "struct \fB_SSpecRefData\fP"
+.br
+.ti -1c
+.RI "struct \fB_SOL731Data\fP"
+.br
+.ti -1c
+.RI "struct \fB_SApolloData\fP"
+.br
+.ti -1c
+.RI "struct \fB_SFilterMeasurementData\fP"
+.br
+.ti -1c
+.RI "struct \fB_OOIrradDataFileInfo\fP"
+.br
+.ti -1c
+.RI "struct \fB_OOIrradData\fP"
+.br
+.ti -1c
+.RI "struct \fB_SRefData\fP"
+.br
+.ti -1c
+.RI "struct \fB_SSensorLocInTray\fP"
+.br
+.ti -1c
+.RI "struct \fB_SSensorIDLocMapData\fP"
+.br
+.ti -1c
+.RI "struct \fB_SSensorTrayInfoData\fP"
+.br
+.ti -1c
+.RI "struct \fB_STraySettings\fP"
+.br
+.ti -1c
+.RI "struct \fB_STitanPlan\fP"
+.br
+.ti -1c
+.RI "struct \fB_SSpectrumPeak\fP"
+.br
+.ti -1c
+.RI "struct \fB_SDeviceInfo\fP"
+.br
+.ti -1c
+.RI "struct \fB_SLEDChannelInfo\fP"
+.br
+.ti -1c
+.RI "struct \fB_SLEDMatrixConfig\fP"
+.br
+.ti -1c
+.RI "struct \fB_SFilterDataCalibPerf\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBEXPORT_DLL\fP   __attribute__((dllexport))"
+.br
+.ti -1c
+.RI "#define \fBHANDLE\fP   int"
+.br
+.ti -1c
+.RI "#define \fBBOOL\fP   bool"
+.br
+.ti -1c
+.RI "#define \fBDWORD\fP   unsigned long"
+.br
+.ti -1c
+.RI "#define \fBMACHINE_PRECISION\fP   5\&.96e\-08"
+.br
+.RI "this is standard machine precision for 32 bit floats "
+.ti -1c
+.RI "#define \fBTIME\fP(arg)   (((double) clock()) / CLOCKS_PER_SEC)"
+.br
+.ti -1c
+.RI "#define \fBM_PI\fP   3\&.141592653589793"
+.br
+.ti -1c
+.RI "#define \fBDEGREE_TO_RADIAN\fP(degree)   (degree*\fBM_PI\fP/180\&.0)"
+.br
+.ti -1c
+.RI "#define \fBRADIAN_TO_DEGREE\fP(radian)   (radian*180\&.0/\fBM_PI\fP)"
+.br
+.ti -1c
+.RI "#define \fBM_LOG10E\fP   0\&.434294481903251827651"
+.br
+.ti -1c
+.RI "#define \fBNUM_TO_STRING\fP(x)   QString::number(x)"
+.br
+.ti -1c
+.RI "#define \fBN_\fP(x)   (x)"
+.br
+.ti -1c
+.RI "#define \fB_\fP(x)   (x)"
+.br
+.ti -1c
+.RI "#define \fBuchar\fP   unsigned char"
+.br
+.ti -1c
+.RI "#define \fBSCALE_WIDTH\fP   120"
+.br
+.ti -1c
+.RI "#define \fBENTRY_WIDTH\fP   5"
+.br
+.ti -1c
+.RI "#define \fBSCALE\fP   1"
+.br
+.ti -1c
+.RI "#define \fBNORMALIZATION_MODE_NONE\fP   0"
+.br
+.RI "Definitions for data normalization\&. "
+.ti -1c
+.RI "#define \fBNORMALIZATION_MODE_0TO1\fP   1"
+.br
+.ti -1c
+.RI "#define \fBNORMALIZATION_MODE_0TO100\fP   2"
+.br
+.ti -1c
+.RI "#define \fBCONVERTMODE_NONE\fP   0"
+.br
+.RI "Definitions for data conver mode (CrApolloSensorData\&.h) "
+.ti -1c
+.RI "#define \fBCONVERTMODE_IGNORE_BLANK_PIXEL\fP   1"
+.br
+.ti -1c
+.RI "#define \fBCONVERTMODE_NORMALIZE_0TO1\fP   2"
+.br
+.ti -1c
+.RI "#define \fBCONVERTMODE_NORMALIZE_0TO100\fP   3"
+.br
+.ti -1c
+.RI "#define \fBDATAFILE_DATAINFO_SIZE\fP   8"
+.br
+.ti -1c
+.RI "#define \fBSELECTED_WAVELENGTH_RANGE_VAL\fP   150"
+.br
+.ti -1c
+.RI "#define \fBAPPINITSTATE_EVERYTHING_OK\fP   0x00"
+.br
+.RI "Definitions for application initialization test\&. "
+.ti -1c
+.RI "#define \fBAPPINITSTATE_DEVICE_NOTFOUND\fP   0x01"
+.br
+.ti -1c
+.RI "#define \fBAPPINITSTATE_SYSRESOURCE_LOW\fP   0x02"
+.br
+.ti -1c
+.RI "#define \fBAPPINITSTATE_FR_FILE_NOT_EXIST\fP   0x04"
+.br
+.ti -1c
+.RI "#define \fBAPPINITSTATE_DARK_FILE_NOT_EXIST\fP   0x08"
+.br
+.ti -1c
+.RI "#define \fBAPPINITSTATE_BACKGROUND_FILE_NOT_EXIST\fP   0x10"
+.br
+.ti -1c
+.RI "#define \fBMESSAGE_DEVICE_NOT_AVAILABLE\fP   'Device is not available'"
+.br
+.ti -1c
+.RI "#define \fBTOOLBAR_ICON_SIZE\fP   24"
+.br
+.ti -1c
+.RI "#define \fBTOOLBAR_BUTTON_SIZE\fP   35"
+.br
+.ti -1c
+.RI "#define \fBMIN_SHUTTER_SPEED\fP   1"
+.br
+.ti -1c
+.RI "#define \fBMAX_SHUTTER_SPEED\fP   61534"
+.br
+.ti -1c
+.RI "#define \fBSTART_WAVELENGTH_FOR_CHART\fP   300"
+.br
+.ti -1c
+.RI "#define \fBDEFAULT_FILTER_RESOLUTION\fP   1"
+.br
+.ti -1c
+.RI "#define \fBTO_RADIAN\fP(degree)   ((degree)*(\fBM_PI\fP/180\&.0f))"
+.br
+.ti -1c
+.RI "#define \fBTO_DEGREE\fP(radian)   ((radian)*(180\&.0f/M_PI))"
+.br
+.ti -1c
+.RI "#define \fBDEFAULT_NUM_OF_FILTERS\fP   1024"
+.br
+.ti -1c
+.RI "#define \fBSTART_WAVELENGTH_FOR_COLOR\fP   400"
+.br
+.ti -1c
+.RI "#define \fBEND_WAVELENGTH_FOR_COLOR\fP   800"
+.br
+.ti -1c
+.RI "#define \fBDELTA_FOR_DIV_BY_ZERO\fP   0\&.00000001"
+.br
+.ti -1c
+.RI "#define \fBCMF_START_WAVELENGTH\fP   365"
+.br
+.ti -1c
+.RI "#define \fBCMF_END_WAVELENGTH\fP   780"
+.br
+.ti -1c
+.RI "#define \fBCMF_WAVELENGTH_STEP\fP   1"
+.br
+.ti -1c
+.RI "#define \fBSPEC_RECON_ALGOTYPE_NONE\fP   \-1"
+.br
+.ti -1c
+.RI "#define \fBSPEC_RECON_ALGOTYPE_NNLS_TIKHONOV\fP   0"
+.br
+.ti -1c
+.RI "#define \fBSPEC_RECON_ALGOTYPE_NNLS_GCV\fP   1"
+.br
+.ti -1c
+.RI "#define \fBSPEC_RECON_ALGOTYPE_NNLS_SC\fP   2"
+.br
+.ti -1c
+.RI "#define \fBSPEC_RECON_ALGOTYPE_SYNTHESIS\fP   3"
+.br
+.ti -1c
+.RI "#define \fBTHRESHOLD_FOR_QUALITY_SCORE\fP   0\&.95"
+.br
+.ti -1c
+.RI "#define \fBTOTAL_NUM_OF_SENSOR_DESIGN_TYPES\fP   22"
+.br
+.ti -1c
+.RI "#define \fBSENSORTYPE_UNKNOWN\fP   'unknown';"
+.br
+.ti -1c
+.RI "#define \fBUSE_SINGLE_PRECISION_DATA_FOR_SENSOR\fP   1"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fB_SModelConfigForSVM\fP \fBSModelConfigForSVM\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SModelConfigForANN\fP \fBSModelConfigForANN\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SSpectralData\fP \fBSSpectralData\fP"
+.br
+.ti -1c
+.RI "typedef std::map< std::string, std::vector< double > > \fBSpectralDataMap\fP"
+.br
+.RI "type defintions for different type of container (2D) "
+.ti -1c
+.RI "typedef std::map< int, std::vector< int > > \fBFilterDataInt2D\fP"
+.br
+.ti -1c
+.RI "typedef std::map< int, std::vector< float > > \fBFilterDataFloat2D\fP"
+.br
+.ti -1c
+.RI "typedef std::map< int, std::vector< double > > \fBFilterDataDouble2D\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBSDataCollectPlan\fP \fBSDataCollectPlan\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBSDataProcessPlan\fP \fBSDataProcessPlan\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBSDataAcqCondition\fP \fBSDataAcqCondition\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBSOneFilterData\fP \fBSOneFilterData\fP"
+.br
+.ti -1c
+.RI "typedef std::vector< std::vector< double > > \fBSDoubleArray2D\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SFilterRefData\fP \fBSFilterRefData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SSpecRefData\fP \fBSSpecRefData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SOL731Data\fP \fBSOL731Data\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SApolloData\fP \fBSApolloData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SFilterMeasurementData\fP \fBSFilterMeasurementData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_OOIrradDataFileInfo\fP \fBOOIrradDataFileInfo\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_OOIrradData\fP \fBOOIrradData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SRefData\fP \fBSRefData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SSensorLocInTray\fP \fBSSensorLocInTray\fP"
+.br
+.ti -1c
+.RI "typedef std::vector< \fBSSensorLocInTray\fP > \fBSSensorTray1D\fP"
+.br
+.ti -1c
+.RI "typedef std::vector< \fBSSensorTray1D\fP > \fBSSensorTray2D\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SSensorIDLocMapData\fP \fBSSensorIDLocMapData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SSensorTrayInfoData\fP \fBSSensorTrayInfoData\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_STraySettings\fP \fBSTraySettings\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_STitanPlan\fP \fBSTitanPlan\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SSpectrumPeak\fP \fBSSpectrumPeak\fP"
+.br
+.ti -1c
+.RI "typedef std::vector< \fBSSpectrumPeak\fP > \fBSSpectrumContainer\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SDeviceInfo\fP \fBSDeviceInfo\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SLEDChannelInfo\fP \fBSLEDChannelInfo\fP"
+.br
+.ti -1c
+.RI "typedef std::vector< \fBSLEDChannelInfo\fP > \fBSLEDChannels\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SLEDMatrixConfig\fP \fBSLEDMatrixConfig\fP"
+.br
+.ti -1c
+.RI "typedef struct \fB_SFilterDataCalibPerf\fP \fBSFilterDataCalibPerf\fP"
+.br
+.ti -1c
+.RI "typedef double \fBSDATA_TYPE\fP"
+.br
+.ti -1c
+.RI "typedef float \fBSENSOR_DATA_TYPE\fP"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBFQS_TYPE\fP { \fBFQS_TYPE_NONE\fP = 0, \fBFQS_TYPE_MSE\fP, \fBFQS_TYPE_RMSE\fP, \fBFQS_TYPE_CORR\fP, \fBFQS_TYPE_CORR2\fP }
+.RI "definition for Filter Quality Score (FQS) enumeration ""
+.br
+.ti -1c
+.RI "enum \fBRECON_ALGOTYPE\fP { \fBRECON_ALGOTYPE_NONE\fP = -1, \fBRECON_ALGOTYPE_TNNLS_LCURVE\fP, \fBRECON_ALGOTYPE_TNNLS_GCV\fP, \fBRECON_ALGOTYPE_NNLS_SC\fP, \fBRECON_ALGOTYPE_NNLS_SCA_LCURVE\fP, \fBRECON_ALGOTYPE_NNLS_SCA_GCV\fP, \fBRECON_ALGOTYPE_NNLS_L1\fP }"
+.br
+.ti -1c
+.RI "enum \fBeFilterType\fP { \fBFilterType_Unknown\fP = 0, \fBFilterType_SF_Ver1_1A\fP, \fBFilterType_SF_Ver1_2A\fP, \fBFilterType_SF_Ver1_3A\fP, \fBFilterType_SF_Ver2_1A\fP, \fBFilterType_SF_Ver2_2A\fP, \fBFilterType_SF_Ver2_3A\fP, \fBFilterType_TotalNum\fP }"
+.br
+.ti -1c
+.RI "enum \fBeAcqDataType\fP { \fBAcqDataType_Unknown\fP = 0, \fBAcqDataType_Raw\fP, \fBAcqDataType_Spec\fP, \fBAcqDataType_Dark\fP, \fBAcqDataType_Ref\fP }"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define _(x)   (x)"
+
+.SS "#define APPINITSTATE_BACKGROUND_FILE_NOT_EXIST   0x10"
+
+.SS "#define APPINITSTATE_DARK_FILE_NOT_EXIST   0x08"
+
+.SS "#define APPINITSTATE_DEVICE_NOTFOUND   0x01"
+
+.SS "#define APPINITSTATE_EVERYTHING_OK   0x00"
+
+.PP
+Definitions for application initialization test\&. 
+.SS "#define APPINITSTATE_FR_FILE_NOT_EXIST   0x04"
+
+.SS "#define APPINITSTATE_SYSRESOURCE_LOW   0x02"
+
+.SS "#define BOOL   bool"
+
+.SS "#define CMF_END_WAVELENGTH   780"
+
+.SS "#define CMF_START_WAVELENGTH   365"
+
+.SS "#define CMF_WAVELENGTH_STEP   1"
+
+.SS "#define CONVERTMODE_IGNORE_BLANK_PIXEL   1"
+
+.SS "#define CONVERTMODE_NONE   0"
+
+.PP
+Definitions for data conver mode (CrApolloSensorData\&.h) 
+.SS "#define CONVERTMODE_NORMALIZE_0TO1   2"
+
+.SS "#define CONVERTMODE_NORMALIZE_0TO100   3"
+
+.SS "#define DATAFILE_DATAINFO_SIZE   8"
+
+.SS "#define DEFAULT_FILTER_RESOLUTION   1"
+
+.SS "#define DEFAULT_NUM_OF_FILTERS   1024"
+
+.SS "#define DEGREE_TO_RADIAN(degree)   (degree*\fBM_PI\fP/180\&.0)"
+
+.SS "#define DELTA_FOR_DIV_BY_ZERO   0\&.00000001"
+
+.SS "#define DWORD   unsigned long"
+
+.SS "#define END_WAVELENGTH_FOR_COLOR   800"
+
+.SS "#define ENTRY_WIDTH   5"
+
+.SS "#define EXPORT_DLL   __attribute__((dllexport))"
+
+.SS "#define HANDLE   int"
+
+.SS "#define M_LOG10E   0\&.434294481903251827651"
+
+.SS "#define M_PI   3\&.141592653589793"
+
+.SS "#define MACHINE_PRECISION   5\&.96e\-08"
+
+.PP
+this is standard machine precision for 32 bit floats 
+.SS "#define MAX_SHUTTER_SPEED   61534"
+
+.SS "#define MESSAGE_DEVICE_NOT_AVAILABLE   'Device is not available'"
+
+.SS "#define MIN_SHUTTER_SPEED   1"
+
+.SS "#define N_(x)   (x)"
+
+.SS "#define NORMALIZATION_MODE_0TO1   1"
+
+.SS "#define NORMALIZATION_MODE_0TO100   2"
+
+.SS "#define NORMALIZATION_MODE_NONE   0"
+
+.PP
+Definitions for data normalization\&. 
+.SS "#define NUM_TO_STRING(x)   QString::number(x)"
+
+.SS "#define RADIAN_TO_DEGREE(radian)   (radian*180\&.0/\fBM_PI\fP)"
+
+.SS "#define SCALE   1"
+
+.SS "#define SCALE_WIDTH   120"
+
+.SS "#define SELECTED_WAVELENGTH_RANGE_VAL   150"
+
+.SS "#define SENSORTYPE_UNKNOWN   'unknown';"
+
+.SS "#define SPEC_RECON_ALGOTYPE_NNLS_GCV   1"
+
+.SS "#define SPEC_RECON_ALGOTYPE_NNLS_SC   2"
+
+.SS "#define SPEC_RECON_ALGOTYPE_NNLS_TIKHONOV   0"
+
+.SS "#define SPEC_RECON_ALGOTYPE_NONE   \-1"
+
+.SS "#define SPEC_RECON_ALGOTYPE_SYNTHESIS   3"
+
+.SS "#define START_WAVELENGTH_FOR_CHART   300"
+
+.SS "#define START_WAVELENGTH_FOR_COLOR   400"
+
+.SS "#define THRESHOLD_FOR_QUALITY_SCORE   0\&.95"
+
+.SS "#define TIME(arg)   (((double) clock()) / CLOCKS_PER_SEC)"
+
+.SS "#define TO_DEGREE(radian)   ((radian)*(180\&.0f/M_PI))"
+
+.SS "#define TO_RADIAN(degree)   ((degree)*(\fBM_PI\fP/180\&.0f))"
+
+.SS "#define TOOLBAR_BUTTON_SIZE   35"
+
+.SS "#define TOOLBAR_ICON_SIZE   24"
+
+.SS "#define TOTAL_NUM_OF_SENSOR_DESIGN_TYPES   22"
+
+.SS "#define uchar   unsigned char"
+
+.SS "#define USE_SINGLE_PRECISION_DATA_FOR_SENSOR   1"
+
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef std::map<int, std::vector<double> > \fBFilterDataDouble2D\fP"
+
+.SS "typedef std::map<int, std::vector<float> > \fBFilterDataFloat2D\fP"
+
+.SS "typedef std::map<int, std::vector<int> > \fBFilterDataInt2D\fP"
+
+.SS "typedef struct \fB_OOIrradData\fP \fBOOIrradData\fP"
+
+.SS "typedef struct \fB_OOIrradDataFileInfo\fP \fBOOIrradDataFileInfo\fP"
+
+.SS "typedef struct \fB_SApolloData\fP \fBSApolloData\fP"
+
+.SS "typedef double \fBSDATA_TYPE\fP"
+
+.SS "typedef struct \fBSDataAcqCondition\fP \fBSDataAcqCondition\fP"
+
+.SS "typedef struct \fBSDataCollectPlan\fP  \fBSDataCollectPlan\fP"
+
+.SS "typedef struct \fBSDataProcessPlan\fP  \fBSDataProcessPlan\fP"
+
+.SS "typedef struct \fB_SDeviceInfo\fP \fBSDeviceInfo\fP"
+
+.SS "typedef std::vector<std::vector<double> > \fBSDoubleArray2D\fP"
+
+.SS "typedef float \fBSENSOR_DATA_TYPE\fP"
+
+.SS "typedef struct \fB_SFilterDataCalibPerf\fP \fBSFilterDataCalibPerf\fP"
+
+.SS "typedef struct \fB_SFilterMeasurementData\fP \fBSFilterMeasurementData\fP"
+
+.SS "typedef struct \fB_SFilterRefData\fP \fBSFilterRefData\fP"
+
+.SS "typedef struct \fB_SLEDChannelInfo\fP \fBSLEDChannelInfo\fP"
+
+.SS "typedef std::vector<\fBSLEDChannelInfo\fP> \fBSLEDChannels\fP"
+
+.SS "typedef struct \fB_SLEDMatrixConfig\fP  \fBSLEDMatrixConfig\fP"
+
+.SS "typedef struct \fB_SModelConfigForANN\fP  \fBSModelConfigForANN\fP"
+
+.SS "typedef struct \fB_SModelConfigForSVM\fP  \fBSModelConfigForSVM\fP"
+
+.SS "typedef struct \fB_SOL731Data\fP \fBSOL731Data\fP"
+
+.SS "typedef struct \fBSOneFilterData\fP  \fBSOneFilterData\fP"
+
+.SS "typedef std::map<std::string, std::vector<double> > \fBSpectralDataMap\fP"
+
+.PP
+type defintions for different type of container (2D) 
+.SS "typedef struct \fB_SRefData\fP \fBSRefData\fP"
+
+.SS "typedef struct \fB_SSensorIDLocMapData\fP \fBSSensorIDLocMapData\fP"
+
+.SS "typedef struct \fB_SSensorLocInTray\fP \fBSSensorLocInTray\fP"
+
+.SS "typedef std::vector<\fBSSensorLocInTray\fP> \fBSSensorTray1D\fP"
+
+.SS "typedef std::vector<\fBSSensorTray1D\fP > \fBSSensorTray2D\fP"
+
+.SS "typedef struct \fB_SSensorTrayInfoData\fP \fBSSensorTrayInfoData\fP"
+
+.SS "typedef struct \fB_SSpecRefData\fP \fBSSpecRefData\fP"
+
+.SS "typedef struct \fB_SSpectralData\fP  \fBSSpectralData\fP"
+
+.SS "typedef std::vector<\fBSSpectrumPeak\fP> \fBSSpectrumContainer\fP"
+
+.SS "typedef struct \fB_SSpectrumPeak\fP \fBSSpectrumPeak\fP"
+
+.SS "typedef struct \fB_STitanPlan\fP \fBSTitanPlan\fP"
+
+.SS "typedef struct \fB_STraySettings\fP \fBSTraySettings\fP"
+
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBeAcqDataType\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIAcqDataType_Unknown \fP\fP
+.TP
+\fB\fIAcqDataType_Raw \fP\fP
+.TP
+\fB\fIAcqDataType_Spec \fP\fP
+.TP
+\fB\fIAcqDataType_Dark \fP\fP
+.TP
+\fB\fIAcqDataType_Ref \fP\fP
+.SS "enum \fBeFilterType\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIFilterType_Unknown \fP\fP
+.TP
+\fB\fIFilterType_SF_Ver1_1A \fP\fP
+.TP
+\fB\fIFilterType_SF_Ver1_2A \fP\fP
+.TP
+\fB\fIFilterType_SF_Ver1_3A \fP\fP
+.TP
+\fB\fIFilterType_SF_Ver2_1A \fP\fP
+.TP
+\fB\fIFilterType_SF_Ver2_2A \fP\fP
+.TP
+\fB\fIFilterType_SF_Ver2_3A \fP\fP
+.TP
+\fB\fIFilterType_TotalNum \fP\fP
+.SS "enum \fBFQS_TYPE\fP"
+
+.PP
+definition for Filter Quality Score (FQS) enumeration 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIFQS_TYPE_NONE \fP\fP
+.TP
+\fB\fIFQS_TYPE_MSE \fP\fP
+.TP
+\fB\fIFQS_TYPE_RMSE \fP\fP
+.TP
+\fB\fIFQS_TYPE_CORR \fP\fP
+.TP
+\fB\fIFQS_TYPE_CORR2 \fP\fP
+.SS "enum \fBRECON_ALGOTYPE\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIRECON_ALGOTYPE_NONE \fP\fP
+.TP
+\fB\fIRECON_ALGOTYPE_TNNLS_LCURVE \fP\fP
+.TP
+\fB\fIRECON_ALGOTYPE_TNNLS_GCV \fP\fP
+.TP
+\fB\fIRECON_ALGOTYPE_NNLS_SC \fP\fP
+.TP
+\fB\fIRECON_ALGOTYPE_NNLS_SCA_LCURVE \fP\fP
+.TP
+\fB\fIRECON_ALGOTYPE_NNLS_SCA_GCV \fP\fP
+.TP
+\fB\fIRECON_ALGOTYPE_NNLS_L1 \fP\fP
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

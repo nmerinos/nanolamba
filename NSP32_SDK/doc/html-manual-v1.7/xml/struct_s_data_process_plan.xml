@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_s_data_process_plan" kind="struct" language="C++" prot="public">
+    <compoundname>SDataProcessPlan</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_data_process_plan_1a65ca6669a3b53e61a2f353db79eac81d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SDataProcessPlan::use_smooth</definition>
+        <argsstring></argsstring>
+        <name>use_smooth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="253" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_process_plan_1aa04d48ec87b273e586f400a6bb6a5e55" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataProcessPlan::algo_type</definition>
+        <argsstring></argsstring>
+        <name>algo_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="254" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_process_plan_1a8acc949a942f5140c60a74bc60dbf520" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataProcessPlan::func_order</definition>
+        <argsstring></argsstring>
+        <name>func_order</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="255" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_process_plan_1a99bbc630cbaa66f9e20b90567588dee7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataProcessPlan::window_size</definition>
+        <argsstring></argsstring>
+        <name>window_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="256" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_data_process_plan_1a3c6b947fd6ad40d26e74634e782fa511" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDataProcessPlan::data_type</definition>
+        <argsstring></argsstring>
+        <name>data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="257" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_s_data_process_plan_1a263ab62032a4c8a51f2c850b13be7b4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SDataProcessPlan::SDataProcessPlan</definition>
+        <argsstring>()</argsstring>
+        <name>SDataProcessPlan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="259" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="259" bodyend="266"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="252" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="251" bodyend="267"/>
+    <listofallmembers>
+      <member refid="struct_s_data_process_plan_1aa04d48ec87b273e586f400a6bb6a5e55" prot="public" virt="non-virtual"><scope>SDataProcessPlan</scope><name>algo_type</name></member>
+      <member refid="struct_s_data_process_plan_1a3c6b947fd6ad40d26e74634e782fa511" prot="public" virt="non-virtual"><scope>SDataProcessPlan</scope><name>data_type</name></member>
+      <member refid="struct_s_data_process_plan_1a8acc949a942f5140c60a74bc60dbf520" prot="public" virt="non-virtual"><scope>SDataProcessPlan</scope><name>func_order</name></member>
+      <member refid="struct_s_data_process_plan_1a263ab62032a4c8a51f2c850b13be7b4d" prot="public" virt="non-virtual"><scope>SDataProcessPlan</scope><name>SDataProcessPlan</name></member>
+      <member refid="struct_s_data_process_plan_1a65ca6669a3b53e61a2f353db79eac81d" prot="public" virt="non-virtual"><scope>SDataProcessPlan</scope><name>use_smooth</name></member>
+      <member refid="struct_s_data_process_plan_1a99bbc630cbaa66f9e20b90567588dee7" prot="public" virt="non-virtual"><scope>SDataProcessPlan</scope><name>window_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

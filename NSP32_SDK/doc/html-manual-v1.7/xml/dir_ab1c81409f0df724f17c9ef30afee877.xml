@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_ab1c81409f0df724f17c9ef30afee877" kind="dir">
+    <compoundname>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base</compoundname>
+    <innerfile refid="nsp__base__def_8h">nsp_base_def.h</innerfile>
+    <innerfile refid="nsp__base__exceptions_8h">nsp_base_exceptions.h</innerfile>
+    <innerfile refid="nsp__base__types_8h">nsp_base_types.h</innerfile>
+    <innerfile refid="nsp__error__codes_8h">nsp_error_codes.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/base/"/>
+  </compounddef>
+</doxygen>

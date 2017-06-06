@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="nsp__base__api_8h" kind="file" language="C++">
+    <compoundname>nsp_base_api.h</compoundname>
+    <includes refid="nsp__base__exceptions_8h" local="yes">nsp_base_exceptions.h</includes>
+    <incdepgraph>
+      <node id="255">
+        <label>list</label>
+      </node>
+      <node id="249">
+        <label>iomanip</label>
+      </node>
+      <node id="254">
+        <label>limits</label>
+      </node>
+      <node id="260">
+        <label>stdint.h</label>
+      </node>
+      <node id="247">
+        <label>stdlib.h</label>
+      </node>
+      <node id="258">
+        <label>nsp_error_codes.h</label>
+        <link refid="nsp__error__codes_8h"/>
+      </node>
+      <node id="242">
+        <label>nsp_base_exceptions.h</label>
+        <link refid="nsp__base__exceptions_8h"/>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>map</label>
+      </node>
+      <node id="246">
+        <label>fstream</label>
+      </node>
+      <node id="241">
+        <label>D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h</label>
+        <link refid="nsp__base__api_8h"/>
+        <childnode refid="242" relation="include">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>bitset</label>
+      </node>
+      <node id="252">
+        <label>vector</label>
+      </node>
+      <node id="248">
+        <label>sstream</label>
+      </node>
+      <node id="251">
+        <label>time.h</label>
+      </node>
+      <node id="259">
+        <label>iostream</label>
+      </node>
+      <node id="257">
+        <label>alglib3/interpolation.h</label>
+      </node>
+      <node id="243">
+        <label>nsp_base_def.h</label>
+        <link refid="nsp__base__def_8h"/>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>algorithm</label>
+      </node>
+      <node id="244">
+        <label>nsp_base_types.h</label>
+        <link refid="nsp__base__types_8h"/>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="nsp__base__api_8h_1aedde6f1871f6c7a4115101562fc1266c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="nsp__device__api_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref> char *</type>
+        <definition>EXPORT_DLL char* bsGetErrorString</definition>
+        <argsstring>(int error_code)</argsstring>
+        <name>bsGetErrorString</name>
+        <param>
+          <type>int</type>
+          <declname>error_code</declname>
+        </param>
+        <briefdescription>
+<para>Convert error code to string. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns one string for a specific error code.</para><para><programlisting><codeline><highlight class="normal">int<sp/>error_code<sp/>=<sp/>cc_ec_no_device_in_system;</highlight></codeline>
+<codeline><highlight class="normal">char*<sp/>error_string<sp/>=<sp/>bsGetErrorString(error_code);</highlight></codeline>
+</programlisting></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>error_code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- error code which defined in &apos;<ref refid="nsp__error__codes_8h" kindref="compound">nsp_error_codes.h</ref>&apos; [IN]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns one numeric value of:<itemizedlist>
+<listitem><para>error string</para></listitem></itemizedlist>
+</para></simplesect>
+<simplesect kind="see"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">NSP_BASE_API.H</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Provides<sp/>API<sp/>functions</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NSP_BASE_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NSP_BASE_API_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__declspec(dllexport)<sp/>//For<sp/>exporting<sp/>to<sp/>DLL<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__linux__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPORT_DLL<sp/>__attribute__((visibility(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nsp__base__exceptions_8h" kindref="compound">nsp_base_exceptions.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>function<sp/>prefix:<sp/>bs<sp/>-<sp/>Base<sp/>System</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><ref refid="nsp__base__def_8h_1a779136663193567a853b1b8d3e8bd6b5" kindref="member">EXPORT_DLL</ref><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="nsp__base__api_8h_1aedde6f1871f6c7a4115101562fc1266c" kindref="member">bsGetErrorString</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>error_code);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__NSP_BASE_API_H__</highlight></codeline>
+    </programlisting>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_base_api.h"/>
+  </compounddef>
+</doxygen>

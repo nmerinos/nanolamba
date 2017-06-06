@@ -1,0 +1,759 @@
+.TH "D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h" 3 "Tue Jan 31 2017" "Version v1.7" "NSP32 SDK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/nsp_device_api.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdint\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBEXPORT_DLL\fP   __attribute__((visibility('default')))"
+.br
+.ti -1c
+.RI "#define \fBEXPORT_DLL\fP   __attribute__((dllexport))"
+.br
+.ti -1c
+.RI "#define \fBBOOL\fP   bool"
+.br
+.ti -1c
+.RI "#define \fBLARGE_INTEGER\fP   int64_t"
+.br
+.ti -1c
+.RI "#define \fBDWORD\fP   unsigned long"
+.br
+.ti -1c
+.RI "#define \fBMACHINE_PRECISION\fP   5\&.96e\-08"
+.br
+.RI "this is standard machine precision for 32 bit floats "
+.ti -1c
+.RI "#define \fBSENSOR_ID_STRING_LENGTH\fP   26"
+.br
+.ti -1c
+.RI "#define \fBSENSOR_DATA_SIZE\fP   1024"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_SS_MIN\fP   1"
+.br
+.ti -1c
+.RI "#define \fBNSP_DEVICE_SS_MAX\fP   3000"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduConnect\fP ()"
+.br
+.RI "Connect to physical device(sensor) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduDisconnect\fP ()"
+.br
+.RI "Disconnect physical device(sensor) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP char ** \fBduGetSensorList\fP ()"
+.br
+.RI "Get sensor ID list which are connected to system\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduActivateSensorWithIndex\fP (int sensor_index)"
+.br
+.RI "Activate a specific sensor\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetMaxSensorCount\fP ()"
+.br
+.RI "Get maximum count of supported sensors\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduActivateSensorWithID\fP (const char *sensor_id_str)"
+.br
+.RI "Activate a specific sensor\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetTotalSensors\fP ()"
+.br
+.RI "Get devices count\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetSensorID\fP (char *sensor_id)"
+.br
+.RI "Get sensor ID of physical device(sensor) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetShutterSpeed\fP ()"
+.br
+.RI "Get shutter speed\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetShutterSpeedLimits\fP (int *min_limit, int *max_limit)"
+.br
+.RI "Get shutter speed limits\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduShutterSpeedToExposureTime\fP (int master_clock, int shutter_speed, double *exposure_time_val)"
+.br
+.RI "Convert shutter speed to exposure time (unit: ms) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduExposureTimeToShutterSpeed\fP (int master_clock, double exposure_time_val, int *shutter_speed)"
+.br
+.RI "Convert exposure time (ms) to shutter speed\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduSetShutterSpeed\fP (int shutter)"
+.br
+.RI "Change current shutter speed of a device(sensor) "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetOptimalShutterSpeed\fP (int *valid_filters_in, int num_of_valid_filters)"
+.br
+.RI "Get optimal shutter speed by AE\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetFilterData\fP (double *output, int number_of_averages)"
+.br
+.RI "Get raw filter data from physical device(sensor)\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduSetSensorParameters\fP (int _adc_gain, int _adc_range)"
+.br
+.RI "Set sensor registers\&. "
+.ti -1c
+.RI "\fBEXPORT_DLL\fP int \fBduGetSensorParameters\fP (int *_adc_gain, int *_adc_range)"
+.br
+.RI "Get settings of sensor registers\&. "
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define BOOL   bool"
+
+.SS "#define DWORD   unsigned long"
+
+.SS "#define EXPORT_DLL   __attribute__((visibility('default')))"
+
+.SS "#define EXPORT_DLL   __attribute__((dllexport))"
+
+.SS "#define LARGE_INTEGER   int64_t"
+
+.SS "#define MACHINE_PRECISION   5\&.96e\-08"
+
+.PP
+this is standard machine precision for 32 bit floats 
+.SS "#define NSP_DEVICE_SS_MAX   3000"
+
+.SS "#define NSP_DEVICE_SS_MIN   1"
+
+.SS "#define SENSOR_DATA_SIZE   1024"
+
+.SS "#define SENSOR_ID_STRING_LENGTH   26"
+
+.SH "Function Documentation"
+.PP 
+.SS "\fBEXPORT_DLL\fP int duActivateSensorWithID (const char * sensor_id_str)"
+
+.PP
+Activate a specific sensor\&. This function activates a specific sensor having a matched sensor ID among multiple sensors if there are multiple sensors in system\&.
+.PP
+.PP
+.nf
+char* sensor_id_str = "Y8585-1-85-85-0";
+int ret_value = duActivateSensorWithID(sensor_id_str);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_id_str\fP - sensor ID string [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+sensor index (>=0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduActivateSensorWithIndex\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duActivateSensorWithIndex (int sensor_index)"
+
+.PP
+Activate a specific sensor\&. This function activates a specific sensor having a matched sensor index among multiple sensors if there are multiple sensors in system\&.
+.PP
+.PP
+.nf
+int sensor_index = 0; // default = 0 (1'th sensor)
+int ret_value = duActivateSensorWithIndex(sensor_index);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsensor_index\fP - sensor index start from 0 [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduActivateSensorWithID\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duConnect ()"
+
+.PP
+Connect to physical device(sensor) This function try to connect to physical device(sensor) and returns the total number of sensors in system\&.
+.PP
+.PP
+.nf
+int num_of_sensors = duConnect();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+total number of sensors in system (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_fail_to_create_device_obj
+.IP "\(bu" 2
+cc_ec_no_device_in_system
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduDisconnect\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duDisconnect ()"
+
+.PP
+Disconnect physical device(sensor) This function disconnects physical device(sensor)\&.
+.PP
+.PP
+.nf
+int ret_value = duDisconnect();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduConnect\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duExposureTimeToShutterSpeed (int master_clock, double exposure_time_val, int * shutter_speed)"
+
+.PP
+Convert exposure time (ms) to shutter speed\&. This function converts exposure time to shutter speed based on MASTER CLOCK of sensor\&.
+.PP
+.PP
+.nf
+int master_clock = 5; // MCLK = 5-MHz
+double exposure_time_val = 100; // 100 msec
+int shutter_speed = 0
+cur_ss = duExposureTimeToShutterSpeed(master_clock, exposure_time_val, &shutter_speed);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaster_clock\fP - master clock of MCU to sensor [IN] 
+.br
+\fIexposure_time_val\fP - exposure time value (ms) [IN] 
+.br
+\fIshutter_speed\fP - int pointer to shutter speed value [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduShutterSpeedToExposureTime\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetFilterData (double * output, int number_of_averages)"
+
+.PP
+Get raw filter data from physical device(sensor)\&. This function acquires one raw filter data from physical device(sensor)\&.
+.PP
+.PP
+.nf
+double filter_data[SENSOR_DATA_SIZE];
+int frame_averages = 50;
+int ret_value = duGetFilterData(filter_data, frame_averages);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoutput\fP - double pointer to raw filter data [OUT] 
+.br
+\fInumber_of_averages\fP - number of frame averages [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduSetShutterSpeed\fP, \fBduSetSensorParameters\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetMaxSensorCount ()"
+
+.PP
+Get maximum count of supported sensors\&. This function returns the maximum number of sensors supported by API/SDK\&.
+.PP
+.PP
+.nf
+int max_sensors = duGetMaxSensorCount();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fInone\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+maximum number of sensors
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduActivateSensorWithID\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetOptimalShutterSpeed (int * valid_filters_in, int num_of_valid_filters)"
+
+.PP
+Get optimal shutter speed by AE\&. This function returns an optimal shutter speed value which found by AE(Auto-Exposure) function\&.
+.PP
+.PP
+.nf
+int optimal_ss = 0;
+int   num_of_valid_filters = 1024;
+int*  valid_filters_in = NULL;
+optimal_ss = duGetOptimalShutterSpeed(valid_filters_in, num_of_valid_filters);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalid_filters_in\fP - pointer to the integer array [IN] 
+.br
+\fInum_of_valid_filters\fP - the size of array [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+optimal shutter speed (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBcsGetSpectrumLength\fP, \fBcsGetResolution\fP, \fBcsCalculateSpectrum\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetSensorID (char * sensor_id)"
+
+.PP
+Get sensor ID of physical device(sensor) This function returns a sensor ID of currently activated physical device(sensor)\&. Current sensor is an activated one by \fBduActivateSensorWithIndex()\fP function\&.
+.PP
+.PP
+.nf
+char sensor_id[SENSOR_ID_STRING_LENGTH];
+int ret_value = duGetSensorID(sensor_id);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpointer\fP to char array for sensor ID data [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_memory_is_null
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduActivateSensorWithIndex\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP char** duGetSensorList ()"
+
+.PP
+Get sensor ID list which are connected to system\&. This function returns a string list containing sensor IDs in your system\&.
+.PP
+.PP
+.nf
+char** duGetSensorList();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fInone\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns double pointers to char array:
+.IP "\(bu" 2
+char pointers array containing sensor ID
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduConnect\fP, \fBduDisconnect\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetSensorParameters (int * _adc_gain, int * _adc_range)"
+
+.PP
+Get settings of sensor registers\&. This function returns the current settings of sensor registers (ADC gain and ADC range)\&.
+.PP
+.PP
+.nf
+int adc_gain = 1; // 1=1X (default), 0=4X
+int adc_range = 132; // 132 (default)
+int ret_value = duGetSensorParameters(&adc_gain, &adc_range);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_adc_gain\fP - integer pointer to ADC gain value [OUT] 
+.br
+\fI_adc_range\fP - integer pointer to ADC range value [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduSetSensorParameters\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetShutterSpeed ()"
+
+.PP
+Get shutter speed\&. This function returns a shutter speed value of currently activated sensor\&.
+.PP
+.PP
+.nf
+int cur_ss = 0;
+cur_ss = duGetShutterSpeed();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+current shutter speed (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduSetShutterSpeed\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetShutterSpeedLimits (int * min_limit, int * max_limit)"
+
+.PP
+Get shutter speed limits\&. This function returns two limit values for shutter speed (minimum and maximum)\&.
+.PP
+.PP
+.nf
+int ss_min, ss_max;
+cur_ss = duGetShutterSpeedLimits(&ss_min, &ss_max);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIss_min\fP - int pointer to minimum shutter speed value [OUT] 
+.br
+\fIss_max\fP - int pointer to maximum shutter speed value [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduSetShutterSpeed\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duGetTotalSensors ()"
+
+.PP
+Get devices count\&. This function returns a total number of devices in system\&.
+.PP
+.PP
+.nf
+int total_num_of_sensors = duGetTotalSensors();
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvoid\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+total number of devices (>0)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duSetSensorParameters (int _adc_gain, int _adc_range)"
+
+.PP
+Set sensor registers\&. This function changes sensor registers for ADC gain, ADC range, and ADC resolution\&.
+.PP
+.PP
+.nf
+int adc_gain = 1; // 1=1X (default), 0=4X
+int adc_range = 132; // 132 (default)
+int ret_value = duSetSensorParameters(adc_gain, adc_range);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_adc_gain\fP - ADC gain value [IN] 
+.br
+\fI_adc_range\fP - ADC range value [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduGetSensorParameters\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duSetShutterSpeed (int shutter)"
+
+.PP
+Change current shutter speed of a device(sensor) This function changes shutter speed of currently activated device(sensor)\&.
+.PP
+.PP
+.nf
+int new_ss = 50;
+int ret_value = duSetShutterSpeed(new_ss);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fIshutter\fP - shutter speed value [IN]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduGetShutterSpeed\fP  
+.RE
+.PP
+
+.SS "\fBEXPORT_DLL\fP int duShutterSpeedToExposureTime (int master_clock, int shutter_speed, double * exposure_time_val)"
+
+.PP
+Convert shutter speed to exposure time (unit: ms) This function converts shutter speed to exposure time based on MASTER CLOCK of sensor\&.
+.PP
+.PP
+.nf
+int master_clock = 5; // MCLK = 5-MHz
+int shutter_speed = 1000
+double exposure_time_val = 0;
+cur_ss = duShutterSpeedToExposureTime(master_clock, shutter_speed, &exposure_time_val);
+.fi
+.PP
+.PP
+\fBParameters:\fP
+.RS 4
+\fImaster_clock\fP - master clock of MCU to sensor [IN] 
+.br
+\fIshutter_speed\fP - shutter speed value [IN] 
+.br
+\fIexposure_time_val\fP - double pointer to exposure time value [OUT]
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Returns one numeric value of:
+.IP "\(bu" 2
+NSP_RETURN_VALUE_SUCCESS (1)
+.IP "\(bu" 2
+NSP_RETURN_VALUE_FAILURE (-1)
+.IP "\(bu" 2
+cc_ec_device_object_is_null
+.PP
+.RE
+.PP
+\fBSee also:\fP
+.RS 4
+\fBduExposureTimeToShutterSpeed\fP  
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for NSP32 SDK from the source code\&.

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___s_titan_plan" kind="struct" language="C++" prot="public">
+    <compoundname>_STitanPlan</compoundname>
+    <includes refid="nsp__sdk__def_8h" local="no">nsp_sdk_def.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___s_titan_plan_1a659f9da7d6a5de6cff7116aa0e6dfed5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _STitanPlan::sensor_version</definition>
+        <argsstring></argsstring>
+        <name>sensor_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="772" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="772" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_titan_plan_1ad0bb06211a1807a4846b3b2308044a73" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _STitanPlan::sensor_type</definition>
+        <argsstring></argsstring>
+        <name>sensor_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="773" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="773" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_titan_plan_1a4ba1d3267c446b69815c360245a80465" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STitanPlan::start_wavelength</definition>
+        <argsstring></argsstring>
+        <name>start_wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="774" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="774" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_titan_plan_1af8d247ee0d8093146a3e2f5d7ac844c9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STitanPlan::end_wavelength</definition>
+        <argsstring></argsstring>
+        <name>end_wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="775" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="775" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_titan_plan_1aaca1fd2a4e7b53ec9ac3cc054be8a630" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STitanPlan::step_wavelength</definition>
+        <argsstring></argsstring>
+        <name>step_wavelength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="776" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="776" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_titan_plan_1aeb5b3cd204cdc97be3566ed07f5c9d72" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STitanPlan::adc_range</definition>
+        <argsstring></argsstring>
+        <name>adc_range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="777" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="777" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_titan_plan_1a76d7b1e5ac02a548f763148e77a42c2b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STitanPlan::shutter_speed</definition>
+        <argsstring></argsstring>
+        <name>shutter_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="778" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="778" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___s_titan_plan_1a1bcbb21aa927bfe42cd77ef36142b5ca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _STitanPlan::frame_average</definition>
+        <argsstring></argsstring>
+        <name>frame_average</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="779" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="779" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct___s_titan_plan_1aed1afbeda02f324b24047222a23318ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_STitanPlan::_STitanPlan</definition>
+        <argsstring>()</argsstring>
+        <name>_STitanPlan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="781" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="781" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="struct___s_titan_plan_1af376ec26456ed41df4136e70b4bee920" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="libusb_8h_1a8ca3594d1761da8da91be2851f4e8f21" kindref="member">void</ref></type>
+        <definition>void _STitanPlan::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="786" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="786" bodyend="797"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" line="771" column="1" bodyfile="D:/SVN/Prism_Light/trunk/NSP32_SDK/doc/include/core/nsp_sdk_def.h" bodystart="770" bodyend="798"/>
+    <listofallmembers>
+      <member refid="struct___s_titan_plan_1aed1afbeda02f324b24047222a23318ef" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>_STitanPlan</name></member>
+      <member refid="struct___s_titan_plan_1aeb5b3cd204cdc97be3566ed07f5c9d72" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>adc_range</name></member>
+      <member refid="struct___s_titan_plan_1af8d247ee0d8093146a3e2f5d7ac844c9" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>end_wavelength</name></member>
+      <member refid="struct___s_titan_plan_1a1bcbb21aa927bfe42cd77ef36142b5ca" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>frame_average</name></member>
+      <member refid="struct___s_titan_plan_1af376ec26456ed41df4136e70b4bee920" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>Reset</name></member>
+      <member refid="struct___s_titan_plan_1ad0bb06211a1807a4846b3b2308044a73" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>sensor_type</name></member>
+      <member refid="struct___s_titan_plan_1a659f9da7d6a5de6cff7116aa0e6dfed5" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>sensor_version</name></member>
+      <member refid="struct___s_titan_plan_1a76d7b1e5ac02a548f763148e77a42c2b" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>shutter_speed</name></member>
+      <member refid="struct___s_titan_plan_1a4ba1d3267c446b69815c360245a80465" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>start_wavelength</name></member>
+      <member refid="struct___s_titan_plan_1aaca1fd2a4e7b53ec9ac3cc054be8a630" prot="public" virt="non-virtual"><scope>_STitanPlan</scope><name>step_wavelength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
